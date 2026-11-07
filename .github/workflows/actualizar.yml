@@ -62,11 +62,13 @@ jobs:
           PY
       - name: Calcular pronósticos
         run: python pronosticos.py
+      - name: Consultar jornadas oficiales
+        run: python jornadas.py
       - name: Guardar datos actualizados
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/estadisticas.json data/pronosticos.json
+          git add data/estadisticas.json data/pronosticos.json data/jornadas_fuente.json
           if ! git diff --cached --quiet; then
             git commit -m "Actualizar estadísticas de fútbol"
             git push
