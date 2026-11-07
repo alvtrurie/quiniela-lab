@@ -1,0 +1,1931 @@
+{
+  "actualizado": "2026-11-07T10:42:20.570793+00:00",
+  "temporada": "2026-2027",
+  "fuente": "football-data.co.uk",
+  "competiciones": {
+    "SP1": [
+      {
+        "fecha": "15/08/2026",
+        "local": "Alaves",
+        "visitante": "Getafe",
+        "goles_local": "3",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "15/08/2026",
+        "local": "Sevilla",
+        "visitante": "Vallecano",
+        "goles_local": "2",
+        "goles_visitante": "1",
+        "resultado": "H"
+      },
+      {
+        "fecha": "16/08/2026",
+        "local": "Santander",
+        "visitante": "Villarreal",
+        "goles_local": "2",
+        "goles_visitante": "2",
+        "resultado": "D"
+      },
+      {
+        "fecha": "16/08/2026",
+        "local": "Espanol",
+        "visitante": "Levante",
+        "goles_local": "3",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "17/08/2026",
+        "local": "La Coruna",
+        "visitante": "Elche",
+        "goles_local": "1",
+        "goles_visitante": "1",
+        "resultado": "D"
+      },
+      {
+        "fecha": "19/08/2026",
+        "local": "Ath Madrid",
+        "visitante": "Malaga",
+        "goles_local": "2",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "20/08/2026",
+        "local": "Vallecano",
+        "visitante": "Alaves",
+        "goles_local": "1",
+        "goles_visitante": "1",
+        "resultado": "D"
+      },
+      {
+        "fecha": "21/08/2026",
+        "local": "Betis",
+        "visitante": "Sociedad",
+        "goles_local": "1",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "22/08/2026",
+        "local": "Ath Bilbao",
+        "visitante": "Sevilla",
+        "goles_local": "1",
+        "goles_visitante": "3",
+        "resultado": "A"
+      },
+      {
+        "fecha": "22/08/2026",
+        "local": "Valencia",
+        "visitante": "Celta",
+        "goles_local": "0",
+        "goles_visitante": "0",
+        "resultado": "D"
+      },
+      {
+        "fecha": "22/08/2026",
+        "local": "Espanol",
+        "visitante": "Real Madrid",
+        "goles_local": "1",
+        "goles_visitante": "2",
+        "resultado": "A"
+      },
+      {
+        "fecha": "23/08/2026",
+        "local": "Ath Madrid",
+        "visitante": "Villarreal",
+        "goles_local": "2",
+        "goles_visitante": "2",
+        "resultado": "D"
+      },
+      {
+        "fecha": "23/08/2026",
+        "local": "Getafe",
+        "visitante": "Santander",
+        "goles_local": "1",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "23/08/2026",
+        "local": "Elche",
+        "visitante": "Barcelona",
+        "goles_local": "0",
+        "goles_visitante": "5",
+        "resultado": "A"
+      },
+      {
+        "fecha": "24/08/2026",
+        "local": "Osasuna",
+        "visitante": "Levante",
+        "goles_local": "0",
+        "goles_visitante": "0",
+        "resultado": "D"
+      },
+      {
+        "fecha": "24/08/2026",
+        "local": "Malaga",
+        "visitante": "La Coruna",
+        "goles_local": "1",
+        "goles_visitante": "1",
+        "resultado": "D"
+      },
+      {
+        "fecha": "25/08/2026",
+        "local": "Valencia",
+        "visitante": "Betis",
+        "goles_local": "0",
+        "goles_visitante": "1",
+        "resultado": "A"
+      },
+      {
+        "fecha": "26/08/2026",
+        "local": "Real Madrid",
+        "visitante": "Sociedad",
+        "goles_local": "4",
+        "goles_visitante": "1",
+        "resultado": "H"
+      },
+      {
+        "fecha": "27/08/2026",
+        "local": "Celta",
+        "visitante": "Osasuna",
+        "goles_local": "1",
+        "goles_visitante": "2",
+        "resultado": "A"
+      },
+      {
+        "fecha": "27/08/2026",
+        "local": "Barcelona",
+        "visitante": "Ath Bilbao",
+        "goles_local": "2",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "28/08/2026",
+        "local": "Santander",
+        "visitante": "Elche",
+        "goles_local": "3",
+        "goles_visitante": "2",
+        "resultado": "H"
+      },
+      {
+        "fecha": "28/08/2026",
+        "local": "Alaves",
+        "visitante": "Villarreal",
+        "goles_local": "1",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "29/08/2026",
+        "local": "Levante",
+        "visitante": "Betis",
+        "goles_local": "5",
+        "goles_visitante": "2",
+        "resultado": "H"
+      },
+      {
+        "fecha": "29/08/2026",
+        "local": "Sociedad",
+        "visitante": "Espanol",
+        "goles_local": "2",
+        "goles_visitante": "1",
+        "resultado": "H"
+      },
+      {
+        "fecha": "29/08/2026",
+        "local": "Sevilla",
+        "visitante": "Ath Madrid",
+        "goles_local": "1",
+        "goles_visitante": "3",
+        "resultado": "A"
+      },
+      {
+        "fecha": "30/08/2026",
+        "local": "Real Madrid",
+        "visitante": "Malaga",
+        "goles_local": "4",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "30/08/2026",
+        "local": "La Coruna",
+        "visitante": "Valencia",
+        "goles_local": "3",
+        "goles_visitante": "1",
+        "resultado": "H"
+      },
+      {
+        "fecha": "30/08/2026",
+        "local": "Celta",
+        "visitante": "Ath Bilbao",
+        "goles_local": "0",
+        "goles_visitante": "2",
+        "resultado": "A"
+      },
+      {
+        "fecha": "31/08/2026",
+        "local": "Osasuna",
+        "visitante": "Getafe",
+        "goles_local": "1",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "31/08/2026",
+        "local": "Barcelona",
+        "visitante": "Vallecano",
+        "goles_local": "5",
+        "goles_visitante": "2",
+        "resultado": "H"
+      },
+      {
+        "fecha": "03/09/2026",
+        "local": "Sociedad",
+        "visitante": "Celta",
+        "goles_local": "0",
+        "goles_visitante": "0",
+        "resultado": "D"
+      },
+      {
+        "fecha": "04/09/2026",
+        "local": "Betis",
+        "visitante": "Real Madrid",
+        "goles_local": "1",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "05/09/2026",
+        "local": "Ath Bilbao",
+        "visitante": "Ath Madrid",
+        "goles_local": "3",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "05/09/2026",
+        "local": "Vallecano",
+        "visitante": "Santander",
+        "goles_local": "3",
+        "goles_visitante": "2",
+        "resultado": "H"
+      },
+      {
+        "fecha": "05/09/2026",
+        "local": "Villarreal",
+        "visitante": "La Coruna",
+        "goles_local": "2",
+        "goles_visitante": "3",
+        "resultado": "A"
+      },
+      {
+        "fecha": "06/09/2026",
+        "local": "Valencia",
+        "visitante": "Barcelona",
+        "goles_local": "0",
+        "goles_visitante": "5",
+        "resultado": "A"
+      },
+      {
+        "fecha": "06/09/2026",
+        "local": "Alaves",
+        "visitante": "Osasuna",
+        "goles_local": "5",
+        "goles_visitante": "2",
+        "resultado": "H"
+      },
+      {
+        "fecha": "06/09/2026",
+        "local": "Malaga",
+        "visitante": "Levante",
+        "goles_local": "0",
+        "goles_visitante": "0",
+        "resultado": "D"
+      },
+      {
+        "fecha": "06/09/2026",
+        "local": "Espanol",
+        "visitante": "Sevilla",
+        "goles_local": "1",
+        "goles_visitante": "1",
+        "resultado": "D"
+      },
+      {
+        "fecha": "07/09/2026",
+        "local": "Getafe",
+        "visitante": "Celta",
+        "goles_local": "1",
+        "goles_visitante": "1",
+        "resultado": "D"
+      },
+      {
+        "fecha": "07/09/2026",
+        "local": "Elche",
+        "visitante": "Sociedad",
+        "goles_local": "2",
+        "goles_visitante": "3",
+        "resultado": "A"
+      },
+      {
+        "fecha": "11/09/2026",
+        "local": "Sevilla",
+        "visitante": "Valencia",
+        "goles_local": "1",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "12/09/2026",
+        "local": "Santander",
+        "visitante": "Alaves",
+        "goles_local": "2",
+        "goles_visitante": "1",
+        "resultado": "H"
+      },
+      {
+        "fecha": "12/09/2026",
+        "local": "Osasuna",
+        "visitante": "Espanol",
+        "goles_local": "0",
+        "goles_visitante": "2",
+        "resultado": "A"
+      },
+      {
+        "fecha": "12/09/2026",
+        "local": "Ath Bilbao",
+        "visitante": "Elche",
+        "goles_local": "1",
+        "goles_visitante": "1",
+        "resultado": "D"
+      },
+      {
+        "fecha": "12/09/2026",
+        "local": "Real Madrid",
+        "visitante": "Vallecano",
+        "goles_local": "4",
+        "goles_visitante": "1",
+        "resultado": "H"
+      },
+      {
+        "fecha": "13/09/2026",
+        "local": "Celta",
+        "visitante": "Malaga",
+        "goles_local": "1",
+        "goles_visitante": "1",
+        "resultado": "D"
+      },
+      {
+        "fecha": "13/09/2026",
+        "local": "Levante",
+        "visitante": "Barcelona",
+        "goles_local": "2",
+        "goles_visitante": "4",
+        "resultado": "A"
+      },
+      {
+        "fecha": "13/09/2026",
+        "local": "Getafe",
+        "visitante": "La Coruna",
+        "goles_local": "1",
+        "goles_visitante": "1",
+        "resultado": "D"
+      },
+      {
+        "fecha": "13/09/2026",
+        "local": "Sociedad",
+        "visitante": "Ath Madrid",
+        "goles_local": "0",
+        "goles_visitante": "3",
+        "resultado": "A"
+      },
+      {
+        "fecha": "14/09/2026",
+        "local": "Villarreal",
+        "visitante": "Betis",
+        "goles_local": "1",
+        "goles_visitante": "2",
+        "resultado": "A"
+      },
+      {
+        "fecha": "15/09/2026",
+        "local": "Vallecano",
+        "visitante": "Espanol",
+        "goles_local": "2",
+        "goles_visitante": "1",
+        "resultado": "H"
+      },
+      {
+        "fecha": "15/09/2026",
+        "local": "Alaves",
+        "visitante": "Valencia",
+        "goles_local": "0",
+        "goles_visitante": "1",
+        "resultado": "A"
+      },
+      {
+        "fecha": "15/09/2026",
+        "local": "Elche",
+        "visitante": "Real Madrid",
+        "goles_local": "2",
+        "goles_visitante": "3",
+        "resultado": "A"
+      },
+      {
+        "fecha": "16/09/2026",
+        "local": "Ath Madrid",
+        "visitante": "Osasuna",
+        "goles_local": "4",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "16/09/2026",
+        "local": "La Coruna",
+        "visitante": "Sevilla",
+        "goles_local": "0",
+        "goles_visitante": "1",
+        "resultado": "A"
+      },
+      {
+        "fecha": "16/09/2026",
+        "local": "Barcelona",
+        "visitante": "Santander",
+        "goles_local": "7",
+        "goles_visitante": "2",
+        "resultado": "H"
+      },
+      {
+        "fecha": "17/09/2026",
+        "local": "Betis",
+        "visitante": "Getafe",
+        "goles_local": "1",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "17/09/2026",
+        "local": "Malaga",
+        "visitante": "Villarreal",
+        "goles_local": "1",
+        "goles_visitante": "3",
+        "resultado": "A"
+      },
+      {
+        "fecha": "18/09/2026",
+        "local": "Espanol",
+        "visitante": "Elche",
+        "goles_local": "1",
+        "goles_visitante": "3",
+        "resultado": "A"
+      },
+      {
+        "fecha": "19/09/2026",
+        "local": "Osasuna",
+        "visitante": "Vallecano",
+        "goles_local": "1",
+        "goles_visitante": "1",
+        "resultado": "D"
+      },
+      {
+        "fecha": "19/09/2026",
+        "local": "Ath Bilbao",
+        "visitante": "Alaves",
+        "goles_local": "0",
+        "goles_visitante": "0",
+        "resultado": "D"
+      },
+      {
+        "fecha": "19/09/2026",
+        "local": "Celta",
+        "visitante": "Santander",
+        "goles_local": "5",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "19/09/2026",
+        "local": "Sevilla",
+        "visitante": "Barcelona",
+        "goles_local": "1",
+        "goles_visitante": "3",
+        "resultado": "A"
+      },
+      {
+        "fecha": "20/09/2026",
+        "local": "Getafe",
+        "visitante": "Malaga",
+        "goles_local": "1",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "20/09/2026",
+        "local": "Ath Madrid",
+        "visitante": "Real Madrid",
+        "goles_local": "2",
+        "goles_visitante": "1",
+        "resultado": "H"
+      },
+      {
+        "fecha": "20/09/2026",
+        "local": "La Coruna",
+        "visitante": "Betis",
+        "goles_local": "1",
+        "goles_visitante": "1",
+        "resultado": "D"
+      },
+      {
+        "fecha": "20/09/2026",
+        "local": "Villarreal",
+        "visitante": "Levante",
+        "goles_local": "3",
+        "goles_visitante": "1",
+        "resultado": "H"
+      },
+      {
+        "fecha": "20/09/2026",
+        "local": "Valencia",
+        "visitante": "Sociedad",
+        "goles_local": "2",
+        "goles_visitante": "3",
+        "resultado": "A"
+      },
+      {
+        "fecha": "09/10/2026",
+        "local": "Malaga",
+        "visitante": "Espanol",
+        "goles_local": "1",
+        "goles_visitante": "1",
+        "resultado": "D"
+      },
+      {
+        "fecha": "10/10/2026",
+        "local": "Alaves",
+        "visitante": "Ath Madrid",
+        "goles_local": "1",
+        "goles_visitante": "2",
+        "resultado": "A"
+      },
+      {
+        "fecha": "10/10/2026",
+        "local": "Barcelona",
+        "visitante": "Getafe",
+        "goles_local": "3",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "10/10/2026",
+        "local": "Real Madrid",
+        "visitante": "Villarreal",
+        "goles_local": "1",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "11/10/2026",
+        "local": "Elche",
+        "visitante": "Celta",
+        "goles_local": "0",
+        "goles_visitante": "0",
+        "resultado": "D"
+      },
+      {
+        "fecha": "11/10/2026",
+        "local": "Sociedad",
+        "visitante": "La Coruna",
+        "goles_local": "3",
+        "goles_visitante": "2",
+        "resultado": "H"
+      },
+      {
+        "fecha": "11/10/2026",
+        "local": "Betis",
+        "visitante": "Osasuna",
+        "goles_local": "5",
+        "goles_visitante": "2",
+        "resultado": "H"
+      },
+      {
+        "fecha": "11/10/2026",
+        "local": "Santander",
+        "visitante": "Valencia",
+        "goles_local": "2",
+        "goles_visitante": "2",
+        "resultado": "D"
+      },
+      {
+        "fecha": "12/10/2026",
+        "local": "Levante",
+        "visitante": "Sevilla",
+        "goles_local": "3",
+        "goles_visitante": "3",
+        "resultado": "D"
+      },
+      {
+        "fecha": "16/10/2026",
+        "local": "La Coruna",
+        "visitante": "Levante",
+        "goles_local": "1",
+        "goles_visitante": "1",
+        "resultado": "D"
+      },
+      {
+        "fecha": "17/10/2026",
+        "local": "Espanol",
+        "visitante": "Ath Madrid",
+        "goles_local": "0",
+        "goles_visitante": "1",
+        "resultado": "A"
+      },
+      {
+        "fecha": "17/10/2026",
+        "local": "Villarreal",
+        "visitante": "Elche",
+        "goles_local": "0",
+        "goles_visitante": "0",
+        "resultado": "D"
+      },
+      {
+        "fecha": "17/10/2026",
+        "local": "Betis",
+        "visitante": "Barcelona",
+        "goles_local": "2",
+        "goles_visitante": "5",
+        "resultado": "A"
+      },
+      {
+        "fecha": "17/10/2026",
+        "local": "Valencia",
+        "visitante": "Ath Bilbao",
+        "goles_local": "0",
+        "goles_visitante": "0",
+        "resultado": "D"
+      },
+      {
+        "fecha": "18/10/2026",
+        "local": "Osasuna",
+        "visitante": "Santander",
+        "goles_local": "2",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "18/10/2026",
+        "local": "Celta",
+        "visitante": "Alaves",
+        "goles_local": "2",
+        "goles_visitante": "1",
+        "resultado": "H"
+      },
+      {
+        "fecha": "18/10/2026",
+        "local": "Malaga",
+        "visitante": "Sociedad",
+        "goles_local": "2",
+        "goles_visitante": "5",
+        "resultado": "A"
+      },
+      {
+        "fecha": "18/10/2026",
+        "local": "Real Madrid",
+        "visitante": "Sevilla",
+        "goles_local": "4",
+        "goles_visitante": "1",
+        "resultado": "H"
+      },
+      {
+        "fecha": "19/10/2026",
+        "local": "Getafe",
+        "visitante": "Vallecano",
+        "goles_local": "1",
+        "goles_visitante": "1",
+        "resultado": "D"
+      },
+      {
+        "fecha": "21/10/2026",
+        "local": "Levante",
+        "visitante": "Ath Bilbao",
+        "goles_local": "3",
+        "goles_visitante": "1",
+        "resultado": "H"
+      },
+      {
+        "fecha": "23/10/2026",
+        "local": "Alaves",
+        "visitante": "Malaga",
+        "goles_local": "1",
+        "goles_visitante": "1",
+        "resultado": "D"
+      },
+      {
+        "fecha": "24/10/2026",
+        "local": "Vallecano",
+        "visitante": "Elche",
+        "goles_local": "0",
+        "goles_visitante": "3",
+        "resultado": "A"
+      },
+      {
+        "fecha": "24/10/2026",
+        "local": "Santander",
+        "visitante": "Espanol",
+        "goles_local": "2",
+        "goles_visitante": "1",
+        "resultado": "H"
+      },
+      {
+        "fecha": "24/10/2026",
+        "local": "Valencia",
+        "visitante": "Villarreal",
+        "goles_local": "1",
+        "goles_visitante": "2",
+        "resultado": "A"
+      },
+      {
+        "fecha": "24/10/2026",
+        "local": "Ath Madrid",
+        "visitante": "La Coruna",
+        "goles_local": "1",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "25/10/2026",
+        "local": "Ath Bilbao",
+        "visitante": "Getafe",
+        "goles_local": "4",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "25/10/2026",
+        "local": "Celta",
+        "visitante": "Betis",
+        "goles_local": "0",
+        "goles_visitante": "0",
+        "resultado": "D"
+      },
+      {
+        "fecha": "25/10/2026",
+        "local": "Sociedad",
+        "visitante": "Levante",
+        "goles_local": "2",
+        "goles_visitante": "1",
+        "resultado": "H"
+      },
+      {
+        "fecha": "25/10/2026",
+        "local": "Barcelona",
+        "visitante": "Real Madrid",
+        "goles_local": "1",
+        "goles_visitante": "2",
+        "resultado": "A"
+      },
+      {
+        "fecha": "26/10/2026",
+        "local": "Sevilla",
+        "visitante": "Osasuna",
+        "goles_local": "2",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "30/10/2026",
+        "local": "Villarreal",
+        "visitante": "Espanol",
+        "goles_local": "0",
+        "goles_visitante": "1",
+        "resultado": "A"
+      },
+      {
+        "fecha": "31/10/2026",
+        "local": "Levante",
+        "visitante": "Ath Madrid",
+        "goles_local": "0",
+        "goles_visitante": "2",
+        "resultado": "A"
+      },
+      {
+        "fecha": "31/10/2026",
+        "local": "Vallecano",
+        "visitante": "Celta",
+        "goles_local": "3",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "31/10/2026",
+        "local": "Betis",
+        "visitante": "Malaga",
+        "goles_local": "2",
+        "goles_visitante": "1",
+        "resultado": "H"
+      },
+      {
+        "fecha": "31/10/2026",
+        "local": "Barcelona",
+        "visitante": "Alaves",
+        "goles_local": "6",
+        "goles_visitante": "1",
+        "resultado": "H"
+      },
+      {
+        "fecha": "01/11/2026",
+        "local": "Getafe",
+        "visitante": "Sevilla",
+        "goles_local": "3",
+        "goles_visitante": "1",
+        "resultado": "H"
+      },
+      {
+        "fecha": "01/11/2026",
+        "local": "Santander",
+        "visitante": "Real Madrid",
+        "goles_local": "0",
+        "goles_visitante": "3",
+        "resultado": "A"
+      },
+      {
+        "fecha": "01/11/2026",
+        "local": "Elche",
+        "visitante": "Valencia",
+        "goles_local": "0",
+        "goles_visitante": "1",
+        "resultado": "A"
+      },
+      {
+        "fecha": "01/11/2026",
+        "local": "Ath Bilbao",
+        "visitante": "Sociedad",
+        "goles_local": "2",
+        "goles_visitante": "1",
+        "resultado": "H"
+      },
+      {
+        "fecha": "02/11/2026",
+        "local": "La Coruna",
+        "visitante": "Osasuna",
+        "goles_local": "2",
+        "goles_visitante": "1",
+        "resultado": "H"
+      }
+    ],
+    "SP2": [
+      {
+        "fecha": "14/08/2026",
+        "local": "Sociedad B",
+        "visitante": "Castellon",
+        "goles_local": "0",
+        "goles_visitante": "1",
+        "resultado": "A"
+      },
+      {
+        "fecha": "15/08/2026",
+        "local": "Andorra",
+        "visitante": "Ceuta",
+        "goles_local": "5",
+        "goles_visitante": "1",
+        "resultado": "H"
+      },
+      {
+        "fecha": "15/08/2026",
+        "local": "Cadiz",
+        "visitante": "Celta B",
+        "goles_local": "0",
+        "goles_visitante": "0",
+        "resultado": "D"
+      },
+      {
+        "fecha": "15/08/2026",
+        "local": "Oviedo",
+        "visitante": "Granada",
+        "goles_local": "0",
+        "goles_visitante": "0",
+        "resultado": "D"
+      },
+      {
+        "fecha": "15/08/2026",
+        "local": "Mallorca",
+        "visitante": "Valladolid",
+        "goles_local": "2",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "16/08/2026",
+        "local": "Eibar",
+        "visitante": "Tenerife",
+        "goles_local": "1",
+        "goles_visitante": "3",
+        "resultado": "A"
+      },
+      {
+        "fecha": "16/08/2026",
+        "local": "Burgos",
+        "visitante": "Cordoba",
+        "goles_local": "3",
+        "goles_visitante": "2",
+        "resultado": "H"
+      },
+      {
+        "fecha": "16/08/2026",
+        "local": "Girona",
+        "visitante": "Leganes",
+        "goles_local": "1",
+        "goles_visitante": "1",
+        "resultado": "D"
+      },
+      {
+        "fecha": "16/08/2026",
+        "local": "Las Palmas",
+        "visitante": "Albacete",
+        "goles_local": "2",
+        "goles_visitante": "1",
+        "resultado": "H"
+      },
+      {
+        "fecha": "17/08/2026",
+        "local": "Sp Gijon",
+        "visitante": "Sabadell",
+        "goles_local": "0",
+        "goles_visitante": "0",
+        "resultado": "D"
+      },
+      {
+        "fecha": "17/08/2026",
+        "local": "Almeria",
+        "visitante": "Eldense",
+        "goles_local": "3",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "21/08/2026",
+        "local": "Cordoba",
+        "visitante": "Girona",
+        "goles_local": "2",
+        "goles_visitante": "1",
+        "resultado": "H"
+      },
+      {
+        "fecha": "22/08/2026",
+        "local": "Oviedo",
+        "visitante": "Leganes",
+        "goles_local": "0",
+        "goles_visitante": "1",
+        "resultado": "A"
+      },
+      {
+        "fecha": "22/08/2026",
+        "local": "Albacete",
+        "visitante": "Sociedad B",
+        "goles_local": "1",
+        "goles_visitante": "2",
+        "resultado": "A"
+      },
+      {
+        "fecha": "22/08/2026",
+        "local": "Ceuta",
+        "visitante": "Las Palmas",
+        "goles_local": "0",
+        "goles_visitante": "2",
+        "resultado": "A"
+      },
+      {
+        "fecha": "22/08/2026",
+        "local": "Eldense",
+        "visitante": "Cadiz",
+        "goles_local": "2",
+        "goles_visitante": "2",
+        "resultado": "D"
+      },
+      {
+        "fecha": "23/08/2026",
+        "local": "Eibar",
+        "visitante": "Valladolid",
+        "goles_local": "1",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "23/08/2026",
+        "local": "Castellon",
+        "visitante": "Sabadell",
+        "goles_local": "0",
+        "goles_visitante": "0",
+        "resultado": "D"
+      },
+      {
+        "fecha": "23/08/2026",
+        "local": "Sp Gijon",
+        "visitante": "Burgos",
+        "goles_local": "1",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "23/08/2026",
+        "local": "Tenerife",
+        "visitante": "Almeria",
+        "goles_local": "1",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "24/08/2026",
+        "local": "Celta B",
+        "visitante": "Andorra",
+        "goles_local": "4",
+        "goles_visitante": "2",
+        "resultado": "H"
+      },
+      {
+        "fecha": "24/08/2026",
+        "local": "Granada",
+        "visitante": "Mallorca",
+        "goles_local": "2",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "28/08/2026",
+        "local": "Tenerife",
+        "visitante": "Sp Gijon",
+        "goles_local": "0",
+        "goles_visitante": "1",
+        "resultado": "A"
+      },
+      {
+        "fecha": "29/08/2026",
+        "local": "Sabadell",
+        "visitante": "Almeria",
+        "goles_local": "1",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "29/08/2026",
+        "local": "Albacete",
+        "visitante": "Oviedo",
+        "goles_local": "0",
+        "goles_visitante": "1",
+        "resultado": "A"
+      },
+      {
+        "fecha": "29/08/2026",
+        "local": "Leganes",
+        "visitante": "Eldense",
+        "goles_local": "1",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "29/08/2026",
+        "local": "Girona",
+        "visitante": "Las Palmas",
+        "goles_local": "5",
+        "goles_visitante": "2",
+        "resultado": "H"
+      },
+      {
+        "fecha": "30/08/2026",
+        "local": "Andorra",
+        "visitante": "Eibar",
+        "goles_local": "0",
+        "goles_visitante": "1",
+        "resultado": "A"
+      },
+      {
+        "fecha": "30/08/2026",
+        "local": "Cadiz",
+        "visitante": "Valladolid",
+        "goles_local": "1",
+        "goles_visitante": "1",
+        "resultado": "D"
+      },
+      {
+        "fecha": "30/08/2026",
+        "local": "Mallorca",
+        "visitante": "Ceuta",
+        "goles_local": "3",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "30/08/2026",
+        "local": "Cordoba",
+        "visitante": "Granada",
+        "goles_local": "1",
+        "goles_visitante": "3",
+        "resultado": "A"
+      },
+      {
+        "fecha": "31/08/2026",
+        "local": "Burgos",
+        "visitante": "Sociedad B",
+        "goles_local": "2",
+        "goles_visitante": "2",
+        "resultado": "D"
+      },
+      {
+        "fecha": "31/08/2026",
+        "local": "Celta B",
+        "visitante": "Castellon",
+        "goles_local": "1",
+        "goles_visitante": "2",
+        "resultado": "A"
+      },
+      {
+        "fecha": "04/09/2026",
+        "local": "Las Palmas",
+        "visitante": "Leganes",
+        "goles_local": "0",
+        "goles_visitante": "0",
+        "resultado": "D"
+      },
+      {
+        "fecha": "05/09/2026",
+        "local": "Sociedad B",
+        "visitante": "Tenerife",
+        "goles_local": "1",
+        "goles_visitante": "1",
+        "resultado": "D"
+      },
+      {
+        "fecha": "05/09/2026",
+        "local": "Sp Gijon",
+        "visitante": "Girona",
+        "goles_local": "0",
+        "goles_visitante": "2",
+        "resultado": "A"
+      },
+      {
+        "fecha": "05/09/2026",
+        "local": "Ceuta",
+        "visitante": "Celta B",
+        "goles_local": "0",
+        "goles_visitante": "2",
+        "resultado": "A"
+      },
+      {
+        "fecha": "05/09/2026",
+        "local": "Valladolid",
+        "visitante": "Andorra",
+        "goles_local": "1",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "05/09/2026",
+        "local": "Eldense",
+        "visitante": "Mallorca",
+        "goles_local": "0",
+        "goles_visitante": "0",
+        "resultado": "D"
+      },
+      {
+        "fecha": "06/09/2026",
+        "local": "Eibar",
+        "visitante": "Granada",
+        "goles_local": "3",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "06/09/2026",
+        "local": "Oviedo",
+        "visitante": "Burgos",
+        "goles_local": "0",
+        "goles_visitante": "0",
+        "resultado": "D"
+      },
+      {
+        "fecha": "06/09/2026",
+        "local": "Castellon",
+        "visitante": "Albacete",
+        "goles_local": "2",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "06/09/2026",
+        "local": "Almeria",
+        "visitante": "Cadiz",
+        "goles_local": "3",
+        "goles_visitante": "2",
+        "resultado": "H"
+      },
+      {
+        "fecha": "07/09/2026",
+        "local": "Sabadell",
+        "visitante": "Cordoba",
+        "goles_local": "3",
+        "goles_visitante": "2",
+        "resultado": "H"
+      },
+      {
+        "fecha": "11/09/2026",
+        "local": "Burgos",
+        "visitante": "Ceuta",
+        "goles_local": "3",
+        "goles_visitante": "1",
+        "resultado": "H"
+      },
+      {
+        "fecha": "12/09/2026",
+        "local": "Andorra",
+        "visitante": "Sociedad B",
+        "goles_local": "1",
+        "goles_visitante": "3",
+        "resultado": "A"
+      },
+      {
+        "fecha": "12/09/2026",
+        "local": "Cadiz",
+        "visitante": "Las Palmas",
+        "goles_local": "0",
+        "goles_visitante": "1",
+        "resultado": "A"
+      },
+      {
+        "fecha": "12/09/2026",
+        "local": "Girona",
+        "visitante": "Castellon",
+        "goles_local": "1",
+        "goles_visitante": "2",
+        "resultado": "A"
+      },
+      {
+        "fecha": "12/09/2026",
+        "local": "Granada",
+        "visitante": "Albacete",
+        "goles_local": "1",
+        "goles_visitante": "1",
+        "resultado": "D"
+      },
+      {
+        "fecha": "12/09/2026",
+        "local": "Cordoba",
+        "visitante": "Almeria",
+        "goles_local": "0",
+        "goles_visitante": "2",
+        "resultado": "A"
+      },
+      {
+        "fecha": "13/09/2026",
+        "local": "Sp Gijon",
+        "visitante": "Eldense",
+        "goles_local": "0",
+        "goles_visitante": "1",
+        "resultado": "A"
+      },
+      {
+        "fecha": "13/09/2026",
+        "local": "Valladolid",
+        "visitante": "Oviedo",
+        "goles_local": "0",
+        "goles_visitante": "3",
+        "resultado": "A"
+      },
+      {
+        "fecha": "13/09/2026",
+        "local": "Mallorca",
+        "visitante": "Sabadell",
+        "goles_local": "2",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "13/09/2026",
+        "local": "Tenerife",
+        "visitante": "Leganes",
+        "goles_local": "2",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "14/09/2026",
+        "local": "Celta B",
+        "visitante": "Eibar",
+        "goles_local": "0",
+        "goles_visitante": "4",
+        "resultado": "A"
+      },
+      {
+        "fecha": "18/09/2026",
+        "local": "Albacete",
+        "visitante": "Cordoba",
+        "goles_local": "1",
+        "goles_visitante": "2",
+        "resultado": "A"
+      },
+      {
+        "fecha": "19/09/2026",
+        "local": "Sociedad B",
+        "visitante": "Mallorca",
+        "goles_local": "0",
+        "goles_visitante": "1",
+        "resultado": "A"
+      },
+      {
+        "fecha": "19/09/2026",
+        "local": "Andorra",
+        "visitante": "Sp Gijon",
+        "goles_local": "1",
+        "goles_visitante": "3",
+        "resultado": "A"
+      },
+      {
+        "fecha": "19/09/2026",
+        "local": "Castellon",
+        "visitante": "Tenerife",
+        "goles_local": "5",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "19/09/2026",
+        "local": "Eldense",
+        "visitante": "Eibar",
+        "goles_local": "1",
+        "goles_visitante": "2",
+        "resultado": "A"
+      },
+      {
+        "fecha": "19/09/2026",
+        "local": "Cadiz",
+        "visitante": "Girona",
+        "goles_local": "1",
+        "goles_visitante": "2",
+        "resultado": "A"
+      },
+      {
+        "fecha": "20/09/2026",
+        "local": "Sabadell",
+        "visitante": "Oviedo",
+        "goles_local": "3",
+        "goles_visitante": "1",
+        "resultado": "H"
+      },
+      {
+        "fecha": "20/09/2026",
+        "local": "Ceuta",
+        "visitante": "Valladolid",
+        "goles_local": "1",
+        "goles_visitante": "1",
+        "resultado": "D"
+      },
+      {
+        "fecha": "20/09/2026",
+        "local": "Almeria",
+        "visitante": "Celta B",
+        "goles_local": "2",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "20/09/2026",
+        "local": "Las Palmas",
+        "visitante": "Burgos",
+        "goles_local": "1",
+        "goles_visitante": "2",
+        "resultado": "A"
+      },
+      {
+        "fecha": "20/09/2026",
+        "local": "Leganes",
+        "visitante": "Granada",
+        "goles_local": "3",
+        "goles_visitante": "2",
+        "resultado": "H"
+      },
+      {
+        "fecha": "25/09/2026",
+        "local": "Girona",
+        "visitante": "Albacete",
+        "goles_local": "2",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "26/09/2026",
+        "local": "Ceuta",
+        "visitante": "Sociedad B",
+        "goles_local": "3",
+        "goles_visitante": "1",
+        "resultado": "H"
+      },
+      {
+        "fecha": "26/09/2026",
+        "local": "Granada",
+        "visitante": "Andorra",
+        "goles_local": "2",
+        "goles_visitante": "3",
+        "resultado": "A"
+      },
+      {
+        "fecha": "26/09/2026",
+        "local": "Celta B",
+        "visitante": "Sabadell",
+        "goles_local": "1",
+        "goles_visitante": "1",
+        "resultado": "D"
+      },
+      {
+        "fecha": "26/09/2026",
+        "local": "Tenerife",
+        "visitante": "Cadiz",
+        "goles_local": "1",
+        "goles_visitante": "1",
+        "resultado": "D"
+      },
+      {
+        "fecha": "27/09/2026",
+        "local": "Valladolid",
+        "visitante": "Cordoba",
+        "goles_local": "3",
+        "goles_visitante": "1",
+        "resultado": "H"
+      },
+      {
+        "fecha": "27/09/2026",
+        "local": "Mallorca",
+        "visitante": "Almeria",
+        "goles_local": "0",
+        "goles_visitante": "1",
+        "resultado": "A"
+      },
+      {
+        "fecha": "27/09/2026",
+        "local": "Burgos",
+        "visitante": "Eldense",
+        "goles_local": "1",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "27/09/2026",
+        "local": "Eibar",
+        "visitante": "Las Palmas",
+        "goles_local": "3",
+        "goles_visitante": "2",
+        "resultado": "H"
+      },
+      {
+        "fecha": "27/09/2026",
+        "local": "Oviedo",
+        "visitante": "Sp Gijon",
+        "goles_local": "2",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "28/09/2026",
+        "local": "Leganes",
+        "visitante": "Castellon",
+        "goles_local": "0",
+        "goles_visitante": "2",
+        "resultado": "A"
+      },
+      {
+        "fecha": "02/10/2026",
+        "local": "Eldense",
+        "visitante": "Oviedo",
+        "goles_local": "4",
+        "goles_visitante": "1",
+        "resultado": "H"
+      },
+      {
+        "fecha": "03/10/2026",
+        "local": "Albacete",
+        "visitante": "Eibar",
+        "goles_local": "1",
+        "goles_visitante": "3",
+        "resultado": "A"
+      },
+      {
+        "fecha": "03/10/2026",
+        "local": "Almeria",
+        "visitante": "Burgos",
+        "goles_local": "2",
+        "goles_visitante": "1",
+        "resultado": "H"
+      },
+      {
+        "fecha": "03/10/2026",
+        "local": "Cadiz",
+        "visitante": "Leganes",
+        "goles_local": "4",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "04/10/2026",
+        "local": "Sociedad B",
+        "visitante": "Granada",
+        "goles_local": "2",
+        "goles_visitante": "3",
+        "resultado": "A"
+      },
+      {
+        "fecha": "04/10/2026",
+        "local": "Sp Gijon",
+        "visitante": "Celta B",
+        "goles_local": "3",
+        "goles_visitante": "2",
+        "resultado": "H"
+      },
+      {
+        "fecha": "04/10/2026",
+        "local": "Castellon",
+        "visitante": "Ceuta",
+        "goles_local": "1",
+        "goles_visitante": "1",
+        "resultado": "D"
+      },
+      {
+        "fecha": "04/10/2026",
+        "local": "Las Palmas",
+        "visitante": "Valladolid",
+        "goles_local": "2",
+        "goles_visitante": "2",
+        "resultado": "D"
+      },
+      {
+        "fecha": "04/10/2026",
+        "local": "Girona",
+        "visitante": "Mallorca",
+        "goles_local": "0",
+        "goles_visitante": "0",
+        "resultado": "D"
+      },
+      {
+        "fecha": "04/10/2026",
+        "local": "Sabadell",
+        "visitante": "Andorra",
+        "goles_local": "0",
+        "goles_visitante": "0",
+        "resultado": "D"
+      },
+      {
+        "fecha": "05/10/2026",
+        "local": "Cordoba",
+        "visitante": "Tenerife",
+        "goles_local": "3",
+        "goles_visitante": "2",
+        "resultado": "H"
+      },
+      {
+        "fecha": "10/10/2026",
+        "local": "Ceuta",
+        "visitante": "Sabadell",
+        "goles_local": "1",
+        "goles_visitante": "2",
+        "resultado": "A"
+      },
+      {
+        "fecha": "10/10/2026",
+        "local": "Eldense",
+        "visitante": "Cordoba",
+        "goles_local": "2",
+        "goles_visitante": "1",
+        "resultado": "H"
+      },
+      {
+        "fecha": "10/10/2026",
+        "local": "Celta B",
+        "visitante": "Sociedad B",
+        "goles_local": "4",
+        "goles_visitante": "1",
+        "resultado": "H"
+      },
+      {
+        "fecha": "11/10/2026",
+        "local": "Andorra",
+        "visitante": "Castellon",
+        "goles_local": "1",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "11/10/2026",
+        "local": "Almeria",
+        "visitante": "Leganes",
+        "goles_local": "3",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "11/10/2026",
+        "local": "Mallorca",
+        "visitante": "Las Palmas",
+        "goles_local": "3",
+        "goles_visitante": "1",
+        "resultado": "H"
+      },
+      {
+        "fecha": "11/10/2026",
+        "local": "Cadiz",
+        "visitante": "Sp Gijon",
+        "goles_local": "0",
+        "goles_visitante": "1",
+        "resultado": "A"
+      },
+      {
+        "fecha": "12/10/2026",
+        "local": "Valladolid",
+        "visitante": "Albacete",
+        "goles_local": "5",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "12/10/2026",
+        "local": "Burgos",
+        "visitante": "Granada",
+        "goles_local": "0",
+        "goles_visitante": "1",
+        "resultado": "A"
+      },
+      {
+        "fecha": "12/10/2026",
+        "local": "Oviedo",
+        "visitante": "Eibar",
+        "goles_local": "3",
+        "goles_visitante": "1",
+        "resultado": "H"
+      },
+      {
+        "fecha": "12/10/2026",
+        "local": "Tenerife",
+        "visitante": "Girona",
+        "goles_local": "1",
+        "goles_visitante": "1",
+        "resultado": "D"
+      },
+      {
+        "fecha": "16/10/2026",
+        "local": "Leganes",
+        "visitante": "Cordoba",
+        "goles_local": "0",
+        "goles_visitante": "1",
+        "resultado": "A"
+      },
+      {
+        "fecha": "17/10/2026",
+        "local": "Sociedad B",
+        "visitante": "Almeria",
+        "goles_local": "2",
+        "goles_visitante": "4",
+        "resultado": "A"
+      },
+      {
+        "fecha": "17/10/2026",
+        "local": "Eibar",
+        "visitante": "Mallorca",
+        "goles_local": "1",
+        "goles_visitante": "1",
+        "resultado": "D"
+      },
+      {
+        "fecha": "17/10/2026",
+        "local": "Sp Gijon",
+        "visitante": "Albacete",
+        "goles_local": "2",
+        "goles_visitante": "1",
+        "resultado": "H"
+      },
+      {
+        "fecha": "17/10/2026",
+        "local": "Las Palmas",
+        "visitante": "Castellon",
+        "goles_local": "0",
+        "goles_visitante": "3",
+        "resultado": "A"
+      },
+      {
+        "fecha": "18/10/2026",
+        "local": "Ceuta",
+        "visitante": "Oviedo",
+        "goles_local": "1",
+        "goles_visitante": "2",
+        "resultado": "A"
+      },
+      {
+        "fecha": "18/10/2026",
+        "local": "Granada",
+        "visitante": "Cadiz",
+        "goles_local": "2",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "18/10/2026",
+        "local": "Girona",
+        "visitante": "Andorra",
+        "goles_local": "2",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "18/10/2026",
+        "local": "Valladolid",
+        "visitante": "Eldense",
+        "goles_local": "2",
+        "goles_visitante": "3",
+        "resultado": "A"
+      },
+      {
+        "fecha": "18/10/2026",
+        "local": "Burgos",
+        "visitante": "Sabadell",
+        "goles_local": "1",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "19/10/2026",
+        "local": "Celta B",
+        "visitante": "Tenerife",
+        "goles_local": "1",
+        "goles_visitante": "1",
+        "resultado": "D"
+      },
+      {
+        "fecha": "23/10/2026",
+        "local": "Granada",
+        "visitante": "Valladolid",
+        "goles_local": "2",
+        "goles_visitante": "1",
+        "resultado": "H"
+      },
+      {
+        "fecha": "24/10/2026",
+        "local": "Cordoba",
+        "visitante": "Eibar",
+        "goles_local": "2",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "24/10/2026",
+        "local": "Leganes",
+        "visitante": "Mallorca",
+        "goles_local": "1",
+        "goles_visitante": "1",
+        "resultado": "D"
+      },
+      {
+        "fecha": "24/10/2026",
+        "local": "Girona",
+        "visitante": "Celta B",
+        "goles_local": "5",
+        "goles_visitante": "1",
+        "resultado": "H"
+      },
+      {
+        "fecha": "24/10/2026",
+        "local": "Las Palmas",
+        "visitante": "Sociedad B",
+        "goles_local": "1",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "24/10/2026",
+        "local": "Almeria",
+        "visitante": "Oviedo",
+        "goles_local": "2",
+        "goles_visitante": "2",
+        "resultado": "D"
+      },
+      {
+        "fecha": "25/10/2026",
+        "local": "Sabadell",
+        "visitante": "Tenerife",
+        "goles_local": "1",
+        "goles_visitante": "1",
+        "resultado": "D"
+      },
+      {
+        "fecha": "25/10/2026",
+        "local": "Albacete",
+        "visitante": "Eldense",
+        "goles_local": "2",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "25/10/2026",
+        "local": "Cadiz",
+        "visitante": "Ceuta",
+        "goles_local": "3",
+        "goles_visitante": "1",
+        "resultado": "H"
+      },
+      {
+        "fecha": "25/10/2026",
+        "local": "Castellon",
+        "visitante": "Sp Gijon",
+        "goles_local": "4",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "26/10/2026",
+        "local": "Andorra",
+        "visitante": "Burgos",
+        "goles_local": "2",
+        "goles_visitante": "3",
+        "resultado": "A"
+      },
+      {
+        "fecha": "31/10/2026",
+        "local": "Sociedad B",
+        "visitante": "Girona",
+        "goles_local": "1",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "31/10/2026",
+        "local": "Eibar",
+        "visitante": "Almeria",
+        "goles_local": "1",
+        "goles_visitante": "1",
+        "resultado": "D"
+      },
+      {
+        "fecha": "31/10/2026",
+        "local": "Celta B",
+        "visitante": "Cordoba",
+        "goles_local": "2",
+        "goles_visitante": "2",
+        "resultado": "D"
+      },
+      {
+        "fecha": "31/10/2026",
+        "local": "Albacete",
+        "visitante": "Sabadell",
+        "goles_local": "2",
+        "goles_visitante": "1",
+        "resultado": "H"
+      },
+      {
+        "fecha": "01/11/2026",
+        "local": "Eldense",
+        "visitante": "Granada",
+        "goles_local": "0",
+        "goles_visitante": "2",
+        "resultado": "A"
+      },
+      {
+        "fecha": "01/11/2026",
+        "local": "Ceuta",
+        "visitante": "Sp Gijon",
+        "goles_local": "0",
+        "goles_visitante": "2",
+        "resultado": "A"
+      },
+      {
+        "fecha": "01/11/2026",
+        "local": "Burgos",
+        "visitante": "Castellon",
+        "goles_local": "1",
+        "goles_visitante": "1",
+        "resultado": "D"
+      },
+      {
+        "fecha": "02/11/2026",
+        "local": "Oviedo",
+        "visitante": "Las Palmas",
+        "goles_local": "2",
+        "goles_visitante": "3",
+        "resultado": "A"
+      },
+      {
+        "fecha": "02/11/2026",
+        "local": "Valladolid",
+        "visitante": "Leganes",
+        "goles_local": "4",
+        "goles_visitante": "3",
+        "resultado": "H"
+      },
+      {
+        "fecha": "02/11/2026",
+        "local": "Mallorca",
+        "visitante": "Cadiz",
+        "goles_local": "2",
+        "goles_visitante": "1",
+        "resultado": "H"
+      }
+    ]
+  }
+}
