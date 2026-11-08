@@ -3,12 +3,8 @@
   "temporada": "2026-2027",
   "fecha_inicio": "2026-11-14",
   "fecha_fin": "2026-11-15",
-  "verificacion": "Composición contrastada en dos fuentes; no actualización automática",
-  "fuentes": [
-    "https://www.quinielafutbol.info/proximas-jornadas-de-la-quiniela.html",
-    "https://www.lototienda.com/la-quiniela-directo",
-    "https://www.selae.es/es/web-corporativa/comunicacion/avisos-de-interes"
-  ],
+  "verificacion": "NO VERIFICADA: la composición anterior contradice el calendario publicado; no utilizar para apostar",
+  "fuentes": [],
   "partidos": [
     {
       "posicion": 1,
@@ -98,5 +94,6 @@
   "pleno": {
     "local": "España",
     "visitante": "Inglaterra"
-  }
+  },
+  "estado": "no_verificada"
 }
