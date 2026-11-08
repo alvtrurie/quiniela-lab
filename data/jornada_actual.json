@@ -3,8 +3,12 @@
   "temporada": "2026-2027",
   "fecha_inicio": "2026-11-14",
   "fecha_fin": "2026-11-15",
-  "verificacion": "NO VERIFICADA: la composición anterior contradice el calendario publicado; no utilizar para apostar",
-  "fuentes": [],
+  "verificacion": "Composición contrastada manualmente el 2026-11-08 en tres fuentes públicas independientes; no actualización automática",
+  "fuentes": [
+    "https://www.quinielafutbol.info/proximas-jornadas-de-la-quiniela.html",
+    "https://quiniprats.com/es/quiniela/2026-27/jornada/21",
+    "https://www.lotocanarias.com/m/la-quiniela-directo"
+  ],
   "partidos": [
     {
       "posicion": 1,
@@ -95,5 +99,5 @@
     "local": "España",
     "visitante": "Inglaterra"
   },
-  "estado": "no_verificada"
+  "estado": "verificada"
 }
