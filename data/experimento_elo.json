@@ -1,0 +1,132 @@
+{
+  "metodo": "Walk-forward por fecha, Elo K=20, ventaja local 65; Elo corrector de odds 1/2; empate intacto",
+  "advertencia": "Variantes exploratorias: no se despliegan automáticamente; 2024/25 y 2025/26 por separado",
+  "resultados": {
+    "2425_SP1": {
+      "base": {
+        "n": 340,
+        "aciertos": 166,
+        "porcentaje": 48.82,
+        "brier": 0.6024
+      },
+      "elo_15": {
+        "n": 340,
+        "aciertos": 165,
+        "porcentaje": 48.53,
+        "brier": 0.6005
+      },
+      "elo_30": {
+        "n": 340,
+        "aciertos": 168,
+        "porcentaje": 49.41,
+        "brier": 0.5989
+      },
+      "elo_50": {
+        "n": 340,
+        "aciertos": 167,
+        "porcentaje": 49.12,
+        "brier": 0.5972
+      }
+    },
+    "2425_SP2": {
+      "base": {
+        "n": 420,
+        "aciertos": 192,
+        "porcentaje": 45.71,
+        "brier": 0.6311
+      },
+      "elo_15": {
+        "n": 420,
+        "aciertos": 194,
+        "porcentaje": 46.19,
+        "brier": 0.6307
+      },
+      "elo_30": {
+        "n": 420,
+        "aciertos": 195,
+        "porcentaje": 46.43,
+        "brier": 0.6306
+      },
+      "elo_50": {
+        "n": 420,
+        "aciertos": 194,
+        "porcentaje": 46.19,
+        "brier": 0.6308
+      }
+    },
+    "2526_SP1": {
+      "base": {
+        "n": 340,
+        "aciertos": 172,
+        "porcentaje": 50.59,
+        "brier": 0.5954
+      },
+      "elo_15": {
+        "n": 340,
+        "aciertos": 171,
+        "porcentaje": 50.29,
+        "brier": 0.5956
+      },
+      "elo_30": {
+        "n": 340,
+        "aciertos": 168,
+        "porcentaje": 49.41,
+        "brier": 0.5961
+      },
+      "elo_50": {
+        "n": 340,
+        "aciertos": 170,
+        "porcentaje": 50.0,
+        "brier": 0.597
+      }
+    },
+    "2526_SP2": {
+      "base": {
+        "n": 419,
+        "aciertos": 208,
+        "porcentaje": 49.64,
+        "brier": 0.6364
+      },
+      "elo_15": {
+        "n": 419,
+        "aciertos": 207,
+        "porcentaje": 49.4,
+        "brier": 0.6358
+      },
+      "elo_30": {
+        "n": 419,
+        "aciertos": 207,
+        "porcentaje": 49.4,
+        "brier": 0.6355
+      },
+      "elo_50": {
+        "n": 419,
+        "aciertos": 208,
+        "porcentaje": 49.64,
+        "brier": 0.6354
+      }
+    }
+  },
+  "totales": {
+    "base": {
+      "n": 1519,
+      "aciertos": 738,
+      "porcentaje": 48.58
+    },
+    "elo_15": {
+      "n": 1519,
+      "aciertos": 737,
+      "porcentaje": 48.52
+    },
+    "elo_30": {
+      "n": 1519,
+      "aciertos": 738,
+      "porcentaje": 48.58
+    },
+    "elo_50": {
+      "n": 1519,
+      "aciertos": 739,
+      "porcentaje": 48.65
+    }
+  }
+}
