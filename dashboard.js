@@ -59,7 +59,7 @@ function qlStatEquipo(xs,nombre,titulo){
   '<div class="metric"><span>Portería a cero</span><b>'+qlPct(s.porterias0,s.pj)+'</b></div></div>';
 }
 function qlTablaPartidos(xs,max=8){
-  if(!xs.length)return '<p class="muted">No hay enfrentamientos registrados en esta temporada.</p>';
+  if(!xs.length)return '<p class="muted">No hay enfrentamientos registrados en el histórico disponible.</p>';
   return '<div style="overflow-x:auto"><table><thead><tr><th>Fecha</th><th>Local</th><th>Resultado</th><th>Visitante</th></tr></thead><tbody>'+
     xs.slice(0,max).map(x=>'<tr><td>'+esc(x.fecha)+'</td><td>'+esc(x.local)+'</td><td><strong>'+x.gl+' – '+x.gv+'</strong></td><td>'+esc(x.visitante)+'</td></tr>').join('')+'</tbody></table></div>';
 }
@@ -81,7 +81,7 @@ function qlDashboard(p,pr){
       '<div class="stat"><strong>'+esc(p.visitante)+'</strong><p>'+qlRacha(hist.visUlt,hist.visitante)+'</p><p class="small muted">Del más reciente al más antiguo</p></div></div>'+
       '<h3>Rendimiento en casa y fuera</h3><div class="grid">'+qlStatEquipo(hist.casa,hist.local,p.local+' · local')+
       qlStatEquipo(hist.fuera,hist.visitante,p.visitante+' · visitante')+'</div>'+
-      '<h3>Estadísticas de temporada</h3><div class="grid">'+qlStatEquipo(hist.localTodos,hist.local,p.local+' · total')+
+      '<h3>Estadísticas del histórico disponible</h3><div class="grid">'+qlStatEquipo(hist.localTodos,hist.local,p.local+' · total')+
       qlStatEquipo(hist.visTodos,hist.visitante,p.visitante+' · total')+'</div>'+
       '<h3>Enfrentamientos directos</h3><p class="muted small">'+hist.h2h.length+' enfrentamientos en las temporadas disponibles (actual y hasta tres anteriores). No equivale al historial completo entre ambos clubes.</p>'+
       qlTablaPartidos(hist.h2h)+
