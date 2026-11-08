@@ -11,6 +11,6 @@ for nombre, lid in (("SP1","l_0ErfuF"),("SP2","l_3kyHLd")):
             try:
                 shots=tiros_partido(str(matches[0]["id"]))
                 print(json.dumps({"liga":nombre,"campos_tiros":list(shots) if isinstance(shots,dict) else type(shots).__name__,
-                                  "tipo_tiros":type(shots).__name__},ensure_ascii=False))
+                                  "tipo_tiros":type(shots).__name__, "muestra_periodos":str(shots.get("periods",[]))[:1200]},ensure_ascii=False))
             except Exception as e:print(json.dumps({"liga":nombre,"error_tiros":str(e)}))
     except Exception as e:print(json.dumps({"liga":nombre,"error_partidos":str(e)}))
