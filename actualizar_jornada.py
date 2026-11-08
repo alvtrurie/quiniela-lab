@@ -164,7 +164,7 @@ def fuente_quiniprats(soup, numero):
 
 def coinciden(a, b):
     a, b = a['partidos'], b['partidos']
-    return all(clave(a[n][0]) == clave(b[n][0]) and clave(a[n][1]) == clave(b[n][1]) for n in range(1, 16))
+    return set(a) == set(b) == set(range(1, 16)) and all(clave(a[n][0]) == clave(b[n][0]) and clave(a[n][1]) == clave(b[n][1]) for n in range(1, 16))
 
 def main():
     ahora = datetime.now(timezone.utc).isoformat()
@@ -184,7 +184,7 @@ def main():
     actual = json.loads(JORNADA.read_text(encoding="utf-8"))
     actual_numero = int(actual.get("numero", 0))
     comunes = sorted(set(candidatos["quinielafutbol"]) & set(candidatos["quiniprats"]))
-    validos = [n for n in comunes if coinciden(candidatos["quinielafutbol"][n], candidatos["eduardolosilla"][n])]
+    validos = [n for n in comunes if coinciden(candidatos["quinielafutbol"][n], candidatos["quiniprats"][n])]
     # Nunca retroceder ni saltar jornadas, ni sobreescribir una jornada que no ha finalizado.
     siguiente = actual_numero + 1
     if siguiente in validos and date.fromisoformat(actual["fecha_fin"]) < date.today():
@@ -215,8 +215,8 @@ def main():
     else:
         diagnostico["motivo"] = "Sin coincidencia completa de 15 partidos para la jornada actual."
     diagnostico["jornadas_coincidentes"] = validos
-    diagnostico["fuente_independiente_actualizada"] = siguiente in candidatos["eduardolosilla"]
-    diagnostico["nota"] = "Sin coincidencia de dos fuentes no se publican jornadas nuevas. La página de horarios de Eduardo Losilla puede ofrecer una jornada antigua."
+    diagnostico["fuente_independiente_actualizada"] = siguiente in candidatos["quiniprats"]
+    diagnostico["nota"] = "Sin coincidencia de dos fuentes no se publican jornadas nuevas. QuiniPrats se consulta para la siguiente jornada."
     # No elevar un estado 'publicable' basándose solo en nombres y enlaces.
     ROOT.mkdir(exist_ok=True)
     (ROOT / "diagnostico_fuentes.json").write_text(json.dumps(diagnostico, ensure_ascii=False, indent=2)+"\n", encoding="utf-8")
