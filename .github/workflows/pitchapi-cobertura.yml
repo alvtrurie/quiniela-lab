@@ -1,0 +1,22 @@
+name: Verificar cobertura gratuita PitchAPI
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  cobertura:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Comprobar ligas y temporadas disponibles
+        env:
+          PITCHAPI_API_KEY: ${{ secrets.PITCHAPI_API_KEY }}
+        run: |
+          if [ -z "$PITCHAPI_API_KEY" ]; then
+            echo "::notice::Falta el secreto PITCHAPI_API_KEY. No se han realizado consultas."
+            exit 0
+          fi
+          python pitchapi_cliente.py --comprobar-cobertura
