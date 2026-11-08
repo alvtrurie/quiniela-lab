@@ -1,0 +1,29 @@
+name: Experimentos de mejora del modelo
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'experimento_modelo.py'
+      - '.github/workflows/experimento.yml'
+permissions:
+  contents: write
+jobs:
+  evaluar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Comparar modelos sin resultados futuros
+        run: python experimento_modelo.py
+      - name: Publicar informe
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/experimento_modelo_2025_26.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Resultados de experimentos de modelo 2025-26"
+            git pull --rebase origin main
+            git push
+          fi
