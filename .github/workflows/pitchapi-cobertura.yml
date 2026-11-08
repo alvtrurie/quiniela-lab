@@ -1,6 +1,9 @@
 name: Verificar cobertura gratuita PitchAPI
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/pitchapi-cobertura.yml'
 permissions:
   contents: read
 jobs:
