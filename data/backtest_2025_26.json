@@ -1,0 +1,98 @@
+{
+  "temporada": "2025/26",
+  "metodo": "Walk-forward por fecha; solo partidos anteriores; modelo Poisson sin recalibrar",
+  "alcance": "Partidos individuales de seis competiciones; NO jornadas oficiales de La Quiniela",
+  "min_partidos_entrenamiento": 40,
+  "min_partidos_por_equipo": 3,
+  "ligas": {
+    "SP1": {
+      "nombre": "Primera masculina",
+      "partidos_obtenidos": 380,
+      "omitidos": {
+        "sin_historico_suficiente": 40
+      },
+      "fuentes": "https://www.football-data.co.uk/mmz4281/2526/SP1.csv",
+      "resultado": {
+        "evaluados": 340,
+        "aciertos": 172,
+        "porcentaje": 50.59,
+        "brier": 0.5954,
+        "logloss": 0.9954,
+        "baseline_todos_1": 49.41,
+        "desde": "2025-09-15",
+        "hasta": "2026-05-24"
+      }
+    },
+    "SP2": {
+      "nombre": "Segunda masculina",
+      "partidos_obtenidos": 462,
+      "omitidos": {
+        "sin_historico_suficiente": 43
+      },
+      "fuentes": "https://www.football-data.co.uk/mmz4281/2526/SP2.csv",
+      "resultado": {
+        "evaluados": 419,
+        "aciertos": 208,
+        "porcentaje": 49.64,
+        "brier": 0.6364,
+        "logloss": 1.0567,
+        "baseline_todos_1": 45.58,
+        "desde": "2025-09-08",
+        "hasta": "2026-05-31"
+      }
+    },
+    "LIGAF": {
+      "nombre": "Liga F",
+      "partidos_obtenidos": 0,
+      "omitidos": {},
+      "fuentes": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.w.1/scoreboard?dates=2025&limit=500",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.w.1/scoreboard?dates=2026&limit=500"
+      ],
+      "resultado": {
+        "evaluados": 0
+      }
+    },
+    "UCL": {
+      "nombre": "Champions League",
+      "partidos_obtenidos": 0,
+      "omitidos": {},
+      "fuentes": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=2025&limit=500",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=2026&limit=500"
+      ],
+      "resultado": {
+        "evaluados": 0
+      }
+    },
+    "UEL": {
+      "nombre": "Europa League",
+      "partidos_obtenidos": 0,
+      "omitidos": {},
+      "fuentes": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=2025&limit=500",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=2026&limit=500"
+      ],
+      "resultado": {
+        "evaluados": 0
+      }
+    },
+    "UECL": {
+      "nombre": "Conference League",
+      "partidos_obtenidos": 0,
+      "omitidos": {},
+      "fuentes": [
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard?dates=2025&limit=500",
+        "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard?dates=2026&limit=500"
+      ],
+      "resultado": {
+        "evaluados": 0
+      }
+    }
+  },
+  "total": {
+    "evaluados": 759,
+    "aciertos": 380,
+    "porcentaje": 50.07
+  }
+}
