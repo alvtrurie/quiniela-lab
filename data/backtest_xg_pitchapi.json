@@ -14,7 +14,29 @@
           "precision": 48.33,
           "brier": 0.6192,
           "logloss": 1.0288,
-          "empates_elegidos": 0
+          "empates_elegidos": 0,
+          "empates_reales": 15,
+          "probabilidad_empate_media": 0.2445,
+          "politicas": {
+            "1.0": {
+              "aciertos": 29,
+              "x_elegidas": 0,
+              "x_acertadas": 0,
+              "precision": 48.33
+            },
+            "0.9": {
+              "aciertos": 28,
+              "x_elegidas": 1,
+              "x_acertadas": 0,
+              "precision": 46.67
+            },
+            "0.8": {
+              "aciertos": 29,
+              "x_elegidas": 2,
+              "x_acertadas": 1,
+              "precision": 48.33
+            }
+          }
         },
         "0.5": {
           "n": 60,
@@ -22,7 +44,29 @@
           "precision": 50.0,
           "brier": 0.6114,
           "logloss": 1.0173,
-          "empates_elegidos": 0
+          "empates_elegidos": 0,
+          "empates_reales": 15,
+          "probabilidad_empate_media": 0.2497,
+          "politicas": {
+            "1.0": {
+              "aciertos": 30,
+              "x_elegidas": 0,
+              "x_acertadas": 0,
+              "precision": 50.0
+            },
+            "0.9": {
+              "aciertos": 30,
+              "x_elegidas": 0,
+              "x_acertadas": 0,
+              "precision": 50.0
+            },
+            "0.8": {
+              "aciertos": 30,
+              "x_elegidas": 0,
+              "x_acertadas": 0,
+              "precision": 50.0
+            }
+          }
         },
         "1.0": {
           "n": 60,
@@ -30,7 +74,29 @@
           "precision": 55.0,
           "brier": 0.61,
           "logloss": 1.0158,
-          "empates_elegidos": 0
+          "empates_elegidos": 0,
+          "empates_reales": 15,
+          "probabilidad_empate_media": 0.2539,
+          "politicas": {
+            "1.0": {
+              "aciertos": 33,
+              "x_elegidas": 0,
+              "x_acertadas": 0,
+              "precision": 55.0
+            },
+            "0.9": {
+              "aciertos": 33,
+              "x_elegidas": 0,
+              "x_acertadas": 0,
+              "precision": 55.0
+            },
+            "0.8": {
+              "aciertos": 33,
+              "x_elegidas": 2,
+              "x_acertadas": 1,
+              "precision": 55.0
+            }
+          }
         }
       }
     },
@@ -44,7 +110,29 @@
           "precision": 38.6,
           "brier": 0.709,
           "logloss": 1.156,
-          "empates_elegidos": 0
+          "empates_elegidos": 0,
+          "empates_reales": 16,
+          "probabilidad_empate_media": 0.2502,
+          "politicas": {
+            "1.0": {
+              "aciertos": 22,
+              "x_elegidas": 0,
+              "x_acertadas": 0,
+              "precision": 38.6
+            },
+            "0.9": {
+              "aciertos": 22,
+              "x_elegidas": 0,
+              "x_acertadas": 0,
+              "precision": 38.6
+            },
+            "0.8": {
+              "aciertos": 22,
+              "x_elegidas": 0,
+              "x_acertadas": 0,
+              "precision": 38.6
+            }
+          }
         },
         "0.5": {
           "n": 57,
@@ -52,7 +140,29 @@
           "precision": 47.37,
           "brier": 0.6828,
           "logloss": 1.1215,
-          "empates_elegidos": 0
+          "empates_elegidos": 0,
+          "empates_reales": 16,
+          "probabilidad_empate_media": 0.2559,
+          "politicas": {
+            "1.0": {
+              "aciertos": 27,
+              "x_elegidas": 0,
+              "x_acertadas": 0,
+              "precision": 47.37
+            },
+            "0.9": {
+              "aciertos": 27,
+              "x_elegidas": 0,
+              "x_acertadas": 0,
+              "precision": 47.37
+            },
+            "0.8": {
+              "aciertos": 27,
+              "x_elegidas": 0,
+              "x_acertadas": 0,
+              "precision": 47.37
+            }
+          }
         },
         "1.0": {
           "n": 57,
@@ -60,7 +170,29 @@
           "precision": 47.37,
           "brier": 0.6606,
           "logloss": 1.0922,
-          "empates_elegidos": 0
+          "empates_elegidos": 0,
+          "empates_reales": 16,
+          "probabilidad_empate_media": 0.2613,
+          "politicas": {
+            "1.0": {
+              "aciertos": 27,
+              "x_elegidas": 0,
+              "x_acertadas": 0,
+              "precision": 47.37
+            },
+            "0.9": {
+              "aciertos": 27,
+              "x_elegidas": 0,
+              "x_acertadas": 0,
+              "precision": 47.37
+            },
+            "0.8": {
+              "aciertos": 26,
+              "x_elegidas": 1,
+              "x_acertadas": 0,
+              "precision": 45.61
+            }
+          }
         }
       }
     }
