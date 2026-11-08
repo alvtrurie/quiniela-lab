@@ -1,0 +1,33 @@
+name: Backtest PitchAPI xG vs Poisson
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'backtest_xg_pitchapi.py'
+      - '.github/workflows/backtest-xg.yml'
+permissions:
+  contents: write
+jobs:
+  evaluar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      PITCHAPI_API_KEY: ${{ secrets.PITCHAPI_API_KEY }}
+      MAX_PARTIDOS_XG: '160'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Comparar Poisson y xG prepartido
+        run: python backtest_xg_pitchapi.py
+      - name: Publicar métricas
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/backtest_xg_pitchapi.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Publicar métricas de backtest xG PitchAPI"
+            git pull --rebase origin main
+            git push
+          fi
