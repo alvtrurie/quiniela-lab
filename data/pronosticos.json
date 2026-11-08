@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-11-08T17:24:05.690290+00:00",
-  "modelo": "Poisson con fuerzas local/visitante y suavizado",
+  "actualizado": "2026-11-08T18:21:10.331454+00:00",
+  "modelo": "Poisson con xG PitchAPI cuando disponible y fallback de goles reales",
   "fuente": "football-data.co.uk",
   "competiciones": {
     "SP1": [
@@ -68104,6 +68104,16 @@
       "ok": true,
       "partidos": 54,
       "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard?dates=2026&limit=500"
+    }
+  },
+  "cobertura_xg": {
+    "SP1": {
+      "partidos_con_xg": 0,
+      "partidos_totales": 109
+    },
+    "SP2": {
+      "partidos_con_xg": 0,
+      "partidos_totales": 131
     }
   }
 }
