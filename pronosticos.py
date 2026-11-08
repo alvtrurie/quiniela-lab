@@ -24,7 +24,7 @@ def probabilidades(goles_local, goles_visitante):
     total = p1 + px + p2
     return [round(100 * x / total, 2) for x in (p1, px, p2)]
 
-def calcular_liga(partidos, min_partidos_equipo=0, objetivos=None):
+def calcular_liga(partidos, min_partidos_equipo=0, objetivos=None, pesos=None, empate_extra=0.0):
     jugados = [p for p in partidos if p.get("resultado") in ("H", "D", "A")]
     if not jugados:
         return []
@@ -35,10 +35,17 @@ def calcular_liga(partidos, min_partidos_equipo=0, objetivos=None):
         p["visitante"] for p in jugados
     ))
 
-    goles_casa = sum(int(p["goles_local"]) for p in jugados)
-    goles_fuera = sum(int(p["goles_visitante"]) for p in jugados)
-    media_casa = max(0.1, goles_casa / len(jugados))
-    media_fuera = max(0.1, goles_fuera / len(jugados))
+    if pesos is None:
+        pesos = [1.0] * len(jugados)
+    if len(pesos) != len(jugados):
+        raise ValueError("Pesos y partidos deben coincidir")
+    suma_pesos = sum(pesos)
+    if suma_pesos <= 0:
+        raise ValueError("Pesos inválidos")
+    goles_casa = sum(float(w) * int(p["goles_local"]) for p,w in zip(jugados,pesos))
+    goles_fuera = sum(float(w) * int(p["goles_visitante"]) for p,w in zip(jugados,pesos))
+    media_casa = max(0.1, goles_casa / suma_pesos)
+    media_fuera = max(0.1, goles_fuera / suma_pesos)
 
     stats = {
         equipo: {
@@ -49,18 +56,18 @@ def calcular_liga(partidos, min_partidos_equipo=0, objetivos=None):
         for equipo in equipos
     }
 
-    for p in jugados:
+    for p, w in zip(jugados, pesos):
         local = stats[p["local"]]
         fuera = stats[p["visitante"]]
         gl = int(p["goles_local"])
         gv = int(p["goles_visitante"])
 
-        local["pj_casa"] += 1
-        local["gf_casa"] += gl
-        local["gc_casa"] += gv
-        fuera["pj_fuera"] += 1
-        fuera["gf_fuera"] += gv
-        fuera["gc_fuera"] += gl
+        local["pj_casa"] += w
+        local["gf_casa"] += w * gl
+        local["gc_casa"] += w * gv
+        fuera["pj_fuera"] += w
+        fuera["gf_fuera"] += w * gv
+        fuera["gc_fuera"] += w * gl
 
     def ratio(goles, partidos, media):
         # Suavizado para evitar estimaciones extremas con pocos partidos
@@ -87,6 +94,11 @@ def calcular_liga(partidos, min_partidos_equipo=0, objetivos=None):
             esperados_visitante = max(0.1, min(5, media_fuera * ataque_visitante * defensa_local))
 
             porcentajes = probabilidades(esperados_local, esperados_visitante)
+            if empate_extra:
+                p = [v / 100 for v in porcentajes]
+                p[1] = max(0.01, min(0.90, p[1] + empate_extra))
+                escala = (1 - p[1]) / (p[0] + p[2])
+                porcentajes = [round(p[0] * escala * 100, 2), round(p[1] * 100, 2), round(p[2] * escala * 100, 2)]
             signos = ["1", "X", "2"]
             mejor = signos[max(range(3), key=lambda i: porcentajes[i])]
 
