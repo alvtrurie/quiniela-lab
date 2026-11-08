@@ -42,9 +42,9 @@ def validar(j):
     except (KeyError, ValueError, TypeError):
         problemas.append("Fechas no válidas")
     fuentes = j.get("fuentes") or []
-    if len(set(fuentes)) < 2 or not all(isinstance(s, str) and s.startswith("https://") for s in fuentes):
-        problemas.append("Faltan dos referencias independientes verificables")
-    # Las referencias son una condición necesaria, NO prueban por sí solas la coincidencia.
+    if not fuentes or not all(isinstance(s, str) and s.startswith("https://") for s in fuentes):
+        problemas.append("Falta una referencia de origen verificable")
+    # Una URL acredita el origen declarado, no prueba por sí sola la exactitud del calendario.
     return problemas
 
 def main():
@@ -59,7 +59,7 @@ def main():
         "numero": jornada.get("numero"),
         "publicable": not problemas,
         "motivos": problemas,
-        "nota": "Verificación estructural. La coincidencia de los partidos con fuentes oficiales requiere comprobación independiente."
+        "nota": "Verificación estructural. QuinielaFutbol es la fuente principal; QuiniPrats solo actúa como respaldo ante errores de acceso."
     }
     ESTADO.parent.mkdir(parents=True, exist_ok=True)
     ESTADO.write_text(json.dumps(estado, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
