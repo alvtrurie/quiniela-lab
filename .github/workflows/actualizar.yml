@@ -12,6 +12,10 @@ on:
   schedule:
     - cron: '15 7 * * *'
 
+concurrency:
+  group: quiniela-lab-actualizacion
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -89,5 +93,11 @@ jobs:
           git add data/estadisticas.json data/pronosticos.json data/estado_jornada.json data/diagnostico_fuentes.json data/jornada_actual.json
           if ! git diff --cached --quiet; then
             git commit -m "Actualizar estadísticas de fútbol"
-            git push
+            for intento in 1 2 3; do
+              git fetch origin main
+              git rebase -X theirs origin/main
+              if git push origin HEAD:main; then break; fi
+              if [ "$intento" -eq 3 ]; then exit 1; fi
+              sleep 2
+            done
           fi
