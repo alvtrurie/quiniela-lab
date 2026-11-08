@@ -19,7 +19,7 @@ def datos(liga,temporada):
             d=datetime.strptime(r["Date"],"%d/%m/%Y").date().isoformat()
             h,a=int(r["FTHG"]),int(r["FTAG"])
             rows.append({"fecha":d,"local":r["HomeTeam"].strip(),"visitante":r["AwayTeam"].strip(),
-                "goles_local":h,"goles_visitante":a,"resultado":"1" if h>a else "X" if h==a else "2"})
+                "goles_local":h,"goles_visitante":a,"resultado":"H" if h>a else "D" if h==a else "A"})
         except (KeyError,ValueError,TypeError):continue
     return sorted(rows,key=lambda x:x["fecha"])
 
@@ -68,7 +68,7 @@ def evaluar(liga,temporada):
     # ventanas no son jornadas oficiales; la agrupación se realiza a posteriori.
     for i in range(0,len(pendientes)-13,14):
         bloque=pendientes[i:i+14]
-        reales="".join(g["resultado"] for g,_ in bloque)
+        reales="".join({"H":"1","D":"X","A":"2"}[g["resultado"]] for g,_ in bloque)
         ps=[p for _,p in bloque]
         res={"reales":reales,"empates":reales.count("X")}
         for presupuesto,limite in ((3,4),(6,8),(10,13)):
