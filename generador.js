@@ -95,13 +95,12 @@ function renderRadar() {
     ["1","X","2"].map(s=>'<option value="'+s+'" '+(qlManual[f.partido.posicion]===s?'selected':'')+'>'+s+'</option>').join('')+'</select>')+
     '<p class="muted small">'+esc(qlExplicacion(f))+'</p></div>').join('')+'</div>'+
     '<div class="row"><button class="primary" id="ql-generate" '+(faltan?'disabled':'')+'>Generar hasta '+max+' columnas</button>'+
-    '<button id="ql-autofill">Preparar signos más probables</button></div>'+
+    '</div>'+
     '<p class="small muted">Los dobles y triples se representan repartiendo signos entre columnas distintas. No se crean apuestas múltiples oficiales ni reducciones garantizadas.</p></div>'+
     '<div class="panel" id="ql-output"><h3>Columnas propuestas</h3><p class="muted">Completa los partidos sin modelo y pulsa Generar.</p></div>';
   document.getElementById("ql-budget").onchange=e=>{qlPresupuesto=Number(e.target.value);qlUltimo=[];renderRadar();};
   document.getElementById("ql-mode").onchange=e=>{qlModo=e.target.value;qlUltimo=[];renderRadar();};
   document.querySelectorAll("[data-ql-manual]").forEach(s=>s.onchange=()=>{if(s.value)qlManual[+s.dataset.qlManual]=s.value;else delete qlManual[+s.dataset.qlManual];qlUltimo=[];renderRadar();});
-  document.getElementById("ql-autofill").onclick=()=>{for(const f of filas)if(f.estimada){}else if(!qlManual[f.partido.posicion])qlManual[f.partido.posicion]="X";qlUltimo=[];renderRadar();};
   document.getElementById("ql-generate").onclick=()=>{
     qlUltimo=qlMotor(qlCobertura(),qlPresupuesto,qlModo);
     const coste=(qlUltimo.length*QL_PRECIO).toFixed(2).replace(".",",");
