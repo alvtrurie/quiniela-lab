@@ -65,11 +65,13 @@ jobs:
       # Consulta oficial desactivada temporalmente: HTTP 403
       # - name: Consultar jornadas oficiales
       #   run: python jornadas.py
+      - name: Validar jornada sin publicar datos dudosos
+        run: python validar_jornada.py
       - name: Guardar datos actualizados
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/estadisticas.json data/pronosticos.json
+          git add data/estadisticas.json data/pronosticos.json data/estado_jornada.json
           if ! git diff --cached --quiet; then
             git commit -m "Actualizar estadísticas de fútbol"
             git push
