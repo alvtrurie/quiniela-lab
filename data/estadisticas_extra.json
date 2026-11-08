@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-08T17:15:23.008761+00:00",
+  "actualizado": "2026-11-08T17:15:51.171921+00:00",
   "fuente": "ESPN scoreboard, resultados públicos no oficiales",
   "competiciones": {
     "LIGAF": [
@@ -3447,19 +3447,19 @@
       "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.w.1/scoreboard?dates=2026&limit=500"
     },
     "UCL": {
-      "ok": true,
+      "ok": false,
       "partidos": 72,
-      "url": "https://raw.githubusercontent.com/oladeeayo/open-matchday/master/data/UEFA_1_champions-league/results_2627.csv"
+      "error": "name 'obtener_uefa' is not defined"
     },
     "UEL": {
-      "ok": true,
+      "ok": false,
       "partidos": 72,
-      "url": "https://raw.githubusercontent.com/oladeeayo/open-matchday/master/data/UEFA_1_europa-league/results_2627.csv"
+      "error": "name 'obtener_uefa' is not defined"
     },
     "UECL": {
-      "ok": true,
+      "ok": false,
       "partidos": 54,
-      "url": "https://raw.githubusercontent.com/oladeeayo/open-matchday/master/data/UEFA_1_conference-league/results_2627.csv"
+      "error": "name 'obtener_uefa' is not defined"
     }
   }
 }
