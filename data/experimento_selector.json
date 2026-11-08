@@ -1,5 +1,210 @@
 {
   "advertencia": "Bloques artificiales de 14 partidos; NO jornadas oficiales ni premios reales.",
   "metodo": "Predicciones Poisson previas a cada partido, comparación de selección de columnas",
-  "resultados": {}
+  "resultados": {
+    "2425_SP1": {
+      "bloques": 24,
+      "empates_reales_promedio": 3.42,
+      "probabilidad_3": {
+        "mejor_media": 7.625,
+        "empates_columna_media": 0.427,
+        "bloques_10_o_mas": 5
+      },
+      "diversidad_3": {
+        "mejor_media": 7.5,
+        "empates_columna_media": 0.531,
+        "bloques_10_o_mas": 3
+      },
+      "probabilidad_6": {
+        "mejor_media": 7.75,
+        "empates_columna_media": 0.474,
+        "bloques_10_o_mas": 6
+      },
+      "diversidad_6": {
+        "mejor_media": 7.958,
+        "empates_columna_media": 0.568,
+        "bloques_10_o_mas": 6
+      },
+      "probabilidad_10": {
+        "mejor_media": 8.167,
+        "empates_columna_media": 0.574,
+        "bloques_10_o_mas": 8
+      },
+      "diversidad_10": {
+        "mejor_media": 8.167,
+        "empates_columna_media": 0.596,
+        "bloques_10_o_mas": 8
+      }
+    },
+    "2425_SP2": {
+      "bloques": 30,
+      "empates_reales_promedio": 3.83,
+      "probabilidad_3": {
+        "mejor_media": 7.033,
+        "empates_columna_media": 0.267,
+        "bloques_10_o_mas": 1
+      },
+      "diversidad_3": {
+        "mejor_media": 7.033,
+        "empates_columna_media": 0.45,
+        "bloques_10_o_mas": 2
+      },
+      "probabilidad_6": {
+        "mejor_media": 7.333,
+        "empates_columna_media": 0.354,
+        "bloques_10_o_mas": 2
+      },
+      "diversidad_6": {
+        "mejor_media": 7.367,
+        "empates_columna_media": 0.487,
+        "bloques_10_o_mas": 2
+      },
+      "probabilidad_10": {
+        "mejor_media": 7.533,
+        "empates_columna_media": 0.436,
+        "bloques_10_o_mas": 3
+      },
+      "diversidad_10": {
+        "mejor_media": 7.5,
+        "empates_columna_media": 0.536,
+        "bloques_10_o_mas": 2
+      }
+    },
+    "2526_SP1": {
+      "bloques": 24,
+      "empates_reales_promedio": 3.38,
+      "probabilidad_3": {
+        "mejor_media": 7.667,
+        "empates_columna_media": 0.24,
+        "bloques_10_o_mas": 2
+      },
+      "diversidad_3": {
+        "mejor_media": 7.667,
+        "empates_columna_media": 0.302,
+        "bloques_10_o_mas": 2
+      },
+      "probabilidad_6": {
+        "mejor_media": 8.042,
+        "empates_columna_media": 0.339,
+        "bloques_10_o_mas": 3
+      },
+      "diversidad_6": {
+        "mejor_media": 8.125,
+        "empates_columna_media": 0.385,
+        "bloques_10_o_mas": 3
+      },
+      "probabilidad_10": {
+        "mejor_media": 8.375,
+        "empates_columna_media": 0.42,
+        "bloques_10_o_mas": 5
+      },
+      "diversidad_10": {
+        "mejor_media": 8.375,
+        "empates_columna_media": 0.436,
+        "bloques_10_o_mas": 4
+      }
+    },
+    "2526_SP2": {
+      "bloques": 29,
+      "empates_reales_promedio": 3.38,
+      "probabilidad_3": {
+        "mejor_media": 7.345,
+        "empates_columna_media": 0.103,
+        "bloques_10_o_mas": 4
+      },
+      "diversidad_3": {
+        "mejor_media": 7.345,
+        "empates_columna_media": 0.241,
+        "bloques_10_o_mas": 3
+      },
+      "probabilidad_6": {
+        "mejor_media": 7.759,
+        "empates_columna_media": 0.203,
+        "bloques_10_o_mas": 6
+      },
+      "diversidad_6": {
+        "mejor_media": 7.759,
+        "empates_columna_media": 0.272,
+        "bloques_10_o_mas": 4
+      },
+      "probabilidad_10": {
+        "mejor_media": 7.966,
+        "empates_columna_media": 0.276,
+        "bloques_10_o_mas": 7
+      },
+      "diversidad_10": {
+        "mejor_media": 8.0,
+        "empates_columna_media": 0.35,
+        "bloques_10_o_mas": 7
+      }
+    },
+    "2627_SP1": {
+      "bloques": 4,
+      "empates_reales_promedio": 4.0,
+      "probabilidad_3": {
+        "mejor_media": 8.25,
+        "empates_columna_media": 0.0,
+        "bloques_10_o_mas": 1
+      },
+      "diversidad_3": {
+        "mejor_media": 8.0,
+        "empates_columna_media": 0.0,
+        "bloques_10_o_mas": 1
+      },
+      "probabilidad_6": {
+        "mejor_media": 8.5,
+        "empates_columna_media": 0.0,
+        "bloques_10_o_mas": 1
+      },
+      "diversidad_6": {
+        "mejor_media": 8.5,
+        "empates_columna_media": 0.0,
+        "bloques_10_o_mas": 1
+      },
+      "probabilidad_10": {
+        "mejor_media": 8.75,
+        "empates_columna_media": 0.154,
+        "bloques_10_o_mas": 2
+      },
+      "diversidad_10": {
+        "mejor_media": 8.75,
+        "empates_columna_media": 0.154,
+        "bloques_10_o_mas": 2
+      }
+    },
+    "2627_SP2": {
+      "bloques": 6,
+      "empates_reales_promedio": 2.67,
+      "probabilidad_3": {
+        "mejor_media": 6.167,
+        "empates_columna_media": 0.583,
+        "bloques_10_o_mas": 0
+      },
+      "diversidad_3": {
+        "mejor_media": 6.167,
+        "empates_columna_media": 0.625,
+        "bloques_10_o_mas": 0
+      },
+      "probabilidad_6": {
+        "mejor_media": 6.5,
+        "empates_columna_media": 0.604,
+        "bloques_10_o_mas": 0
+      },
+      "diversidad_6": {
+        "mejor_media": 6.667,
+        "empates_columna_media": 0.646,
+        "bloques_10_o_mas": 0
+      },
+      "probabilidad_10": {
+        "mejor_media": 7.0,
+        "empates_columna_media": 0.615,
+        "bloques_10_o_mas": 0
+      },
+      "diversidad_10": {
+        "mejor_media": 6.833,
+        "empates_columna_media": 0.692,
+        "bloques_10_o_mas": 0
+      }
+    }
+  }
 }
