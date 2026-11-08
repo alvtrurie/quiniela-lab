@@ -11,6 +11,7 @@ on:
       - 'test_estadisticas_extra.py'
       - 'pronosticos.py'
       - 'actualizar_xg.py'
+      - 'actualizar_historico.py'
       - '.github/workflows/actualizar.yml'
   workflow_dispatch:
   schedule:
@@ -92,6 +93,8 @@ jobs:
           else
             echo "Sin clave PitchAPI; se conservan los datos anteriores"
           fi
+      - name: Descargar histórico de enfrentamientos
+        run: python actualizar_historico.py
       - name: Calcular pronósticos
         run: python pronosticos.py
       # Consulta oficial desactivada temporalmente: HTTP 403
@@ -106,7 +109,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           if [ -f data/xg_pitchapi.json ]; then git add data/xg_pitchapi.json; fi
-          git add data/estadisticas.json data/estadisticas_extra.json data/pronosticos.json data/estado_jornada.json data/diagnostico_fuentes.json data/jornada_actual.json
+          git add data/historico.json data/estadisticas.json data/estadisticas_extra.json data/pronosticos.json data/estado_jornada.json data/diagnostico_fuentes.json data/jornada_actual.json
           if ! git diff --cached --quiet; then
             git commit -m "Actualizar estadísticas de fútbol"
             for intento in 1 2 3; do
