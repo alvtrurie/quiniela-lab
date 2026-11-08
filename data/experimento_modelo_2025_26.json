@@ -1,0 +1,146 @@
+{
+  "metodo": "Walk-forward por fecha, 2025/26, sin partidos futuros",
+  "nota": "Experimentos exploratorios en misma temporada; no evidencia fuera de muestra para elegir hiperparámetros",
+  "variantes": {
+    "base": {
+      "ligas": {
+        "SP1": {
+          "evaluados": 340,
+          "aciertos": 172,
+          "porcentaje": 50.59,
+          "brier": 0.5954
+        },
+        "SP2": {
+          "evaluados": 419,
+          "aciertos": 208,
+          "porcentaje": 49.64,
+          "brier": 0.6364
+        }
+      },
+      "evaluados": 759,
+      "aciertos": 380,
+      "porcentaje": 50.07,
+      "brier": 0.618
+    },
+    "recencia_90d": {
+      "ligas": {
+        "SP1": {
+          "evaluados": 340,
+          "aciertos": 173,
+          "porcentaje": 50.88,
+          "brier": 0.5987
+        },
+        "SP2": {
+          "evaluados": 419,
+          "aciertos": 202,
+          "porcentaje": 48.21,
+          "brier": 0.6376
+        }
+      },
+      "evaluados": 759,
+      "aciertos": 375,
+      "porcentaje": 49.41,
+      "brier": 0.6202
+    },
+    "recencia_180d": {
+      "ligas": {
+        "SP1": {
+          "evaluados": 340,
+          "aciertos": 170,
+          "porcentaje": 50.0,
+          "brier": 0.5964
+        },
+        "SP2": {
+          "evaluados": 419,
+          "aciertos": 203,
+          "porcentaje": 48.45,
+          "brier": 0.6366
+        }
+      },
+      "evaluados": 759,
+      "aciertos": 373,
+      "porcentaje": 49.14,
+      "brier": 0.6186
+    },
+    "empate_mas_3pp": {
+      "ligas": {
+        "SP1": {
+          "evaluados": 340,
+          "aciertos": 169,
+          "porcentaje": 49.71,
+          "brier": 0.5975
+        },
+        "SP2": {
+          "evaluados": 419,
+          "aciertos": 207,
+          "porcentaje": 49.4,
+          "brier": 0.6392
+        }
+      },
+      "evaluados": 759,
+      "aciertos": 376,
+      "porcentaje": 49.54,
+      "brier": 0.6205
+    },
+    "empate_menos_3pp": {
+      "ligas": {
+        "SP1": {
+          "evaluados": 340,
+          "aciertos": 171,
+          "porcentaje": 50.29,
+          "brier": 0.5962
+        },
+        "SP2": {
+          "evaluados": 419,
+          "aciertos": 207,
+          "porcentaje": 49.4,
+          "brier": 0.6363
+        }
+      },
+      "evaluados": 759,
+      "aciertos": 378,
+      "porcentaje": 49.8,
+      "brier": 0.6183
+    },
+    "recencia_180d_empate_mas_3pp": {
+      "ligas": {
+        "SP1": {
+          "evaluados": 340,
+          "aciertos": 169,
+          "porcentaje": 49.71,
+          "brier": 0.5988
+        },
+        "SP2": {
+          "evaluados": 419,
+          "aciertos": 202,
+          "porcentaje": 48.21,
+          "brier": 0.6395
+        }
+      },
+      "evaluados": 759,
+      "aciertos": 371,
+      "porcentaje": 48.88,
+      "brier": 0.6213
+    },
+    "recencia_180d_empate_menos_3pp": {
+      "ligas": {
+        "SP1": {
+          "evaluados": 340,
+          "aciertos": 169,
+          "porcentaje": 49.71,
+          "brier": 0.5969
+        },
+        "SP2": {
+          "evaluados": 419,
+          "aciertos": 202,
+          "porcentaje": 48.21,
+          "brier": 0.6364
+        }
+      },
+      "evaluados": 759,
+      "aciertos": 371,
+      "porcentaje": 48.88,
+      "brier": 0.6187
+    }
+  }
+}
