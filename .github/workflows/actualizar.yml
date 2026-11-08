@@ -10,6 +10,7 @@ on:
       - 'estadisticas_extra.py'
       - 'test_estadisticas_extra.py'
       - 'pronosticos.py'
+      - 'actualizar_xg.py'
       - '.github/workflows/actualizar.yml'
   workflow_dispatch:
   schedule:
@@ -82,6 +83,15 @@ jobs:
           PY
       - name: Descargar resultados complementarios (Liga F y UEFA)
         run: python estadisticas_extra.py
+      - name: Actualizar xG PitchAPI con caché
+        env:
+          PITCHAPI_API_KEY: ${{ secrets.PITCHAPI_API_KEY }}
+        run: |
+          if [ -n "$PITCHAPI_API_KEY" ]; then
+            python actualizar_xg.py
+          else
+            echo "Sin clave PitchAPI; se conservan los datos anteriores"
+          fi
       - name: Calcular pronósticos
         run: python pronosticos.py
       # Consulta oficial desactivada temporalmente: HTTP 403
@@ -95,7 +105,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/estadisticas.json data/estadisticas_extra.json data/pronosticos.json data/estado_jornada.json data/diagnostico_fuentes.json data/jornada_actual.json
+          git add data/xg_pitchapi.json data/estadisticas.json data/estadisticas_extra.json data/pronosticos.json data/estado_jornada.json data/diagnostico_fuentes.json data/jornada_actual.json
           if ! git diff --cached --quiet; then
             git commit -m "Actualizar estadísticas de fútbol"
             for intento in 1 2 3; do
