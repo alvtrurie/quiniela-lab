@@ -14,7 +14,7 @@ JORNADA = ROOT / "jornada_actual.json"
 ESTADO = ROOT / "estado_jornada.json"
 SEASON = "2026-27"
 SOURCE_A = "https://www.quinielafutbol.info/proximas-jornadas-de-la-quiniela.html"
-SOURCE_B = "https://www.eduardolosilla.es/quiniela/ayudas/horarios"
+SOURCE_B = "https://quiniprats.com/es/quiniela/2026-27/jornada/{numero}"
 
 def descargar(url):
     request = urllib.request.Request(url, headers={
@@ -110,6 +110,42 @@ def fuente_losilla(soup):
             return {numero: {'partidos': partidos, 'fechas': fechas_tabla(tabla)}}
     return {}
 
+def fuente_quiniprats(soup, numero):
+    """Extrae tarjetas #1 ... #15; evita confundir iniciales de escudos con equipos."""
+    titulo = soup.find(string=re.compile(r"Quiniela\s*[—-]\s*Jornada\s+" + str(numero) + r"\b", re.I))
+    if titulo is None:
+        return {}
+    # Los equipos son nombres legibles junto a cada número. La hora queda entre ambos.
+    texto = soup.get_text("\n", strip=True)
+    bloques = re.split(r"(?m)^#(1[0-5]|[1-9])\s*$", texto)
+    partidos = {}
+    for i in range(1, len(bloques)-1, 2):
+        n = int(bloques[i])
+        lineas = [x.strip() for x in bloques[i+1].splitlines() if x.strip()]
+        lineas = [x for x in lineas if not re.search(r"^(Pleno al 15|Image:|[A-Z])$", x)]
+        if n == 15 and lineas and lineas[0].casefold() == "pleno al 15":
+            lineas.pop(0)
+        fecha_idx = next((k for k, x in enumerate(lineas) if re.search(r"\b(?:lun|mar|mié|mie|jue|vie|sáb|sab|dom)\b.*\d{1,2}:\d{2}", x, re.I)), None)
+        if fecha_idx is None or fecha_idx < 1 or fecha_idx + 1 >= len(lineas):
+            continue
+        local, visitante = lineas[fecha_idx-1], lineas[fecha_idx+1]
+        if local and visitante and len(local) > 1 and len(visitante) > 1:
+            partidos[n] = (local, visitante)
+    if set(partidos) != set(range(1, 16)):
+        return {}
+    # Las fechas se extraen del resumen, no de horas susceptibles a diferencias de huso.
+    meses = {"enero":1,"febrero":2,"marzo":3,"abril":4,"mayo":5,"junio":6,
+             "julio":7,"agosto":8,"septiembre":9,"octubre":10,"noviembre":11,"diciembre":12}
+    fechas = None
+    m = re.search(r"entre el (\d{1,2}) (\w+) y el (\d{1,2}) (\w+)", texto, re.I)
+    if m and m.group(2).lower() in meses and m.group(4).lower() in meses:
+        year = 2026 if meses[m.group(2).lower()] >= 8 else 2027
+        inicio = date(year, meses[m.group(2).lower()], int(m.group(1)))
+        fin_year = year + (meses[m.group(4).lower()] < meses[m.group(2).lower()])
+        fin = date(fin_year, meses[m.group(4).lower()], int(m.group(3)))
+        fechas = (inicio, fin)
+    return {numero: {"partidos": partidos, "fechas": fechas}}
+
 def coinciden(a, b):
     a, b = a['partidos'], b['partidos']
     return all(clave(a[n][0]) == clave(b[n][0]) and clave(a[n][1]) == clave(b[n][1]) for n in range(1, 16))
@@ -120,10 +156,10 @@ def main():
     candidatos = {}
     for nombre, url, extractor in [
         ("quinielafutbol", SOURCE_A, fuente_quinielafutbol),
-        ("eduardolosilla", SOURCE_B, fuente_losilla),
+        ("quiniprats", SOURCE_B.format(numero=int(json.loads(JORNADA.read_text(encoding="utf-8")).get("numero", 0)) + 1), None),
     ]:
         try:
-            parsed = extractor(descargar(url))
+            parsed = (fuente_quiniprats(descargar(url), int(json.loads(JORNADA.read_text(encoding="utf-8")).get("numero", 0)) + 1) if extractor is None else extractor(descargar(url)))
             diagnostico["fuentes"][nombre] = {"url": url, "accesible": True, "jornadas_completas": sorted(parsed)}
             candidatos[nombre] = parsed
         except Exception as exc:
@@ -131,7 +167,7 @@ def main():
             candidatos[nombre] = {}
     actual = json.loads(JORNADA.read_text(encoding="utf-8"))
     actual_numero = int(actual.get("numero", 0))
-    comunes = sorted(set(candidatos["quinielafutbol"]) & set(candidatos["eduardolosilla"]))
+    comunes = sorted(set(candidatos["quinielafutbol"]) & set(candidatos["quiniprats"]))
     validos = [n for n in comunes if coinciden(candidatos["quinielafutbol"][n], candidatos["eduardolosilla"][n])]
     # Nunca retroceder ni saltar jornadas, ni sobreescribir una jornada que no ha finalizado.
     siguiente = actual_numero + 1
@@ -150,7 +186,7 @@ def main():
                 "fecha_inicio": fechas[0].isoformat(), "fecha_fin": fechas[1].isoformat(),
                 "estado": "verificada",
                 "verificacion": "15 encuentros coincidentes en dos fuentes; fechas de QuinielaFutbol.",
-                "fuentes": [SOURCE_A, SOURCE_B], "partidos": partidos,
+                "fuentes": [SOURCE_A, SOURCE_B.format(numero=siguiente)], "partidos": partidos,
                 "pleno": {"local": local, "visitante": visitante},
             }
             JORNADA.write_text(json.dumps(nueva, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
