@@ -2,6 +2,8 @@
 No publica probabilidades si una fuente falla o los partidos son insuficientes.
 """
 import json
+import csv
+import io
 import urllib.request
 from datetime import date, datetime, timezone
 from pathlib import Path
@@ -67,6 +69,34 @@ def obtener_liga(slug, hoy):
         by_id[key] = p
     return list(by_id.values()), url
 
+UEFA_FOLDERS = {"UCL":"UEFA_1_champions-league","UEL":"UEFA_1_europa-league","UECL":"UEFA_1_conference-league"}
+
+def obtener_uefa(liga, hoy):
+    carpeta = UEFA_FOLDERS[liga]
+    url = f"https://raw.githubusercontent.com/oladeeayo/open-matchday/master/data/{carpeta}/results_2627.csv"
+    req = urllib.request.Request(url, headers={"User-Agent":"QuinielaLab/1.0"})
+    with urllib.request.urlopen(req, timeout=25) as response:
+        body = response.read().decode("utf-8-sig")
+    filas = list(csv.DictReader(io.StringIO(body)))
+    if not filas or not {"date","home","away","ft_home","ft_away","ft_result"}.issubset(filas[0]):
+        raise ValueError("CSV UEFA sin cabeceras esperadas")
+    out = []
+    for r in filas:
+        try:
+            if date.fromisoformat(r["date"]) > hoy:
+                continue
+            h,a=int(r["ft_home"]),int(r["ft_away"])
+            resultado="H" if h>a else "D" if h==a else "A"
+            if r["ft_result"] != resultado:
+                continue
+            if not r["home"].strip() or not r["away"].strip() or r["home"] == r["away"]:
+                continue
+            out.append({"fecha":r["date"],"local":r["home"],"visitante":r["away"],
+                        "goles_local":h,"goles_visitante":a,"resultado":resultado})
+        except (KeyError,TypeError,ValueError):
+            continue
+    return out,url
+
 def main():
     hoy = date.today()
     old = {}
@@ -76,11 +106,11 @@ def main():
         except (OSError, ValueError):
             pass
     resultado = {"actualizado": datetime.now(timezone.utc).isoformat(),
-                 "fuente": "ESPN scoreboard (no oficial, sin garantía de continuidad)",
+                 "fuente": "Liga F: ESPN; UEFA: open-matchday (agregadores no oficiales)",
                  "competiciones": {}, "estado": {}}
     for liga, slug in LEAGUES.items():
         try:
-            partidos, url = obtener_liga(slug, hoy)
+            partidos, url = obtener_liga(slug, hoy) if liga == "LIGAF" else obtener_uefa(liga, hoy)
             # Si falla el proveedor o no hay partidos, conservar histórico anterior,
             # pero dejarlo marcado y no presentar datos como actualizados.
             if len(partidos) < 6:
