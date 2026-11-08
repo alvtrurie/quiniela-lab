@@ -36,6 +36,35 @@
               "x_acertadas": 1,
               "precision": 48.33
             }
+          },
+          "dixon_coles": {
+            "0.0": {
+              "aciertos": 29,
+              "precision": 48.33,
+              "x_elegidas": 0,
+              "x_acertadas": 0,
+              "prob_x_media": 0.2445,
+              "brier": 0.6192,
+              "logloss": 1.0288
+            },
+            "-0.1": {
+              "aciertos": 28,
+              "precision": 46.67,
+              "x_elegidas": 1,
+              "x_acertadas": 0,
+              "prob_x_media": 0.2671,
+              "brier": 0.6192,
+              "logloss": 1.0299
+            },
+            "-0.2": {
+              "aciertos": 29,
+              "precision": 48.33,
+              "x_elegidas": 2,
+              "x_acertadas": 1,
+              "prob_x_media": 0.2896,
+              "brier": 0.6208,
+              "logloss": 1.0337
+            }
           }
         },
         "0.5": {
@@ -66,6 +95,35 @@
               "x_acertadas": 0,
               "precision": 50.0
             }
+          },
+          "dixon_coles": {
+            "0.0": {
+              "aciertos": 30,
+              "precision": 50.0,
+              "x_elegidas": 0,
+              "x_acertadas": 0,
+              "prob_x_media": 0.2497,
+              "brier": 0.6114,
+              "logloss": 1.0173
+            },
+            "-0.1": {
+              "aciertos": 30,
+              "precision": 50.0,
+              "x_elegidas": 0,
+              "x_acertadas": 0,
+              "prob_x_media": 0.2729,
+              "brier": 0.6119,
+              "logloss": 1.018
+            },
+            "-0.2": {
+              "aciertos": 30,
+              "precision": 50.0,
+              "x_elegidas": 0,
+              "x_acertadas": 0,
+              "prob_x_media": 0.2962,
+              "brier": 0.614,
+              "logloss": 1.0215
+            }
           }
         },
         "1.0": {
@@ -95,6 +153,35 @@
               "x_elegidas": 2,
               "x_acertadas": 1,
               "precision": 55.0
+            }
+          },
+          "dixon_coles": {
+            "0.0": {
+              "aciertos": 33,
+              "precision": 55.0,
+              "x_elegidas": 0,
+              "x_acertadas": 0,
+              "prob_x_media": 0.2539,
+              "brier": 0.61,
+              "logloss": 1.0158
+            },
+            "-0.1": {
+              "aciertos": 33,
+              "precision": 55.0,
+              "x_elegidas": 0,
+              "x_acertadas": 0,
+              "prob_x_media": 0.2774,
+              "brier": 0.6109,
+              "logloss": 1.0167
+            },
+            "-0.2": {
+              "aciertos": 33,
+              "precision": 55.0,
+              "x_elegidas": 2,
+              "x_acertadas": 1,
+              "prob_x_media": 0.301,
+              "brier": 0.6134,
+              "logloss": 1.0203
             }
           }
         }
@@ -132,6 +219,35 @@
               "x_acertadas": 0,
               "precision": 38.6
             }
+          },
+          "dixon_coles": {
+            "0.0": {
+              "aciertos": 22,
+              "precision": 38.6,
+              "x_elegidas": 0,
+              "x_acertadas": 0,
+              "prob_x_media": 0.2502,
+              "brier": 0.709,
+              "logloss": 1.156
+            },
+            "-0.1": {
+              "aciertos": 22,
+              "precision": 38.6,
+              "x_elegidas": 0,
+              "x_acertadas": 0,
+              "prob_x_media": 0.2731,
+              "brier": 0.7094,
+              "logloss": 1.1567
+            },
+            "-0.2": {
+              "aciertos": 22,
+              "precision": 38.6,
+              "x_elegidas": 0,
+              "x_acertadas": 0,
+              "prob_x_media": 0.296,
+              "brier": 0.7114,
+              "logloss": 1.1604
+            }
           }
         },
         "0.5": {
@@ -162,6 +278,35 @@
               "x_acertadas": 0,
               "precision": 47.37
             }
+          },
+          "dixon_coles": {
+            "0.0": {
+              "aciertos": 27,
+              "precision": 47.37,
+              "x_elegidas": 0,
+              "x_acertadas": 0,
+              "prob_x_media": 0.2559,
+              "brier": 0.6828,
+              "logloss": 1.1215
+            },
+            "-0.1": {
+              "aciertos": 27,
+              "precision": 47.37,
+              "x_elegidas": 0,
+              "x_acertadas": 0,
+              "prob_x_media": 0.2796,
+              "brier": 0.6829,
+              "logloss": 1.1215
+            },
+            "-0.2": {
+              "aciertos": 27,
+              "precision": 47.37,
+              "x_elegidas": 0,
+              "x_acertadas": 0,
+              "prob_x_media": 0.3033,
+              "brier": 0.6847,
+              "logloss": 1.1245
+            }
           }
         },
         "1.0": {
@@ -191,6 +336,35 @@
               "x_elegidas": 1,
               "x_acertadas": 0,
               "precision": 45.61
+            }
+          },
+          "dixon_coles": {
+            "0.0": {
+              "aciertos": 27,
+              "precision": 47.37,
+              "x_elegidas": 0,
+              "x_acertadas": 0,
+              "prob_x_media": 0.2613,
+              "brier": 0.6606,
+              "logloss": 1.0922
+            },
+            "-0.1": {
+              "aciertos": 27,
+              "precision": 47.37,
+              "x_elegidas": 0,
+              "x_acertadas": 0,
+              "prob_x_media": 0.2855,
+              "brier": 0.6604,
+              "logloss": 1.0919
+            },
+            "-0.2": {
+              "aciertos": 26,
+              "precision": 45.61,
+              "x_elegidas": 1,
+              "x_acertadas": 0,
+              "prob_x_media": 0.3097,
+              "brier": 0.6621,
+              "logloss": 1.0946
             }
           }
         }
