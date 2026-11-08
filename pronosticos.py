@@ -81,8 +81,8 @@ def calcular_liga(partidos, min_partidos_equipo=0, objetivos=None, pesos=None, e
 
             a = stats[local]
             b = stats[visitante]
-            if (a["pj_casa"] + a["pj_fuera"] < min_partidos_equipo or
-                b["pj_casa"] + b["pj_fuera"] < min_partidos_equipo):
+            if (partidos_reales[local] < min_partidos_equipo or
+                partidos_reales[visitante] < min_partidos_equipo):
                 continue
 
             ataque_local = ratio(a["gf_casa"], a["pj_casa"], media_casa)
