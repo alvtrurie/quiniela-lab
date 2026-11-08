@@ -5,6 +5,7 @@ from pathlib import Path
 
 DATOS = Path("data/estadisticas.json")
 SALIDA = Path("data/pronosticos.json")
+EXTRA = Path("data/estadisticas_extra.json")
 
 def poisson(k, media):
     return math.exp(-media) * media ** k / math.factorial(k)
@@ -113,7 +114,18 @@ def main():
         "competiciones": {}
     }
 
-    for liga, partidos in datos["competiciones"].items():
+    try:
+        extras = json.loads(EXTRA.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        extras = {"competiciones": {}, "estado": {}}
+    salida["cobertura_extra"] = extras.get("estado", {})
+    competiciones = {**datos["competiciones"], **extras.get("competiciones", {})}
+    for liga, partidos in competiciones.items():
+        # No se fabrican estimaciones con muestras demasiado pequeñas.
+        # Los torneos UEFA tienen muestras limitadas: marcamos las salidas como exploratorias.
+        if liga in ("LIGAF", "UCL", "UEL", "UECL") and len(partidos) < 12:
+            salida["competiciones"][liga] = []
+            continue
         salida["competiciones"][liga] = calcular_liga(partidos)
         print(f"{liga}: {len(salida['competiciones'][liga])} enfrentamientos calculados")
 
