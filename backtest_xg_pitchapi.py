@@ -64,7 +64,7 @@ def main():
             continue
         lista=sorted([p for p in lista if p.get("score_home") is not None and p.get("score_away") is not None],
             key=lambda p:(p.get("date",""),p.get("time_utc",""),p["id"]))[:MAX_PARTIDOS]
-        observados=[];errores=[];conteos={w:{"n":0,"aciertos":0,"brier_suma":0.0,"logloss_suma":0.0,"empates_elegidos":0,"empates_reales":0,"p_empate_suma":0.0,"politicas":{str(t):{"aciertos":0,"x_elegidas":0,"x_acertadas":0} for t in UMBRAL_EMPATE},"dc":{str(r):{"aciertos":0,"x_elegidas":0,"x_acertadas":0,"brier":0.0,"logloss":0.0,"p_x":0.0} for r in RHO_DC}} for w in PESOS}
+        observados=[];errores=[];diagnostico=[];conteos={w:{"n":0,"aciertos":0,"brier_suma":0.0,"logloss_suma":0.0,"empates_elegidos":0,"empates_reales":0,"p_empate_suma":0.0,"politicas":{str(t):{"aciertos":0,"x_elegidas":0,"x_acertadas":0} for t in UMBRAL_EMPATE},"dc":{str(r):{"aciertos":0,"x_elegidas":0,"x_acertadas":0,"brier":0.0,"logloss":0.0,"p_x":0.0} for r in RHO_DC}} for w in PESOS}
         for k,p in enumerate(lista):
             try:
                 xg=goles_xg(p)
@@ -90,6 +90,9 @@ def main():
                         probs=result
                         actual=0 if gl>gv else 1 if gl==gv else 2
                         m=conteos[w];m["n"]+=1
+                        if w==1.0:
+                            lambdas=calcular_lambdas(train,(home,away))
+                            diagnostico.append({"fecha":fecha,"local":home,"visitante":away,"resultado":"1" if actual==0 else "X" if actual==1 else "2","p1":round(probs[0],4),"px":round(probs[1],4),"p2":round(probs[2],4),"diferencia_fuerzas":round(abs(probs[0]-probs[2]),4),"distancia_x_favorito":round(max(probs[0],probs[2])-probs[1],4),"goles_esperados_total":round(sum(lambdas),3) if lambdas else None})
                         for rho in RHO_DC:
                             lambdas=calcular_lambdas(train,(home,away))
                             dc=dixon_coles(*lambdas,rho) if lambdas else None
@@ -117,7 +120,21 @@ def main():
             observados.append({"fecha":fecha,"local":home,"visitante":away,
                 "goles_local":gl,"goles_visitante":gv,"xg_local":xg[0],"xg_visitante":xg[1]})
             if (k+1)%40==0:print(liga,"consultados",k+1,flush=True)
-        output["resultados"][liga]={"consultados":len(observados),"errores":errores,
+        # Diagnostico descriptivo de empates: solo variables conocidas antes del encuentro.
+        # Las franjas son descriptivas, NO reglas optimizadas ni validadas.
+        grupos={}
+        for nombre,fn in (
+            ("igualados_diferencia_1_2_menor_10pp",lambda x:x["diferencia_fuerzas"]<0.10),
+            ("no_igualados_diferencia_1_2_10pp_o_mas",lambda x:x["diferencia_fuerzas"]>=0.10),
+            ("px_30pct_o_mas",lambda x:x["px"]>=0.30),
+            ("px_menor_30pct",lambda x:x["px"]<0.30),
+            ("goles_esperados_menor_2_5",lambda x:x["goles_esperados_total"] is not None and x["goles_esperados_total"]<2.5),
+            ("goles_esperados_2_5_o_mas",lambda x:x["goles_esperados_total"] is not None and x["goles_esperados_total"]>=2.5),
+        ):
+            subset=[x for x in diagnostico if fn(x)]
+            grupos[nombre]={"partidos":len(subset),"empates":sum(x["resultado"]=="X" for x in subset),"porcentaje_empates":round(100*sum(x["resultado"]=="X" for x in subset)/len(subset),2) if subset else None,"probabilidad_empate_media":round(100*sum(x["px"] for x in subset)/len(subset),2) if subset else None}
+        output["resultados"][liga]={"consultados":len(observados),"errores":errores,"diagnostico_empates":{"grupos":grupos,"partidos":diagnostico},
+
             "modelos":{str(w):{"n":m["n"],"aciertos":m["aciertos"],
                 "precision":round(m["aciertos"]/m["n"]*100,2) if m["n"] else None,
                 "brier":round(m["brier_suma"]/m["n"],4) if m["n"] else None,
