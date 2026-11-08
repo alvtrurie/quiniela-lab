@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-08T17:15:51.627253+00:00",
+  "actualizado": "2026-11-08T17:16:09.432818+00:00",
   "modelo": "Poisson con fuerzas local/visitante y suavizado",
   "fuente": "football-data.co.uk",
   "competiciones": {
@@ -69015,19 +69015,19 @@
       "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.w.1/scoreboard?dates=2026&limit=500"
     },
     "UCL": {
-      "ok": false,
+      "ok": true,
       "partidos": 72,
-      "error": "name 'obtener_uefa' is not defined"
+      "url": "https://raw.githubusercontent.com/oladeeayo/open-matchday/master/data/UEFA_1_champions-league/results_2627.csv"
     },
     "UEL": {
-      "ok": false,
+      "ok": true,
       "partidos": 72,
-      "error": "name 'obtener_uefa' is not defined"
+      "url": "https://raw.githubusercontent.com/oladeeayo/open-matchday/master/data/UEFA_1_europa-league/results_2627.csv"
     },
     "UECL": {
-      "ok": false,
+      "ok": true,
       "partidos": 54,
-      "error": "name 'obtener_uefa' is not defined"
+      "url": "https://raw.githubusercontent.com/oladeeayo/open-matchday/master/data/UEFA_1_conference-league/results_2627.csv"
     }
   }
 }
