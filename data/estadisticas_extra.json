@@ -1,1160 +1,8 @@
 {
-  "actualizado": "2026-11-08T17:16:08.722486+00:00",
-  "fuente": "Liga F: ESPN; UEFA: open-matchday (agregadores no oficiales)",
+  "actualizado": "2026-11-08T17:16:29.938808+00:00",
+  "fuente": "ESPN scoreboard, resultados públicos no oficiales",
   "competiciones": {
     "LIGAF": [
-      {
-        "fecha": "2026-01-10",
-        "local": "Alhama",
-        "visitante": "Eibar",
-        "goles_local": 0,
-        "goles_visitante": 1,
-        "resultado": "A",
-        "id": "749105"
-      },
-      {
-        "fecha": "2026-01-10",
-        "local": "Atlético Madrid",
-        "visitante": "Real Sociedad",
-        "goles_local": 5,
-        "goles_visitante": 5,
-        "resultado": "D",
-        "id": "749098"
-      },
-      {
-        "fecha": "2026-01-10",
-        "local": "Athletic Club",
-        "visitante": "FC Badalona",
-        "goles_local": 0,
-        "goles_visitante": 0,
-        "resultado": "D",
-        "id": "749099"
-      },
-      {
-        "fecha": "2026-01-10",
-        "local": "Real Madrid",
-        "visitante": "Sevilla",
-        "goles_local": 2,
-        "goles_visitante": 0,
-        "resultado": "H",
-        "id": "749100"
-      },
-      {
-        "fecha": "2026-01-10",
-        "local": "Barcelona",
-        "visitante": "Madrid CFF",
-        "goles_local": 12,
-        "goles_visitante": 1,
-        "resultado": "H",
-        "id": "749104"
-      },
-      {
-        "fecha": "2026-01-11",
-        "local": "Deportivo",
-        "visitante": "Tenerife",
-        "goles_local": 1,
-        "goles_visitante": 1,
-        "resultado": "D",
-        "id": "749102"
-      },
-      {
-        "fecha": "2026-01-11",
-        "local": "Dux Logroño",
-        "visitante": "Levante",
-        "goles_local": 2,
-        "goles_visitante": 3,
-        "resultado": "A",
-        "id": "749103"
-      },
-      {
-        "fecha": "2026-01-11",
-        "local": "Espanyol",
-        "visitante": "Granada",
-        "goles_local": 0,
-        "goles_visitante": 2,
-        "resultado": "A",
-        "id": "749101"
-      },
-      {
-        "fecha": "2026-01-13",
-        "local": "Real Madrid",
-        "visitante": "Athletic Club",
-        "goles_local": 0,
-        "goles_visitante": 1,
-        "resultado": "A",
-        "id": "749120"
-      },
-      {
-        "fecha": "2026-01-14",
-        "local": "Barcelona",
-        "visitante": "Atlético Madrid",
-        "goles_local": 5,
-        "goles_visitante": 0,
-        "resultado": "H",
-        "id": "749116"
-      },
-      {
-        "fecha": "2026-01-17",
-        "local": "Granada",
-        "visitante": "Dux Logroño",
-        "goles_local": 1,
-        "goles_visitante": 0,
-        "resultado": "H",
-        "id": "749110"
-      },
-      {
-        "fecha": "2026-01-17",
-        "local": "Levante",
-        "visitante": "Real Madrid",
-        "goles_local": 1,
-        "goles_visitante": 2,
-        "resultado": "A",
-        "id": "749108"
-      },
-      {
-        "fecha": "2026-01-17",
-        "local": "Atlético Madrid",
-        "visitante": "Espanyol",
-        "goles_local": 0,
-        "goles_visitante": 1,
-        "resultado": "A",
-        "id": "749112"
-      },
-      {
-        "fecha": "2026-01-17",
-        "local": "Eibar",
-        "visitante": "Madrid CFF",
-        "goles_local": 1,
-        "goles_visitante": 3,
-        "resultado": "A",
-        "id": "749111"
-      },
-      {
-        "fecha": "2026-01-18",
-        "local": "Alhama",
-        "visitante": "Barcelona",
-        "goles_local": 0,
-        "goles_visitante": 2,
-        "resultado": "A",
-        "id": "749106"
-      },
-      {
-        "fecha": "2026-01-18",
-        "local": "FC Badalona",
-        "visitante": "Deportivo",
-        "goles_local": 1,
-        "goles_visitante": 0,
-        "resultado": "H",
-        "id": "749109"
-      },
-      {
-        "fecha": "2026-01-18",
-        "local": "Tenerife",
-        "visitante": "Athletic Club",
-        "goles_local": 5,
-        "goles_visitante": 0,
-        "resultado": "H",
-        "id": "749113"
-      },
-      {
-        "fecha": "2026-01-18",
-        "local": "Sevilla",
-        "visitante": "Real Sociedad",
-        "goles_local": 0,
-        "goles_visitante": 2,
-        "resultado": "A",
-        "id": "749107"
-      },
-      {
-        "fecha": "2026-01-25",
-        "local": "Espanyol",
-        "visitante": "Tenerife",
-        "goles_local": 0,
-        "goles_visitante": 0,
-        "resultado": "D",
-        "id": "749114"
-      },
-      {
-        "fecha": "2026-01-25",
-        "local": "Real Sociedad",
-        "visitante": "Eibar",
-        "goles_local": 3,
-        "goles_visitante": 0,
-        "resultado": "H",
-        "id": "749119"
-      },
-      {
-        "fecha": "2026-01-25",
-        "local": "Sevilla",
-        "visitante": "Levante",
-        "goles_local": 4,
-        "goles_visitante": 2,
-        "resultado": "H",
-        "id": "749118"
-      },
-      {
-        "fecha": "2026-01-25",
-        "local": "Dux Logroño",
-        "visitante": "Deportivo",
-        "goles_local": 0,
-        "goles_visitante": 4,
-        "resultado": "A",
-        "id": "749115"
-      },
-      {
-        "fecha": "2026-01-25",
-        "local": "Madrid CFF",
-        "visitante": "FC Badalona",
-        "goles_local": 0,
-        "goles_visitante": 1,
-        "resultado": "A",
-        "id": "749121"
-      },
-      {
-        "fecha": "2026-01-25",
-        "local": "Granada",
-        "visitante": "Alhama",
-        "goles_local": 2,
-        "goles_visitante": 0,
-        "resultado": "H",
-        "id": "749117"
-      },
-      {
-        "fecha": "2026-01-31",
-        "local": "Atlético Madrid",
-        "visitante": "Granada",
-        "goles_local": 1,
-        "goles_visitante": 1,
-        "resultado": "D",
-        "id": "749129"
-      },
-      {
-        "fecha": "2026-01-31",
-        "local": "Levante",
-        "visitante": "Madrid CFF",
-        "goles_local": 2,
-        "goles_visitante": 1,
-        "resultado": "H",
-        "id": "749125"
-      },
-      {
-        "fecha": "2026-01-31",
-        "local": "Athletic Club",
-        "visitante": "Espanyol",
-        "goles_local": 2,
-        "goles_visitante": 1,
-        "resultado": "H",
-        "id": "749123"
-      },
-      {
-        "fecha": "2026-01-31",
-        "local": "Alhama",
-        "visitante": "Dux Logroño",
-        "goles_local": 0,
-        "goles_visitante": 4,
-        "resultado": "A",
-        "id": "749122"
-      },
-      {
-        "fecha": "2026-02-01",
-        "local": "Deportivo",
-        "visitante": "Real Madrid",
-        "goles_local": 2,
-        "goles_visitante": 4,
-        "resultado": "A",
-        "id": "749127"
-      },
-      {
-        "fecha": "2026-02-01",
-        "local": "FC Badalona",
-        "visitante": "Eibar",
-        "goles_local": 2,
-        "goles_visitante": 1,
-        "resultado": "H",
-        "id": "749126"
-      },
-      {
-        "fecha": "2026-02-01",
-        "local": "Tenerife",
-        "visitante": "Real Sociedad",
-        "goles_local": 1,
-        "goles_visitante": 1,
-        "resultado": "D",
-        "id": "749124"
-      },
-      {
-        "fecha": "2026-02-01",
-        "local": "Barcelona",
-        "visitante": "Sevilla",
-        "goles_local": 4,
-        "goles_visitante": 1,
-        "resultado": "H",
-        "id": "749128"
-      },
-      {
-        "fecha": "2026-02-07",
-        "local": "Eibar",
-        "visitante": "Granada",
-        "goles_local": 0,
-        "goles_visitante": 2,
-        "resultado": "A",
-        "id": "749136"
-      },
-      {
-        "fecha": "2026-02-08",
-        "local": "Levante",
-        "visitante": "Atlético Madrid",
-        "goles_local": 0,
-        "goles_visitante": 1,
-        "resultado": "A",
-        "id": "749135"
-      },
-      {
-        "fecha": "2026-02-08",
-        "local": "Sevilla",
-        "visitante": "Athletic Club",
-        "goles_local": 4,
-        "goles_visitante": 0,
-        "resultado": "H",
-        "id": "749134"
-      },
-      {
-        "fecha": "2026-02-08",
-        "local": "Tenerife",
-        "visitante": "Alhama",
-        "goles_local": 1,
-        "goles_visitante": 0,
-        "resultado": "H",
-        "id": "749137"
-      },
-      {
-        "fecha": "2026-02-08",
-        "local": "Madrid CFF",
-        "visitante": "Deportivo",
-        "goles_local": 1,
-        "goles_visitante": 6,
-        "resultado": "A",
-        "id": "749131"
-      },
-      {
-        "fecha": "2026-02-08",
-        "local": "Real Madrid",
-        "visitante": "Espanyol",
-        "goles_local": 3,
-        "goles_visitante": 0,
-        "resultado": "H",
-        "id": "749132"
-      },
-      {
-        "fecha": "2026-02-08",
-        "local": "Real Sociedad",
-        "visitante": "FC Badalona",
-        "goles_local": 2,
-        "goles_visitante": 0,
-        "resultado": "H",
-        "id": "749133"
-      },
-      {
-        "fecha": "2026-02-08",
-        "local": "Dux Logroño",
-        "visitante": "Barcelona",
-        "goles_local": 0,
-        "goles_visitante": 3,
-        "resultado": "A",
-        "id": "749130"
-      },
-      {
-        "fecha": "2026-02-14",
-        "local": "FC Badalona",
-        "visitante": "Tenerife",
-        "goles_local": 0,
-        "goles_visitante": 2,
-        "resultado": "A",
-        "id": "749144"
-      },
-      {
-        "fecha": "2026-02-14",
-        "local": "Granada",
-        "visitante": "Levante",
-        "goles_local": 1,
-        "goles_visitante": 0,
-        "resultado": "H",
-        "id": "749143"
-      },
-      {
-        "fecha": "2026-02-14",
-        "local": "Deportivo",
-        "visitante": "Sevilla",
-        "goles_local": 0,
-        "goles_visitante": 4,
-        "resultado": "A",
-        "id": "749141"
-      },
-      {
-        "fecha": "2026-02-14",
-        "local": "Barcelona",
-        "visitante": "Eibar",
-        "goles_local": 4,
-        "goles_visitante": 0,
-        "resultado": "H",
-        "id": "749140"
-      },
-      {
-        "fecha": "2026-02-15",
-        "local": "Alhama",
-        "visitante": "Real Madrid",
-        "goles_local": 0,
-        "goles_visitante": 3,
-        "resultado": "A",
-        "id": "749145"
-      },
-      {
-        "fecha": "2026-02-15",
-        "local": "Athletic Club",
-        "visitante": "Real Sociedad",
-        "goles_local": 0,
-        "goles_visitante": 2,
-        "resultado": "A",
-        "id": "749138"
-      },
-      {
-        "fecha": "2026-02-15",
-        "local": "Espanyol",
-        "visitante": "Dux Logroño",
-        "goles_local": 1,
-        "goles_visitante": 1,
-        "resultado": "D",
-        "id": "749142"
-      },
-      {
-        "fecha": "2026-02-15",
-        "local": "Atlético Madrid",
-        "visitante": "Madrid CFF",
-        "goles_local": 0,
-        "goles_visitante": 0,
-        "resultado": "D",
-        "id": "749139"
-      },
-      {
-        "fecha": "2026-02-21",
-        "local": "Levante",
-        "visitante": "Deportivo",
-        "goles_local": 1,
-        "goles_visitante": 2,
-        "resultado": "A",
-        "id": "749153"
-      },
-      {
-        "fecha": "2026-02-21",
-        "local": "Madrid CFF",
-        "visitante": "Alhama",
-        "goles_local": 5,
-        "goles_visitante": 0,
-        "resultado": "H",
-        "id": "749150"
-      },
-      {
-        "fecha": "2026-02-21",
-        "local": "Dux Logroño",
-        "visitante": "FC Badalona",
-        "goles_local": 2,
-        "goles_visitante": 3,
-        "resultado": "A",
-        "id": "749146"
-      },
-      {
-        "fecha": "2026-02-21",
-        "local": "Granada",
-        "visitante": "Barcelona",
-        "goles_local": 0,
-        "goles_visitante": 2,
-        "resultado": "A",
-        "id": "749148"
-      },
-      {
-        "fecha": "2026-02-22",
-        "local": "Eibar",
-        "visitante": "Athletic Club",
-        "goles_local": 0,
-        "goles_visitante": 1,
-        "resultado": "A",
-        "id": "749147"
-      },
-      {
-        "fecha": "2026-02-22",
-        "local": "Real Madrid",
-        "visitante": "Tenerife",
-        "goles_local": 2,
-        "goles_visitante": 0,
-        "resultado": "H",
-        "id": "749151"
-      },
-      {
-        "fecha": "2026-02-22",
-        "local": "Real Sociedad",
-        "visitante": "Espanyol",
-        "goles_local": 2,
-        "goles_visitante": 1,
-        "resultado": "H",
-        "id": "749152"
-      },
-      {
-        "fecha": "2026-02-22",
-        "local": "Sevilla",
-        "visitante": "Atlético Madrid",
-        "goles_local": 2,
-        "goles_visitante": 1,
-        "resultado": "H",
-        "id": "749149"
-      },
-      {
-        "fecha": "2026-03-14",
-        "local": "Atlético Madrid",
-        "visitante": "Dux Logroño",
-        "goles_local": 5,
-        "goles_visitante": 0,
-        "resultado": "H",
-        "id": "749154"
-      },
-      {
-        "fecha": "2026-03-14",
-        "local": "Tenerife",
-        "visitante": "Levante",
-        "goles_local": 4,
-        "goles_visitante": 0,
-        "resultado": "H",
-        "id": "749161"
-      },
-      {
-        "fecha": "2026-03-14",
-        "local": "Real Sociedad",
-        "visitante": "Real Madrid",
-        "goles_local": 0,
-        "goles_visitante": 3,
-        "resultado": "A",
-        "id": "749160"
-      },
-      {
-        "fecha": "2026-03-15",
-        "local": "Alhama",
-        "visitante": "Sevilla",
-        "goles_local": 0,
-        "goles_visitante": 1,
-        "resultado": "A",
-        "id": "749156"
-      },
-      {
-        "fecha": "2026-03-15",
-        "local": "Deportivo",
-        "visitante": "Barcelona",
-        "goles_local": 0,
-        "goles_visitante": 2,
-        "resultado": "A",
-        "id": "749157"
-      },
-      {
-        "fecha": "2026-03-15",
-        "local": "FC Badalona",
-        "visitante": "Granada",
-        "goles_local": 0,
-        "goles_visitante": 4,
-        "resultado": "A",
-        "id": "749159"
-      },
-      {
-        "fecha": "2026-03-15",
-        "local": "Athletic Club",
-        "visitante": "Madrid CFF",
-        "goles_local": 4,
-        "goles_visitante": 1,
-        "resultado": "H",
-        "id": "749155"
-      },
-      {
-        "fecha": "2026-03-16",
-        "local": "Espanyol",
-        "visitante": "Eibar",
-        "goles_local": 2,
-        "goles_visitante": 0,
-        "resultado": "H",
-        "id": "749158"
-      },
-      {
-        "fecha": "2026-03-21",
-        "local": "Levante",
-        "visitante": "Real Sociedad",
-        "goles_local": 0,
-        "goles_visitante": 1,
-        "resultado": "A",
-        "id": "749168"
-      },
-      {
-        "fecha": "2026-03-21",
-        "local": "Madrid CFF",
-        "visitante": "Espanyol",
-        "goles_local": 1,
-        "goles_visitante": 1,
-        "resultado": "D",
-        "id": "749167"
-      },
-      {
-        "fecha": "2026-03-21",
-        "local": "Barcelona",
-        "visitante": "Athletic Club",
-        "goles_local": 7,
-        "goles_visitante": 1,
-        "resultado": "H",
-        "id": "749163"
-      },
-      {
-        "fecha": "2026-03-22",
-        "local": "Alhama",
-        "visitante": "Atlético Madrid",
-        "goles_local": 1,
-        "goles_visitante": 2,
-        "resultado": "A",
-        "id": "749164"
-      },
-      {
-        "fecha": "2026-03-22",
-        "local": "Dux Logroño",
-        "visitante": "Tenerife",
-        "goles_local": 0,
-        "goles_visitante": 1,
-        "resultado": "A",
-        "id": "749162"
-      },
-      {
-        "fecha": "2026-03-22",
-        "local": "Eibar",
-        "visitante": "Real Madrid",
-        "goles_local": 0,
-        "goles_visitante": 1,
-        "resultado": "A",
-        "id": "749165"
-      },
-      {
-        "fecha": "2026-03-22",
-        "local": "Sevilla",
-        "visitante": "FC Badalona",
-        "goles_local": 1,
-        "goles_visitante": 5,
-        "resultado": "A",
-        "id": "749166"
-      },
-      {
-        "fecha": "2026-03-23",
-        "local": "Granada",
-        "visitante": "Deportivo",
-        "goles_local": 1,
-        "goles_visitante": 0,
-        "resultado": "H",
-        "id": "749169"
-      },
-      {
-        "fecha": "2026-03-28",
-        "local": "FC Badalona",
-        "visitante": "Alhama",
-        "goles_local": 3,
-        "goles_visitante": 2,
-        "resultado": "H",
-        "id": "749176"
-      },
-      {
-        "fecha": "2026-03-28",
-        "local": "Espanyol",
-        "visitante": "Levante",
-        "goles_local": 1,
-        "goles_visitante": 0,
-        "resultado": "H",
-        "id": "749172"
-      },
-      {
-        "fecha": "2026-03-28",
-        "local": "Deportivo",
-        "visitante": "Eibar",
-        "goles_local": 2,
-        "goles_visitante": 1,
-        "resultado": "H",
-        "id": "749171"
-      },
-      {
-        "fecha": "2026-03-28",
-        "local": "Sevilla",
-        "visitante": "Granada",
-        "goles_local": 0,
-        "goles_visitante": 1,
-        "resultado": "A",
-        "id": "749173"
-      },
-      {
-        "fecha": "2026-03-29",
-        "local": "Real Sociedad",
-        "visitante": "Dux Logroño",
-        "goles_local": 1,
-        "goles_visitante": 1,
-        "resultado": "D",
-        "id": "749174"
-      },
-      {
-        "fecha": "2026-03-29",
-        "local": "Tenerife",
-        "visitante": "Madrid CFF",
-        "goles_local": 2,
-        "goles_visitante": 0,
-        "resultado": "H",
-        "id": "749177"
-      },
-      {
-        "fecha": "2026-03-29",
-        "local": "Athletic Club",
-        "visitante": "Atlético Madrid",
-        "goles_local": 1,
-        "goles_visitante": 2,
-        "resultado": "A",
-        "id": "749170"
-      },
-      {
-        "fecha": "2026-03-29",
-        "local": "Real Madrid",
-        "visitante": "Barcelona",
-        "goles_local": 0,
-        "goles_visitante": 3,
-        "resultado": "A",
-        "id": "749175"
-      },
-      {
-        "fecha": "2026-04-03",
-        "local": "Eibar",
-        "visitante": "Tenerife",
-        "goles_local": 0,
-        "goles_visitante": 0,
-        "resultado": "D",
-        "id": "749183"
-      },
-      {
-        "fecha": "2026-04-04",
-        "local": "Alhama",
-        "visitante": "Real Sociedad",
-        "goles_local": 1,
-        "goles_visitante": 5,
-        "resultado": "A",
-        "id": "749178"
-      },
-      {
-        "fecha": "2026-04-04",
-        "local": "Dux Logroño",
-        "visitante": "Sevilla",
-        "goles_local": 2,
-        "goles_visitante": 1,
-        "resultado": "H",
-        "id": "749184"
-      },
-      {
-        "fecha": "2026-04-04",
-        "local": "Granada",
-        "visitante": "Espanyol",
-        "goles_local": 2,
-        "goles_visitante": 0,
-        "resultado": "H",
-        "id": "749182"
-      },
-      {
-        "fecha": "2026-04-05",
-        "local": "Atlético Madrid",
-        "visitante": "Deportivo",
-        "goles_local": 2,
-        "goles_visitante": 0,
-        "resultado": "H",
-        "id": "749179"
-      },
-      {
-        "fecha": "2026-04-05",
-        "local": "Levante",
-        "visitante": "Athletic Club",
-        "goles_local": 0,
-        "goles_visitante": 1,
-        "resultado": "A",
-        "id": "749181"
-      },
-      {
-        "fecha": "2026-04-05",
-        "local": "Madrid CFF",
-        "visitante": "Real Madrid",
-        "goles_local": 0,
-        "goles_visitante": 2,
-        "resultado": "A",
-        "id": "749180"
-      },
-      {
-        "fecha": "2026-04-06",
-        "local": "Barcelona",
-        "visitante": "FC Badalona",
-        "goles_local": 6,
-        "goles_visitante": 0,
-        "resultado": "H",
-        "id": "749185"
-      },
-      {
-        "fecha": "2026-04-22",
-        "local": "Espanyol",
-        "visitante": "Barcelona",
-        "goles_local": 1,
-        "goles_visitante": 4,
-        "resultado": "A",
-        "id": "749190"
-      },
-      {
-        "fecha": "2026-04-25",
-        "local": "Athletic Club",
-        "visitante": "Granada",
-        "goles_local": 1,
-        "goles_visitante": 2,
-        "resultado": "A",
-        "id": "749186"
-      },
-      {
-        "fecha": "2026-04-25",
-        "local": "FC Badalona",
-        "visitante": "Atlético Madrid",
-        "goles_local": 2,
-        "goles_visitante": 4,
-        "resultado": "A",
-        "id": "749189"
-      },
-      {
-        "fecha": "2026-04-25",
-        "local": "Eibar",
-        "visitante": "Levante",
-        "goles_local": 2,
-        "goles_visitante": 1,
-        "resultado": "H",
-        "id": "749191"
-      },
-      {
-        "fecha": "2026-04-26",
-        "local": "Deportivo",
-        "visitante": "Alhama",
-        "goles_local": 2,
-        "goles_visitante": 2,
-        "resultado": "D",
-        "id": "749192"
-      },
-      {
-        "fecha": "2026-04-26",
-        "local": "Tenerife",
-        "visitante": "Sevilla",
-        "goles_local": 3,
-        "goles_visitante": 0,
-        "resultado": "H",
-        "id": "749193"
-      },
-      {
-        "fecha": "2026-04-26",
-        "local": "Real Sociedad",
-        "visitante": "Madrid CFF",
-        "goles_local": 2,
-        "goles_visitante": 0,
-        "resultado": "H",
-        "id": "749187"
-      },
-      {
-        "fecha": "2026-04-26",
-        "local": "Real Madrid",
-        "visitante": "Dux Logroño",
-        "goles_local": 1,
-        "goles_visitante": 1,
-        "resultado": "D",
-        "id": "749188"
-      },
-      {
-        "fecha": "2026-05-01",
-        "local": "Alhama",
-        "visitante": "Espanyol",
-        "goles_local": 3,
-        "goles_visitante": 1,
-        "resultado": "H",
-        "id": "749200"
-      },
-      {
-        "fecha": "2026-05-01",
-        "local": "Granada",
-        "visitante": "Tenerife",
-        "goles_local": 1,
-        "goles_visitante": 1,
-        "resultado": "D",
-        "id": "749195"
-      },
-      {
-        "fecha": "2026-05-02",
-        "local": "FC Badalona",
-        "visitante": "Athletic Club",
-        "goles_local": 0,
-        "goles_visitante": 1,
-        "resultado": "A",
-        "id": "749194"
-      },
-      {
-        "fecha": "2026-05-02",
-        "local": "Dux Logroño",
-        "visitante": "Madrid CFF",
-        "goles_local": 3,
-        "goles_visitante": 0,
-        "resultado": "H",
-        "id": "749197"
-      },
-      {
-        "fecha": "2026-05-02",
-        "local": "Sevilla",
-        "visitante": "Real Madrid",
-        "goles_local": 0,
-        "goles_visitante": 2,
-        "resultado": "A",
-        "id": "749201"
-      },
-      {
-        "fecha": "2026-05-03",
-        "local": "Atlético Madrid",
-        "visitante": "Eibar",
-        "goles_local": 4,
-        "goles_visitante": 0,
-        "resultado": "H",
-        "id": "749199"
-      },
-      {
-        "fecha": "2026-05-03",
-        "local": "Deportivo",
-        "visitante": "Real Sociedad",
-        "goles_local": 1,
-        "goles_visitante": 2,
-        "resultado": "A",
-        "id": "749196"
-      },
-      {
-        "fecha": "2026-05-06",
-        "local": "Barcelona",
-        "visitante": "Levante",
-        "goles_local": 5,
-        "goles_visitante": 0,
-        "resultado": "H",
-        "id": "749198"
-      },
-      {
-        "fecha": "2026-05-09",
-        "local": "Espanyol",
-        "visitante": "FC Badalona",
-        "goles_local": 1,
-        "goles_visitante": 1,
-        "resultado": "D",
-        "id": "749206"
-      },
-      {
-        "fecha": "2026-05-09",
-        "local": "Real Sociedad",
-        "visitante": "Granada",
-        "goles_local": 3,
-        "goles_visitante": 0,
-        "resultado": "H",
-        "id": "749202"
-      },
-      {
-        "fecha": "2026-05-09",
-        "local": "Eibar",
-        "visitante": "Alhama",
-        "goles_local": 2,
-        "goles_visitante": 0,
-        "resultado": "H",
-        "id": "749207"
-      },
-      {
-        "fecha": "2026-05-09",
-        "local": "Athletic Club",
-        "visitante": "Deportivo",
-        "goles_local": 0,
-        "goles_visitante": 1,
-        "resultado": "A",
-        "id": "749208"
-      },
-      {
-        "fecha": "2026-05-10",
-        "local": "Levante",
-        "visitante": "Dux Logroño",
-        "goles_local": 1,
-        "goles_visitante": 4,
-        "resultado": "A",
-        "id": "749205"
-      },
-      {
-        "fecha": "2026-05-10",
-        "local": "Real Madrid",
-        "visitante": "Atlético Madrid",
-        "goles_local": 1,
-        "goles_visitante": 0,
-        "resultado": "H",
-        "id": "749203"
-      },
-      {
-        "fecha": "2026-05-10",
-        "local": "Tenerife",
-        "visitante": "Barcelona",
-        "goles_local": 1,
-        "goles_visitante": 3,
-        "resultado": "A",
-        "id": "749209"
-      },
-      {
-        "fecha": "2026-05-11",
-        "local": "Madrid CFF",
-        "visitante": "Sevilla",
-        "goles_local": 2,
-        "goles_visitante": 0,
-        "resultado": "H",
-        "id": "749204"
-      },
-      {
-        "fecha": "2026-05-26",
-        "local": "Alhama",
-        "visitante": "Levante",
-        "goles_local": 2,
-        "goles_visitante": 2,
-        "resultado": "D",
-        "id": "749210"
-      },
-      {
-        "fecha": "2026-05-26",
-        "local": "Dux Logroño",
-        "visitante": "Athletic Club",
-        "goles_local": 0,
-        "goles_visitante": 2,
-        "resultado": "A",
-        "id": "749216"
-      },
-      {
-        "fecha": "2026-05-26",
-        "local": "FC Badalona",
-        "visitante": "Real Madrid",
-        "goles_local": 0,
-        "goles_visitante": 4,
-        "resultado": "A",
-        "id": "749213"
-      },
-      {
-        "fecha": "2026-05-26",
-        "local": "Granada",
-        "visitante": "Madrid CFF",
-        "goles_local": 3,
-        "goles_visitante": 4,
-        "resultado": "A",
-        "id": "749214"
-      },
-      {
-        "fecha": "2026-05-26",
-        "local": "Sevilla",
-        "visitante": "Eibar",
-        "goles_local": 0,
-        "goles_visitante": 0,
-        "resultado": "D",
-        "id": "749212"
-      },
-      {
-        "fecha": "2026-05-26",
-        "local": "Atlético Madrid",
-        "visitante": "Tenerife",
-        "goles_local": 2,
-        "goles_visitante": 2,
-        "resultado": "D",
-        "id": "749211"
-      },
-      {
-        "fecha": "2026-05-27",
-        "local": "Barcelona",
-        "visitante": "Real Sociedad",
-        "goles_local": 2,
-        "goles_visitante": 1,
-        "resultado": "H",
-        "id": "749217"
-      },
-      {
-        "fecha": "2026-05-27",
-        "local": "Deportivo",
-        "visitante": "Espanyol",
-        "goles_local": 2,
-        "goles_visitante": 2,
-        "resultado": "D",
-        "id": "749215"
-      },
-      {
-        "fecha": "2026-05-31",
-        "local": "Eibar",
-        "visitante": "Dux Logroño",
-        "goles_local": 2,
-        "goles_visitante": 1,
-        "resultado": "H",
-        "id": "749224"
-      },
-      {
-        "fecha": "2026-05-31",
-        "local": "Real Madrid",
-        "visitante": "Granada",
-        "goles_local": 2,
-        "goles_visitante": 0,
-        "resultado": "H",
-        "id": "749220"
-      },
-      {
-        "fecha": "2026-05-31",
-        "local": "Real Sociedad",
-        "visitante": "Atlético Madrid",
-        "goles_local": 2,
-        "goles_visitante": 0,
-        "resultado": "H",
-        "id": "749219"
-      },
-      {
-        "fecha": "2026-05-31",
-        "local": "Tenerife",
-        "visitante": "Deportivo",
-        "goles_local": 2,
-        "goles_visitante": 0,
-        "resultado": "H",
-        "id": "749225"
-      },
-      {
-        "fecha": "2026-05-31",
-        "local": "Athletic Club",
-        "visitante": "Alhama",
-        "goles_local": 4,
-        "goles_visitante": 1,
-        "resultado": "H",
-        "id": "749218"
-      },
-      {
-        "fecha": "2026-05-31",
-        "local": "Espanyol",
-        "visitante": "Sevilla",
-        "goles_local": 0,
-        "goles_visitante": 0,
-        "resultado": "D",
-        "id": "749223"
-      },
-      {
-        "fecha": "2026-05-31",
-        "local": "Levante",
-        "visitante": "FC Badalona",
-        "goles_local": 0,
-        "goles_visitante": 1,
-        "resultado": "A",
-        "id": "749222"
-      },
-      {
-        "fecha": "2026-05-31",
-        "local": "Madrid CFF",
-        "visitante": "Barcelona",
-        "goles_local": 0,
-        "goles_visitante": 4,
-        "resultado": "A",
-        "id": "749221"
-      },
       {
         "fecha": "2026-08-29",
         "local": "Deportivo",
@@ -1853,10 +701,11 @@
       {
         "fecha": "2026-09-08",
         "local": "AEK Athens",
-        "visitante": "LASK",
+        "visitante": "LASK Linz",
         "goles_local": 1,
         "goles_visitante": 0,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915452"
       },
       {
         "fecha": "2026-09-08",
@@ -1864,15 +713,26 @@
         "visitante": "Aston Villa",
         "goles_local": 2,
         "goles_visitante": 3,
-        "resultado": "A"
+        "resultado": "A",
+        "id": "401915426"
       },
       {
         "fecha": "2026-09-08",
-        "local": "B. Dortmund",
+        "local": "Borussia Dortmund",
         "visitante": "Villarreal",
         "goles_local": 3,
         "goles_visitante": 2,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915449"
+      },
+      {
+        "fecha": "2026-09-08",
+        "local": "FC Porto",
+        "visitante": "Manchester City",
+        "goles_local": 0,
+        "goles_visitante": 2,
+        "resultado": "A",
+        "id": "401915425"
       },
       {
         "fecha": "2026-09-08",
@@ -1880,47 +740,44 @@
         "visitante": "Real Betis",
         "goles_local": 2,
         "goles_visitante": 3,
-        "resultado": "A"
-      },
-      {
-        "fecha": "2026-09-08",
-        "local": "Porto",
-        "visitante": "Man City",
-        "goles_local": 0,
-        "goles_visitante": 2,
-        "resultado": "A"
+        "resultado": "A",
+        "id": "401915450"
       },
       {
         "fecha": "2026-09-08",
         "local": "Real Madrid",
-        "visitante": "Inter",
+        "visitante": "Internazionale",
         "goles_local": 2,
         "goles_visitante": 1,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915451"
       },
       {
         "fecha": "2026-09-09",
         "local": "Barcelona",
-        "visitante": "Feyenoord",
+        "visitante": "Feyenoord Rotterdam",
         "goles_local": 5,
         "goles_visitante": 1,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915424"
       },
       {
         "fecha": "2026-09-09",
-        "local": "Stuttgart",
-        "visitante": "Viking",
+        "local": "VfB Stuttgart",
+        "visitante": "Viking FK",
         "goles_local": 3,
         "goles_visitante": 1,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915448"
       },
       {
         "fecha": "2026-09-09",
         "local": "Liverpool",
-        "visitante": "Atleti",
+        "visitante": "Atlético Madrid",
         "goles_local": 2,
         "goles_visitante": 1,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915446"
       },
       {
         "fecha": "2026-09-09",
@@ -1928,15 +785,17 @@
         "visitante": "Arsenal",
         "goles_local": 0,
         "goles_visitante": 1,
-        "resultado": "A"
+        "resultado": "A",
+        "id": "401915423"
       },
       {
         "fecha": "2026-09-09",
-        "local": "Paris",
-        "visitante": "S. Bratislava",
+        "local": "Paris Saint-Germain",
+        "visitante": "Slovan Bratislava",
         "goles_local": 6,
         "goles_visitante": 1,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915445"
       },
       {
         "fecha": "2026-09-09",
@@ -1944,55 +803,62 @@
         "visitante": "Galatasaray",
         "goles_local": 3,
         "goles_visitante": 1,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915447"
       },
       {
         "fecha": "2026-09-10",
-        "local": "Fenerbahçe",
-        "visitante": "Roma",
+        "local": "Fenerbahce",
+        "visitante": "AS Roma",
         "goles_local": 1,
         "goles_visitante": 1,
-        "resultado": "D"
+        "resultado": "D",
+        "id": "401915444"
       },
       {
         "fecha": "2026-09-10",
-        "local": "PSV",
-        "visitante": "Shakhtar",
+        "local": "PSV Eindhoven",
+        "visitante": "Shakhtar Donetsk",
         "goles_local": 1,
         "goles_visitante": 1,
-        "resultado": "D"
+        "resultado": "D",
+        "id": "401915422"
       },
       {
         "fecha": "2026-09-10",
-        "local": "Bayern München",
-        "visitante": "Bodø/Glimt",
+        "local": "Bayern Munich",
+        "visitante": "Bodo/Glimt",
         "goles_local": 5,
         "goles_visitante": 0,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915443"
       },
       {
         "fecha": "2026-09-10",
         "local": "Como",
-        "visitante": "Leipzig",
+        "visitante": "RB Leipzig",
         "goles_local": 4,
         "goles_visitante": 1,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915441"
       },
       {
         "fecha": "2026-09-10",
-        "local": "Man Utd",
-        "visitante": "Sabah",
+        "local": "Manchester United",
+        "visitante": "Sabah FK",
         "goles_local": 4,
         "goles_visitante": 0,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915442"
       },
       {
         "fecha": "2026-09-10",
-        "local": "Slavia Praha",
+        "local": "Slavia Prague",
         "visitante": "Lens",
         "goles_local": 2,
         "goles_visitante": 3,
-        "resultado": "A"
+        "resultado": "A",
+        "id": "401915440"
       },
       {
         "fecha": "2026-10-13",
@@ -2000,15 +866,17 @@
         "visitante": "Sporting CP",
         "goles_local": 0,
         "goles_visitante": 2,
-        "resultado": "A"
+        "resultado": "A",
+        "id": "401915418"
       },
       {
         "fecha": "2026-10-13",
-        "local": "Sabah",
-        "visitante": "Slavia Praha",
+        "local": "Sabah FK",
+        "visitante": "Slavia Prague",
         "goles_local": 2,
         "goles_visitante": 0,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915436"
       },
       {
         "fecha": "2026-10-13",
@@ -2016,15 +884,17 @@
         "visitante": "Lille",
         "goles_local": 3,
         "goles_visitante": 0,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915417"
       },
       {
         "fecha": "2026-10-13",
-        "local": "Atleti",
-        "visitante": "Man Utd",
+        "local": "Atlético Madrid",
+        "visitante": "Manchester United",
         "goles_local": 2,
         "goles_visitante": 0,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915412"
       },
       {
         "fecha": "2026-10-13",
@@ -2032,31 +902,35 @@
         "visitante": "Barcelona",
         "goles_local": 1,
         "goles_visitante": 4,
-        "resultado": "A"
+        "resultado": "A",
+        "id": "401915435"
       },
       {
         "fecha": "2026-10-13",
-        "local": "Inter",
+        "local": "Internazionale",
         "visitante": "Club Brugge",
         "goles_local": 3,
         "goles_visitante": 4,
-        "resultado": "A"
+        "resultado": "A",
+        "id": "401915413"
       },
       {
         "fecha": "2026-10-13",
-        "local": "Leipzig",
-        "visitante": "PSV",
+        "local": "RB Leipzig",
+        "visitante": "PSV Eindhoven",
         "goles_local": 1,
         "goles_visitante": 0,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915434"
       },
       {
         "fecha": "2026-10-13",
-        "local": "Viking",
-        "visitante": "Bayern München",
+        "local": "Viking FK",
+        "visitante": "Bayern Munich",
         "goles_local": 3,
         "goles_visitante": 3,
-        "resultado": "D"
+        "resultado": "D",
+        "id": "401915411"
       },
       {
         "fecha": "2026-10-13",
@@ -2064,95 +938,125 @@
         "visitante": "Napoli",
         "goles_local": 3,
         "goles_visitante": 1,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915410"
       },
       {
         "fecha": "2026-10-14",
-        "local": "Feyenoord",
+        "local": "Feyenoord Rotterdam",
         "visitante": "Como",
         "goles_local": 3,
         "goles_visitante": 2,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915416"
       },
       {
         "fecha": "2026-10-14",
-        "local": "LASK",
+        "local": "LASK Linz",
         "visitante": "Liverpool",
         "goles_local": 3,
         "goles_visitante": 6,
-        "resultado": "A"
+        "resultado": "A",
+        "id": "401915415"
+      },
+      {
+        "fecha": "2026-10-14",
+        "local": "AS Roma",
+        "visitante": "Real Madrid",
+        "goles_local": 3,
+        "goles_visitante": 4,
+        "resultado": "A",
+        "id": "401915414"
       },
       {
         "fecha": "2026-10-14",
         "local": "Aston Villa",
-        "visitante": "Fenerbahçe",
+        "visitante": "Fenerbahce",
         "goles_local": 6,
         "goles_visitante": 0,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915409"
       },
       {
         "fecha": "2026-10-14",
-        "local": "Bodø/Glimt",
-        "visitante": "B. Dortmund",
+        "local": "Bodo/Glimt",
+        "visitante": "Borussia Dortmund",
         "goles_local": 1,
         "goles_visitante": 0,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915393"
       },
       {
         "fecha": "2026-10-14",
-        "local": "Man City",
-        "visitante": "Paris",
+        "local": "Manchester City",
+        "visitante": "Paris Saint-Germain",
         "goles_local": 2,
         "goles_visitante": 4,
-        "resultado": "A"
+        "resultado": "A",
+        "id": "401915407"
       },
       {
         "fecha": "2026-10-14",
         "local": "Real Betis",
-        "visitante": "Porto",
+        "visitante": "FC Porto",
         "goles_local": 3,
         "goles_visitante": 2,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915408"
       },
       {
         "fecha": "2026-10-14",
-        "local": "Roma",
-        "visitante": "Real Madrid",
-        "goles_local": 3,
-        "goles_visitante": 4,
-        "resultado": "A"
-      },
-      {
-        "fecha": "2026-10-14",
-        "local": "S. Bratislava",
-        "visitante": "Stuttgart",
-        "goles_local": 0,
-        "goles_visitante": 3,
-        "resultado": "A"
-      },
-      {
-        "fecha": "2026-10-14",
-        "local": "Shakhtar",
+        "local": "Shakhtar Donetsk",
         "visitante": "AEK Athens",
         "goles_local": 3,
         "goles_visitante": 1,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915406"
+      },
+      {
+        "fecha": "2026-10-14",
+        "local": "Slovan Bratislava",
+        "visitante": "VfB Stuttgart",
+        "goles_local": 0,
+        "goles_visitante": 3,
+        "resultado": "A",
+        "id": "401915405"
       },
       {
         "fecha": "2026-10-20",
-        "local": "Fenerbahçe",
-        "visitante": "Slavia Praha",
+        "local": "Fenerbahce",
+        "visitante": "Slavia Prague",
         "goles_local": 2,
         "goles_visitante": 2,
-        "resultado": "D"
+        "resultado": "D",
+        "id": "401915403"
       },
       {
         "fecha": "2026-10-20",
-        "local": "Sabah",
-        "visitante": "B. Dortmund",
+        "local": "Sabah FK",
+        "visitante": "Borussia Dortmund",
         "goles_local": 1,
         "goles_visitante": 2,
-        "resultado": "A"
+        "resultado": "A",
+        "id": "401915404"
+      },
+      {
+        "fecha": "2026-10-20",
+        "local": "AS Roma",
+        "visitante": "Slovan Bratislava",
+        "goles_local": 4,
+        "goles_visitante": 0,
+        "resultado": "H",
+        "id": "401915402"
+      },
+      {
+        "fecha": "2026-10-20",
+        "local": "FC Porto",
+        "visitante": "PSV Eindhoven",
+        "goles_local": 0,
+        "goles_visitante": 1,
+        "resultado": "A",
+        "id": "401915398"
       },
       {
         "fecha": "2026-10-20",
@@ -2160,63 +1064,53 @@
         "visitante": "Villarreal",
         "goles_local": 4,
         "goles_visitante": 3,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915397"
       },
       {
         "fecha": "2026-10-20",
-        "local": "Man City",
+        "local": "Manchester City",
         "visitante": "AEK Athens",
         "goles_local": 5,
         "goles_visitante": 1,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915401"
       },
       {
         "fecha": "2026-10-20",
         "local": "Napoli",
-        "visitante": "Bodø/Glimt",
+        "visitante": "Bodo/Glimt",
         "goles_local": 4,
         "goles_visitante": 3,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915400"
       },
       {
         "fecha": "2026-10-20",
-        "local": "Paris",
+        "local": "Paris Saint-Germain",
         "visitante": "Barcelona",
         "goles_local": 4,
         "goles_visitante": 2,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915399"
       },
       {
         "fecha": "2026-10-20",
-        "local": "Porto",
-        "visitante": "PSV",
-        "goles_local": 0,
-        "goles_visitante": 1,
-        "resultado": "A"
-      },
-      {
-        "fecha": "2026-10-20",
-        "local": "Roma",
-        "visitante": "S. Bratislava",
-        "goles_local": 4,
-        "goles_visitante": 0,
-        "resultado": "H"
-      },
-      {
-        "fecha": "2026-10-20",
-        "local": "Stuttgart",
-        "visitante": "Atleti",
+        "local": "VfB Stuttgart",
+        "visitante": "Atlético Madrid",
         "goles_local": 1,
         "goles_visitante": 1,
-        "resultado": "D"
+        "resultado": "D",
+        "id": "401915392"
       },
       {
         "fecha": "2026-10-21",
         "local": "Como",
-        "visitante": "Man Utd",
+        "visitante": "Manchester United",
         "goles_local": 4,
         "goles_visitante": 1,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915395"
       },
       {
         "fecha": "2026-10-21",
@@ -2224,23 +1118,26 @@
         "visitante": "Galatasaray",
         "goles_local": 2,
         "goles_visitante": 4,
-        "resultado": "A"
+        "resultado": "A",
+        "id": "401915396"
       },
       {
         "fecha": "2026-10-21",
         "local": "Aston Villa",
-        "visitante": "Viking",
+        "visitante": "Viking FK",
         "goles_local": 3,
         "goles_visitante": 1,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915394"
       },
       {
         "fecha": "2026-10-21",
-        "local": "Bayern München",
+        "local": "Bayern Munich",
         "visitante": "Arsenal",
         "goles_local": 2,
         "goles_visitante": 2,
-        "resultado": "D"
+        "resultado": "D",
+        "id": "401915312"
       },
       {
         "fecha": "2026-10-21",
@@ -2248,63 +1145,71 @@
         "visitante": "Lens",
         "goles_local": 3,
         "goles_visitante": 0,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915388"
       },
       {
         "fecha": "2026-10-21",
-        "local": "Inter",
-        "visitante": "Shakhtar",
+        "local": "Internazionale",
+        "visitante": "Shakhtar Donetsk",
         "goles_local": 1,
         "goles_visitante": 0,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915390"
       },
       {
         "fecha": "2026-10-21",
         "local": "Real Betis",
-        "visitante": "Feyenoord",
+        "visitante": "Feyenoord Rotterdam",
         "goles_local": 1,
         "goles_visitante": 0,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915389"
       },
       {
         "fecha": "2026-10-21",
         "local": "Real Madrid",
-        "visitante": "Leipzig",
+        "visitante": "RB Leipzig",
         "goles_local": 4,
         "goles_visitante": 1,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915313"
       },
       {
         "fecha": "2026-10-21",
         "local": "Sporting CP",
-        "visitante": "LASK",
+        "visitante": "LASK Linz",
         "goles_local": 2,
         "goles_visitante": 3,
-        "resultado": "A"
+        "resultado": "A",
+        "id": "401915391"
       },
       {
         "fecha": "2026-11-03",
         "local": "Galatasaray",
-        "visitante": "Stuttgart",
+        "visitante": "VfB Stuttgart",
         "goles_local": 2,
         "goles_visitante": 0,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915311"
       },
       {
         "fecha": "2026-11-03",
-        "local": "Shakhtar",
+        "local": "Shakhtar Donetsk",
         "visitante": "Sporting CP",
         "goles_local": 0,
         "goles_visitante": 1,
-        "resultado": "A"
+        "resultado": "A",
+        "id": "401915310"
       },
       {
         "fecha": "2026-11-03",
-        "local": "Atleti",
-        "visitante": "Bayern München",
+        "local": "Atlético Madrid",
+        "visitante": "Bayern Munich",
         "goles_local": 0,
         "goles_visitante": 2,
-        "resultado": "A"
+        "resultado": "A",
+        "id": "401915386"
       },
       {
         "fecha": "2026-11-03",
@@ -2312,47 +1217,53 @@
         "visitante": "Aston Villa",
         "goles_local": 3,
         "goles_visitante": 0,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915387"
       },
       {
         "fecha": "2026-11-03",
-        "local": "Bodø/Glimt",
+        "local": "Bodo/Glimt",
         "visitante": "Lille",
         "goles_local": 0,
         "goles_visitante": 0,
-        "resultado": "D"
+        "resultado": "D",
+        "id": "401915384"
       },
       {
         "fecha": "2026-11-03",
-        "local": "Feyenoord",
-        "visitante": "Inter",
+        "local": "Feyenoord Rotterdam",
+        "visitante": "Internazionale",
         "goles_local": 0,
         "goles_visitante": 3,
-        "resultado": "A"
+        "resultado": "A",
+        "id": "401915307"
       },
       {
         "fecha": "2026-11-03",
-        "local": "LASK",
-        "visitante": "S. Bratislava",
+        "local": "LASK Linz",
+        "visitante": "Slovan Bratislava",
         "goles_local": 4,
         "goles_visitante": 0,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915385"
       },
       {
         "fecha": "2026-11-03",
-        "local": "Man Utd",
-        "visitante": "Roma",
+        "local": "Manchester United",
+        "visitante": "AS Roma",
         "goles_local": 3,
         "goles_visitante": 2,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915308"
       },
       {
         "fecha": "2026-11-03",
         "local": "Villarreal",
-        "visitante": "Paris",
+        "visitante": "Paris Saint-Germain",
         "goles_local": 0,
         "goles_visitante": 6,
-        "resultado": "A"
+        "resultado": "A",
+        "id": "401915309"
       },
       {
         "fecha": "2026-11-04",
@@ -2360,31 +1271,35 @@
         "visitante": "Real Madrid",
         "goles_local": 2,
         "goles_visitante": 3,
-        "resultado": "A"
+        "resultado": "A",
+        "id": "401915383"
       },
       {
         "fecha": "2026-11-04",
-        "local": "Fenerbahçe",
+        "local": "Fenerbahce",
         "visitante": "Liverpool",
         "goles_local": 3,
         "goles_visitante": 2,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915382"
       },
       {
         "fecha": "2026-11-04",
-        "local": "B. Dortmund",
+        "local": "Borussia Dortmund",
         "visitante": "Real Betis",
         "goles_local": 2,
         "goles_visitante": 1,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915304"
       },
       {
         "fecha": "2026-11-04",
-        "local": "Leipzig",
-        "visitante": "Man City",
-        "goles_local": 2,
-        "goles_visitante": 3,
-        "resultado": "A"
+        "local": "FC Porto",
+        "visitante": "Napoli",
+        "goles_local": 4,
+        "goles_visitante": 1,
+        "resultado": "H",
+        "id": "401915301"
       },
       {
         "fecha": "2026-11-04",
@@ -2392,57 +1307,73 @@
         "visitante": "Como",
         "goles_local": 1,
         "goles_visitante": 9,
-        "resultado": "A"
+        "resultado": "A",
+        "id": "401915305"
       },
       {
         "fecha": "2026-11-04",
-        "local": "PSV",
+        "local": "PSV Eindhoven",
         "visitante": "Club Brugge",
         "goles_local": 1,
         "goles_visitante": 2,
-        "resultado": "A"
+        "resultado": "A",
+        "id": "401915303"
       },
       {
         "fecha": "2026-11-04",
-        "local": "Porto",
-        "visitante": "Napoli",
-        "goles_local": 4,
-        "goles_visitante": 1,
-        "resultado": "H"
+        "local": "RB Leipzig",
+        "visitante": "Manchester City",
+        "goles_local": 2,
+        "goles_visitante": 3,
+        "resultado": "A",
+        "id": "401915306"
       },
       {
         "fecha": "2026-11-04",
-        "local": "Slavia Praha",
+        "local": "Slavia Prague",
         "visitante": "Arsenal",
         "goles_local": 1,
         "goles_visitante": 2,
-        "resultado": "A"
+        "resultado": "A",
+        "id": "401915381"
       },
       {
         "fecha": "2026-11-04",
-        "local": "Viking",
-        "visitante": "Sabah",
+        "local": "Viking FK",
+        "visitante": "Sabah FK",
         "goles_local": 4,
         "goles_visitante": 1,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915302"
       }
     ],
     "UEL": [
       {
         "fecha": "2026-09-16",
         "local": "Ararat-Armenia",
-        "visitante": "Sparta Praha",
+        "visitante": "Sparta Prague",
         "goles_local": 1,
         "goles_visitante": 4,
-        "resultado": "A"
+        "resultado": "A",
+        "id": "401915594"
       },
       {
         "fecha": "2026-09-16",
-        "local": "Omonia",
-        "visitante": "Celta",
+        "local": "Omonia Nicosia",
+        "visitante": "Celta Vigo",
         "goles_local": 1,
         "goles_visitante": 0,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915611"
+      },
+      {
+        "fecha": "2026-09-16",
+        "local": "AC Milan",
+        "visitante": "Benfica",
+        "goles_local": 0,
+        "goles_visitante": 2,
+        "resultado": "A",
+        "id": "401915586"
       },
       {
         "fecha": "2026-09-16",
@@ -2450,47 +1381,44 @@
         "visitante": "Lyon",
         "goles_local": 1,
         "goles_visitante": 2,
-        "resultado": "A"
+        "resultado": "A",
+        "id": "401915590"
       },
       {
         "fecha": "2026-09-16",
-        "local": "H. Beer-Sheva",
-        "visitante": "GNK Dinamo",
-        "goles_local": 0,
-        "goles_visitante": 0,
-        "resultado": "D"
-      },
-      {
-        "fecha": "2026-09-16",
-        "local": "Leverkusen",
-        "visitante": "Celje",
+        "local": "Bayer Leverkusen",
+        "visitante": "NK Celje",
         "goles_local": 2,
         "goles_visitante": 0,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915587"
       },
       {
         "fecha": "2026-09-16",
-        "local": "Milan",
-        "visitante": "Benfica",
+        "local": "Hapoel Be'er",
+        "visitante": "Dinamo Zagreb",
         "goles_local": 0,
-        "goles_visitante": 2,
-        "resultado": "A"
+        "goles_visitante": 0,
+        "resultado": "D",
+        "id": "401915589"
       },
       {
         "fecha": "2026-09-16",
         "local": "Olympiacos",
-        "visitante": "Jagiellonia",
+        "visitante": "Jagiellonia Bialystok",
         "goles_local": 2,
         "goles_visitante": 1,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915588"
       },
       {
         "fecha": "2026-09-16",
-        "local": "Sturm Graz",
-        "visitante": "Rennes",
+        "local": "SK Sturm Graz",
+        "visitante": "Stade Rennais",
         "goles_local": 0,
         "goles_visitante": 0,
-        "resultado": "D"
+        "resultado": "D",
+        "id": "401915593"
       },
       {
         "fecha": "2026-09-16",
@@ -2498,23 +1426,26 @@
         "visitante": "AZ Alkmaar",
         "goles_local": 1,
         "goles_visitante": 0,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915592"
       },
       {
         "fecha": "2026-09-17",
         "local": "Levski Sofia",
-        "visitante": "Salzburg",
+        "visitante": "RB Salzburg",
         "goles_local": 0,
         "goles_visitante": 1,
-        "resultado": "A"
+        "resultado": "A",
+        "id": "401915584"
       },
       {
         "fecha": "2026-09-17",
         "local": "OFI Crete",
-        "visitante": "Hoffenheim",
+        "visitante": "TSG Hoffenheim",
         "goles_local": 2,
         "goles_visitante": 0,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915585"
       },
       {
         "fecha": "2026-09-17",
@@ -2522,15 +1453,17 @@
         "visitante": "Marseille",
         "goles_local": 4,
         "goles_visitante": 1,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915591"
       },
       {
         "fecha": "2026-09-17",
         "local": "Celtic",
-        "visitante": "Ferencváros",
+        "visitante": "Ferencvaros",
         "goles_local": 1,
         "goles_visitante": 3,
-        "resultado": "A"
+        "resultado": "A",
+        "id": "401915581"
       },
       {
         "fecha": "2026-09-17",
@@ -2538,63 +1471,62 @@
         "visitante": "Lech Poznan",
         "goles_local": 4,
         "goles_visitante": 0,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915569"
       },
       {
         "fecha": "2026-09-17",
         "local": "Juventus",
-        "visitante": "N.E.C.",
+        "visitante": "NEC Nijmegen",
         "goles_local": 5,
         "goles_visitante": 0,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915582"
       },
       {
         "fecha": "2026-09-17",
-        "local": "Lillestrøm",
+        "local": "Lillestrom",
         "visitante": "Torreense",
         "goles_local": 1,
         "goles_visitante": 2,
-        "resultado": "A"
+        "resultado": "A",
+        "id": "401915570"
       },
       {
         "fecha": "2026-09-17",
         "local": "Real Sociedad",
-        "visitante": "Bournemouth",
+        "visitante": "AFC Bournemouth",
         "goles_local": 1,
         "goles_visitante": 2,
-        "resultado": "A"
+        "resultado": "A",
+        "id": "401915583"
       },
       {
         "fecha": "2026-09-17",
         "local": "Viktoria Plzen",
-        "visitante": "Union SG",
+        "visitante": "Union St.-Gilloise",
         "goles_local": 0,
         "goles_visitante": 3,
-        "resultado": "A"
+        "resultado": "A",
+        "id": "401915580"
       },
       {
         "fecha": "2026-10-15",
         "local": "AZ Alkmaar",
-        "visitante": "H. Beer-Sheva",
+        "visitante": "Hapoel Be'er",
         "goles_local": 2,
         "goles_visitante": 1,
-        "resultado": "H"
-      },
-      {
-        "fecha": "2026-10-15",
-        "local": "Celje",
-        "visitante": "Omonia",
-        "goles_local": 0,
-        "goles_visitante": 3,
-        "resultado": "A"
+        "resultado": "H",
+        "id": "401915573"
       },
       {
         "fecha": "2026-10-15",
         "local": "Lech Poznan",
-        "visitante": "Leverkusen",
+        "visitante": "Bayer Leverkusen",
         "goles_local": 0,
         "goles_visitante": 4,
-        "resultado": "A"
+        "resultado": "A",
+        "id": "401915576"
       },
       {
         "fecha": "2026-10-15",
@@ -2602,23 +1534,35 @@
         "visitante": "Crystal Palace",
         "goles_local": 3,
         "goles_visitante": 2,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915566"
       },
       {
         "fecha": "2026-10-15",
-        "local": "Salzburg",
-        "visitante": "Milan",
+        "local": "NK Celje",
+        "visitante": "Omonia Nicosia",
+        "goles_local": 0,
+        "goles_visitante": 3,
+        "resultado": "A",
+        "id": "401915577"
+      },
+      {
+        "fecha": "2026-10-15",
+        "local": "RB Salzburg",
+        "visitante": "AC Milan",
         "goles_local": 0,
         "goles_visitante": 4,
-        "resultado": "A"
+        "resultado": "A",
+        "id": "401915568"
       },
       {
         "fecha": "2026-10-15",
-        "local": "Sparta Praha",
-        "visitante": "Lillestrøm",
+        "local": "Sparta Prague",
+        "visitante": "Lillestrom",
         "goles_local": 1,
         "goles_visitante": 1,
-        "resultado": "D"
+        "resultado": "D",
+        "id": "401915567"
       },
       {
         "fecha": "2026-10-15",
@@ -2626,15 +1570,26 @@
         "visitante": "Sunderland",
         "goles_local": 1,
         "goles_visitante": 2,
-        "resultado": "A"
+        "resultado": "A",
+        "id": "401915575"
       },
       {
         "fecha": "2026-10-15",
-        "local": "Union SG",
+        "local": "Union St.-Gilloise",
         "visitante": "Real Sociedad",
         "goles_local": 1,
         "goles_visitante": 1,
-        "resultado": "D"
+        "resultado": "D",
+        "id": "401915574"
+      },
+      {
+        "fecha": "2026-10-15",
+        "local": "AFC Bournemouth",
+        "visitante": "SK Sturm Graz",
+        "goles_local": 3,
+        "goles_visitante": 0,
+        "resultado": "H",
+        "id": "401915571"
       },
       {
         "fecha": "2026-10-15",
@@ -2642,55 +1597,44 @@
         "visitante": "Celtic",
         "goles_local": 4,
         "goles_visitante": 1,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915562"
       },
       {
         "fecha": "2026-10-15",
-        "local": "Bournemouth",
-        "visitante": "Sturm Graz",
-        "goles_local": 3,
-        "goles_visitante": 0,
-        "resultado": "H"
-      },
-      {
-        "fecha": "2026-10-15",
-        "local": "Celta",
+        "local": "Celta Vigo",
         "visitante": "Juventus",
         "goles_local": 1,
         "goles_visitante": 2,
-        "resultado": "A"
+        "resultado": "A",
+        "id": "401915560"
       },
       {
         "fecha": "2026-10-15",
-        "local": "Ferencváros",
-        "visitante": "Viktoria Plzen",
-        "goles_local": 2,
-        "goles_visitante": 1,
-        "resultado": "H"
-      },
-      {
-        "fecha": "2026-10-15",
-        "local": "GNK Dinamo",
+        "local": "Dinamo Zagreb",
         "visitante": "Anderlecht",
         "goles_local": 1,
         "goles_visitante": 0,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915549"
       },
       {
         "fecha": "2026-10-15",
-        "local": "Hoffenheim",
-        "visitante": "Besiktas",
+        "local": "Ferencvaros",
+        "visitante": "Viktoria Plzen",
         "goles_local": 2,
-        "goles_visitante": 3,
-        "resultado": "A"
+        "goles_visitante": 1,
+        "resultado": "H",
+        "id": "401915564"
       },
       {
         "fecha": "2026-10-15",
-        "local": "Jagiellonia",
+        "local": "Jagiellonia Bialystok",
         "visitante": "Ararat-Armenia",
         "goles_local": 3,
         "goles_visitante": 1,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915561"
       },
       {
         "fecha": "2026-10-15",
@@ -2698,23 +1642,35 @@
         "visitante": "Olympiacos",
         "goles_local": 0,
         "goles_visitante": 1,
-        "resultado": "A"
+        "resultado": "A",
+        "id": "401915550"
       },
       {
         "fecha": "2026-10-15",
-        "local": "N.E.C.",
+        "local": "NEC Nijmegen",
         "visitante": "Levski Sofia",
         "goles_local": 1,
         "goles_visitante": 1,
-        "resultado": "D"
+        "resultado": "D",
+        "id": "401915565"
       },
       {
         "fecha": "2026-10-15",
-        "local": "Rennes",
+        "local": "Stade Rennais",
         "visitante": "OFI Crete",
         "goles_local": 2,
         "goles_visitante": 1,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915572"
+      },
+      {
+        "fecha": "2026-10-15",
+        "local": "TSG Hoffenheim",
+        "visitante": "Besiktas",
+        "goles_local": 2,
+        "goles_visitante": 3,
+        "resultado": "A",
+        "id": "401915563"
       },
       {
         "fecha": "2026-10-22",
@@ -2722,31 +1678,35 @@
         "visitante": "AZ Alkmaar",
         "goles_local": 0,
         "goles_visitante": 4,
-        "resultado": "A"
+        "resultado": "A",
+        "id": "401915548"
       },
       {
         "fecha": "2026-10-22",
-        "local": "Ferencváros",
+        "local": "Dinamo Zagreb",
+        "visitante": "NEC Nijmegen",
+        "goles_local": 2,
+        "goles_visitante": 4,
+        "resultado": "A",
+        "id": "401915556"
+      },
+      {
+        "fecha": "2026-10-22",
+        "local": "Ferencvaros",
         "visitante": "Torreense",
         "goles_local": 4,
         "goles_visitante": 1,
-        "resultado": "H"
-      },
-      {
-        "fecha": "2026-10-22",
-        "local": "GNK Dinamo",
-        "visitante": "N.E.C.",
-        "goles_local": 2,
-        "goles_visitante": 4,
-        "resultado": "A"
+        "resultado": "H",
+        "id": "401915558"
       },
       {
         "fecha": "2026-10-22",
         "local": "Juventus",
-        "visitante": "Rennes",
+        "visitante": "Stade Rennais",
         "goles_local": 2,
         "goles_visitante": 2,
-        "resultado": "D"
+        "resultado": "D",
+        "id": "401915547"
       },
       {
         "fecha": "2026-10-22",
@@ -2754,31 +1714,44 @@
         "visitante": "Sunderland",
         "goles_local": 1,
         "goles_visitante": 1,
-        "resultado": "D"
+        "resultado": "D",
+        "id": "401915546"
       },
       {
         "fecha": "2026-10-22",
         "local": "OFI Crete",
-        "visitante": "Leverkusen",
+        "visitante": "Bayer Leverkusen",
         "goles_local": 0,
         "goles_visitante": 2,
-        "resultado": "A"
+        "resultado": "A",
+        "id": "401915559"
       },
       {
         "fecha": "2026-10-22",
-        "local": "Sturm Graz",
+        "local": "SK Sturm Graz",
         "visitante": "Marseille",
         "goles_local": 1,
         "goles_visitante": 0,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915557"
       },
       {
         "fecha": "2026-10-22",
-        "local": "Union SG",
-        "visitante": "H. Beer-Sheva",
+        "local": "Union St.-Gilloise",
+        "visitante": "Hapoel Be'er",
         "goles_local": 4,
         "goles_visitante": 0,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915545"
+      },
+      {
+        "fecha": "2026-10-22",
+        "local": "AFC Bournemouth",
+        "visitante": "AC Milan",
+        "goles_local": 3,
+        "goles_visitante": 0,
+        "resultado": "H",
+        "id": "401915552"
       },
       {
         "fecha": "2026-10-22",
@@ -2786,71 +1759,71 @@
         "visitante": "Crystal Palace",
         "goles_local": 2,
         "goles_visitante": 2,
-        "resultado": "D"
-      },
-      {
-        "fecha": "2026-10-22",
-        "local": "Bournemouth",
-        "visitante": "Milan",
-        "goles_local": 3,
-        "goles_visitante": 0,
-        "resultado": "H"
-      },
-      {
-        "fecha": "2026-10-22",
-        "local": "Celje",
-        "visitante": "Salzburg",
-        "goles_local": 2,
-        "goles_visitante": 2,
-        "resultado": "D"
+        "resultado": "D",
+        "id": "401915553"
       },
       {
         "fecha": "2026-10-22",
         "local": "Celtic",
-        "visitante": "Celta",
+        "visitante": "Celta Vigo",
         "goles_local": 1,
         "goles_visitante": 2,
-        "resultado": "A"
+        "resultado": "A",
+        "id": "401915555"
       },
       {
         "fecha": "2026-10-22",
-        "local": "Hoffenheim",
-        "visitante": "Lyon",
-        "goles_local": 3,
-        "goles_visitante": 0,
-        "resultado": "H"
-      },
-      {
-        "fecha": "2026-10-22",
-        "local": "Jagiellonia",
+        "local": "Jagiellonia Bialystok",
         "visitante": "Anderlecht",
         "goles_local": 0,
         "goles_visitante": 3,
-        "resultado": "A"
+        "resultado": "A",
+        "id": "401915542"
       },
       {
         "fecha": "2026-10-22",
-        "local": "Lillestrøm",
+        "local": "Lillestrom",
         "visitante": "Real Sociedad",
         "goles_local": 0,
         "goles_visitante": 6,
-        "resultado": "A"
+        "resultado": "A",
+        "id": "401915540"
+      },
+      {
+        "fecha": "2026-10-22",
+        "local": "NK Celje",
+        "visitante": "RB Salzburg",
+        "goles_local": 2,
+        "goles_visitante": 2,
+        "resultado": "D",
+        "id": "401915541"
       },
       {
         "fecha": "2026-10-22",
         "local": "Olympiacos",
-        "visitante": "Sparta Praha",
+        "visitante": "Sparta Prague",
         "goles_local": 1,
         "goles_visitante": 0,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915554"
       },
       {
         "fecha": "2026-10-22",
-        "local": "Omonia",
+        "local": "Omonia Nicosia",
         "visitante": "Benfica",
         "goles_local": 1,
         "goles_visitante": 4,
-        "resultado": "A"
+        "resultado": "A",
+        "id": "401915544"
+      },
+      {
+        "fecha": "2026-10-22",
+        "local": "TSG Hoffenheim",
+        "visitante": "Lyon",
+        "goles_local": 3,
+        "goles_visitante": 0,
+        "resultado": "H",
+        "id": "401915543"
       },
       {
         "fecha": "2026-10-22",
@@ -2858,63 +1831,71 @@
         "visitante": "Levski Sofia",
         "goles_local": 1,
         "goles_visitante": 2,
-        "resultado": "A"
+        "resultado": "A",
+        "id": "401915539"
       },
       {
         "fecha": "2026-11-04",
-        "local": "Rennes",
+        "local": "Stade Rennais",
         "visitante": "Olympiacos",
         "goles_local": 0,
         "goles_visitante": 0,
-        "resultado": "D"
+        "resultado": "D",
+        "id": "401915551"
+      },
+      {
+        "fecha": "2026-11-05",
+        "local": "AC Milan",
+        "visitante": "Ferencvaros",
+        "goles_local": 0,
+        "goles_visitante": 2,
+        "resultado": "A",
+        "id": "401915534"
       },
       {
         "fecha": "2026-11-05",
         "local": "Anderlecht",
-        "visitante": "Salzburg",
+        "visitante": "RB Salzburg",
         "goles_local": 2,
         "goles_visitante": 0,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915538"
       },
       {
         "fecha": "2026-11-05",
         "local": "Crystal Palace",
-        "visitante": "Hoffenheim",
+        "visitante": "TSG Hoffenheim",
         "goles_local": 1,
         "goles_visitante": 1,
-        "resultado": "D"
+        "resultado": "D",
+        "id": "401915526"
       },
       {
         "fecha": "2026-11-05",
         "local": "Levski Sofia",
-        "visitante": "Jagiellonia",
+        "visitante": "Jagiellonia Bialystok",
         "goles_local": 1,
         "goles_visitante": 0,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915536"
       },
       {
         "fecha": "2026-11-05",
-        "local": "Lillestrøm",
+        "local": "Lillestrom",
         "visitante": "Viktoria Plzen",
         "goles_local": 0,
         "goles_visitante": 1,
-        "resultado": "A"
+        "resultado": "A",
+        "id": "401915527"
       },
       {
         "fecha": "2026-11-05",
-        "local": "Milan",
-        "visitante": "Ferencváros",
-        "goles_local": 0,
-        "goles_visitante": 2,
-        "resultado": "A"
-      },
-      {
-        "fecha": "2026-11-05",
-        "local": "N.E.C.",
-        "visitante": "Omonia",
+        "local": "NEC Nijmegen",
+        "visitante": "Omonia Nicosia",
         "goles_local": 3,
         "goles_visitante": 1,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915535"
       },
       {
         "fecha": "2026-11-05",
@@ -2922,15 +1903,17 @@
         "visitante": "Lyon",
         "goles_local": 1,
         "goles_visitante": 1,
-        "resultado": "D"
+        "resultado": "D",
+        "id": "401915537"
       },
       {
         "fecha": "2026-11-05",
-        "local": "Sparta Praha",
-        "visitante": "Bournemouth",
+        "local": "Sparta Prague",
+        "visitante": "AFC Bournemouth",
         "goles_local": 1,
         "goles_visitante": 3,
-        "resultado": "A"
+        "resultado": "A",
+        "id": "401915528"
       },
       {
         "fecha": "2026-11-05",
@@ -2938,7 +1921,17 @@
         "visitante": "Juventus",
         "goles_local": 1,
         "goles_visitante": 2,
-        "resultado": "A"
+        "resultado": "A",
+        "id": "401915529"
+      },
+      {
+        "fecha": "2026-11-05",
+        "local": "Bayer Leverkusen",
+        "visitante": "Marseille",
+        "goles_local": 0,
+        "goles_visitante": 1,
+        "resultado": "A",
+        "id": "401915533"
       },
       {
         "fecha": "2026-11-05",
@@ -2946,15 +1939,17 @@
         "visitante": "Lech Poznan",
         "goles_local": 3,
         "goles_visitante": 1,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915525"
       },
       {
         "fecha": "2026-11-05",
-        "local": "Celta",
-        "visitante": "Union SG",
+        "local": "Celta Vigo",
+        "visitante": "Union St.-Gilloise",
         "goles_local": 1,
         "goles_visitante": 2,
-        "resultado": "A"
+        "resultado": "A",
+        "id": "401915531"
       },
       {
         "fecha": "2026-11-05",
@@ -2962,39 +1957,35 @@
         "visitante": "Besiktas",
         "goles_local": 3,
         "goles_visitante": 2,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915522"
       },
       {
         "fecha": "2026-11-05",
-        "local": "H. Beer-Sheva",
+        "local": "Hapoel Be'er",
         "visitante": "OFI Crete",
         "goles_local": 0,
         "goles_visitante": 2,
-        "resultado": "A"
+        "resultado": "A",
+        "id": "401915532"
       },
       {
         "fecha": "2026-11-05",
-        "local": "Leverkusen",
-        "visitante": "Marseille",
-        "goles_local": 0,
-        "goles_visitante": 1,
-        "resultado": "A"
-      },
-      {
-        "fecha": "2026-11-05",
-        "local": "Sturm Graz",
-        "visitante": "Celje",
+        "local": "SK Sturm Graz",
+        "visitante": "NK Celje",
         "goles_local": 2,
         "goles_visitante": 3,
-        "resultado": "A"
+        "resultado": "A",
+        "id": "401915524"
       },
       {
         "fecha": "2026-11-05",
         "local": "Sunderland",
-        "visitante": "GNK Dinamo",
+        "visitante": "Dinamo Zagreb",
         "goles_local": 0,
         "goles_visitante": 2,
-        "resultado": "A"
+        "resultado": "A",
+        "id": "401915523"
       },
       {
         "fecha": "2026-11-05",
@@ -3002,41 +1993,64 @@
         "visitante": "Ararat-Armenia",
         "goles_local": 3,
         "goles_visitante": 2,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915530"
       }
     ],
     "UECL": [
       {
         "fecha": "2026-10-15",
         "local": "CSKA Sofia",
-        "visitante": "Monaco",
+        "visitante": "AS Monaco",
         "goles_local": 1,
         "goles_visitante": 2,
-        "resultado": "A"
+        "resultado": "A",
+        "id": "401915855"
+      },
+      {
+        "fecha": "2026-10-15",
+        "local": "CSU Craiova",
+        "visitante": "Getafe",
+        "goles_local": 1,
+        "goles_visitante": 1,
+        "resultado": "D",
+        "id": "401915854"
       },
       {
         "fecha": "2026-10-15",
         "local": "Egnatia",
-        "visitante": "Midtjylland",
+        "visitante": "FC Midtjylland",
         "goles_local": 1,
         "goles_visitante": 1,
-        "resultado": "D"
+        "resultado": "D",
+        "id": "401915859"
       },
       {
         "fecha": "2026-10-15",
-        "local": "Gent",
-        "visitante": "Aarhus",
-        "goles_local": 1,
-        "goles_visitante": 0,
-        "resultado": "H"
+        "local": "FC Lugano",
+        "visitante": "Red Star Belgrade",
+        "goles_local": 3,
+        "goles_visitante": 2,
+        "resultado": "H",
+        "id": "401915748"
       },
       {
         "fecha": "2026-10-15",
         "local": "Hajduk Split",
-        "visitante": "Ajax",
+        "visitante": "Ajax Amsterdam",
         "goles_local": 2,
         "goles_visitante": 1,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915861"
+      },
+      {
+        "fecha": "2026-10-15",
+        "local": "KAA Gent",
+        "visitante": "AGF",
+        "goles_local": 1,
+        "goles_visitante": 0,
+        "resultado": "H",
+        "id": "401915860"
       },
       {
         "fecha": "2026-10-15",
@@ -3044,47 +2058,35 @@
         "visitante": "Trabzonspor",
         "goles_local": 2,
         "goles_visitante": 4,
-        "resultado": "A"
+        "resultado": "A",
+        "id": "401915858"
       },
       {
         "fecha": "2026-10-15",
-        "local": "Lugano",
-        "visitante": "Crvena Zvezda",
-        "goles_local": 3,
-        "goles_visitante": 2,
-        "resultado": "H"
-      },
-      {
-        "fecha": "2026-10-15",
-        "local": "Mjällby",
-        "visitante": "Inter Escaldes",
+        "local": "Mjällby AIF",
+        "visitante": "Inter D'Escaldes",
         "goles_local": 2,
         "goles_visitante": 0,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915857"
       },
       {
         "fecha": "2026-10-15",
         "local": "Panathinaikos",
-        "visitante": "Borac",
+        "visitante": "Borac Banja Luka",
         "goles_local": 2,
         "goles_visitante": 1,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915856"
       },
       {
         "fecha": "2026-10-15",
-        "local": "Riga",
+        "local": "Riga FC",
         "visitante": "Kairat Almaty",
         "goles_local": 1,
         "goles_visitante": 1,
-        "resultado": "D"
-      },
-      {
-        "fecha": "2026-10-15",
-        "local": "U. Craiova",
-        "visitante": "Getafe",
-        "goles_local": 1,
-        "goles_visitante": 1,
-        "resultado": "D"
+        "resultado": "D",
+        "id": "401915747"
       },
       {
         "fecha": "2026-10-15",
@@ -3092,63 +2094,71 @@
         "visitante": "Pafos",
         "goles_local": 3,
         "goles_visitante": 1,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915746"
       },
       {
         "fecha": "2026-10-15",
-        "local": "Brann",
-        "visitante": "L. Red Imps",
-        "goles_local": 2,
-        "goles_visitante": 1,
-        "resultado": "H"
-      },
-      {
-        "fecha": "2026-10-15",
-        "local": "Brighton",
-        "visitante": "Kauno Žalgiris",
+        "local": "Brighton & Hove Albion",
+        "visitante": "Kauno Zalgiris",
         "goles_local": 4,
         "goles_visitante": 0,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915853"
       },
       {
         "fecha": "2026-10-15",
-        "local": "Copenhagen",
+        "local": "F.C. København",
         "visitante": "Braga",
         "goles_local": 3,
         "goles_visitante": 0,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915852"
       },
       {
         "fecha": "2026-10-15",
-        "local": "Freiburg",
+        "local": "FC Twente",
+        "visitante": "FC Thun",
+        "goles_local": 1,
+        "goles_visitante": 0,
+        "resultado": "H",
+        "id": "401915851"
+      },
+      {
+        "fecha": "2026-10-15",
+        "local": "Heart of Midlothian",
+        "visitante": "FC Nordsjælland",
+        "goles_local": 1,
+        "goles_visitante": 1,
+        "resultado": "D",
+        "id": "401915850"
+      },
+      {
+        "fecha": "2026-10-15",
+        "local": "SC Freiburg",
         "visitante": "Jablonec",
         "goles_local": 3,
         "goles_visitante": 2,
-        "resultado": "H"
-      },
-      {
-        "fecha": "2026-10-15",
-        "local": "Hearts",
-        "visitante": "Nordsjælland",
-        "goles_local": 1,
-        "goles_visitante": 1,
-        "resultado": "D"
+        "resultado": "H",
+        "id": "401915848"
       },
       {
         "fecha": "2026-10-15",
         "local": "Sint-Truidense",
-        "visitante": "Iberia Tbilisi",
+        "visitante": "Iberia 1999",
         "goles_local": 2,
         "goles_visitante": 0,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915849"
       },
       {
         "fecha": "2026-10-15",
-        "local": "Twente",
-        "visitante": "Thun",
-        "goles_local": 1,
-        "goles_visitante": 0,
-        "resultado": "H"
+        "local": "SK Brann",
+        "visitante": "Lincoln Red Imps",
+        "goles_local": 2,
+        "goles_visitante": 1,
+        "resultado": "H",
+        "id": "401915847"
       },
       {
         "fecha": "2026-10-22",
@@ -3156,151 +2166,170 @@
         "visitante": "Panathinaikos",
         "goles_local": 1,
         "goles_visitante": 5,
-        "resultado": "A"
+        "resultado": "A",
+        "id": "401915846"
       },
       {
         "fecha": "2026-10-22",
-        "local": "Crvena Zvezda",
-        "visitante": "Copenhagen",
+        "local": "FC Nordsjælland",
+        "visitante": "CSKA Sofia",
         "goles_local": 2,
         "goles_visitante": 2,
-        "resultado": "D"
+        "resultado": "D",
+        "id": "401915844"
       },
       {
         "fecha": "2026-10-22",
         "local": "Getafe",
-        "visitante": "Lugano",
+        "visitante": "FC Lugano",
         "goles_local": 2,
         "goles_visitante": 5,
-        "resultado": "A"
+        "resultado": "A",
+        "id": "401915840"
       },
       {
         "fecha": "2026-10-22",
-        "local": "Iberia Tbilisi",
-        "visitante": "Mjällby",
+        "local": "Iberia 1999",
+        "visitante": "Mjällby AIF",
         "goles_local": 1,
         "goles_visitante": 1,
-        "resultado": "D"
+        "resultado": "D",
+        "id": "401915845"
       },
       {
         "fecha": "2026-10-22",
-        "local": "Inter Escaldes",
-        "visitante": "U. Craiova",
+        "local": "Inter D'Escaldes",
+        "visitante": "CSU Craiova",
         "goles_local": 1,
         "goles_visitante": 3,
-        "resultado": "A"
+        "resultado": "A",
+        "id": "401915839"
       },
       {
         "fecha": "2026-10-22",
         "local": "Jablonec",
-        "visitante": "Brighton",
+        "visitante": "Brighton & Hove Albion",
         "goles_local": 0,
         "goles_visitante": 0,
-        "resultado": "D"
+        "resultado": "D",
+        "id": "401915842"
       },
       {
         "fecha": "2026-10-22",
-        "local": "Kauno Žalgiris",
-        "visitante": "Brann",
+        "local": "Kauno Zalgiris",
+        "visitante": "SK Brann",
         "goles_local": 1,
         "goles_visitante": 4,
-        "resultado": "A"
-      },
-      {
-        "fecha": "2026-10-22",
-        "local": "Nordsjælland",
-        "visitante": "CSKA Sofia",
-        "goles_local": 2,
-        "goles_visitante": 2,
-        "resultado": "D"
+        "resultado": "A",
+        "id": "401915841"
       },
       {
         "fecha": "2026-10-22",
         "local": "Pafos",
-        "visitante": "Riga",
+        "visitante": "Riga FC",
         "goles_local": 1,
         "goles_visitante": 1,
-        "resultado": "D"
+        "resultado": "D",
+        "id": "401915838"
+      },
+      {
+        "fecha": "2026-10-22",
+        "local": "Red Star Belgrade",
+        "visitante": "F.C. København",
+        "goles_local": 2,
+        "goles_visitante": 2,
+        "resultado": "D",
+        "id": "401915843"
       },
       {
         "fecha": "2026-10-22",
         "local": "Trabzonspor",
-        "visitante": "Hearts",
+        "visitante": "Heart of Midlothian",
         "goles_local": 2,
         "goles_visitante": 0,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915745"
       },
       {
         "fecha": "2026-10-22",
-        "local": "Aarhus",
+        "local": "AGF",
         "visitante": "Egnatia",
         "goles_local": 1,
         "goles_visitante": 1,
-        "resultado": "D"
+        "resultado": "D",
+        "id": "401915744"
       },
       {
         "fecha": "2026-10-22",
-        "local": "Ajax",
+        "local": "Ajax Amsterdam",
         "visitante": "Atalanta",
         "goles_local": 2,
         "goles_visitante": 0,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915837"
       },
       {
         "fecha": "2026-10-22",
-        "local": "Borac",
+        "local": "AS Monaco",
+        "visitante": "SC Freiburg",
+        "goles_local": 3,
+        "goles_visitante": 0,
+        "resultado": "H",
+        "id": "401915836"
+      },
+      {
+        "fecha": "2026-10-22",
+        "local": "Borac Banja Luka",
         "visitante": "KuPS Kuopio",
         "goles_local": 2,
         "goles_visitante": 0,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915743"
       },
       {
         "fecha": "2026-10-22",
         "local": "Braga",
-        "visitante": "Gent",
+        "visitante": "KAA Gent",
         "goles_local": 2,
         "goles_visitante": 0,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915832"
       },
       {
         "fecha": "2026-10-22",
-        "local": "L. Red Imps",
-        "visitante": "Twente",
-        "goles_local": 1,
-        "goles_visitante": 4,
-        "resultado": "A"
-      },
-      {
-        "fecha": "2026-10-22",
-        "local": "Midtjylland",
+        "local": "FC Midtjylland",
         "visitante": "Sint-Truidense",
         "goles_local": 0,
         "goles_visitante": 1,
-        "resultado": "A"
+        "resultado": "A",
+        "id": "401915835"
       },
       {
         "fecha": "2026-10-22",
-        "local": "Monaco",
-        "visitante": "Freiburg",
-        "goles_local": 3,
-        "goles_visitante": 0,
-        "resultado": "H"
-      },
-      {
-        "fecha": "2026-10-22",
-        "local": "Thun",
+        "local": "FC Thun",
         "visitante": "Hajduk Split",
         "goles_local": 0,
         "goles_visitante": 1,
-        "resultado": "A"
+        "resultado": "A",
+        "id": "401915834"
+      },
+      {
+        "fecha": "2026-10-22",
+        "local": "Lincoln Red Imps",
+        "visitante": "FC Twente",
+        "goles_local": 1,
+        "goles_visitante": 4,
+        "resultado": "A",
+        "id": "401915833"
       },
       {
         "fecha": "2026-11-05",
-        "local": "Aarhus",
+        "local": "AGF",
         "visitante": "Braga",
         "goles_local": 0,
         "goles_visitante": 0,
-        "resultado": "D"
+        "resultado": "D",
+        "id": "401915831"
       },
       {
         "fecha": "2026-11-05",
@@ -3308,95 +2337,125 @@
         "visitante": "Kairat Almaty",
         "goles_local": 1,
         "goles_visitante": 1,
-        "resultado": "D"
+        "resultado": "D",
+        "id": "401915830"
       },
       {
         "fecha": "2026-11-05",
-        "local": "Crvena Zvezda",
-        "visitante": "Inter Escaldes",
-        "goles_local": 2,
+        "local": "FC Midtjylland",
+        "visitante": "Ajax Amsterdam",
+        "goles_local": 1,
+        "goles_visitante": 6,
+        "resultado": "A",
+        "id": "401915829"
+      },
+      {
+        "fecha": "2026-11-05",
+        "local": "FC Thun",
+        "visitante": "Heart of Midlothian",
+        "goles_local": 3,
         "goles_visitante": 1,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915828"
       },
       {
         "fecha": "2026-11-05",
         "local": "KuPS Kuopio",
-        "visitante": "Gent",
+        "visitante": "KAA Gent",
         "goles_local": 0,
         "goles_visitante": 0,
-        "resultado": "D"
+        "resultado": "D",
+        "id": "401915826"
       },
       {
         "fecha": "2026-11-05",
-        "local": "L. Red Imps",
+        "local": "Lincoln Red Imps",
         "visitante": "Hajduk Split",
         "goles_local": 1,
         "goles_visitante": 0,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915742"
       },
       {
         "fecha": "2026-11-05",
-        "local": "Midtjylland",
-        "visitante": "Ajax",
-        "goles_local": 1,
-        "goles_visitante": 6,
-        "resultado": "A"
-      },
-      {
-        "fecha": "2026-11-05",
-        "local": "Mjällby",
-        "visitante": "Borac",
+        "local": "Mjällby AIF",
+        "visitante": "Borac Banja Luka",
         "goles_local": 2,
         "goles_visitante": 0,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915741"
       },
       {
         "fecha": "2026-11-05",
-        "local": "Thun",
-        "visitante": "Hearts",
-        "goles_local": 3,
+        "local": "Red Star Belgrade",
+        "visitante": "Inter D'Escaldes",
+        "goles_local": 2,
         "goles_visitante": 1,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915827"
       },
       {
         "fecha": "2026-11-05",
         "local": "Trabzonspor",
-        "visitante": "Freiburg",
+        "visitante": "SC Freiburg",
         "goles_local": 0,
         "goles_visitante": 1,
-        "resultado": "A"
+        "resultado": "A",
+        "id": "401915825"
       },
       {
         "fecha": "2026-11-05",
-        "local": "Copenhagen",
-        "visitante": "Iberia Tbilisi",
+        "local": "AS Monaco",
+        "visitante": "FC Nordsjælland",
+        "goles_local": 2,
+        "goles_visitante": 0,
+        "resultado": "H",
+        "id": "401915824"
+      },
+      {
+        "fecha": "2026-11-05",
+        "local": "CSU Craiova",
+        "visitante": "Egnatia",
+        "goles_local": 2,
+        "goles_visitante": 0,
+        "resultado": "H",
+        "id": "401915817"
+      },
+      {
+        "fecha": "2026-11-05",
+        "local": "F.C. København",
+        "visitante": "Iberia 1999",
         "goles_local": 2,
         "goles_visitante": 1,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915740"
+      },
+      {
+        "fecha": "2026-11-05",
+        "local": "FC Lugano",
+        "visitante": "Kauno Zalgiris",
+        "goles_local": 3,
+        "goles_visitante": 0,
+        "resultado": "H",
+        "id": "401915823"
+      },
+      {
+        "fecha": "2026-11-05",
+        "local": "FC Twente",
+        "visitante": "Pafos",
+        "goles_local": 3,
+        "goles_visitante": 1,
+        "resultado": "H",
+        "id": "401915822"
       },
       {
         "fecha": "2026-11-05",
         "local": "Getafe",
-        "visitante": "Brighton",
+        "visitante": "Brighton & Hove Albion",
         "goles_local": 0,
         "goles_visitante": 1,
-        "resultado": "A"
-      },
-      {
-        "fecha": "2026-11-05",
-        "local": "Lugano",
-        "visitante": "Kauno Žalgiris",
-        "goles_local": 3,
-        "goles_visitante": 0,
-        "resultado": "H"
-      },
-      {
-        "fecha": "2026-11-05",
-        "local": "Monaco",
-        "visitante": "Nordsjælland",
-        "goles_local": 2,
-        "goles_visitante": 0,
-        "resultado": "H"
+        "resultado": "A",
+        "id": "401915821"
       },
       {
         "fecha": "2026-11-05",
@@ -3404,62 +2463,49 @@
         "visitante": "CSKA Sofia",
         "goles_local": 2,
         "goles_visitante": 1,
-        "resultado": "H"
+        "resultado": "H",
+        "id": "401915819"
       },
       {
         "fecha": "2026-11-05",
-        "local": "Riga",
+        "local": "Riga FC",
         "visitante": "Jablonec",
         "goles_local": 1,
         "goles_visitante": 1,
-        "resultado": "D"
+        "resultado": "D",
+        "id": "401915818"
       },
       {
         "fecha": "2026-11-05",
         "local": "Sint-Truidense",
-        "visitante": "Brann",
+        "visitante": "SK Brann",
         "goles_local": 1,
         "goles_visitante": 1,
-        "resultado": "D"
-      },
-      {
-        "fecha": "2026-11-05",
-        "local": "Twente",
-        "visitante": "Pafos",
-        "goles_local": 3,
-        "goles_visitante": 1,
-        "resultado": "H"
-      },
-      {
-        "fecha": "2026-11-05",
-        "local": "U. Craiova",
-        "visitante": "Egnatia",
-        "goles_local": 2,
-        "goles_visitante": 0,
-        "resultado": "H"
+        "resultado": "D",
+        "id": "401915820"
       }
     ]
   },
   "estado": {
     "LIGAF": {
       "ok": true,
-      "partidos": 205,
+      "partidos": 77,
       "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.w.1/scoreboard?dates=2026&limit=500"
     },
     "UCL": {
       "ok": true,
       "partidos": 72,
-      "url": "https://raw.githubusercontent.com/oladeeayo/open-matchday/master/data/UEFA_1_champions-league/results_2627.csv"
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=2026&limit=500"
     },
     "UEL": {
       "ok": true,
       "partidos": 72,
-      "url": "https://raw.githubusercontent.com/oladeeayo/open-matchday/master/data/UEFA_1_europa-league/results_2627.csv"
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=2026&limit=500"
     },
     "UECL": {
       "ok": true,
       "partidos": 54,
-      "url": "https://raw.githubusercontent.com/oladeeayo/open-matchday/master/data/UEFA_1_conference-league/results_2627.csv"
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard?dates=2026&limit=500"
     }
   }
 }
