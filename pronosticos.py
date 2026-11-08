@@ -24,7 +24,7 @@ def probabilidades(goles_local, goles_visitante):
     total = p1 + px + p2
     return [round(100 * x / total, 2) for x in (p1, px, p2)]
 
-def calcular_liga(partidos, min_partidos_equipo=0):
+def calcular_liga(partidos, min_partidos_equipo=0, objetivos=None):
     jugados = [p for p in partidos if p.get("resultado") in ("H", "D", "A")]
     if not jugados:
         return []
@@ -69,7 +69,7 @@ def calcular_liga(partidos, min_partidos_equipo=0):
     pronosticos = []
     for local in equipos:
         for visitante in equipos:
-            if local == visitante:
+            if local == visitante or (objetivos is not None and (local, visitante) not in objetivos):
                 continue
 
             a = stats[local]
