@@ -6,6 +6,9 @@ on:
       - 'actualizar_jornada.py'
       - 'test_actualizar_jornada.py'
       - 'validar_jornada.py'
+      - 'estadisticas_extra.py'
+      - 'test_estadisticas_extra.py'
+      - 'pronosticos.py'
       - 'generador.js'
       - 'resultados.js'
       - 'test_generador.cjs'
@@ -25,7 +28,7 @@ jobs:
       - name: Instalar dependencias
         run: python -m pip install beautifulsoup4==4.12.3
       - name: Compilar código Python
-        run: python -m compileall -q actualizar_jornada.py validar_jornada.py test_actualizar_jornada.py
+        run: python -m compileall -q actualizar_jornada.py validar_jornada.py test_actualizar_jornada.py estadisticas_extra.py pronosticos.py test_estadisticas_extra.py
       - name: Comprobar JavaScript
         run: |
           node --check generador.js
@@ -33,4 +36,4 @@ jobs:
           node --check test_generador.cjs
           node test_generador.cjs
       - name: Ejecutar pruebas sin red
-        run: python -m unittest -v test_actualizar_jornada.py
+        run: python -m unittest -v test_actualizar_jornada.py test_estadisticas_extra.py
