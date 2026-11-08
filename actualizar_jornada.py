@@ -107,7 +107,7 @@ def fuente_quinielafutbol(soup):
             continue
         numero = int(m.group(1))
         tabla = h.find_next("table")
-        if tabla is None:
+        if tabla is None or (tabla.find_previous(re.compile(r"^h[1-6]$")) is not h):
             continue
         partidos = extraer_filas(tabla)
         if len(partidos) == 15:
@@ -147,7 +147,7 @@ def fuente_quiniprats(soup, numero):
         local, visitante = lineas[fecha_idx-1], lineas[fecha_idx+1]
         if local and visitante and len(local) > 1 and len(visitante) > 1:
             partidos[n] = (local, visitante)
-    if set(partidos) != set(range(1, 16)):
+    if set(partidos) != set(range(1, 16)) or len({(clave(a), clave(b)) for a,b in partidos.values()}) != 15:
         return {}
     # Las fechas se extraen del resumen, no de horas susceptibles a diferencias de huso.
     meses = {"enero":1,"febrero":2,"marzo":3,"abril":4,"mayo":5,"junio":6,
