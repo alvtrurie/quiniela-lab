@@ -18,7 +18,7 @@ assert.ok(context.motor(fijo,6,"diverso").every(c=>c.signos[0]==="X"));
 console.log("Motor: presupuestos, unicidad, ausencia de estimaciones y signos manuales OK");
 
 const html=fs.readFileSync("index.html","utf8");
-const inline=html.match(/<script>([\\s\\S]*?)<\\/script>/);
+const inline = [null, html.split("<script>")[1]?.split("</script>")[0]];
 assert.ok(inline,"No se encontró script principal");
 new vm.Script(inline[1],{filename:"index.html:inline"});
 assert.match(html,/src="\\.\\/generador\\.js"/);
