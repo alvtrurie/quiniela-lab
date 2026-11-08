@@ -7,6 +7,9 @@ on:
       - 'actualizar_jornada.py'
       - 'test_actualizar_jornada.py'
       - 'validar_jornada.py'
+      - 'estadisticas_extra.py'
+      - 'test_estadisticas_extra.py'
+      - 'pronosticos.py'
       - '.github/workflows/actualizar.yml'
   workflow_dispatch:
   schedule:
@@ -35,7 +38,7 @@ jobs:
         run: python -m pip install beautifulsoup4==4.12.3
 
       - name: Probar extractor de jornadas
-        run: python -m unittest -v test_actualizar_jornada.py
+        run: python -m unittest -v test_actualizar_jornada.py test_estadisticas_extra.py
 
       - name: Descargar estadísticas
         run: |
@@ -77,6 +80,8 @@ jobs:
               json.dumps(resultado, ensure_ascii=False, indent=2), encoding="utf-8"
           )
           PY
+      - name: Descargar resultados Liga F y UEFA
+        run: python estadisticas_extra.py
       - name: Calcular pronósticos
         run: python pronosticos.py
       # Consulta oficial desactivada temporalmente: HTTP 403
@@ -90,7 +95,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/estadisticas.json data/pronosticos.json data/estado_jornada.json data/diagnostico_fuentes.json data/jornada_actual.json
+          git add data/estadisticas.json data/estadisticas_extra.json data/pronosticos.json data/estado_jornada.json data/diagnostico_fuentes.json data/jornada_actual.json
           if ! git diff --cached --quiet; then
             git commit -m "Actualizar estadísticas de fútbol"
             for intento in 1 2 3; do
