@@ -1,7 +1,7 @@
 """Pruebas sin red del extractor y la normalización."""
 import unittest
 from bs4 import BeautifulSoup
-from actualizar_jornada import extraer_filas, fechas_tabla, coinciden, fuente_quinielafutbol, fuente_losilla
+from actualizar_jornada import extraer_filas, fechas_tabla, coinciden, fuente_quinielafutbol, fuente_losilla, fuente_quiniprats
 
 def tabla():
     filas = ''.join(
@@ -20,6 +20,15 @@ class TestFuentes(unittest.TestCase):
     def test_losilla(self):
         soup = BeautifulSoup('<h1>JORNADA 22 - 26/27</h1>'+tabla(), 'html.parser')
         self.assertEqual(len(fuente_losilla(soup)[22]['partidos']), 15)
+
+    def test_quiniprats(self):
+        cuerpo = '<h1>Quiniela — Jornada 22</h1>'
+        for i in range(1, 16):
+            cuerpo += f'<section><h2>#{i}</h2><p>Equipo {i}</p><p>mar 17 nov · 19:45</p><p>Rival {i}</p></section>'
+        cuerpo += '<p>La jornada se disputa entre el 17 noviembre y el 19 noviembre.</p>'
+        encontrado = fuente_quiniprats(BeautifulSoup(cuerpo, 'html.parser'), 22)
+        self.assertEqual(len(encontrado[22]['partidos']), 15)
+        self.assertEqual(encontrado[22]['fechas'][1].isoformat(), '2026-11-19')
 
     def test_contraste(self):
         p = extraer_filas(BeautifulSoup(tabla(), 'html.parser').table)
