@@ -10,6 +10,8 @@ on:
       - 'test_estadisticas_extra.py'
       - 'pronosticos.py'
       - 'generador.js'
+      - 'dashboard.js'
+      - 'actualizar_xg.py'
       - 'resultados.js'
       - 'test_generador.cjs'
       - 'index.html'
@@ -28,9 +30,10 @@ jobs:
       - name: Instalar dependencias
         run: python -m pip install beautifulsoup4==4.12.3
       - name: Compilar código Python
-        run: python -m compileall -q actualizar_jornada.py validar_jornada.py test_actualizar_jornada.py estadisticas_extra.py pronosticos.py test_estadisticas_extra.py
+        run: python -m compileall -q actualizar_jornada.py validar_jornada.py test_actualizar_jornada.py estadisticas_extra.py pronosticos.py actualizar_xg.py test_estadisticas_extra.py
       - name: Comprobar JavaScript
         run: |
+          node --check dashboard.js
           node --check generador.js
           node --check resultados.js
           node --check test_generador.cjs
