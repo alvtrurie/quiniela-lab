@@ -7,6 +7,41 @@ DATOS = Path("data/estadisticas.json")
 SALIDA = Path("data/pronosticos.json")
 EXTRA = Path("data/estadisticas_extra.json")
 
+
+XG = Path("data/xg_pitchapi.json")
+
+def normalizar_equipo(s):
+    import unicodedata, re
+    s=unicodedata.normalize("NFKD",str(s)).encode("ascii","ignore").decode().lower()
+    s=re.sub(r"\\b(fc|cf|cd|ud|sd|rcd|real|club|de|la)\\b"," ",s)
+    return " ".join(re.findall(r"[a-z0-9]+",s))
+
+def mezclar_xg(partidos, cache):
+    from difflib import SequenceMatcher
+    by_date={}
+    for x in cache.values():
+        if isinstance(x,dict) and all(k in x for k in ("fecha","goles_local","goles_visitante","xg_local","xg_visitante")):
+            by_date.setdefault(x["fecha"],[]).append(x)
+    resultado=[]; matches=0; usados=set()
+    for p in partidos:
+        try:
+            fecha=datetime.strptime(p["fecha"],"%d/%m/%Y").strftime("%Y-%m-%d")
+        except (ValueError,TypeError):
+            resultado.append(dict(p));continue
+        candidatos=[]
+        for x in by_date.get(fecha,[]):
+            if int(p["goles_local"])!=int(x["goles_local"]) or int(p["goles_visitante"])!=int(x["goles_visitante"]):continue
+            a=SequenceMatcher(None,normalizar_equipo(p["local"]),normalizar_equipo(x["local"])).ratio()
+            b=SequenceMatcher(None,normalizar_equipo(p["visitante"]),normalizar_equipo(x["visitante"])).ratio()
+            key=(x["fecha"],x["local"],x["visitante"])
+            if a>=0.72 and b>=0.72 and key not in usados:candidatos.append((key,x))
+        if len(candidatos)==1:
+            key,x=candidatos[0];usados.add(key)
+            resultado.append(dict(p,goles_local=float(x["xg_local"]),goles_visitante=float(x["xg_visitante"])))
+            matches+=1
+        else:resultado.append(dict(p))
+    return resultado,matches
+
 def poisson(k, media):
     return math.exp(-media) * media ** k / math.factorial(k)
 
@@ -42,8 +77,8 @@ def calcular_liga(partidos, min_partidos_equipo=0, objetivos=None, pesos=None, e
     suma_pesos = sum(pesos)
     if suma_pesos <= 0:
         raise ValueError("Pesos inválidos")
-    goles_casa = sum(float(w) * int(p["goles_local"]) for p,w in zip(jugados,pesos))
-    goles_fuera = sum(float(w) * int(p["goles_visitante"]) for p,w in zip(jugados,pesos))
+    goles_casa = sum(float(w) * float(p["goles_local"]) for p,w in zip(jugados,pesos))
+    goles_fuera = sum(float(w) * float(p["goles_visitante"]) for p,w in zip(jugados,pesos))
     media_casa = max(0.1, goles_casa / suma_pesos)
     media_fuera = max(0.1, goles_fuera / suma_pesos)
 
@@ -62,8 +97,8 @@ def calcular_liga(partidos, min_partidos_equipo=0, objetivos=None, pesos=None, e
         partidos_reales[p["visitante"]] += 1
         local = stats[p["local"]]
         fuera = stats[p["visitante"]]
-        gl = int(p["goles_local"])
-        gv = int(p["goles_visitante"])
+        gl = float(p["goles_local"])
+        gv = float(p["goles_visitante"])
 
         local["pj_casa"] += w
         local["gf_casa"] += w * gl
@@ -127,7 +162,7 @@ def main():
 
     salida = {
         "actualizado": datetime.now(timezone.utc).isoformat(),
-        "modelo": "Poisson con fuerzas local/visitante y suavizado",
+        "modelo": "Poisson con xG PitchAPI cuando disponible y fallback de goles reales",
         "fuente": datos.get("fuente"),
         "competiciones": {}
     }
@@ -138,13 +173,22 @@ def main():
         extras = {"competiciones": {}, "estado": {}}
     salida["cobertura_extra"] = extras.get("estado", {})
     competiciones = {**datos["competiciones"], **extras.get("competiciones", {})}
+    try:
+        xg_cache=json.loads(XG.read_text(encoding="utf-8"))
+        if xg_cache.get("temporada")!=datos.get("temporada"):xg_cache={}
+    except (OSError,ValueError):xg_cache={}
+    salida["cobertura_xg"]={}
     for liga, partidos in competiciones.items():
         # No se fabrican estimaciones con muestras demasiado pequeñas.
         # Los torneos UEFA tienen muestras limitadas: marcamos las salidas como exploratorias.
         if liga in ("LIGAF", "UCL", "UEL", "UECL") and len(partidos) < 12:
             salida["competiciones"][liga] = []
             continue
-        salida["competiciones"][liga] = calcular_liga(partidos, min_partidos_equipo=3 if liga in ("UCL", "UEL", "UECL", "LIGAF") else 0)
+        usar=partidos
+        if liga in ("SP1","SP2"):
+            usar,coincidencias=mezclar_xg(partidos,xg_cache.get("competiciones",{}).get(liga,{}))
+            salida["cobertura_xg"][liga]={"partidos_con_xg":coincidencias,"partidos_totales":len(partidos)}
+        salida["competiciones"][liga] = calcular_liga(usar, min_partidos_equipo=3 if liga in ("UCL", "UEL", "UECL", "LIGAF") else 0)
         print(f"{liga}: {len(salida['competiciones'][liga])} enfrentamientos calculados")
 
     SALIDA.parent.mkdir(parents=True, exist_ok=True)
