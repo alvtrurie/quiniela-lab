@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-08T18:21:10.331454+00:00",
+  "actualizado": "2026-11-08T18:22:31.174988+00:00",
   "modelo": "Poisson con xG PitchAPI cuando disponible y fallback de goles reales",
   "fuente": "football-data.co.uk",
   "competiciones": {
