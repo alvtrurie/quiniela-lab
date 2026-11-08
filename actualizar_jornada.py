@@ -43,6 +43,22 @@ def clave(s):
         "fc andorra": "andorra", "cd castellon": "castellon",
         "sevilla fc": "sevilla", "eibar f": "eibar f",
     }
+    replacements.update({
+        "bosnia herzegovina": "bosnia herzegovina",
+        "bosnia y herzegovina": "bosnia herzegovina",
+        "rep irlanda": "irlanda", "republica de irlanda": "irlanda",
+        "irlanda": "irlanda", "r madrid f": "real madrid f",
+        "real madrid f": "real madrid f",
+        "inter f": "inter f", "bk hacken f": "hacken f",
+        "hacken f": "hacken f", "chelsea f": "chelsea f",
+        "psg f": "psg f", "juventus f": "juventus f",
+        "leuven f": "leuven f", "oh leuven f": "leuven f",
+        "austria wien f": "austria viena f", "austria viena f": "austria viena f",
+        "bayern munich f": "bayern munich f", "arsenal f": "arsenal f",
+        "ol lyonnes f": "ol lyonnes f", "ol lyonnes": "ol lyonnes f",
+        "barcelona f": "barcelona f", "benfica f": "benfica f",
+        "roma f": "roma f", "servette f": "servette f",
+    })
     return replacements.get(s, s)
 
 def enfrentamiento(s):
