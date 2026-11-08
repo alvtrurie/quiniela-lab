@@ -1,0 +1,102 @@
+{
+  "numero": 21,
+  "temporada": "2026-2027",
+  "fecha_inicio": "2026-11-14",
+  "fecha_fin": "2026-11-15",
+  "verificacion": "Composición contrastada en dos fuentes; no actualización automática",
+  "fuentes": [
+    "https://www.quinielafutbol.info/proximas-jornadas-de-la-quiniela.html",
+    "https://www.lototienda.com/la-quiniela-directo",
+    "https://www.selae.es/es/web-corporativa/comunicacion/avisos-de-interes"
+  ],
+  "partidos": [
+    {
+      "posicion": 1,
+      "local": "Valladolid",
+      "visitante": "Castellon",
+      "liga": "SP2"
+    },
+    {
+      "posicion": 2,
+      "local": "Sociedad B",
+      "visitante": "Sp Gijon",
+      "liga": "SP2"
+    },
+    {
+      "posicion": 3,
+      "local": "Almeria",
+      "visitante": "Andorra",
+      "liga": "SP2"
+    },
+    {
+      "posicion": 4,
+      "local": "Mallorca",
+      "visitante": "Cordoba",
+      "liga": "SP2"
+    },
+    {
+      "posicion": 5,
+      "local": "Oviedo",
+      "visitante": "Girona",
+      "liga": "SP2"
+    },
+    {
+      "posicion": 6,
+      "local": "Tenerife",
+      "visitante": "Ceuta",
+      "liga": "SP2"
+    },
+    {
+      "posicion": 7,
+      "local": "Granada",
+      "visitante": "Las Palmas",
+      "liga": "SP2"
+    },
+    {
+      "posicion": 8,
+      "local": "Eibar",
+      "visitante": "Cadiz",
+      "liga": "SP2"
+    },
+    {
+      "posicion": 9,
+      "local": "Eldense",
+      "visitante": "Sabadell",
+      "liga": "SP2"
+    },
+    {
+      "posicion": 10,
+      "local": "Bélgica",
+      "visitante": "Italia",
+      "liga": null
+    },
+    {
+      "posicion": 11,
+      "local": "Alavés (F)",
+      "visitante": "Eibar (F)",
+      "liga": null
+    },
+    {
+      "posicion": 12,
+      "local": "Real Sociedad (F)",
+      "visitante": "Athletic Club (F)",
+      "liga": null
+    },
+    {
+      "posicion": 13,
+      "local": "Sevilla (F)",
+      "visitante": "Atlético de Madrid (F)",
+      "liga": null
+    },
+    {
+      "posicion": 14,
+      "local": "Valencia (F)",
+      "visitante": "Granada (F)",
+      "liga": null
+    }
+  ],
+  "pleno": {
+    "local": "España",
+    "visitante": "Inglaterra"
+  }
+}
