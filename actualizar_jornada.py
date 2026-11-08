@@ -185,6 +185,24 @@ def main():
     actual_numero = int(actual.get("numero", 0))
     comunes = sorted(set(candidatos["quinielafutbol"]) & set(candidatos["quiniprats"]))
     validos = [n for n in comunes if coinciden(candidatos["quinielafutbol"][n], candidatos["quiniprats"][n])]
+    diagnostico["comparacion"] = {}
+    for n in comunes:
+        a = candidatos["quinielafutbol"][n]["partidos"]
+        b = candidatos["quiniprats"][n]["partidos"]
+        discrepancias = []
+        for pos in range(1, 16):
+            x, y = a.get(pos), b.get(pos)
+            if not x or not y or clave(x[0]) != clave(y[0]) or clave(x[1]) != clave(y[1]):
+                discrepancias.append({"posicion": pos, "quinielafutbol": list(x) if x else None,
+                                      "quiniprats": list(y) if y else None})
+        diagnostico["comparacion"][str(n)] = {"coinciden": not discrepancias,
+                                                  "discrepancias": discrepancias}
+    for n in comunes:
+        comparacion = diagnostico["comparacion"][str(n)]
+        print(f"Comparación jornada {n}: {'OK' if comparacion['coinciden'] else 'DIFERENCIAS'}")
+        for error in comparacion["discrepancias"]:
+            print(json.dumps(error, ensure_ascii=False))
+
     # Nunca retroceder ni saltar jornadas, ni sobreescribir una jornada que no ha finalizado.
     siguiente = actual_numero + 1
     if siguiente in validos and date.fromisoformat(actual["fecha_fin"]) < date.today():
@@ -213,7 +231,7 @@ def main():
     elif actual_numero in validos:
         diagnostico["motivo"] = "Jornada actual coincidente en ambas fuentes. Sin cambios."
     else:
-        diagnostico["motivo"] = "Sin coincidencia completa de 15 partidos para la jornada actual."
+        diagnostico["motivo"] = "No se han confirmado 15 partidos idénticos entre ambas fuentes para la siguiente jornada."
     diagnostico["jornadas_coincidentes"] = validos
     diagnostico["fuente_independiente_actualizada"] = siguiente in candidatos["quiniprats"]
     diagnostico["nota"] = "Sin coincidencia de dos fuentes no se publican jornadas nuevas. QuiniPrats se consulta para la siguiente jornada."
