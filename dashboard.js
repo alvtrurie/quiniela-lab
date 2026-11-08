@@ -17,7 +17,8 @@ function qlHistorial(p){
   if(!Array.isArray(filas))return null;
   const cutoff=qlFecha(jornada?.fecha_inicio)||Date.now();
   const local=qlCanon(p.local), visitante=qlCanon(p.visitante);
-  const matches=filas.filter(x=>x&&Number.isFinite(+x.goles_local)&&Number.isFinite(+x.goles_visitante)&&
+  const prev=historico?.competiciones?.[p.liga]||[];
+  const matches=[...filas,...prev].filter(x=>x&&Number.isFinite(+x.goles_local)&&Number.isFinite(+x.goles_visitante)&&
     x.goles_local!==''&&x.goles_visitante!==''&&qlFecha(x.fecha)<cutoff)
     .map(x=>({...x,home:qlCanon(x.local),away:qlCanon(x.visitante),gl:+x.goles_local,gv:+x.goles_visitante}))
     .sort((a,b)=>qlFecha(b.fecha)-qlFecha(a.fecha));
@@ -82,7 +83,7 @@ function qlDashboard(p,pr){
       qlStatEquipo(hist.fuera,hist.visitante,p.visitante+' · visitante')+'</div>'+
       '<h3>Estadísticas de temporada</h3><div class="grid">'+qlStatEquipo(hist.localTodos,hist.local,p.local+' · total')+
       qlStatEquipo(hist.visTodos,hist.visitante,p.visitante+' · total')+'</div>'+
-      '<h3>Enfrentamientos directos</h3><p class="muted small">'+hist.h2h.length+' enfrentamientos en el histórico disponible de esta temporada. No equivale al historial completo entre ambos clubes.</p>'+
+      '<h3>Enfrentamientos directos</h3><p class="muted small">'+hist.h2h.length+' enfrentamientos en las temporadas disponibles (actual y hasta tres anteriores). No equivale al historial completo entre ambos clubes.</p>'+
       qlTablaPartidos(hist.h2h)+
       '<h3>Últimos resultados</h3><div class="grid"><div><h4>'+esc(p.local)+'</h4>'+qlTablaPartidos(hist.localUlt,5)+'</div>'+
       '<div><h4>'+esc(p.visitante)+'</h4>'+qlTablaPartidos(hist.visUlt,5)+'</div></div>';
@@ -93,7 +94,7 @@ function qlDashboard(p,pr){
     '<div class="stat"><strong>Lesiones y bajas</strong><p class="muted small">Sin información verificada para este partido.</p></div>'+
     '<div class="stat"><strong>Sanciones</strong><p class="muted small">Sin información verificada para este partido.</p></div>'+
     '<div class="stat"><strong>Rivalidad y contexto</strong><p class="muted small">Sin fuente contrastada para clasificar el enfrentamiento.</p></div></div>'+
-    '<h3>Fuentes y fiabilidad</h3><p class="muted small">Resultados históricos: football-data.co.uk, temporada '+esc(stats?.temporada||'actual')+
+    '<h3>Fuentes y fiabilidad</h3><p class="muted small">Resultados históricos: football-data.co.uk, temporada '+esc(stats?.temporada||'actual')+' y hasta tres temporadas anteriores+
     '. Solo se utilizan partidos finalizados anteriores a la jornada. '+
     (coverage?'Cobertura xG PitchAPI: '+coverage.partidos_con_xg+' de '+coverage.partidos_totales+' partidos de liga emparejados.':'No consta cobertura xG en esta competición.')+
     ' Los porcentajes son estimaciones del modelo, no cuotas de apuestas. No se ha validado aquí el historial de lesiones ni sanciones.</p></section>';
