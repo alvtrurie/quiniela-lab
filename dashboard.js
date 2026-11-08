@@ -91,8 +91,8 @@ function qlDashboard(p,pr){
     out+='<h3>Forma, tendencias e histórico</h3><p class="muted">No hay una fuente histórica compatible y verificada para este enfrentamiento. No se muestran datos estimados como si fueran hechos.</p>';
   }
   out+='<h3>Disponibilidad y contexto</h3><div class="grid">'+
-    '<div class="stat"><strong>Lesiones y bajas</strong><p class="muted small">Sin información verificada para este partido.</p></div>'+
-    '<div class="stat"><strong>Sanciones</strong><p class="muted small">Sin información verificada para este partido.</p></div>'+
+    '<div class="stat"><strong>Lesiones y bajas</strong><p class="muted small">Sin listado verificado integrado. Consultar estado de plantilla en Transfermarkt.</p></div>'+
+    '<div class="stat"><strong>Sanciones</strong><p class="muted small">Consultar sanciones y jugadores apercibidos. La página puede no devolver registros; eso no confirma ausencia de sancionados.</p><a href="'+(p.liga==='SP1'?'https://www.transfermarkt.es/laliga/sperrenausfaelle/wettbewerb/ES1':p.liga==='SP2'?'https://www.transfermarkt.es/laliga2/sperrenausfaelle/wettbewerb/ES2':'https://www.transfermarkt.es/')+'" target="_blank" rel="noopener noreferrer">Consultar Transfermarkt ↗</a></div>'+
     '<div class="stat"><strong>Rivalidad y contexto</strong><p class="muted small">Sin fuente contrastada para clasificar el enfrentamiento.</p></div></div>'+
     '<h3>Fuentes y fiabilidad</h3><p class="muted small">Resultados históricos: football-data.co.uk, temporada '+esc(stats?.temporada||'actual')+' y hasta tres temporadas anteriores+
     '. Solo se utilizan partidos finalizados anteriores a la jornada. '+
