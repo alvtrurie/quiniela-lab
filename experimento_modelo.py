@@ -6,6 +6,7 @@ from pathlib import Path
 from backtest_2025_26 import leer_sp, MIN_TRAIN
 from pronosticos import calcular_liga
 
+# Reejecución con recuento de partidos corregido.
 VARIANTES = {
  "base":(None,0.0),
  "recencia_90d":(90,0.0),
