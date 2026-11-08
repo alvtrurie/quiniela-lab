@@ -1,0 +1,68 @@
+{
+  "fuente": "PitchAPI tiros expected_goals",
+  "temporada": "2025/2026",
+  "metodo": "Walk-forward: xG de partidos previos, comparación de mezcla de goles observados y xG; muestra parcial cronológica",
+  "limite_por_liga": 100,
+  "resultados": {
+    "SP1": {
+      "consultados": 100,
+      "errores": [],
+      "modelos": {
+        "0.0": {
+          "n": 60,
+          "aciertos": 29,
+          "precision": 48.33,
+          "brier": 0.6192,
+          "logloss": 1.0288,
+          "empates_elegidos": 0
+        },
+        "0.5": {
+          "n": 60,
+          "aciertos": 30,
+          "precision": 50.0,
+          "brier": 0.6114,
+          "logloss": 1.0173,
+          "empates_elegidos": 0
+        },
+        "1.0": {
+          "n": 60,
+          "aciertos": 33,
+          "precision": 55.0,
+          "brier": 0.61,
+          "logloss": 1.0158,
+          "empates_elegidos": 0
+        }
+      }
+    },
+    "SP2": {
+      "consultados": 100,
+      "errores": [],
+      "modelos": {
+        "0.0": {
+          "n": 57,
+          "aciertos": 22,
+          "precision": 38.6,
+          "brier": 0.709,
+          "logloss": 1.156,
+          "empates_elegidos": 0
+        },
+        "0.5": {
+          "n": 57,
+          "aciertos": 27,
+          "precision": 47.37,
+          "brier": 0.6828,
+          "logloss": 1.1215,
+          "empates_elegidos": 0
+        },
+        "1.0": {
+          "n": 57,
+          "aciertos": 27,
+          "precision": 47.37,
+          "brier": 0.6606,
+          "logloss": 1.0922,
+          "empates_elegidos": 0
+        }
+      }
+    }
+  }
+}
