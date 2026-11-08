@@ -1,10 +1,12 @@
 {
-  "comprobado": "2026-11-08T00:00:00Z",
+  "comprobado": "2026-11-08T17:45:00+01:00",
   "numero": 21,
-  "publicable": false,
-  "motivos": [
-    "Composición no verificada: discrepancia con el calendario publicado",
-    "Faltan fuentes independientes comprobadas"
-  ],
-  "nota": "Estado inicial conservador; GitHub Actions actualizará esta comprobación en su próxima ejecución."
+  "publicable": true,
+  "motivos": [],
+  "nota": "Composición contrastada manualmente en tres fuentes independientes el 8/11/2026. La actualización automática de jornadas aún no está implementada.",
+  "fuentes": [
+    "https://www.quinielafutbol.info/proximas-jornadas-de-la-quiniela.html",
+    "https://quiniprats.com/es/quiniela/2026-27/jornada/21",
+    "https://www.lotocanarias.com/m/la-quiniela-directo"
+  ]
 }
