@@ -1,5 +1,11 @@
 """Pruebas sin red del extractor y la normalización."""
 import unittest
+import json
+import tempfile
+from datetime import date
+from pathlib import Path
+from unittest.mock import patch
+import actualizar_jornada as aj
 from bs4 import BeautifulSoup
 from actualizar_jornada import extraer_filas, fechas_tabla, coinciden, fuente_quinielafutbol, fuente_losilla, fuente_quiniprats
 
@@ -29,6 +35,41 @@ class TestFuentes(unittest.TestCase):
         encontrado = fuente_quiniprats(BeautifulSoup(cuerpo, 'html.parser'), 22)
         self.assertEqual(len(encontrado[22]['partidos']), 15)
         self.assertEqual(encontrado[22]['fechas'][1].isoformat(), '2026-11-19')
+
+    def test_principal_no_consulta_respaldo(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            ruta = Path(tmp)
+            (ruta / "jornada_actual.json").write_text(json.dumps({
+                "numero": 21, "fecha_fin": "2026-11-15", "temporada": "2026-2027"
+            }), encoding="utf-8")
+            p = {i: (f"Equipo {i}", f"Rival {i}") for i in range(1, 16)}
+            with patch.object(aj, "ROOT", ruta), patch.object(aj, "JORNADA", ruta / "jornada_actual.json"), patch.object(aj, "descargar") as descargar, patch.object(aj, "fuente_quinielafutbol", return_value={22: {"partidos": p, "fechas": (date(2026,11,17),date(2026,11,19))}}), patch.object(aj, "date") as reloj:
+                reloj.today.return_value = date(2026,11,16)
+                reloj.fromisoformat.side_effect = date.fromisoformat
+                aj.main()
+                self.assertEqual(descargar.call_count, 1)
+                self.assertEqual(descargar.call_args.args[0], aj.SOURCE_A)
+            self.assertEqual(json.loads((ruta / "jornada_actual.json").read_text())["numero"], 22)
+
+    def test_respaldo_solo_si_principal_inaccesible(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            ruta = Path(tmp)
+            (ruta / "jornada_actual.json").write_text(json.dumps({
+                "numero": 21, "fecha_fin": "2026-11-15"
+            }), encoding="utf-8")
+            p = {i: (f"Equipo {i}", f"Rival {i}") for i in range(1, 16)}
+            def descarga(url):
+                if url == aj.SOURCE_A:
+                    raise OSError("sin acceso")
+                return BeautifulSoup("<html></html>", "html.parser")
+            with patch.object(aj, "ROOT", ruta), patch.object(aj, "JORNADA", ruta / "jornada_actual.json"), patch.object(aj, "descargar", side_effect=descarga), patch.object(aj, "fuente_quiniprats", return_value={22: {"partidos": p, "fechas": (date(2026,11,17),date(2026,11,19))}}), patch.object(aj, "date") as reloj:
+                reloj.today.return_value = date(2026,11,16)
+                reloj.fromisoformat.side_effect = date.fromisoformat
+                aj.main()
+            diag = json.loads((ruta / "diagnostico_fuentes.json").read_text())
+            self.assertTrue(diag["respaldo_activado"])
+            self.assertEqual(diag["fuente_utilizada"], "quiniprats")
+            self.assertEqual(json.loads((ruta / "jornada_actual.json").read_text())["numero"], 22)
 
     def test_contraste(self):
         p = extraer_filas(BeautifulSoup(tabla(), 'html.parser').table)
