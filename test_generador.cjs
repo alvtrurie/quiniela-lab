@@ -16,3 +16,13 @@ assert.equal(context.motor([...filas.slice(0,13),{partido:{posicion:14},probs:nu
 const fijo=filas.map((f,i)=>i===0?{...f,probs:[0,1,0]}:f);
 assert.ok(context.motor(fijo,6,"diverso").every(c=>c.signos[0]==="X"));
 console.log("Motor: presupuestos, unicidad, ausencia de estimaciones y signos manuales OK");
+
+const html=fs.readFileSync("index.html","utf8");
+const inline=html.match(/<script>([\\s\\S]*?)<\\/script>/);
+assert.ok(inline,"No se encontró script principal");
+new vm.Script(inline[1],{filename:"index.html:inline"});
+assert.match(html,/src="\\.\\/generador\\.js"/);
+assert.match(html,/src="\\.\\/resultados\\.js"/);
+assert.match(html,/data-tab="radar"/);
+assert.match(html,/data-tab="resultados"/);
+console.log("Integración HTML: script y pestañas correctos");
