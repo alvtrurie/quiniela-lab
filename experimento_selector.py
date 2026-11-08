@@ -2,7 +2,7 @@
 Se forman bloques de 14 partidos cronológicos SOLO para experimento técnico.
 Cada bloque usa datos anteriores a su primera fecha; nunca partidos del bloque.
 """
-import csv,io,json,math,urllib.request
+import csv,io,json,math,random,urllib.request
 from collections import defaultdict
 from datetime import datetime
 from pathlib import Path
@@ -48,6 +48,40 @@ def seleccionar(probs,limite,metodo):
         elegidas.append(mejor);usados.add(mejor)
     return elegidas
 
+def cobertura_probabilistica(probs,limite,semilla=42):
+    # Muestras Monte Carlo de resultados completos, sin conocer resultados reales.
+    rng=random.Random(semilla)
+    escenarios=[]
+    for _ in range(350):
+        s=""
+        for fila in probs:
+            u=rng.random()
+            s+="1" if u<fila[0] else "X" if u<fila[0]+fila[1] else "2"
+        escenarios.append(s)
+    candidatos=set()
+    candidatos.add("".join("1X2"[max(range(3),key=lambda i:p[i])] for p in probs))
+    for _ in range(900):
+        s=""
+        for fila in probs:
+            u=rng.random()
+            s+="1" if u<fila[0] else "X" if u<fila[0]+fila[1] else "2"
+        candidatos.add(s)
+    # Maximiza aciertos esperados de la mejor columna, aproximados por escenarios.
+    # Se evalúa el beneficio marginal de cada columna frente a las ya seleccionadas.
+    elegidas=[];mejor_actual=[0]*len(escenarios)
+    for _ in range(limite):
+        ganador=None;ganancia=-1
+        for candidato in candidatos:
+            ganancia_c=sum(max(0,sum(a==b for a,b in zip(candidato,e))-actual)
+                          for e,actual in zip(escenarios,mejor_actual))
+            if ganancia_c>ganancia:
+                ganador=candidato;ganancia=ganancia_c
+        if ganador is None:break
+        elegidas.append(ganador);candidatos.remove(ganador)
+        mejor_actual=[max(actual,sum(a==b for a,b in zip(ganador,e)))
+                      for e,actual in zip(escenarios,mejor_actual)]
+    return elegidas
+
 def evaluar(liga,temporada):
     games=datos(liga,temporada)
     # Bloques de fechas completas, para no usar resultados del mismo día.
@@ -72,8 +106,8 @@ def evaluar(liga,temporada):
         ps=[p for _,p in bloque]
         res={"reales":reales,"empates":reales.count("X")}
         for presupuesto,limite in ((3,4),(6,8),(10,13)):
-            for metodo in ("probabilidad","diversidad"):
-                cols=seleccionar(ps,limite,metodo)
+            for metodo in ("probabilidad","diversidad","cobertura"):
+                cols=cobertura_probabilistica(ps,limite,semilla=1000+i) if metodo=="cobertura" else seleccionar(ps,limite,metodo)
                 scores=[sum(a==b for a,b in zip(c,reales)) for c in cols]
                 res[f"{metodo}_{presupuesto}"]={"mejor":max(scores),"media":sum(scores)/len(scores),
                     "empates_por_columna":sum(c.count("X") for c in cols)/len(cols)}
@@ -90,7 +124,7 @@ def main():
             if not bloques:continue
             d={"bloques":len(bloques),"empates_reales_promedio":round(sum(x["empates"] for x in bloques)/len(bloques),2)}
             for presupuesto in (3,6,10):
-                for metodo in ("probabilidad","diversidad"):
+                for metodo in ("probabilidad","diversidad","cobertura"):
                     k=f"{metodo}_{presupuesto}"
                     d[k]={"mejor_media":round(sum(x[k]["mejor"] for x in bloques)/len(bloques),3),
                           "empates_columna_media":round(sum(x[k]["empates_por_columna"] for x in bloques)/len(bloques),3),
