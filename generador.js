@@ -64,7 +64,40 @@ function qlMotor(filas, presupuesto, modo) {
   }
   return elegidas;
 }
-function qlExplicacion(f) {
+
+// Selector experimental: maximiza aciertos esperados de la mejor columna.
+// No altera las probabilidades del Poisson; usa simulaciones reproducibles.
+function qlCoberturaMonteCarlo(filas, presupuesto) {
+  const limite=Math.max(1,Math.min(100,Math.floor((Number(presupuesto)+1e-9)/QL_PRECIO)));
+  if(filas.length!==14||filas.some(f=>!f.probs))return [];
+  let semilla=20261108;
+  const aleatorio=()=>{semilla=(Math.imul(1664525,semilla)+1013904223)>>>0;return semilla/4294967296;};
+  const sample=()=>filas.map(f=>{
+    const u=aleatorio();
+    return u<f.probs[0]?"1":u<f.probs[0]+f.probs[1]?"X":"2";
+  }).join("");
+  const escenarios=Array.from({length:90},sample);
+  const candidatos=new Set([filas.map(f=>["1","X","2"][f.probs.indexOf(Math.max(...f.probs))]).join("")]);
+  for(let i=0;i<140;i++)candidatos.add(sample());
+  const puntuaciones=new Map([...candidatos].map(c=>[c,escenarios.map(e=>
+    [...c].reduce((n,s,i)=>n+(s===e[i]),0))]));
+  const mejores=Array(escenarios.length).fill(0);
+  const elegidas=[];
+  while(elegidas.length<limite&&candidatos.size){
+    let ganador=null,ganancia=-1;
+    for(const candidato of candidatos){
+      const valores=puntuaciones.get(candidato);
+      const mejora=valores.reduce((n,v,i)=>n+Math.max(0,v-mejores[i]),0);
+      if(mejora>ganancia){ganador=candidato;ganancia=mejora;}
+    }
+    if(ganador===null)break;
+    elegidas.push({signos:[...ganador],log:filas.reduce((n,f,i)=>n+Math.log(Math.max(f.probs["1X2".indexOf(ganador[i])],1e-12)),0)});
+    candidatos.delete(ganador);
+    puntuaciones.get(ganador).forEach((v,i)=>{mejores[i]=Math.max(mejores[i],v);});
+  }
+  return elegidas;
+}
+\nfunction qlExplicacion(f) {
   if(!f.probs) return "No hay datos de esta competición. Elige manualmente 1, X o 2 para generar columnas.";
   if(!f.estimada) return "Signo decidido manualmente; no se ha calculado su probabilidad.";
   const ord=["1","X","2"].map((s,i)=>({s,p:f.probs[i]})).sort((a,b)=>b.p-a.p);
@@ -87,7 +120,7 @@ function renderRadar() {
     '<div class="grid"><div><label>Presupuesto máximo</label><select id="ql-budget">'+
     [3,6,10].map(v=>'<option value="'+v+'" '+(qlPresupuesto===v?'selected':'')+'>'+v+' € · hasta '+Math.floor(v/QL_PRECIO)+' columnas</option>').join('')+
     '</select></div><div><label>Estrategia</label><select id="ql-mode">'+
-    [['prudente','Más probables'],['equilibrado','Equilibrada'],['diverso','Mayor variedad']].map(([v,n])=>'<option value="'+v+'" '+(qlModo===v?'selected':'')+'>'+n+'</option>').join('')+
+    [['prudente','Más probables'],['equilibrado','Equilibrada'],['diverso','Mayor variedad'],['cobertura','Cobertura probabilística · experimental']].map(([v,n])=>'<option value="'+v+'" '+(qlModo===v?'selected':'')+'>'+n+'</option>').join('')+
     '</select></div></div><p class="small muted">'+cubiertos+'/14 partidos con probabilidades propias · '+faltan+' requieren tu elección manual. No usamos porcentajes ficticios.</p>'+
     '<div id="ql-matches">'+filas.map(f=>'<div class="game"><div class="row"><strong>'+f.partido.posicion+'. '+esc(f.partido.local)+' — '+esc(f.partido.visitante)+'</strong></div>'+
     (f.probs&&f.estimada?'<div class="probs">'+["1","X","2"].map((s,i)=>'<span>'+s+': '+(f.probs[i]*100).toFixed(1)+'%</span>').join('')+'</div><div class="small success">'+qlClasificacion(f.probs)+'</div>':
@@ -102,7 +135,7 @@ function renderRadar() {
   document.getElementById("ql-mode").onchange=e=>{qlModo=e.target.value;qlUltimo=[];renderRadar();};
   document.querySelectorAll("[data-ql-manual]").forEach(s=>s.onchange=()=>{if(s.value)qlManual[+s.dataset.qlManual]=s.value;else delete qlManual[+s.dataset.qlManual];qlUltimo=[];renderRadar();});
   document.getElementById("ql-generate").onclick=()=>{
-    qlUltimo=qlMotor(qlCobertura(),qlPresupuesto,qlModo);
+    qlUltimo=qlModo==='cobertura'?qlCoberturaMonteCarlo(qlCobertura(),qlPresupuesto):qlMotor(qlCobertura(),qlPresupuesto,qlModo);
     const coste=(qlUltimo.length*QL_PRECIO).toFixed(2).replace(".",",");
     document.getElementById("ql-output").innerHTML='<h3>'+qlUltimo.length+' columnas · '+coste+' €</h3>'+
       '<p class="small muted">Ordenadas por puntuación del modelo; la cobertura es parcial cuando has fijado signos manualmente. Pleno al 15: '+esc(jornada.pleno.local)+' — '+esc(jornada.pleno.visitante)+'. Debes escoger sus goles.</p>'+
