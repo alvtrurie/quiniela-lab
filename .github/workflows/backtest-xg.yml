@@ -13,7 +13,7 @@ jobs:
     timeout-minutes: 20
     env:
       PITCHAPI_API_KEY: ${{ secrets.PITCHAPI_API_KEY }}
-      MAX_PARTIDOS_XG: '160'
+      MAX_PARTIDOS_XG: '100'
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
