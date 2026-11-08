@@ -1,0 +1,3821 @@
+{
+  "temporada": "2026/27",
+  "fecha_corte_utc": "2026-11-08T17:29:56.745097+00:00",
+  "metodo": "Poisson de producción, walk-forward por fecha; entrenado solo con partidos de la misma liga en 2026/27",
+  "alcance": "Primera y Segunda masculina; partidos individuales, no boletos oficiales",
+  "advertencia": "Los tipos de fallo son patrones observables, NO explicaciones causales demostradas.",
+  "ligas": {
+    "SP1": {
+      "fuente": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv",
+      "partidos_finalizados": 109,
+      "omitidos": {
+        "menos_de_40_partidos_previos": 41
+      },
+      "resumen": {
+        "evaluados": 68,
+        "aciertos": 39,
+        "fallos": 29,
+        "porcentaje": 57.35,
+        "tipos_de_fallo": {
+          "victoria_visitante_inesperada": 12,
+          "empate_no_pronosticado": 16,
+          "victoria_local_inesperada": 1
+        },
+        "fallos_en_partidos_ajustados": 6,
+        "fallos_con_confianza_55_o_mas": 4,
+        "empates_reales": 16,
+        "empates_pronosticados": 0,
+        "baseline_todos_local": 30
+      },
+      "partidos": [
+        {
+          "fecha": "2026-09-11",
+          "local": "Sevilla",
+          "visitante": "Valencia",
+          "marcador": "1-0",
+          "real": "1",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 48.04,
+            "X": 22.48,
+            "2": 29.47
+          },
+          "goles_esperados": {
+            "local": 1.87,
+            "visitante": 1.43
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 48.04,
+          "margen_pp": 18.57,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 48.04
+        },
+        {
+          "fecha": "2026-09-12",
+          "local": "Santander",
+          "visitante": "Alaves",
+          "marcador": "2-1",
+          "real": "1",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 46.92,
+            "X": 22.91,
+            "2": 30.17
+          },
+          "goles_esperados": {
+            "local": 1.8,
+            "visitante": 1.41
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 46.92,
+          "margen_pp": 16.75,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 46.92
+        },
+        {
+          "fecha": "2026-09-12",
+          "local": "Osasuna",
+          "visitante": "Espanol",
+          "marcador": "0-2",
+          "real": "2",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 49.84,
+            "X": 27.27,
+            "2": 22.89
+          },
+          "goles_esperados": {
+            "local": 1.41,
+            "visitante": 0.86
+          },
+          "acierto": false,
+          "tipo": "victoria_visitante_inesperada",
+          "confianza": 49.84,
+          "margen_pp": 22.57,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 22.89
+        },
+        {
+          "fecha": "2026-09-12",
+          "local": "Ath Bilbao",
+          "visitante": "Elche",
+          "marcador": "1-1",
+          "real": "X",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 49.03,
+            "X": 22.44,
+            "2": 28.53
+          },
+          "goles_esperados": {
+            "local": 1.88,
+            "visitante": 1.39
+          },
+          "acierto": false,
+          "tipo": "empate_no_pronosticado",
+          "confianza": 49.03,
+          "margen_pp": 20.5,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 22.44
+        },
+        {
+          "fecha": "2026-09-12",
+          "local": "Real Madrid",
+          "visitante": "Vallecano",
+          "marcador": "4-1",
+          "real": "1",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 76.75,
+            "X": 13.16,
+            "2": 10.09
+          },
+          "goles_esperados": {
+            "local": 3.07,
+            "visitante": 1.09
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 76.75,
+          "margen_pp": 63.59,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 76.75
+        },
+        {
+          "fecha": "2026-09-13",
+          "local": "Celta",
+          "visitante": "Malaga",
+          "marcador": "1-1",
+          "real": "X",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 51.89,
+            "X": 24.39,
+            "2": 23.72
+          },
+          "goles_esperados": {
+            "local": 1.66,
+            "visitante": 1.04
+          },
+          "acierto": false,
+          "tipo": "empate_no_pronosticado",
+          "confianza": 51.89,
+          "margen_pp": 27.5,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 24.39
+        },
+        {
+          "fecha": "2026-09-13",
+          "local": "Levante",
+          "visitante": "Barcelona",
+          "marcador": "2-4",
+          "real": "2",
+          "pronosticado": "2",
+          "probabilidades": {
+            "1": 23.58,
+            "X": 18.47,
+            "2": 57.95
+          },
+          "goles_esperados": {
+            "local": 1.62,
+            "visitante": 2.55
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 57.95,
+          "margen_pp": 34.37,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 57.95
+        },
+        {
+          "fecha": "2026-09-13",
+          "local": "Getafe",
+          "visitante": "La Coruna",
+          "marcador": "1-1",
+          "real": "X",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 42.88,
+            "X": 25.77,
+            "2": 31.35
+          },
+          "goles_esperados": {
+            "local": 1.46,
+            "visitante": 1.21
+          },
+          "acierto": false,
+          "tipo": "empate_no_pronosticado",
+          "confianza": 42.88,
+          "margen_pp": 11.53,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 25.77
+        },
+        {
+          "fecha": "2026-09-13",
+          "local": "Sociedad",
+          "visitante": "Ath Madrid",
+          "marcador": "0-3",
+          "real": "2",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 48.79,
+            "X": 25.05,
+            "2": 26.16
+          },
+          "goles_esperados": {
+            "local": 1.58,
+            "visitante": 1.09
+          },
+          "acierto": false,
+          "tipo": "victoria_visitante_inesperada",
+          "confianza": 48.79,
+          "margen_pp": 22.63,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 26.16
+        },
+        {
+          "fecha": "2026-09-14",
+          "local": "Villarreal",
+          "visitante": "Betis",
+          "marcador": "1-2",
+          "real": "2",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 45.28,
+            "X": 21.61,
+            "2": 33.11
+          },
+          "goles_esperados": {
+            "local": 1.96,
+            "visitante": 1.66
+          },
+          "acierto": false,
+          "tipo": "victoria_visitante_inesperada",
+          "confianza": 45.28,
+          "margen_pp": 12.17,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 33.11
+        },
+        {
+          "fecha": "2026-09-15",
+          "local": "Vallecano",
+          "visitante": "Espanol",
+          "marcador": "2-1",
+          "real": "1",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 40.51,
+            "X": 24.33,
+            "2": 35.16
+          },
+          "goles_esperados": {
+            "local": 1.55,
+            "visitante": 1.43
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 40.51,
+          "margen_pp": 5.35,
+          "partido_ajustado": true,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 40.51
+        },
+        {
+          "fecha": "2026-09-15",
+          "local": "Alaves",
+          "visitante": "Valencia",
+          "marcador": "0-1",
+          "real": "2",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 68.79,
+            "X": 18.1,
+            "2": 13.11
+          },
+          "goles_esperados": {
+            "local": 2.29,
+            "visitante": 0.89
+          },
+          "acierto": false,
+          "tipo": "victoria_visitante_inesperada",
+          "confianza": 68.79,
+          "margen_pp": 50.69,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": true,
+          "probabilidad_real": 13.11
+        },
+        {
+          "fecha": "2026-09-15",
+          "local": "Elche",
+          "visitante": "Real Madrid",
+          "marcador": "2-3",
+          "real": "2",
+          "pronosticado": "2",
+          "probabilidades": {
+            "1": 25.45,
+            "X": 22.03,
+            "2": 52.52
+          },
+          "goles_esperados": {
+            "local": 1.3,
+            "visitante": 1.95
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 52.52,
+          "margen_pp": 27.07,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 52.52
+        },
+        {
+          "fecha": "2026-09-16",
+          "local": "Ath Madrid",
+          "visitante": "Osasuna",
+          "marcador": "4-0",
+          "real": "1",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 54.22,
+            "X": 20.67,
+            "2": 25.12
+          },
+          "goles_esperados": {
+            "local": 2.15,
+            "visitante": 1.42
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 54.22,
+          "margen_pp": 29.1,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 54.22
+        },
+        {
+          "fecha": "2026-09-16",
+          "local": "La Coruna",
+          "visitante": "Sevilla",
+          "marcador": "0-1",
+          "real": "2",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 40.47,
+            "X": 24.41,
+            "2": 35.12
+          },
+          "goles_esperados": {
+            "local": 1.54,
+            "visitante": 1.42
+          },
+          "acierto": false,
+          "tipo": "victoria_visitante_inesperada",
+          "confianza": 40.47,
+          "margen_pp": 5.35,
+          "partido_ajustado": true,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 35.12
+        },
+        {
+          "fecha": "2026-09-16",
+          "local": "Barcelona",
+          "visitante": "Santander",
+          "marcador": "7-2",
+          "real": "1",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 63.03,
+            "X": 19.05,
+            "2": 17.92
+          },
+          "goles_esperados": {
+            "local": 2.3,
+            "visitante": 1.16
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 63.03,
+          "margen_pp": 43.98,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 63.03
+        },
+        {
+          "fecha": "2026-09-17",
+          "local": "Betis",
+          "visitante": "Getafe",
+          "marcador": "1-0",
+          "real": "1",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 59.36,
+            "X": 24.88,
+            "2": 15.76
+          },
+          "goles_esperados": {
+            "local": 1.59,
+            "visitante": 0.68
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 59.36,
+          "margen_pp": 34.48,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 59.36
+        },
+        {
+          "fecha": "2026-09-17",
+          "local": "Malaga",
+          "visitante": "Villarreal",
+          "marcador": "1-3",
+          "real": "2",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 42.91,
+            "X": 26.98,
+            "2": 30.12
+          },
+          "goles_esperados": {
+            "local": 1.36,
+            "visitante": 1.1
+          },
+          "acierto": false,
+          "tipo": "victoria_visitante_inesperada",
+          "confianza": 42.91,
+          "margen_pp": 12.79,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 30.12
+        },
+        {
+          "fecha": "2026-09-18",
+          "local": "Espanol",
+          "visitante": "Elche",
+          "marcador": "1-3",
+          "real": "2",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 48.34,
+            "X": 24.09,
+            "2": 27.58
+          },
+          "goles_esperados": {
+            "local": 1.68,
+            "visitante": 1.21
+          },
+          "acierto": false,
+          "tipo": "victoria_visitante_inesperada",
+          "confianza": 48.34,
+          "margen_pp": 20.76,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 27.58
+        },
+        {
+          "fecha": "2026-09-19",
+          "local": "Osasuna",
+          "visitante": "Vallecano",
+          "marcador": "1-1",
+          "real": "X",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 51.61,
+            "X": 23.99,
+            "2": 24.4
+          },
+          "goles_esperados": {
+            "local": 1.7,
+            "visitante": 1.09
+          },
+          "acierto": false,
+          "tipo": "empate_no_pronosticado",
+          "confianza": 51.61,
+          "margen_pp": 27.21,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 23.99
+        },
+        {
+          "fecha": "2026-09-19",
+          "local": "Ath Bilbao",
+          "visitante": "Alaves",
+          "marcador": "0-0",
+          "real": "X",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 46.28,
+            "X": 24.37,
+            "2": 29.35
+          },
+          "goles_esperados": {
+            "local": 1.63,
+            "visitante": 1.25
+          },
+          "acierto": false,
+          "tipo": "empate_no_pronosticado",
+          "confianza": 46.28,
+          "margen_pp": 16.93,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 24.37
+        },
+        {
+          "fecha": "2026-09-19",
+          "local": "Celta",
+          "visitante": "Santander",
+          "marcador": "5-0",
+          "real": "1",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 47.48,
+            "X": 22.35,
+            "2": 30.17
+          },
+          "goles_esperados": {
+            "local": 1.88,
+            "visitante": 1.47
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 47.48,
+          "margen_pp": 17.31,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 47.48
+        },
+        {
+          "fecha": "2026-09-19",
+          "local": "Sevilla",
+          "visitante": "Barcelona",
+          "marcador": "1-3",
+          "real": "2",
+          "pronosticado": "2",
+          "probabilidades": {
+            "1": 15.89,
+            "X": 17.14,
+            "2": 66.98
+          },
+          "goles_esperados": {
+            "local": 1.21,
+            "visitante": 2.58
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 66.98,
+          "margen_pp": 49.84,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 66.98
+        },
+        {
+          "fecha": "2026-09-20",
+          "local": "Getafe",
+          "visitante": "Malaga",
+          "marcador": "1-0",
+          "real": "1",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 57.8,
+            "X": 24.48,
+            "2": 17.72
+          },
+          "goles_esperados": {
+            "local": 1.64,
+            "visitante": 0.78
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 57.8,
+          "margen_pp": 33.32,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 57.8
+        },
+        {
+          "fecha": "2026-09-20",
+          "local": "Ath Madrid",
+          "visitante": "Real Madrid",
+          "marcador": "2-1",
+          "real": "1",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 53.91,
+            "X": 22.37,
+            "2": 23.72
+          },
+          "goles_esperados": {
+            "local": 1.9,
+            "visitante": 1.19
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 53.91,
+          "margen_pp": 30.19,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 53.91
+        },
+        {
+          "fecha": "2026-09-20",
+          "local": "La Coruna",
+          "visitante": "Betis",
+          "marcador": "1-1",
+          "real": "X",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 45.53,
+            "X": 23.96,
+            "2": 30.52
+          },
+          "goles_esperados": {
+            "local": 1.67,
+            "visitante": 1.32
+          },
+          "acierto": false,
+          "tipo": "empate_no_pronosticado",
+          "confianza": 45.53,
+          "margen_pp": 15.01,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 23.96
+        },
+        {
+          "fecha": "2026-09-20",
+          "local": "Villarreal",
+          "visitante": "Levante",
+          "marcador": "3-1",
+          "real": "1",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 44.79,
+            "X": 26.91,
+            "2": 28.29
+          },
+          "goles_esperados": {
+            "local": 1.39,
+            "visitante": 1.05
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 44.79,
+          "margen_pp": 16.5,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 44.79
+        },
+        {
+          "fecha": "2026-09-20",
+          "local": "Valencia",
+          "visitante": "Sociedad",
+          "marcador": "2-3",
+          "real": "2",
+          "pronosticado": "2",
+          "probabilidades": {
+            "1": 29.19,
+            "X": 24.8,
+            "2": 46.02
+          },
+          "goles_esperados": {
+            "local": 1.21,
+            "visitante": 1.59
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 46.02,
+          "margen_pp": 16.83,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 46.02
+        },
+        {
+          "fecha": "2026-10-09",
+          "local": "Malaga",
+          "visitante": "Espanol",
+          "marcador": "1-1",
+          "real": "X",
+          "pronosticado": "2",
+          "probabilidades": {
+            "1": 33.74,
+            "X": 26.67,
+            "2": 39.58
+          },
+          "goles_esperados": {
+            "local": 1.21,
+            "visitante": 1.33
+          },
+          "acierto": false,
+          "tipo": "empate_no_pronosticado",
+          "confianza": 39.58,
+          "margen_pp": 5.84,
+          "partido_ajustado": true,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 26.67
+        },
+        {
+          "fecha": "2026-10-10",
+          "local": "Alaves",
+          "visitante": "Ath Madrid",
+          "marcador": "1-2",
+          "real": "2",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 49.46,
+            "X": 23.19,
+            "2": 27.34
+          },
+          "goles_esperados": {
+            "local": 1.79,
+            "visitante": 1.27
+          },
+          "acierto": false,
+          "tipo": "victoria_visitante_inesperada",
+          "confianza": 49.46,
+          "margen_pp": 22.12,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 27.34
+        },
+        {
+          "fecha": "2026-10-10",
+          "local": "Barcelona",
+          "visitante": "Getafe",
+          "marcador": "3-0",
+          "real": "1",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 78.03,
+            "X": 13.54,
+            "2": 8.43
+          },
+          "goles_esperados": {
+            "local": 2.79,
+            "visitante": 0.83
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 78.03,
+          "margen_pp": 64.49,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 78.03
+        },
+        {
+          "fecha": "2026-10-10",
+          "local": "Real Madrid",
+          "visitante": "Villarreal",
+          "marcador": "1-0",
+          "real": "1",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 63.72,
+            "X": 18.34,
+            "2": 17.94
+          },
+          "goles_esperados": {
+            "local": 2.43,
+            "visitante": 1.23
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 63.72,
+          "margen_pp": 45.38,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 63.72
+        },
+        {
+          "fecha": "2026-10-11",
+          "local": "Elche",
+          "visitante": "Celta",
+          "marcador": "0-0",
+          "real": "X",
+          "pronosticado": "2",
+          "probabilidades": {
+            "1": 26.28,
+            "X": 25.1,
+            "2": 48.62
+          },
+          "goles_esperados": {
+            "local": 1.09,
+            "visitante": 1.58
+          },
+          "acierto": false,
+          "tipo": "empate_no_pronosticado",
+          "confianza": 48.62,
+          "margen_pp": 22.34,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 25.1
+        },
+        {
+          "fecha": "2026-10-11",
+          "local": "Sociedad",
+          "visitante": "La Coruna",
+          "marcador": "3-2",
+          "real": "1",
+          "pronosticado": "2",
+          "probabilidades": {
+            "1": 31.4,
+            "X": 25.83,
+            "2": 42.77
+          },
+          "goles_esperados": {
+            "local": 1.21,
+            "visitante": 1.45
+          },
+          "acierto": false,
+          "tipo": "victoria_local_inesperada",
+          "confianza": 42.77,
+          "margen_pp": 11.37,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 31.4
+        },
+        {
+          "fecha": "2026-10-11",
+          "local": "Betis",
+          "visitante": "Osasuna",
+          "marcador": "5-2",
+          "real": "1",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 63.99,
+            "X": 21.03,
+            "2": 14.98
+          },
+          "goles_esperados": {
+            "local": 1.96,
+            "visitante": 0.82
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 63.99,
+          "margen_pp": 42.96,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 63.99
+        },
+        {
+          "fecha": "2026-10-11",
+          "local": "Santander",
+          "visitante": "Valencia",
+          "marcador": "2-2",
+          "real": "X",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 51.55,
+            "X": 23.3,
+            "2": 25.14
+          },
+          "goles_esperados": {
+            "local": 1.78,
+            "visitante": 1.18
+          },
+          "acierto": false,
+          "tipo": "empate_no_pronosticado",
+          "confianza": 51.55,
+          "margen_pp": 26.41,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 23.3
+        },
+        {
+          "fecha": "2026-10-12",
+          "local": "Levante",
+          "visitante": "Sevilla",
+          "marcador": "3-3",
+          "real": "X",
+          "pronosticado": "2",
+          "probabilidades": {
+            "1": 34.25,
+            "X": 21.45,
+            "2": 44.3
+          },
+          "goles_esperados": {
+            "local": 1.72,
+            "visitante": 1.98
+          },
+          "acierto": false,
+          "tipo": "empate_no_pronosticado",
+          "confianza": 44.3,
+          "margen_pp": 10.05,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 21.45
+        },
+        {
+          "fecha": "2026-10-16",
+          "local": "La Coruna",
+          "visitante": "Levante",
+          "marcador": "1-1",
+          "real": "X",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 53.13,
+            "X": 27.06,
+            "2": 19.81
+          },
+          "goles_esperados": {
+            "local": 1.43,
+            "visitante": 0.76
+          },
+          "acierto": false,
+          "tipo": "empate_no_pronosticado",
+          "confianza": 53.13,
+          "margen_pp": 26.07,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 27.06
+        },
+        {
+          "fecha": "2026-10-17",
+          "local": "Espanol",
+          "visitante": "Ath Madrid",
+          "marcador": "0-1",
+          "real": "2",
+          "pronosticado": "2",
+          "probabilidades": {
+            "1": 32.09,
+            "X": 23.38,
+            "2": 44.53
+          },
+          "goles_esperados": {
+            "local": 1.43,
+            "visitante": 1.72
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 44.53,
+          "margen_pp": 12.44,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 44.53
+        },
+        {
+          "fecha": "2026-10-17",
+          "local": "Villarreal",
+          "visitante": "Elche",
+          "marcador": "0-0",
+          "real": "X",
+          "pronosticado": "2",
+          "probabilidades": {
+            "1": 37.35,
+            "X": 22.16,
+            "2": 40.49
+          },
+          "goles_esperados": {
+            "local": 1.73,
+            "visitante": 1.8
+          },
+          "acierto": false,
+          "tipo": "empate_no_pronosticado",
+          "confianza": 40.49,
+          "margen_pp": 3.14,
+          "partido_ajustado": true,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 22.16
+        },
+        {
+          "fecha": "2026-10-17",
+          "local": "Betis",
+          "visitante": "Barcelona",
+          "marcador": "2-5",
+          "real": "2",
+          "pronosticado": "2",
+          "probabilidades": {
+            "1": 28.15,
+            "X": 22.33,
+            "2": 49.52
+          },
+          "goles_esperados": {
+            "local": 1.39,
+            "visitante": 1.9
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 49.52,
+          "margen_pp": 21.37,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 49.52
+        },
+        {
+          "fecha": "2026-10-17",
+          "local": "Valencia",
+          "visitante": "Ath Bilbao",
+          "marcador": "0-0",
+          "real": "X",
+          "pronosticado": "2",
+          "probabilidades": {
+            "1": 24.59,
+            "X": 24.81,
+            "2": 50.59
+          },
+          "goles_esperados": {
+            "local": 1.05,
+            "visitante": 1.62
+          },
+          "acierto": false,
+          "tipo": "empate_no_pronosticado",
+          "confianza": 50.59,
+          "margen_pp": 25.78,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 24.81
+        },
+        {
+          "fecha": "2026-10-18",
+          "local": "Osasuna",
+          "visitante": "Santander",
+          "marcador": "2-0",
+          "real": "1",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 58.73,
+            "X": 22.34,
+            "2": 18.93
+          },
+          "goles_esperados": {
+            "local": 1.87,
+            "visitante": 0.96
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 58.73,
+          "margen_pp": 36.39,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 58.73
+        },
+        {
+          "fecha": "2026-10-18",
+          "local": "Celta",
+          "visitante": "Alaves",
+          "marcador": "2-1",
+          "real": "1",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 46.27,
+            "X": 26.31,
+            "2": 27.42
+          },
+          "goles_esperados": {
+            "local": 1.45,
+            "visitante": 1.05
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 46.27,
+          "margen_pp": 18.85,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 46.27
+        },
+        {
+          "fecha": "2026-10-18",
+          "local": "Malaga",
+          "visitante": "Sociedad",
+          "marcador": "2-5",
+          "real": "2",
+          "pronosticado": "2",
+          "probabilidades": {
+            "1": 37.31,
+            "X": 24.6,
+            "2": 38.09
+          },
+          "goles_esperados": {
+            "local": 1.46,
+            "visitante": 1.48
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 38.09,
+          "margen_pp": 0.78,
+          "partido_ajustado": true,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 38.09
+        },
+        {
+          "fecha": "2026-10-18",
+          "local": "Real Madrid",
+          "visitante": "Sevilla",
+          "marcador": "4-1",
+          "real": "1",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 58.68,
+            "X": 20.66,
+            "2": 20.65
+          },
+          "goles_esperados": {
+            "local": 2.11,
+            "visitante": 1.18
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 58.68,
+          "margen_pp": 38.02,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 58.68
+        },
+        {
+          "fecha": "2026-10-19",
+          "local": "Getafe",
+          "visitante": "Vallecano",
+          "marcador": "1-1",
+          "real": "X",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 59.01,
+            "X": 22.34,
+            "2": 18.65
+          },
+          "goles_esperados": {
+            "local": 1.86,
+            "visitante": 0.94
+          },
+          "acierto": false,
+          "tipo": "empate_no_pronosticado",
+          "confianza": 59.01,
+          "margen_pp": 36.67,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": true,
+          "probabilidad_real": 22.34
+        },
+        {
+          "fecha": "2026-10-21",
+          "local": "Levante",
+          "visitante": "Ath Bilbao",
+          "marcador": "3-1",
+          "real": "1",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 42.74,
+            "X": 22.59,
+            "2": 34.66
+          },
+          "goles_esperados": {
+            "local": 1.79,
+            "visitante": 1.6
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 42.74,
+          "margen_pp": 8.08,
+          "partido_ajustado": true,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 42.74
+        },
+        {
+          "fecha": "2026-10-23",
+          "local": "Alaves",
+          "visitante": "Malaga",
+          "marcador": "1-1",
+          "real": "X",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 66.6,
+            "X": 20.29,
+            "2": 13.11
+          },
+          "goles_esperados": {
+            "local": 1.99,
+            "visitante": 0.75
+          },
+          "acierto": false,
+          "tipo": "empate_no_pronosticado",
+          "confianza": 66.6,
+          "margen_pp": 46.31,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": true,
+          "probabilidad_real": 20.29
+        },
+        {
+          "fecha": "2026-10-24",
+          "local": "Vallecano",
+          "visitante": "Elche",
+          "marcador": "0-3",
+          "real": "2",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 41.75,
+            "X": 24.58,
+            "2": 33.67
+          },
+          "goles_esperados": {
+            "local": 1.55,
+            "visitante": 1.37
+          },
+          "acierto": false,
+          "tipo": "victoria_visitante_inesperada",
+          "confianza": 41.75,
+          "margen_pp": 8.08,
+          "partido_ajustado": true,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 33.67
+        },
+        {
+          "fecha": "2026-10-24",
+          "local": "Santander",
+          "visitante": "Espanol",
+          "marcador": "2-1",
+          "real": "1",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 43.51,
+            "X": 23.27,
+            "2": 33.22
+          },
+          "goles_esperados": {
+            "local": 1.72,
+            "visitante": 1.48
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 43.51,
+          "margen_pp": 10.29,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 43.51
+        },
+        {
+          "fecha": "2026-10-24",
+          "local": "Valencia",
+          "visitante": "Villarreal",
+          "marcador": "1-2",
+          "real": "2",
+          "pronosticado": "2",
+          "probabilidades": {
+            "1": 22.63,
+            "X": 24.97,
+            "2": 52.39
+          },
+          "goles_esperados": {
+            "local": 0.96,
+            "visitante": 1.6
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 52.39,
+          "margen_pp": 27.42,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 52.39
+        },
+        {
+          "fecha": "2026-10-24",
+          "local": "Ath Madrid",
+          "visitante": "La Coruna",
+          "marcador": "1-0",
+          "real": "1",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 57.1,
+            "X": 20.94,
+            "2": 21.96
+          },
+          "goles_esperados": {
+            "local": 2.08,
+            "visitante": 1.23
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 57.1,
+          "margen_pp": 35.14,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 57.1
+        },
+        {
+          "fecha": "2026-10-25",
+          "local": "Ath Bilbao",
+          "visitante": "Getafe",
+          "marcador": "4-0",
+          "real": "1",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 60.4,
+            "X": 24.52,
+            "2": 15.08
+          },
+          "goles_esperados": {
+            "local": 1.62,
+            "visitante": 0.66
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 60.4,
+          "margen_pp": 35.88,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 60.4
+        },
+        {
+          "fecha": "2026-10-25",
+          "local": "Celta",
+          "visitante": "Betis",
+          "marcador": "0-0",
+          "real": "X",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 47.73,
+            "X": 23.22,
+            "2": 29.06
+          },
+          "goles_esperados": {
+            "local": 1.77,
+            "visitante": 1.34
+          },
+          "acierto": false,
+          "tipo": "empate_no_pronosticado",
+          "confianza": 47.73,
+          "margen_pp": 18.67,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 23.22
+        },
+        {
+          "fecha": "2026-10-25",
+          "local": "Sociedad",
+          "visitante": "Levante",
+          "marcador": "2-1",
+          "real": "1",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 47.21,
+            "X": 27.57,
+            "2": 25.22
+          },
+          "goles_esperados": {
+            "local": 1.37,
+            "visitante": 0.92
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 47.21,
+          "margen_pp": 19.64,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 47.21
+        },
+        {
+          "fecha": "2026-10-25",
+          "local": "Barcelona",
+          "visitante": "Real Madrid",
+          "marcador": "1-2",
+          "real": "2",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 67.77,
+            "X": 16.57,
+            "2": 15.65
+          },
+          "goles_esperados": {
+            "local": 2.69,
+            "visitante": 1.25
+          },
+          "acierto": false,
+          "tipo": "victoria_visitante_inesperada",
+          "confianza": 67.77,
+          "margen_pp": 51.2,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": true,
+          "probabilidad_real": 15.65
+        },
+        {
+          "fecha": "2026-10-26",
+          "local": "Sevilla",
+          "visitante": "Osasuna",
+          "marcador": "2-0",
+          "real": "1",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 53.53,
+            "X": 19.86,
+            "2": 26.62
+          },
+          "goles_esperados": {
+            "local": 2.3,
+            "visitante": 1.6
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 53.53,
+          "margen_pp": 26.91,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 53.53
+        },
+        {
+          "fecha": "2026-10-30",
+          "local": "Villarreal",
+          "visitante": "Espanol",
+          "marcador": "0-1",
+          "real": "2",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 40.4,
+            "X": 25.19,
+            "2": 34.4
+          },
+          "goles_esperados": {
+            "local": 1.47,
+            "visitante": 1.34
+          },
+          "acierto": false,
+          "tipo": "victoria_visitante_inesperada",
+          "confianza": 40.4,
+          "margen_pp": 6.0,
+          "partido_ajustado": true,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 34.4
+        },
+        {
+          "fecha": "2026-10-31",
+          "local": "Levante",
+          "visitante": "Ath Madrid",
+          "marcador": "0-2",
+          "real": "2",
+          "pronosticado": "2",
+          "probabilidades": {
+            "1": 34.39,
+            "X": 20.3,
+            "2": 45.3
+          },
+          "goles_esperados": {
+            "local": 1.9,
+            "visitante": 2.18
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 45.3,
+          "margen_pp": 10.91,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 45.3
+        },
+        {
+          "fecha": "2026-10-31",
+          "local": "Vallecano",
+          "visitante": "Celta",
+          "marcador": "3-0",
+          "real": "1",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 35.19,
+            "X": 31.24,
+            "2": 33.57
+          },
+          "goles_esperados": {
+            "local": 0.99,
+            "visitante": 0.96
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 35.19,
+          "margen_pp": 1.62,
+          "partido_ajustado": true,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 35.19
+        },
+        {
+          "fecha": "2026-10-31",
+          "local": "Betis",
+          "visitante": "Malaga",
+          "marcador": "2-1",
+          "real": "1",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 61.36,
+            "X": 21.76,
+            "2": 16.88
+          },
+          "goles_esperados": {
+            "local": 1.91,
+            "visitante": 0.88
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 61.36,
+          "margen_pp": 39.6,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 61.36
+        },
+        {
+          "fecha": "2026-10-31",
+          "local": "Barcelona",
+          "visitante": "Alaves",
+          "marcador": "6-1",
+          "real": "1",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 66.87,
+            "X": 18.23,
+            "2": 14.91
+          },
+          "goles_esperados": {
+            "local": 2.34,
+            "visitante": 1.02
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 66.87,
+          "margen_pp": 48.64,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 66.87
+        },
+        {
+          "fecha": "2026-11-01",
+          "local": "Getafe",
+          "visitante": "Sevilla",
+          "marcador": "3-1",
+          "real": "1",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 42.84,
+            "X": 26.58,
+            "2": 30.58
+          },
+          "goles_esperados": {
+            "local": 1.39,
+            "visitante": 1.13
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 42.84,
+          "margen_pp": 12.26,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 42.84
+        },
+        {
+          "fecha": "2026-11-01",
+          "local": "Santander",
+          "visitante": "Real Madrid",
+          "marcador": "0-3",
+          "real": "2",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 42.03,
+            "X": 22.59,
+            "2": 35.38
+          },
+          "goles_esperados": {
+            "local": 1.78,
+            "visitante": 1.62
+          },
+          "acierto": false,
+          "tipo": "victoria_visitante_inesperada",
+          "confianza": 42.03,
+          "margen_pp": 6.65,
+          "partido_ajustado": true,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 35.38
+        },
+        {
+          "fecha": "2026-11-01",
+          "local": "Elche",
+          "visitante": "Valencia",
+          "marcador": "0-1",
+          "real": "2",
+          "pronosticado": "2",
+          "probabilidades": {
+            "1": 29.1,
+            "X": 23.43,
+            "2": 47.46
+          },
+          "goles_esperados": {
+            "local": 1.32,
+            "visitante": 1.75
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 47.46,
+          "margen_pp": 18.36,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 47.46
+        },
+        {
+          "fecha": "2026-11-01",
+          "local": "Ath Bilbao",
+          "visitante": "Sociedad",
+          "marcador": "2-1",
+          "real": "1",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 49.59,
+            "X": 21.59,
+            "2": 28.82
+          },
+          "goles_esperados": {
+            "local": 2.01,
+            "visitante": 1.49
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 49.59,
+          "margen_pp": 20.77,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 49.59
+        },
+        {
+          "fecha": "2026-11-02",
+          "local": "La Coruna",
+          "visitante": "Osasuna",
+          "marcador": "2-1",
+          "real": "1",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 61.68,
+            "X": 19.94,
+            "2": 18.38
+          },
+          "goles_esperados": {
+            "local": 2.17,
+            "visitante": 1.11
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 61.68,
+          "margen_pp": 41.74,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 61.68
+        }
+      ]
+    },
+    "SP2": {
+      "fuente": "https://www.football-data.co.uk/mmz4281/2627/SP2.csv",
+      "partidos_finalizados": 131,
+      "omitidos": {
+        "menos_de_40_partidos_previos": 43
+      },
+      "resumen": {
+        "evaluados": 88,
+        "aciertos": 37,
+        "fallos": 51,
+        "porcentaje": 42.05,
+        "tipos_de_fallo": {
+          "victoria_visitante_inesperada": 19,
+          "empate_no_pronosticado": 17,
+          "empate_pronosticado_sin_ocurrir": 3,
+          "victoria_local_inesperada": 12
+        },
+        "fallos_en_partidos_ajustados": 20,
+        "fallos_con_confianza_55_o_mas": 10,
+        "empates_reales": 17,
+        "empates_pronosticados": 3,
+        "baseline_todos_local": 41
+      },
+      "partidos": [
+        {
+          "fecha": "2026-09-07",
+          "local": "Sabadell",
+          "visitante": "Cordoba",
+          "marcador": "3-2",
+          "real": "1",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 51.69,
+            "X": 25.86,
+            "2": 22.45
+          },
+          "goles_esperados": {
+            "local": 1.52,
+            "visitante": 0.91
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 51.69,
+          "margen_pp": 25.83,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 51.69
+        },
+        {
+          "fecha": "2026-09-11",
+          "local": "Burgos",
+          "visitante": "Ceuta",
+          "marcador": "3-1",
+          "real": "1",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 70.44,
+            "X": 16.25,
+            "2": 13.3
+          },
+          "goles_esperados": {
+            "local": 2.62,
+            "visitante": 1.07
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 70.44,
+          "margen_pp": 54.19,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 70.44
+        },
+        {
+          "fecha": "2026-09-12",
+          "local": "Andorra",
+          "visitante": "Sociedad B",
+          "marcador": "1-3",
+          "real": "2",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 48.64,
+            "X": 23.54,
+            "2": 27.82
+          },
+          "goles_esperados": {
+            "local": 1.74,
+            "visitante": 1.26
+          },
+          "acierto": false,
+          "tipo": "victoria_visitante_inesperada",
+          "confianza": 48.64,
+          "margen_pp": 20.82,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 27.82
+        },
+        {
+          "fecha": "2026-09-12",
+          "local": "Cadiz",
+          "visitante": "Las Palmas",
+          "marcador": "0-1",
+          "real": "2",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 44.12,
+            "X": 26.83,
+            "2": 29.06
+          },
+          "goles_esperados": {
+            "local": 1.39,
+            "visitante": 1.07
+          },
+          "acierto": false,
+          "tipo": "victoria_visitante_inesperada",
+          "confianza": 44.12,
+          "margen_pp": 15.06,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 29.06
+        },
+        {
+          "fecha": "2026-09-12",
+          "local": "Girona",
+          "visitante": "Castellon",
+          "marcador": "1-2",
+          "real": "2",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 42.43,
+            "X": 25.15,
+            "2": 32.42
+          },
+          "goles_esperados": {
+            "local": 1.51,
+            "visitante": 1.29
+          },
+          "acierto": false,
+          "tipo": "victoria_visitante_inesperada",
+          "confianza": 42.43,
+          "margen_pp": 10.01,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 32.42
+        },
+        {
+          "fecha": "2026-09-12",
+          "local": "Granada",
+          "visitante": "Albacete",
+          "marcador": "1-1",
+          "real": "X",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 61.47,
+            "X": 23.81,
+            "2": 14.72
+          },
+          "goles_esperados": {
+            "local": 1.67,
+            "visitante": 0.67
+          },
+          "acierto": false,
+          "tipo": "empate_no_pronosticado",
+          "confianza": 61.47,
+          "margen_pp": 37.66,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": true,
+          "probabilidad_real": 23.81
+        },
+        {
+          "fecha": "2026-09-12",
+          "local": "Cordoba",
+          "visitante": "Almeria",
+          "marcador": "0-2",
+          "real": "2",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 46.25,
+            "X": 28.4,
+            "2": 25.34
+          },
+          "goles_esperados": {
+            "local": 1.3,
+            "visitante": 0.88
+          },
+          "acierto": false,
+          "tipo": "victoria_visitante_inesperada",
+          "confianza": 46.25,
+          "margen_pp": 17.85,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 25.34
+        },
+        {
+          "fecha": "2026-09-13",
+          "local": "Sp Gijon",
+          "visitante": "Eldense",
+          "marcador": "0-1",
+          "real": "2",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 46.04,
+            "X": 32.6,
+            "2": 21.36
+          },
+          "goles_esperados": {
+            "local": 1.08,
+            "visitante": 0.63
+          },
+          "acierto": false,
+          "tipo": "victoria_visitante_inesperada",
+          "confianza": 46.04,
+          "margen_pp": 13.44,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 21.36
+        },
+        {
+          "fecha": "2026-09-13",
+          "local": "Valladolid",
+          "visitante": "Oviedo",
+          "marcador": "0-3",
+          "real": "2",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 39.34,
+            "X": 31.72,
+            "2": 28.94
+          },
+          "goles_esperados": {
+            "local": 1.04,
+            "visitante": 0.85
+          },
+          "acierto": false,
+          "tipo": "victoria_visitante_inesperada",
+          "confianza": 39.34,
+          "margen_pp": 7.62,
+          "partido_ajustado": true,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 28.94
+        },
+        {
+          "fecha": "2026-09-13",
+          "local": "Mallorca",
+          "visitante": "Sabadell",
+          "marcador": "2-0",
+          "real": "1",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 52.15,
+            "X": 31.44,
+            "2": 16.41
+          },
+          "goles_esperados": {
+            "local": 1.17,
+            "visitante": 0.52
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 52.15,
+          "margen_pp": 20.71,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 52.15
+        },
+        {
+          "fecha": "2026-09-13",
+          "local": "Tenerife",
+          "visitante": "Leganes",
+          "marcador": "2-0",
+          "real": "1",
+          "pronosticado": "X",
+          "probabilidades": {
+            "1": 32.27,
+            "X": 36.29,
+            "2": 31.43
+          },
+          "goles_esperados": {
+            "local": 0.77,
+            "visitante": 0.76
+          },
+          "acierto": false,
+          "tipo": "empate_pronosticado_sin_ocurrir",
+          "confianza": 36.29,
+          "margen_pp": 4.02,
+          "partido_ajustado": true,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 32.27
+        },
+        {
+          "fecha": "2026-09-14",
+          "local": "Celta B",
+          "visitante": "Eibar",
+          "marcador": "0-4",
+          "real": "2",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 38.37,
+            "X": 26.08,
+            "2": 35.55
+          },
+          "goles_esperados": {
+            "local": 1.36,
+            "visitante": 1.3
+          },
+          "acierto": false,
+          "tipo": "victoria_visitante_inesperada",
+          "confianza": 38.37,
+          "margen_pp": 2.82,
+          "partido_ajustado": true,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 35.55
+        },
+        {
+          "fecha": "2026-09-18",
+          "local": "Albacete",
+          "visitante": "Cordoba",
+          "marcador": "1-2",
+          "real": "2",
+          "pronosticado": "2",
+          "probabilidades": {
+            "1": 36.87,
+            "X": 24.57,
+            "2": 38.56
+          },
+          "goles_esperados": {
+            "local": 1.45,
+            "visitante": 1.49
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 38.56,
+          "margen_pp": 1.69,
+          "partido_ajustado": true,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 38.56
+        },
+        {
+          "fecha": "2026-09-19",
+          "local": "Sociedad B",
+          "visitante": "Mallorca",
+          "marcador": "0-1",
+          "real": "2",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 39.33,
+            "X": 33.32,
+            "2": 27.35
+          },
+          "goles_esperados": {
+            "local": 0.98,
+            "visitante": 0.76
+          },
+          "acierto": false,
+          "tipo": "victoria_visitante_inesperada",
+          "confianza": 39.33,
+          "margen_pp": 6.01,
+          "partido_ajustado": true,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 27.35
+        },
+        {
+          "fecha": "2026-09-19",
+          "local": "Andorra",
+          "visitante": "Sp Gijon",
+          "marcador": "1-3",
+          "real": "2",
+          "pronosticado": "2",
+          "probabilidades": {
+            "1": 36.42,
+            "X": 26.61,
+            "2": 36.98
+          },
+          "goles_esperados": {
+            "local": 1.28,
+            "visitante": 1.29
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 36.98,
+          "margen_pp": 0.56,
+          "partido_ajustado": true,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 36.98
+        },
+        {
+          "fecha": "2026-09-19",
+          "local": "Castellon",
+          "visitante": "Tenerife",
+          "marcador": "5-0",
+          "real": "1",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 38.77,
+            "X": 30.06,
+            "2": 31.17
+          },
+          "goles_esperados": {
+            "local": 1.11,
+            "visitante": 0.96
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 38.77,
+          "margen_pp": 7.6,
+          "partido_ajustado": true,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 38.77
+        },
+        {
+          "fecha": "2026-09-19",
+          "local": "Eldense",
+          "visitante": "Eibar",
+          "marcador": "1-2",
+          "real": "2",
+          "pronosticado": "2",
+          "probabilidades": {
+            "1": 21.72,
+            "X": 26.68,
+            "2": 51.61
+          },
+          "goles_esperados": {
+            "local": 0.84,
+            "visitante": 1.46
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 51.61,
+          "margen_pp": 24.93,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 51.61
+        },
+        {
+          "fecha": "2026-09-19",
+          "local": "Cadiz",
+          "visitante": "Girona",
+          "marcador": "1-2",
+          "real": "2",
+          "pronosticado": "2",
+          "probabilidades": {
+            "1": 29.37,
+            "X": 31.79,
+            "2": 38.83
+          },
+          "goles_esperados": {
+            "local": 0.85,
+            "visitante": 1.03
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 38.83,
+          "margen_pp": 7.04,
+          "partido_ajustado": true,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 38.83
+        },
+        {
+          "fecha": "2026-09-20",
+          "local": "Sabadell",
+          "visitante": "Oviedo",
+          "marcador": "3-1",
+          "real": "1",
+          "pronosticado": "2",
+          "probabilidades": {
+            "1": 29.7,
+            "X": 27.38,
+            "2": 42.92
+          },
+          "goles_esperados": {
+            "local": 1.06,
+            "visitante": 1.33
+          },
+          "acierto": false,
+          "tipo": "victoria_local_inesperada",
+          "confianza": 42.92,
+          "margen_pp": 13.22,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 29.7
+        },
+        {
+          "fecha": "2026-09-20",
+          "local": "Ceuta",
+          "visitante": "Valladolid",
+          "marcador": "1-1",
+          "real": "X",
+          "pronosticado": "2",
+          "probabilidades": {
+            "1": 32.03,
+            "X": 31.36,
+            "2": 36.61
+          },
+          "goles_esperados": {
+            "local": 0.93,
+            "visitante": 1.01
+          },
+          "acierto": false,
+          "tipo": "empate_no_pronosticado",
+          "confianza": 36.61,
+          "margen_pp": 4.58,
+          "partido_ajustado": true,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 31.36
+        },
+        {
+          "fecha": "2026-09-20",
+          "local": "Almeria",
+          "visitante": "Celta B",
+          "marcador": "2-0",
+          "real": "1",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 41.08,
+            "X": 28.02,
+            "2": 30.91
+          },
+          "goles_esperados": {
+            "local": 1.26,
+            "visitante": 1.06
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 41.08,
+          "margen_pp": 10.17,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 41.08
+        },
+        {
+          "fecha": "2026-09-20",
+          "local": "Las Palmas",
+          "visitante": "Burgos",
+          "marcador": "1-2",
+          "real": "2",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 41.82,
+            "X": 33.8,
+            "2": 24.38
+          },
+          "goles_esperados": {
+            "local": 0.99,
+            "visitante": 0.68
+          },
+          "acierto": false,
+          "tipo": "victoria_visitante_inesperada",
+          "confianza": 41.82,
+          "margen_pp": 8.02,
+          "partido_ajustado": true,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 24.38
+        },
+        {
+          "fecha": "2026-09-20",
+          "local": "Leganes",
+          "visitante": "Granada",
+          "marcador": "3-2",
+          "real": "1",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 44.39,
+            "X": 28.9,
+            "2": 26.7
+          },
+          "goles_esperados": {
+            "local": 1.25,
+            "visitante": 0.9
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 44.39,
+          "margen_pp": 15.49,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 44.39
+        },
+        {
+          "fecha": "2026-09-25",
+          "local": "Girona",
+          "visitante": "Albacete",
+          "marcador": "2-0",
+          "real": "1",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 54.66,
+            "X": 22.56,
+            "2": 22.78
+          },
+          "goles_esperados": {
+            "local": 1.87,
+            "visitante": 1.13
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 54.66,
+          "margen_pp": 31.88,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 54.66
+        },
+        {
+          "fecha": "2026-09-26",
+          "local": "Ceuta",
+          "visitante": "Sociedad B",
+          "marcador": "3-1",
+          "real": "1",
+          "pronosticado": "2",
+          "probabilidades": {
+            "1": 19.1,
+            "X": 22.38,
+            "2": 58.51
+          },
+          "goles_esperados": {
+            "local": 0.96,
+            "visitante": 1.86
+          },
+          "acierto": false,
+          "tipo": "victoria_local_inesperada",
+          "confianza": 58.51,
+          "margen_pp": 36.13,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": true,
+          "probabilidad_real": 19.1
+        },
+        {
+          "fecha": "2026-09-26",
+          "local": "Granada",
+          "visitante": "Andorra",
+          "marcador": "2-3",
+          "real": "2",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 56.63,
+            "X": 23.66,
+            "2": 19.72
+          },
+          "goles_esperados": {
+            "local": 1.73,
+            "visitante": 0.91
+          },
+          "acierto": false,
+          "tipo": "victoria_visitante_inesperada",
+          "confianza": 56.63,
+          "margen_pp": 32.97,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": true,
+          "probabilidad_real": 19.72
+        },
+        {
+          "fecha": "2026-09-26",
+          "local": "Celta B",
+          "visitante": "Sabadell",
+          "marcador": "1-1",
+          "real": "X",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 38.8,
+            "X": 28.67,
+            "2": 32.54
+          },
+          "goles_esperados": {
+            "local": 1.19,
+            "visitante": 1.06
+          },
+          "acierto": false,
+          "tipo": "empate_no_pronosticado",
+          "confianza": 38.8,
+          "margen_pp": 6.26,
+          "partido_ajustado": true,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 28.67
+        },
+        {
+          "fecha": "2026-09-26",
+          "local": "Tenerife",
+          "visitante": "Cadiz",
+          "marcador": "1-1",
+          "real": "X",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 48.9,
+            "X": 25.84,
+            "2": 25.26
+          },
+          "goles_esperados": {
+            "local": 1.51,
+            "visitante": 1.01
+          },
+          "acierto": false,
+          "tipo": "empate_no_pronosticado",
+          "confianza": 48.9,
+          "margen_pp": 23.06,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 25.84
+        },
+        {
+          "fecha": "2026-09-27",
+          "local": "Valladolid",
+          "visitante": "Cordoba",
+          "marcador": "3-1",
+          "real": "1",
+          "pronosticado": "2",
+          "probabilidades": {
+            "1": 34.0,
+            "X": 24.15,
+            "2": 41.85
+          },
+          "goles_esperados": {
+            "local": 1.42,
+            "visitante": 1.59
+          },
+          "acierto": false,
+          "tipo": "victoria_local_inesperada",
+          "confianza": 41.85,
+          "margen_pp": 7.85,
+          "partido_ajustado": true,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 34.0
+        },
+        {
+          "fecha": "2026-09-27",
+          "local": "Mallorca",
+          "visitante": "Almeria",
+          "marcador": "0-1",
+          "real": "2",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 56.41,
+            "X": 27.57,
+            "2": 16.02
+          },
+          "goles_esperados": {
+            "local": 1.4,
+            "visitante": 0.6
+          },
+          "acierto": false,
+          "tipo": "victoria_visitante_inesperada",
+          "confianza": 56.41,
+          "margen_pp": 28.84,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": true,
+          "probabilidad_real": 16.02
+        },
+        {
+          "fecha": "2026-09-27",
+          "local": "Burgos",
+          "visitante": "Eldense",
+          "marcador": "1-0",
+          "real": "1",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 57.41,
+            "X": 22.67,
+            "2": 19.91
+          },
+          "goles_esperados": {
+            "local": 1.84,
+            "visitante": 0.98
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 57.41,
+          "margen_pp": 34.74,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 57.41
+        },
+        {
+          "fecha": "2026-09-27",
+          "local": "Eibar",
+          "visitante": "Las Palmas",
+          "marcador": "3-2",
+          "real": "1",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 44.98,
+            "X": 24.53,
+            "2": 30.49
+          },
+          "goles_esperados": {
+            "local": 1.6,
+            "visitante": 1.28
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 44.98,
+          "margen_pp": 14.49,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 44.98
+        },
+        {
+          "fecha": "2026-09-27",
+          "local": "Oviedo",
+          "visitante": "Sp Gijon",
+          "marcador": "2-0",
+          "real": "1",
+          "pronosticado": "2",
+          "probabilidades": {
+            "1": 24.56,
+            "X": 33.2,
+            "2": 42.24
+          },
+          "goles_esperados": {
+            "local": 0.7,
+            "visitante": 1.02
+          },
+          "acierto": false,
+          "tipo": "victoria_local_inesperada",
+          "confianza": 42.24,
+          "margen_pp": 9.04,
+          "partido_ajustado": true,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 24.56
+        },
+        {
+          "fecha": "2026-09-28",
+          "local": "Leganes",
+          "visitante": "Castellon",
+          "marcador": "0-2",
+          "real": "2",
+          "pronosticado": "2",
+          "probabilidades": {
+            "1": 36.09,
+            "X": 26.72,
+            "2": 37.19
+          },
+          "goles_esperados": {
+            "local": 1.26,
+            "visitante": 1.28
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 37.19,
+          "margen_pp": 1.1,
+          "partido_ajustado": true,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 37.19
+        },
+        {
+          "fecha": "2026-10-02",
+          "local": "Eldense",
+          "visitante": "Oviedo",
+          "marcador": "4-1",
+          "real": "1",
+          "pronosticado": "2",
+          "probabilidades": {
+            "1": 29.41,
+            "X": 26.42,
+            "2": 44.16
+          },
+          "goles_esperados": {
+            "local": 1.11,
+            "visitante": 1.42
+          },
+          "acierto": false,
+          "tipo": "victoria_local_inesperada",
+          "confianza": 44.16,
+          "margen_pp": 14.75,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 29.41
+        },
+        {
+          "fecha": "2026-10-03",
+          "local": "Albacete",
+          "visitante": "Eibar",
+          "marcador": "1-3",
+          "real": "2",
+          "pronosticado": "2",
+          "probabilidades": {
+            "1": 15.68,
+            "X": 21.97,
+            "2": 62.35
+          },
+          "goles_esperados": {
+            "local": 0.81,
+            "visitante": 1.86
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 62.35,
+          "margen_pp": 40.38,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 62.35
+        },
+        {
+          "fecha": "2026-10-03",
+          "local": "Almeria",
+          "visitante": "Burgos",
+          "marcador": "2-1",
+          "real": "1",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 53.84,
+            "X": 26.07,
+            "2": 20.09
+          },
+          "goles_esperados": {
+            "local": 1.51,
+            "visitante": 0.81
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 53.84,
+          "margen_pp": 27.77,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 53.84
+        },
+        {
+          "fecha": "2026-10-03",
+          "local": "Cadiz",
+          "visitante": "Leganes",
+          "marcador": "4-0",
+          "real": "1",
+          "pronosticado": "X",
+          "probabilidades": {
+            "1": 32.07,
+            "X": 35.3,
+            "2": 32.63
+          },
+          "goles_esperados": {
+            "local": 0.8,
+            "visitante": 0.81
+          },
+          "acierto": false,
+          "tipo": "empate_pronosticado_sin_ocurrir",
+          "confianza": 35.3,
+          "margen_pp": 2.67,
+          "partido_ajustado": true,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 32.07
+        },
+        {
+          "fecha": "2026-10-04",
+          "local": "Sociedad B",
+          "visitante": "Granada",
+          "marcador": "2-3",
+          "real": "2",
+          "pronosticado": "2",
+          "probabilidades": {
+            "1": 35.44,
+            "X": 28.68,
+            "2": 35.88
+          },
+          "goles_esperados": {
+            "local": 1.12,
+            "visitante": 1.13
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 35.88,
+          "margen_pp": 0.44,
+          "partido_ajustado": true,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 35.88
+        },
+        {
+          "fecha": "2026-10-04",
+          "local": "Sp Gijon",
+          "visitante": "Celta B",
+          "marcador": "3-2",
+          "real": "1",
+          "pronosticado": "X",
+          "probabilidades": {
+            "1": 29.48,
+            "X": 36.05,
+            "2": 34.46
+          },
+          "goles_esperados": {
+            "local": 0.73,
+            "visitante": 0.81
+          },
+          "acierto": false,
+          "tipo": "empate_pronosticado_sin_ocurrir",
+          "confianza": 36.05,
+          "margen_pp": 1.59,
+          "partido_ajustado": true,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 29.48
+        },
+        {
+          "fecha": "2026-10-04",
+          "local": "Castellon",
+          "visitante": "Ceuta",
+          "marcador": "1-1",
+          "real": "X",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 82.8,
+            "X": 11.76,
+            "2": 5.44
+          },
+          "goles_esperados": {
+            "local": 2.8,
+            "visitante": 0.6
+          },
+          "acierto": false,
+          "tipo": "empate_no_pronosticado",
+          "confianza": 82.8,
+          "margen_pp": 71.04,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": true,
+          "probabilidad_real": 11.76
+        },
+        {
+          "fecha": "2026-10-04",
+          "local": "Las Palmas",
+          "visitante": "Valladolid",
+          "marcador": "2-2",
+          "real": "X",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 45.06,
+            "X": 29.91,
+            "2": 25.03
+          },
+          "goles_esperados": {
+            "local": 1.2,
+            "visitante": 0.81
+          },
+          "acierto": false,
+          "tipo": "empate_no_pronosticado",
+          "confianza": 45.06,
+          "margen_pp": 15.15,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 29.91
+        },
+        {
+          "fecha": "2026-10-04",
+          "local": "Girona",
+          "visitante": "Mallorca",
+          "marcador": "0-0",
+          "real": "X",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 50.33,
+            "X": 26.86,
+            "2": 22.81
+          },
+          "goles_esperados": {
+            "local": 1.44,
+            "visitante": 0.87
+          },
+          "acierto": false,
+          "tipo": "empate_no_pronosticado",
+          "confianza": 50.33,
+          "margen_pp": 23.47,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 26.86
+        },
+        {
+          "fecha": "2026-10-04",
+          "local": "Sabadell",
+          "visitante": "Andorra",
+          "marcador": "0-0",
+          "real": "X",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 58.16,
+            "X": 20.23,
+            "2": 21.61
+          },
+          "goles_esperados": {
+            "local": 2.19,
+            "visitante": 1.28
+          },
+          "acierto": false,
+          "tipo": "empate_no_pronosticado",
+          "confianza": 58.16,
+          "margen_pp": 36.55,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": true,
+          "probabilidad_real": 20.23
+        },
+        {
+          "fecha": "2026-10-05",
+          "local": "Cordoba",
+          "visitante": "Tenerife",
+          "marcador": "3-2",
+          "real": "1",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 38.44,
+            "X": 23.73,
+            "2": 37.82
+          },
+          "goles_esperados": {
+            "local": 1.57,
+            "visitante": 1.56
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 38.44,
+          "margen_pp": 0.62,
+          "partido_ajustado": true,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 38.44
+        },
+        {
+          "fecha": "2026-10-10",
+          "local": "Ceuta",
+          "visitante": "Sabadell",
+          "marcador": "1-2",
+          "real": "2",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 37.3,
+            "X": 32.39,
+            "2": 30.31
+          },
+          "goles_esperados": {
+            "local": 0.98,
+            "visitante": 0.85
+          },
+          "acierto": false,
+          "tipo": "victoria_visitante_inesperada",
+          "confianza": 37.3,
+          "margen_pp": 4.91,
+          "partido_ajustado": true,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 30.31
+        },
+        {
+          "fecha": "2026-10-10",
+          "local": "Eldense",
+          "visitante": "Cordoba",
+          "marcador": "2-1",
+          "real": "1",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 51.93,
+            "X": 21.07,
+            "2": 27.0
+          },
+          "goles_esperados": {
+            "local": 2.09,
+            "visitante": 1.47
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 51.93,
+          "margen_pp": 24.93,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 51.93
+        },
+        {
+          "fecha": "2026-10-10",
+          "local": "Celta B",
+          "visitante": "Sociedad B",
+          "marcador": "4-1",
+          "real": "1",
+          "pronosticado": "2",
+          "probabilidades": {
+            "1": 28.62,
+            "X": 20.58,
+            "2": 50.79
+          },
+          "goles_esperados": {
+            "local": 1.61,
+            "visitante": 2.17
+          },
+          "acierto": false,
+          "tipo": "victoria_local_inesperada",
+          "confianza": 50.79,
+          "margen_pp": 22.17,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 28.62
+        },
+        {
+          "fecha": "2026-10-11",
+          "local": "Andorra",
+          "visitante": "Castellon",
+          "marcador": "1-0",
+          "real": "1",
+          "pronosticado": "2",
+          "probabilidades": {
+            "1": 22.67,
+            "X": 22.47,
+            "2": 54.86
+          },
+          "goles_esperados": {
+            "local": 1.13,
+            "visitante": 1.88
+          },
+          "acierto": false,
+          "tipo": "victoria_local_inesperada",
+          "confianza": 54.86,
+          "margen_pp": 32.19,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 22.67
+        },
+        {
+          "fecha": "2026-10-11",
+          "local": "Almeria",
+          "visitante": "Leganes",
+          "marcador": "3-0",
+          "real": "1",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 66.57,
+            "X": 21.14,
+            "2": 12.29
+          },
+          "goles_esperados": {
+            "local": 1.88,
+            "visitante": 0.66
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 66.57,
+          "margen_pp": 45.43,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 66.57
+        },
+        {
+          "fecha": "2026-10-11",
+          "local": "Mallorca",
+          "visitante": "Las Palmas",
+          "marcador": "3-1",
+          "real": "1",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 59.05,
+            "X": 22.44,
+            "2": 18.5
+          },
+          "goles_esperados": {
+            "local": 1.85,
+            "visitante": 0.93
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 59.05,
+          "margen_pp": 36.61,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 59.05
+        },
+        {
+          "fecha": "2026-10-11",
+          "local": "Cadiz",
+          "visitante": "Sp Gijon",
+          "marcador": "0-1",
+          "real": "2",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 39.1,
+            "X": 28.93,
+            "2": 31.97
+          },
+          "goles_esperados": {
+            "local": 1.18,
+            "visitante": 1.04
+          },
+          "acierto": false,
+          "tipo": "victoria_visitante_inesperada",
+          "confianza": 39.1,
+          "margen_pp": 7.13,
+          "partido_ajustado": true,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 31.97
+        },
+        {
+          "fecha": "2026-10-12",
+          "local": "Valladolid",
+          "visitante": "Albacete",
+          "marcador": "5-0",
+          "real": "1",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 52.14,
+            "X": 25.65,
+            "2": 22.21
+          },
+          "goles_esperados": {
+            "local": 1.54,
+            "visitante": 0.91
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 52.14,
+          "margen_pp": 26.49,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 52.14
+        },
+        {
+          "fecha": "2026-10-12",
+          "local": "Burgos",
+          "visitante": "Granada",
+          "marcador": "0-1",
+          "real": "2",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 51.23,
+            "X": 21.54,
+            "2": 27.23
+          },
+          "goles_esperados": {
+            "local": 2.02,
+            "visitante": 1.43
+          },
+          "acierto": false,
+          "tipo": "victoria_visitante_inesperada",
+          "confianza": 51.23,
+          "margen_pp": 24.0,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 27.23
+        },
+        {
+          "fecha": "2026-10-12",
+          "local": "Oviedo",
+          "visitante": "Eibar",
+          "marcador": "3-1",
+          "real": "1",
+          "pronosticado": "2",
+          "probabilidades": {
+            "1": 23.85,
+            "X": 31.13,
+            "2": 45.02
+          },
+          "goles_esperados": {
+            "local": 0.74,
+            "visitante": 1.14
+          },
+          "acierto": false,
+          "tipo": "victoria_local_inesperada",
+          "confianza": 45.02,
+          "margen_pp": 13.89,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 23.85
+        },
+        {
+          "fecha": "2026-10-12",
+          "local": "Tenerife",
+          "visitante": "Girona",
+          "marcador": "1-1",
+          "real": "X",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 38.04,
+            "X": 29.72,
+            "2": 32.24
+          },
+          "goles_esperados": {
+            "local": 1.12,
+            "visitante": 1.0
+          },
+          "acierto": false,
+          "tipo": "empate_no_pronosticado",
+          "confianza": 38.04,
+          "margen_pp": 5.8,
+          "partido_ajustado": true,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 29.72
+        },
+        {
+          "fecha": "2026-10-16",
+          "local": "Leganes",
+          "visitante": "Cordoba",
+          "marcador": "0-1",
+          "real": "2",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 47.39,
+            "X": 22.43,
+            "2": 30.17
+          },
+          "goles_esperados": {
+            "local": 1.87,
+            "visitante": 1.46
+          },
+          "acierto": false,
+          "tipo": "victoria_visitante_inesperada",
+          "confianza": 47.39,
+          "margen_pp": 17.22,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 30.17
+        },
+        {
+          "fecha": "2026-10-17",
+          "local": "Sociedad B",
+          "visitante": "Almeria",
+          "marcador": "2-4",
+          "real": "2",
+          "pronosticado": "2",
+          "probabilidades": {
+            "1": 27.1,
+            "X": 31.16,
+            "2": 41.73
+          },
+          "goles_esperados": {
+            "local": 0.82,
+            "visitante": 1.1
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 41.73,
+          "margen_pp": 10.57,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 41.73
+        },
+        {
+          "fecha": "2026-10-17",
+          "local": "Eibar",
+          "visitante": "Mallorca",
+          "marcador": "1-1",
+          "real": "X",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 46.56,
+            "X": 29.93,
+            "2": 23.51
+          },
+          "goles_esperados": {
+            "local": 1.21,
+            "visitante": 0.77
+          },
+          "acierto": false,
+          "tipo": "empate_no_pronosticado",
+          "confianza": 46.56,
+          "margen_pp": 16.63,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 29.93
+        },
+        {
+          "fecha": "2026-10-17",
+          "local": "Sp Gijon",
+          "visitante": "Albacete",
+          "marcador": "2-1",
+          "real": "1",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 55.83,
+            "X": 26.23,
+            "2": 17.94
+          },
+          "goles_esperados": {
+            "local": 1.5,
+            "visitante": 0.72
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 55.83,
+          "margen_pp": 29.6,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 55.83
+        },
+        {
+          "fecha": "2026-10-17",
+          "local": "Las Palmas",
+          "visitante": "Castellon",
+          "marcador": "0-3",
+          "real": "2",
+          "pronosticado": "2",
+          "probabilidades": {
+            "1": 27.48,
+            "X": 27.82,
+            "2": 44.71
+          },
+          "goles_esperados": {
+            "local": 0.97,
+            "visitante": 1.33
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 44.71,
+          "margen_pp": 16.89,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 44.71
+        },
+        {
+          "fecha": "2026-10-18",
+          "local": "Ceuta",
+          "visitante": "Oviedo",
+          "marcador": "1-2",
+          "real": "2",
+          "pronosticado": "2",
+          "probabilidades": {
+            "1": 32.87,
+            "X": 24.61,
+            "2": 42.53
+          },
+          "goles_esperados": {
+            "local": 1.34,
+            "visitante": 1.56
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 42.53,
+          "margen_pp": 9.66,
+          "partido_ajustado": true,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 42.53
+        },
+        {
+          "fecha": "2026-10-18",
+          "local": "Granada",
+          "visitante": "Cadiz",
+          "marcador": "2-0",
+          "real": "1",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 45.49,
+            "X": 23.16,
+            "2": 31.35
+          },
+          "goles_esperados": {
+            "local": 1.76,
+            "visitante": 1.43
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 45.49,
+          "margen_pp": 14.14,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 45.49
+        },
+        {
+          "fecha": "2026-10-18",
+          "local": "Girona",
+          "visitante": "Andorra",
+          "marcador": "2-0",
+          "real": "1",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 52.7,
+            "X": 23.38,
+            "2": 23.92
+          },
+          "goles_esperados": {
+            "local": 1.77,
+            "visitante": 1.12
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 52.7,
+          "margen_pp": 28.78,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 52.7
+        },
+        {
+          "fecha": "2026-10-18",
+          "local": "Valladolid",
+          "visitante": "Eldense",
+          "marcador": "2-3",
+          "real": "2",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 61.11,
+            "X": 23.6,
+            "2": 15.29
+          },
+          "goles_esperados": {
+            "local": 1.7,
+            "visitante": 0.71
+          },
+          "acierto": false,
+          "tipo": "victoria_visitante_inesperada",
+          "confianza": 61.11,
+          "margen_pp": 37.51,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": true,
+          "probabilidad_real": 15.29
+        },
+        {
+          "fecha": "2026-10-18",
+          "local": "Burgos",
+          "visitante": "Sabadell",
+          "marcador": "1-0",
+          "real": "1",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 44.92,
+            "X": 28.78,
+            "2": 26.3
+          },
+          "goles_esperados": {
+            "local": 1.27,
+            "visitante": 0.9
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 44.92,
+          "margen_pp": 16.14,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 44.92
+        },
+        {
+          "fecha": "2026-10-19",
+          "local": "Celta B",
+          "visitante": "Tenerife",
+          "marcador": "1-1",
+          "real": "X",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 49.12,
+            "X": 20.05,
+            "2": 30.83
+          },
+          "goles_esperados": {
+            "local": 2.27,
+            "visitante": 1.79
+          },
+          "acierto": false,
+          "tipo": "empate_no_pronosticado",
+          "confianza": 49.12,
+          "margen_pp": 18.29,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 20.05
+        },
+        {
+          "fecha": "2026-10-23",
+          "local": "Granada",
+          "visitante": "Valladolid",
+          "marcador": "2-1",
+          "real": "1",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 52.26,
+            "X": 25.49,
+            "2": 22.25
+          },
+          "goles_esperados": {
+            "local": 1.56,
+            "visitante": 0.92
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 52.26,
+          "margen_pp": 26.77,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 52.26
+        },
+        {
+          "fecha": "2026-10-24",
+          "local": "Cordoba",
+          "visitante": "Eibar",
+          "marcador": "2-0",
+          "real": "1",
+          "pronosticado": "2",
+          "probabilidades": {
+            "1": 20.67,
+            "X": 19.92,
+            "2": 59.41
+          },
+          "goles_esperados": {
+            "local": 1.25,
+            "visitante": 2.22
+          },
+          "acierto": false,
+          "tipo": "victoria_local_inesperada",
+          "confianza": 59.41,
+          "margen_pp": 38.74,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": true,
+          "probabilidad_real": 20.67
+        },
+        {
+          "fecha": "2026-10-24",
+          "local": "Leganes",
+          "visitante": "Mallorca",
+          "marcador": "1-1",
+          "real": "X",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 35.52,
+            "X": 33.99,
+            "2": 30.5
+          },
+          "goles_esperados": {
+            "local": 0.9,
+            "visitante": 0.81
+          },
+          "acierto": false,
+          "tipo": "empate_no_pronosticado",
+          "confianza": 35.52,
+          "margen_pp": 1.53,
+          "partido_ajustado": true,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 33.99
+        },
+        {
+          "fecha": "2026-10-24",
+          "local": "Girona",
+          "visitante": "Celta B",
+          "marcador": "5-1",
+          "real": "1",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 52.21,
+            "X": 25.49,
+            "2": 22.3
+          },
+          "goles_esperados": {
+            "local": 1.56,
+            "visitante": 0.92
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 52.21,
+          "margen_pp": 26.72,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 52.21
+        },
+        {
+          "fecha": "2026-10-24",
+          "local": "Las Palmas",
+          "visitante": "Sociedad B",
+          "marcador": "1-0",
+          "real": "1",
+          "pronosticado": "2",
+          "probabilidades": {
+            "1": 33.92,
+            "X": 22.87,
+            "2": 43.21
+          },
+          "goles_esperados": {
+            "local": 1.54,
+            "visitante": 1.76
+          },
+          "acierto": false,
+          "tipo": "victoria_local_inesperada",
+          "confianza": 43.21,
+          "margen_pp": 9.29,
+          "partido_ajustado": true,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 33.92
+        },
+        {
+          "fecha": "2026-10-24",
+          "local": "Almeria",
+          "visitante": "Oviedo",
+          "marcador": "2-2",
+          "real": "X",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 61.91,
+            "X": 20.25,
+            "2": 17.84
+          },
+          "goles_esperados": {
+            "local": 2.12,
+            "visitante": 1.05
+          },
+          "acierto": false,
+          "tipo": "empate_no_pronosticado",
+          "confianza": 61.91,
+          "margen_pp": 41.66,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": true,
+          "probabilidad_real": 20.25
+        },
+        {
+          "fecha": "2026-10-25",
+          "local": "Sabadell",
+          "visitante": "Tenerife",
+          "marcador": "1-1",
+          "real": "X",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 58.41,
+            "X": 21.5,
+            "2": 20.1
+          },
+          "goles_esperados": {
+            "local": 1.98,
+            "visitante": 1.08
+          },
+          "acierto": false,
+          "tipo": "empate_no_pronosticado",
+          "confianza": 58.41,
+          "margen_pp": 36.91,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": true,
+          "probabilidad_real": 21.5
+        },
+        {
+          "fecha": "2026-10-25",
+          "local": "Albacete",
+          "visitante": "Eldense",
+          "marcador": "2-0",
+          "real": "1",
+          "pronosticado": "2",
+          "probabilidades": {
+            "1": 32.43,
+            "X": 27.35,
+            "2": 40.21
+          },
+          "goles_esperados": {
+            "local": 1.13,
+            "visitante": 1.3
+          },
+          "acierto": false,
+          "tipo": "victoria_local_inesperada",
+          "confianza": 40.21,
+          "margen_pp": 7.78,
+          "partido_ajustado": true,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 32.43
+        },
+        {
+          "fecha": "2026-10-25",
+          "local": "Cadiz",
+          "visitante": "Ceuta",
+          "marcador": "3-1",
+          "real": "1",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 59.83,
+            "X": 23.05,
+            "2": 17.12
+          },
+          "goles_esperados": {
+            "local": 1.77,
+            "visitante": 0.82
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 59.83,
+          "margen_pp": 36.78,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 59.83
+        },
+        {
+          "fecha": "2026-10-25",
+          "local": "Castellon",
+          "visitante": "Sp Gijon",
+          "marcador": "4-0",
+          "real": "1",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 50.26,
+            "X": 28.17,
+            "2": 21.58
+          },
+          "goles_esperados": {
+            "local": 1.35,
+            "visitante": 0.78
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 50.26,
+          "margen_pp": 22.09,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 50.26
+        },
+        {
+          "fecha": "2026-10-26",
+          "local": "Andorra",
+          "visitante": "Burgos",
+          "marcador": "2-3",
+          "real": "2",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 40.54,
+            "X": 26.96,
+            "2": 32.5
+          },
+          "goles_esperados": {
+            "local": 1.33,
+            "visitante": 1.16
+          },
+          "acierto": false,
+          "tipo": "victoria_visitante_inesperada",
+          "confianza": 40.54,
+          "margen_pp": 8.04,
+          "partido_ajustado": true,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 32.5
+        },
+        {
+          "fecha": "2026-10-31",
+          "local": "Sociedad B",
+          "visitante": "Girona",
+          "marcador": "1-0",
+          "real": "1",
+          "pronosticado": "2",
+          "probabilidades": {
+            "1": 22.7,
+            "X": 23.19,
+            "2": 54.11
+          },
+          "goles_esperados": {
+            "local": 1.08,
+            "visitante": 1.79
+          },
+          "acierto": false,
+          "tipo": "victoria_local_inesperada",
+          "confianza": 54.11,
+          "margen_pp": 30.92,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 22.7
+        },
+        {
+          "fecha": "2026-10-31",
+          "local": "Eibar",
+          "visitante": "Almeria",
+          "marcador": "1-1",
+          "real": "X",
+          "pronosticado": "2",
+          "probabilidades": {
+            "1": 35.98,
+            "X": 26.53,
+            "2": 37.49
+          },
+          "goles_esperados": {
+            "local": 1.27,
+            "visitante": 1.3
+          },
+          "acierto": false,
+          "tipo": "empate_no_pronosticado",
+          "confianza": 37.49,
+          "margen_pp": 1.51,
+          "partido_ajustado": true,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 26.53
+        },
+        {
+          "fecha": "2026-10-31",
+          "local": "Celta B",
+          "visitante": "Cordoba",
+          "marcador": "2-2",
+          "real": "X",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 43.03,
+            "X": 21.35,
+            "2": 35.62
+          },
+          "goles_esperados": {
+            "local": 1.97,
+            "visitante": 1.78
+          },
+          "acierto": false,
+          "tipo": "empate_no_pronosticado",
+          "confianza": 43.03,
+          "margen_pp": 7.41,
+          "partido_ajustado": true,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 21.35
+        },
+        {
+          "fecha": "2026-10-31",
+          "local": "Albacete",
+          "visitante": "Sabadell",
+          "marcador": "2-1",
+          "real": "1",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 34.28,
+            "X": 31.76,
+            "2": 33.96
+          },
+          "goles_esperados": {
+            "local": 0.96,
+            "visitante": 0.95
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 34.28,
+          "margen_pp": 0.32,
+          "partido_ajustado": true,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 34.28
+        },
+        {
+          "fecha": "2026-11-01",
+          "local": "Eldense",
+          "visitante": "Granada",
+          "marcador": "0-2",
+          "real": "2",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 43.93,
+            "X": 23.98,
+            "2": 32.09
+          },
+          "goles_esperados": {
+            "local": 1.64,
+            "visitante": 1.37
+          },
+          "acierto": false,
+          "tipo": "victoria_visitante_inesperada",
+          "confianza": 43.93,
+          "margen_pp": 11.84,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 32.09
+        },
+        {
+          "fecha": "2026-11-01",
+          "local": "Ceuta",
+          "visitante": "Sp Gijon",
+          "marcador": "0-2",
+          "real": "2",
+          "pronosticado": "2",
+          "probabilidades": {
+            "1": 33.08,
+            "X": 26.71,
+            "2": 40.2
+          },
+          "goles_esperados": {
+            "local": 1.19,
+            "visitante": 1.34
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 40.2,
+          "margen_pp": 7.12,
+          "partido_ajustado": true,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 40.2
+        },
+        {
+          "fecha": "2026-11-01",
+          "local": "Burgos",
+          "visitante": "Castellon",
+          "marcador": "1-1",
+          "real": "X",
+          "pronosticado": "2",
+          "probabilidades": {
+            "1": 28.57,
+            "X": 27.55,
+            "2": 43.88
+          },
+          "goles_esperados": {
+            "local": 1.02,
+            "visitante": 1.33
+          },
+          "acierto": false,
+          "tipo": "empate_no_pronosticado",
+          "confianza": 43.88,
+          "margen_pp": 15.31,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 27.55
+        },
+        {
+          "fecha": "2026-11-02",
+          "local": "Oviedo",
+          "visitante": "Las Palmas",
+          "marcador": "2-3",
+          "real": "2",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 51.71,
+            "X": 25.65,
+            "2": 22.64
+          },
+          "goles_esperados": {
+            "local": 1.54,
+            "visitante": 0.93
+          },
+          "acierto": false,
+          "tipo": "victoria_visitante_inesperada",
+          "confianza": 51.71,
+          "margen_pp": 26.06,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 22.64
+        },
+        {
+          "fecha": "2026-11-02",
+          "local": "Valladolid",
+          "visitante": "Leganes",
+          "marcador": "4-3",
+          "real": "1",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 65.0,
+            "X": 20.87,
+            "2": 14.13
+          },
+          "goles_esperados": {
+            "local": 1.95,
+            "visitante": 0.78
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 65.0,
+          "margen_pp": 44.13,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 65.0
+        },
+        {
+          "fecha": "2026-11-02",
+          "local": "Mallorca",
+          "visitante": "Cadiz",
+          "marcador": "2-1",
+          "real": "1",
+          "pronosticado": "1",
+          "probabilidades": {
+            "1": 65.47,
+            "X": 20.43,
+            "2": 14.1
+          },
+          "goles_esperados": {
+            "local": 2.01,
+            "visitante": 0.8
+          },
+          "acierto": true,
+          "tipo": "acierto",
+          "confianza": 65.47,
+          "margen_pp": 45.04,
+          "partido_ajustado": false,
+          "favorito_fuerte_fallido": false,
+          "probabilidad_real": 65.47
+        }
+      ]
+    }
+  },
+  "global": {
+    "evaluados": 156,
+    "aciertos": 76,
+    "fallos": 80,
+    "porcentaje": 48.72,
+    "tipos_de_fallo": {
+      "victoria_visitante_inesperada": 31,
+      "empate_no_pronosticado": 33,
+      "victoria_local_inesperada": 13,
+      "empate_pronosticado_sin_ocurrir": 3
+    },
+    "fallos_en_partidos_ajustados": 26,
+    "fallos_con_confianza_55_o_mas": 14,
+    "empates_reales": 33,
+    "empates_pronosticados": 3,
+    "baseline_todos_local": 71
+  }
+}
