@@ -56,7 +56,10 @@ def calcular_liga(partidos, min_partidos_equipo=0, objetivos=None, pesos=None, e
         for equipo in equipos
     }
 
+    partidos_reales = {equipo: 0 for equipo in equipos}
     for p, w in zip(jugados, pesos):
+        partidos_reales[p["local"]] += 1
+        partidos_reales[p["visitante"]] += 1
         local = stats[p["local"]]
         fuera = stats[p["visitante"]]
         gl = int(p["goles_local"])
