@@ -168,76 +168,88 @@ def coinciden(a, b):
 
 def main():
     ahora = datetime.now(timezone.utc).isoformat()
-    diagnostico = {"consultado": ahora, "fuentes": {}, "publicacion_automatica": False, "motivo": ""}
-    candidatos = {}
-    for nombre, url, extractor in [
-        ("quinielafutbol", SOURCE_A, fuente_quinielafutbol),
-        ("quiniprats", SOURCE_B.format(numero=int(json.loads(JORNADA.read_text(encoding="utf-8")).get("numero", 0)) + 1), None),
-    ]:
-        try:
-            parsed = (fuente_quiniprats(descargar(url), int(json.loads(JORNADA.read_text(encoding="utf-8")).get("numero", 0)) + 1) if extractor is None else extractor(descargar(url)))
-            diagnostico["fuentes"][nombre] = {"url": url, "accesible": True, "jornadas_completas": sorted(parsed)}
-            candidatos[nombre] = parsed
-        except Exception as exc:
-            diagnostico["fuentes"][nombre] = {"url": url, "accesible": False, "error": str(exc)[:180]}
-            candidatos[nombre] = {}
     actual = json.loads(JORNADA.read_text(encoding="utf-8"))
-    actual_numero = int(actual.get("numero", 0))
-    comunes = sorted(set(candidatos["quinielafutbol"]) & set(candidatos["quiniprats"]))
-    validos = [n for n in comunes if coinciden(candidatos["quinielafutbol"][n], candidatos["quiniprats"][n])]
-    diagnostico["comparacion"] = {}
-    for n in comunes:
-        a = candidatos["quinielafutbol"][n]["partidos"]
-        b = candidatos["quiniprats"][n]["partidos"]
-        discrepancias = []
-        for pos in range(1, 16):
-            x, y = a.get(pos), b.get(pos)
-            if not x or not y or clave(x[0]) != clave(y[0]) or clave(x[1]) != clave(y[1]):
-                discrepancias.append({"posicion": pos, "quinielafutbol": list(x) if x else None,
-                                      "quiniprats": list(y) if y else None})
-        diagnostico["comparacion"][str(n)] = {"coinciden": not discrepancias,
-                                                  "discrepancias": discrepancias}
-    for n in comunes:
-        comparacion = diagnostico["comparacion"][str(n)]
-        print(f"Comparación jornada {n}: {'OK' if comparacion['coinciden'] else 'DIFERENCIAS'}")
-        for error in comparacion["discrepancias"]:
-            print(json.dumps(error, ensure_ascii=False))
-
-    # Nunca retroceder ni saltar jornadas, ni sobreescribir una jornada que no ha finalizado.
-    siguiente = actual_numero + 1
-    if siguiente in validos and date.fromisoformat(actual["fecha_fin"]) < date.today():
-        candidato = candidatos["quinielafutbol"][siguiente]
-        fechas = candidato["fechas"] or candidatos["quiniprats"][siguiente]["fechas"]
-        if fechas and fechas[1] >= date.today() and (fechas[1] - fechas[0]).days <= 5:
-            partidos = [
-                {"posicion": n, "local": candidato["partidos"][n][0],
-                 "visitante": candidato["partidos"][n][1], "liga": None}
-                for n in range(1, 15)
-            ]
-            local, visitante = candidato["partidos"][15]
-            nueva = {
-                "numero": siguiente, "temporada": actual.get("temporada", "2026-2027"),
-                "fecha_inicio": fechas[0].isoformat(), "fecha_fin": fechas[1].isoformat(),
-                "estado": "verificada",
-                "verificacion": "15 encuentros coincidentes en dos fuentes; fechas de QuinielaFutbol.",
-                "fuentes": [SOURCE_A, SOURCE_B.format(numero=siguiente)], "partidos": partidos,
-                "pleno": {"local": local, "visitante": visitante},
+    numero_actual = int(actual["numero"])
+    siguiente = numero_actual + 1
+    diagnostico = {
+        "consultado": ahora, "fuentes": {}, "publicacion_automatica": False,
+        "fuente_utilizada": None, "respaldo_activado": False, "motivo": ""
+    }
+    candidato = None
+    fuente_publicada = None
+    try:
+        jornadas = fuente_quinielafutbol(descargar(SOURCE_A))
+        diagnostico["fuentes"]["quinielafutbol"] = {
+            "url": SOURCE_A, "accesible": True,
+            "jornadas_completas": sorted(jornadas)
+        }
+        # La fuente principal es autoritativa. NO consultar respaldo si es accesible,
+        # aunque la jornada siguiente aún no esté publicada o no tenga fechas.
+        diagnostico["fuente_utilizada"] = "quinielafutbol"
+        candidato = jornadas.get(siguiente)
+        fuente_publicada = SOURCE_A
+        if candidato is None:
+            diagnostico["motivo"] = f"QuinielaFutbol accesible, pero sin jornada {siguiente} completa."
+    except Exception as exc:
+        diagnostico["fuentes"]["quinielafutbol"] = {
+            "url": SOURCE_A, "accesible": False, "error": str(exc)[:180]
+        }
+        diagnostico["respaldo_activado"] = True
+        url = SOURCE_B.format(numero=siguiente)
+        try:
+            jornadas = fuente_quiniprats(descargar(url), siguiente)
+            diagnostico["fuentes"]["quiniprats"] = {
+                "url": url, "accesible": True,
+                "jornadas_completas": sorted(jornadas)
             }
-            JORNADA.write_text(json.dumps(nueva, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-            diagnostico["publicacion_automatica"] = True
-            diagnostico["motivo"] = f"Jornada {siguiente} publicada tras contrastar 15 encuentros."
+            diagnostico["fuente_utilizada"] = "quiniprats"
+            candidato = jornadas.get(siguiente)
+            fuente_publicada = url
+            if candidato is None:
+                diagnostico["motivo"] = f"Respaldo accesible, pero sin jornada {siguiente} completa."
+        except Exception as exc_respaldo:
+            diagnostico["fuentes"]["quiniprats"] = {
+                "url": url, "accesible": False, "error": str(exc_respaldo)[:180]
+            }
+            diagnostico["motivo"] = "Fuente principal y respaldo no disponibles."
+
+    if candidato is not None:
+        fechas = candidato.get("fechas")
+        if date.fromisoformat(actual["fecha_fin"]) >= date.today():
+            diagnostico["motivo"] = f"Jornada {numero_actual} todavía en curso o pendiente; no se sustituye."
+        elif not fechas:
+            diagnostico["motivo"] = f"Jornada {siguiente} encontrada, pero sin fechas verificables; no se publica."
+        elif fechas[1] < date.today() or fechas[1] < fechas[0] or (fechas[1] - fechas[0]).days > 5:
+            diagnostico["motivo"] = f"Jornada {siguiente} con fechas caducadas o incoherentes; no se publica."
         else:
-            diagnostico["motivo"] = "Coinciden partidos, pero faltan fechas futuras válidas."
-    elif actual_numero in validos:
-        diagnostico["motivo"] = "Jornada actual coincidente en ambas fuentes. Sin cambios."
-    else:
-        diagnostico["motivo"] = "No se han confirmado 15 partidos idénticos entre ambas fuentes para la siguiente jornada."
-    diagnostico["jornadas_coincidentes"] = validos
-    diagnostico["fuente_independiente_actualizada"] = siguiente in candidatos["quiniprats"]
-    diagnostico["nota"] = "Sin coincidencia de dos fuentes no se publican jornadas nuevas. QuiniPrats se consulta para la siguiente jornada."
-    # No elevar un estado 'publicable' basándose solo en nombres y enlaces.
+            partidos = candidato["partidos"]
+            nueva = {
+                "numero": siguiente,
+                "temporada": actual.get("temporada", "2026-2027"),
+                "fecha_inicio": fechas[0].isoformat(),
+                "fecha_fin": fechas[1].isoformat(),
+                "estado": "verificada",
+                "verificacion": "Composición y fechas extraídas de " + diagnostico["fuente_utilizada"],
+                "fuentes": [fuente_publicada],
+                "partidos": [
+                    {"posicion": n, "local": partidos[n][0],
+                     "visitante": partidos[n][1], "liga": None}
+                    for n in range(1, 15)
+                ],
+                "pleno": {"local": partidos[15][0], "visitante": partidos[15][1]}
+            }
+            JORNADA.write_text(
+                json.dumps(nueva, ensure_ascii=False, indent=2) + "\\n",
+                encoding="utf-8"
+            )
+            diagnostico["publicacion_automatica"] = True
+            diagnostico["motivo"] = f"Jornada {siguiente} publicada desde {diagnostico['fuente_utilizada']}."
+    diagnostico["jornadas_coincidentes"] = []
     ROOT.mkdir(exist_ok=True)
-    (ROOT / "diagnostico_fuentes.json").write_text(json.dumps(diagnostico, ensure_ascii=False, indent=2)+"\n", encoding="utf-8")
+    (ROOT / "diagnostico_fuentes.json").write_text(
+        json.dumps(diagnostico, ensure_ascii=False, indent=2) + "\\n",
+        encoding="utf-8"
+    )
     print(diagnostico["motivo"])
     print(json.dumps(diagnostico["fuentes"], ensure_ascii=False))
 
