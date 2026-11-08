@@ -1,0 +1,29 @@
+name: Auditoría de errores 2026-27
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'auditoria_2026_27.py'
+      - '.github/workflows/auditoria.yml'
+permissions:
+  contents: write
+jobs:
+  evaluar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Auditar todos los partidos disputados
+        run: python auditoria_2026_27.py
+      - name: Publicar informe por partido
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/auditoria_2026_27.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Auditoría histórica de errores 2026-27"
+            git pull --rebase origin main
+            git push
+          fi
