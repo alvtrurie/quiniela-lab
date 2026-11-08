@@ -1,0 +1,101 @@
+"""Backtest cronológico de Poisson goles vs mezcla goles/xG con PitchAPI.
+No se usa xG del partido objetivo ni se altera producción.
+"""
+import json, math, os, time
+from collections import defaultdict
+from datetime import date
+from pathlib import Path
+from pitchapi_cliente import partidos_liga, tiros_partido
+from pronosticos import calcular_liga
+
+LIGAS={"SP1":"l_0ErfuF","SP2":"l_3kyHLd"}
+TEMPORADA="2025/2026"
+PESOS=(0.0,0.5,1.0)
+MAX_PARTIDOS=int(os.getenv("MAX_PARTIDOS_XG","160"))
+
+def goles_xg(partido):
+    raw=tiros_partido(str(partido["id"]))
+    sums=defaultdict(float)
+    n=0
+    for periodo in raw.get("periods",[]):
+        for tiro in periodo.get("shots",[]):
+            if tiro.get("team_id") in (partido["home_team"]["id"],partido["away_team"]["id"]):
+                v=tiro.get("expected_goals")
+                if isinstance(v,(int,float)) and math.isfinite(v) and v>=0:
+                    sums[tiro["team_id"]]+=v;n+=1
+    if not n:
+        return None
+    return (sums[partido["home_team"]["id"]],sums[partido["away_team"]["id"]])
+
+def main():
+    output={"fuente":"PitchAPI tiros expected_goals","temporada":TEMPORADA,
+      "metodo":"Walk-forward: xG de partidos previos, comparación de mezcla de goles observados y xG; muestra parcial cronológica",
+      "limite_por_liga":MAX_PARTIDOS,"resultados":{}}
+    for liga,lid in LIGAS.items():
+        lista=partidos_liga(lid,TEMPORADA)
+        lista=sorted([p for p in lista if p.get("score_home") is not None and p.get("score_away") is not None],
+            key=lambda p:(p.get("date",""),p.get("time_utc",""),p["id"]))[:MAX_PARTIDOS]
+        observados=[];errores=[];conteos={w:{"n":0,"aciertos":0,"brier_suma":0.0,"logloss_suma":0.0,"empates_elegidos":0} for w in PESOS}
+        for k,p in enumerate(lista):
+            try:
+                xg=goles_xg(p)
+            except Exception as e:
+                errores.append({"indice":k,"error":type(e).__name__})
+                if len(errores)>8:break
+                continue
+            if xg is None:continue
+            home=p["home_team"]["name"];away=p["away_team"]["name"]
+            gl=int(p["score_home"]);gv=int(p["score_away"])
+            fecha=p["date"][:10]
+            if len(observados)>=40:
+                # Fecha estrictamente anterior: evita contaminación de partidos del mismo día
+                historia=[x for x in observados if x["fecha"]<fecha]
+                if len(historia)>=40:
+                    for w in PESOS:
+                        train=[dict(x,goles_local=(1-w)*x["goles_local"]+w*x["xg_local"],
+                                    goles_visitante=(1-w)*x["goles_visitante"]+w*x["xg_visitante"]) for x in historia]
+                        # El motor actual trunca goles a enteros. Para xG usamos
+                        # variante que permite goles fraccionarios, sin tocar producción.
+                        result=calcular_xg(train,(home,away))
+                        if not result:continue
+                        probs=result
+                        actual=0 if gl>gv else 1 if gl==gv else 2
+                        m=conteos[w];m["n"]+=1
+                        m["aciertos"]+=int(max(range(3),key=lambda i:probs[i])==actual)
+                        m["empates_elegidos"]+=int(max(range(3),key=lambda i:probs[i])==1)
+                        m["brier_suma"]+=sum((probs[i]-(i==actual))**2 for i in range(3))
+                        m["logloss_suma"]-=math.log(max(probs[actual],1e-12))
+            observados.append({"fecha":fecha,"local":home,"visitante":away,
+                "goles_local":gl,"goles_visitante":gv,"xg_local":xg[0],"xg_visitante":xg[1]})
+            if (k+1)%40==0:print(liga,"consultados",k+1,flush=True)
+        output["resultados"][liga]={"consultados":len(observados),"errores":errores,
+            "modelos":{str(w):{"n":m["n"],"aciertos":m["aciertos"],
+                "precision":round(m["aciertos"]/m["n"]*100,2) if m["n"] else None,
+                "brier":round(m["brier_suma"]/m["n"],4) if m["n"] else None,
+                "logloss":round(m["logloss_suma"]/m["n"],4) if m["n"] else None,
+                "empates_elegidos":m["empates_elegidos"]} for w,m in conteos.items()}}
+        print(liga,json.dumps(output["resultados"][liga]),flush=True)
+    Path("data").mkdir(exist_ok=True)
+    Path("data/backtest_xg_pitchapi.json").write_text(json.dumps(output,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+
+def calcular_xg(partidos, objetivo):
+    # Replica Poisson con ratios casa/fuera y suavizado de cinco partidos,
+    # pero acepta goles fraccionarios (xG).
+    from pronosticos import probabilidades
+    h,a=objetivo
+    equipos={p["local"] for p in partidos}|{p["visitante"] for p in partidos}
+    if h not in equipos or a not in equipos:return None
+    if sum(h in (p["local"],p["visitante"]) for p in partidos)<3:return None
+    if sum(a in (p["local"],p["visitante"]) for p in partidos)<3:return None
+    n=len(partidos)
+    media_h=max(.1,sum(p["goles_local"] for p in partidos)/n)
+    media_a=max(.1,sum(p["goles_visitante"] for p in partidos)/n)
+    def ratio(equipo,local,campo,media):
+        subset=[p for p in partidos if p["local" if local else "visitante"]==equipo]
+        return (sum(p[campo] for p in subset)+5*media)/((len(subset)+5)*media)
+    eh=max(.1,min(5,media_h*ratio(h,True,"goles_local",media_h)*ratio(a,False,"goles_local",media_h)))
+    ea=max(.1,min(5,media_a*ratio(a,False,"goles_visitante",media_a)*ratio(h,True,"goles_visitante",media_a)))
+    # above fields for defense use opponent goals from same game
+    return [x/100 for x in probabilidades(eh,ea)]
+
+if __name__=="__main__":main()
