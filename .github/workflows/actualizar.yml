@@ -1,6 +1,13 @@
 name: Actualizar datos de Quiniela Lab
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'actualizar_jornada.py'
+      - 'test_actualizar_jornada.py'
+      - 'validar_jornada.py'
+      - '.github/workflows/actualizar.yml'
   workflow_dispatch:
   schedule:
     - cron: '15 7 * * *'
