@@ -239,7 +239,7 @@ def main():
                 "pleno": {"local": partidos[15][0], "visitante": partidos[15][1]}
             }
             JORNADA.write_text(
-                json.dumps(nueva, ensure_ascii=False, indent=2) + "\\n",
+                json.dumps(nueva, ensure_ascii=False, indent=2) + "\n",
                 encoding="utf-8"
             )
             diagnostico["publicacion_automatica"] = True
@@ -247,7 +247,7 @@ def main():
     diagnostico["jornadas_coincidentes"] = []
     ROOT.mkdir(exist_ok=True)
     (ROOT / "diagnostico_fuentes.json").write_text(
-        json.dumps(diagnostico, ensure_ascii=False, indent=2) + "\\n",
+        json.dumps(diagnostico, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8"
     )
     print(diagnostico["motivo"])
