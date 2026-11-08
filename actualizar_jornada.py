@@ -71,6 +71,17 @@ def extraer_filas(tabla):
         partidos[numero] = (local, visitante)
     return partidos
 
+def fechas_tabla(tabla):
+    fechas = []
+    for tr in tabla.select("tr"):
+        for td in tr.find_all("td", recursive=False):
+            for dia, mes, ano in re.findall(r"\b(\d{2})/(\d{2})/(20\d{2})\b", td.get_text(" ", strip=True)):
+                try:
+                    fechas.append(date(int(ano), int(mes), int(dia)))
+                except ValueError:
+                    pass
+    return (min(fechas), max(fechas)) if len(fechas) >= 14 else None
+
 def fuente_quinielafutbol(soup):
     encontrados = {}
     for h in soup.find_all(re.compile(r"^h[1-6]$")):
@@ -84,7 +95,7 @@ def fuente_quinielafutbol(soup):
             continue
         partidos = extraer_filas(tabla)
         if len(partidos) == 15:
-            encontrados[numero] = partidos
+            encontrados[numero] = {'partidos': partidos, 'fechas': fechas_tabla(tabla)}
     return encontrados
 
 def fuente_losilla(soup):
@@ -96,10 +107,11 @@ def fuente_losilla(soup):
     for tabla in soup.find_all("table"):
         partidos = extraer_filas(tabla)
         if len(partidos) == 15:
-            return {numero: partidos}
+            return {numero: {'partidos': partidos, 'fechas': fechas_tabla(tabla)}}
     return {}
 
 def coinciden(a, b):
+    a, b = a['partidos'], b['partidos']
     return all(clave(a[n][0]) == clave(b[n][0]) and clave(a[n][1]) == clave(b[n][1]) for n in range(1, 16))
 
 def main():
@@ -124,8 +136,28 @@ def main():
     # Nunca retroceder ni saltar jornadas, ni sobreescribir una jornada que no ha finalizado.
     siguiente = actual_numero + 1
     if siguiente in validos and date.fromisoformat(actual["fecha_fin"]) < date.today():
-        diagnostico["motivo"] = ("Jornada siguiente coincidente, pero no publicada: "
-            "las fuentes no proporcionan fechas de inicio y fin contrastadas mediante este extractor.")
+        candidato = candidatos["quinielafutbol"][siguiente]
+        fechas = candidato["fechas"]
+        if fechas and fechas[0] >= date.today() and (fechas[1] - fechas[0]).days <= 5:
+            partidos = [
+                {"posicion": n, "local": candidato["partidos"][n][0],
+                 "visitante": candidato["partidos"][n][1], "liga": None}
+                for n in range(1, 15)
+            ]
+            local, visitante = candidato["partidos"][15]
+            nueva = {
+                "numero": siguiente, "temporada": actual.get("temporada", "2026-2027"),
+                "fecha_inicio": fechas[0].isoformat(), "fecha_fin": fechas[1].isoformat(),
+                "estado": "verificada",
+                "verificacion": "15 encuentros coincidentes en dos fuentes; fechas de QuinielaFutbol.",
+                "fuentes": [SOURCE_A, SOURCE_B], "partidos": partidos,
+                "pleno": {"local": local, "visitante": visitante},
+            }
+            JORNADA.write_text(json.dumps(nueva, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+            diagnostico["publicacion_automatica"] = True
+            diagnostico["motivo"] = f"Jornada {siguiente} publicada tras contrastar 15 encuentros."
+        else:
+            diagnostico["motivo"] = "Coinciden partidos, pero faltan fechas futuras válidas."
     elif actual_numero in validos:
         diagnostico["motivo"] = "Jornada actual coincidente en ambas fuentes. Sin cambios."
     else:
