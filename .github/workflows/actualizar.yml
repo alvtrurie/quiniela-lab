@@ -80,7 +80,7 @@ jobs:
               json.dumps(resultado, ensure_ascii=False, indent=2), encoding="utf-8"
           )
           PY
-      - name: Descargar resultados Liga F y UEFA (fuente complementaria)
+      - name: Descargar resultados complementarios (Liga F y UEFA)
         run: python estadisticas_extra.py
       - name: Calcular pronósticos
         run: python pronosticos.py
