@@ -11,7 +11,7 @@ from pronosticos import calcular_liga
 LIGAS={"SP1":"l_0ErfuF","SP2":"l_3kyHLd"}
 TEMPORADA="2025/2026"
 PESOS=(0.0,0.5,1.0)
-MAX_PARTIDOS=int(os.getenv("MAX_PARTIDOS_XG","160"))
+MAX_PARTIDOS=int(os.getenv("MAX_PARTIDOS_XG","100"))
 
 def goles_xg(partido):
     raw=tiros_partido(str(partido["id"]))
@@ -32,7 +32,12 @@ def main():
       "metodo":"Walk-forward: xG de partidos previos, comparación de mezcla de goles observados y xG; muestra parcial cronológica",
       "limite_por_liga":MAX_PARTIDOS,"resultados":{}}
     for liga,lid in LIGAS.items():
-        lista=partidos_liga(lid,TEMPORADA)
+        try:
+            lista=partidos_liga(lid,TEMPORADA)
+        except Exception as exc:
+            output['resultados'][liga]={'estado':'error_consulta_partidos','error':type(exc).__name__}
+            print(liga,'sin datos:',type(exc).__name__,flush=True)
+            continue
         lista=sorted([p for p in lista if p.get("score_home") is not None and p.get("score_away") is not None],
             key=lambda p:(p.get("date",""),p.get("time_utc",""),p["id"]))[:MAX_PARTIDOS]
         observados=[];errores=[];conteos={w:{"n":0,"aciertos":0,"brier_suma":0.0,"logloss_suma":0.0,"empates_elegidos":0} for w in PESOS}
@@ -41,7 +46,7 @@ def main():
                 xg=goles_xg(p)
             except Exception as e:
                 errores.append({"indice":k,"error":type(e).__name__})
-                if len(errores)>8:break
+                if len(errores)>4:break
                 continue
             if xg is None:continue
             home=p["home_team"]["name"];away=p["away_team"]["name"]
