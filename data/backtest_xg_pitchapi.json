@@ -7,6 +7,768 @@
     "SP1": {
       "consultados": 100,
       "errores": [],
+      "diagnostico_empates": {
+        "grupos": {
+          "igualados_diferencia_1_2_menor_10pp": {
+            "partidos": 13,
+            "empates": 5,
+            "porcentaje_empates": 38.46,
+            "probabilidad_empate_media": 26.98
+          },
+          "no_igualados_diferencia_1_2_10pp_o_mas": {
+            "partidos": 47,
+            "empates": 10,
+            "porcentaje_empates": 21.28,
+            "probabilidad_empate_media": 24.95
+          },
+          "px_30pct_o_mas": {
+            "partidos": 1,
+            "empates": 0,
+            "porcentaje_empates": 0.0,
+            "probabilidad_empate_media": 30.2
+          },
+          "px_menor_30pct": {
+            "partidos": 59,
+            "empates": 15,
+            "porcentaje_empates": 25.42,
+            "probabilidad_empate_media": 25.3
+          },
+          "goles_esperados_menor_2_5": {
+            "partidos": 23,
+            "empates": 7,
+            "porcentaje_empates": 30.43,
+            "probabilidad_empate_media": 27.88
+          },
+          "goles_esperados_2_5_o_mas": {
+            "partidos": 37,
+            "empates": 8,
+            "porcentaje_empates": 21.62,
+            "probabilidad_empate_media": 23.83
+          }
+        },
+        "partidos": [
+          {
+            "fecha": "2025-09-15",
+            "local": "Espanyol",
+            "visitante": "Mallorca",
+            "resultado": "1",
+            "p1": 0.4413,
+            "px": 0.2666,
+            "p2": 0.2921,
+            "diferencia_fuerzas": 0.1492,
+            "distancia_x_favorito": 0.1747,
+            "goles_esperados_total": 2.49
+          },
+          {
+            "fecha": "2025-09-19",
+            "local": "Real Betis",
+            "visitante": "Real Sociedad",
+            "resultado": "1",
+            "p1": 0.4236,
+            "px": 0.2732,
+            "p2": 0.3031,
+            "diferencia_fuerzas": 0.1205,
+            "distancia_x_favorito": 0.1504,
+            "goles_esperados_total": 2.41
+          },
+          {
+            "fecha": "2025-09-20",
+            "local": "Girona",
+            "visitante": "Levante",
+            "resultado": "2",
+            "p1": 0.363,
+            "px": 0.2577,
+            "p2": 0.3793,
+            "diferencia_fuerzas": 0.0163,
+            "distancia_x_favorito": 0.1216,
+            "goles_esperados_total": 2.707
+          },
+          {
+            "fecha": "2025-09-20",
+            "local": "Real Madrid",
+            "visitante": "Espanyol",
+            "resultado": "1",
+            "p1": 0.4585,
+            "px": 0.2633,
+            "p2": 0.2782,
+            "diferencia_fuerzas": 0.1803,
+            "distancia_x_favorito": 0.1952,
+            "goles_esperados_total": 2.513
+          },
+          {
+            "fecha": "2025-09-20",
+            "local": "Villarreal",
+            "visitante": "Osasuna",
+            "resultado": "1",
+            "p1": 0.5601,
+            "px": 0.2407,
+            "p2": 0.1992,
+            "diferencia_fuerzas": 0.3609,
+            "distancia_x_favorito": 0.3194,
+            "goles_esperados_total": 2.589
+          },
+          {
+            "fecha": "2025-09-20",
+            "local": "Deportivo Alavés",
+            "visitante": "Sevilla",
+            "resultado": "2",
+            "p1": 0.4936,
+            "px": 0.2474,
+            "p2": 0.259,
+            "diferencia_fuerzas": 0.2346,
+            "distancia_x_favorito": 0.2462,
+            "goles_esperados_total": 2.718
+          },
+          {
+            "fecha": "2025-09-20",
+            "local": "Valencia",
+            "visitante": "Athletic Club",
+            "resultado": "1",
+            "p1": 0.4327,
+            "px": 0.2761,
+            "p2": 0.2913,
+            "diferencia_fuerzas": 0.1414,
+            "distancia_x_favorito": 0.1566,
+            "goles_esperados_total": 2.354
+          },
+          {
+            "fecha": "2025-09-21",
+            "local": "Rayo Vallecano",
+            "visitante": "Celta Vigo",
+            "resultado": "X",
+            "p1": 0.4072,
+            "px": 0.2657,
+            "p2": 0.3271,
+            "diferencia_fuerzas": 0.0801,
+            "distancia_x_favorito": 0.1415,
+            "goles_esperados_total": 2.551
+          },
+          {
+            "fecha": "2025-09-21",
+            "local": "Mallorca",
+            "visitante": "Atlético Madrid",
+            "resultado": "X",
+            "p1": 0.319,
+            "px": 0.2841,
+            "p2": 0.3969,
+            "diferencia_fuerzas": 0.0779,
+            "distancia_x_favorito": 0.1128,
+            "goles_esperados_total": 2.28
+          },
+          {
+            "fecha": "2025-09-21",
+            "local": "Elche",
+            "visitante": "Real Oviedo",
+            "resultado": "1",
+            "p1": 0.4277,
+            "px": 0.2772,
+            "p2": 0.2951,
+            "diferencia_fuerzas": 0.1326,
+            "distancia_x_favorito": 0.1505,
+            "goles_esperados_total": 2.344
+          },
+          {
+            "fecha": "2025-09-21",
+            "local": "Barcelona",
+            "visitante": "Getafe",
+            "resultado": "1",
+            "p1": 0.5131,
+            "px": 0.2576,
+            "p2": 0.2293,
+            "diferencia_fuerzas": 0.2838,
+            "distancia_x_favorito": 0.2555,
+            "goles_esperados_total": 2.462
+          },
+          {
+            "fecha": "2025-09-23",
+            "local": "Espanyol",
+            "visitante": "Valencia",
+            "resultado": "X",
+            "p1": 0.5552,
+            "px": 0.2308,
+            "p2": 0.2141,
+            "diferencia_fuerzas": 0.3411,
+            "distancia_x_favorito": 0.3244,
+            "goles_esperados_total": 2.828
+          },
+          {
+            "fecha": "2025-09-23",
+            "local": "Athletic Club",
+            "visitante": "Girona",
+            "resultado": "X",
+            "p1": 0.6469,
+            "px": 0.2153,
+            "p2": 0.1379,
+            "diferencia_fuerzas": 0.509,
+            "distancia_x_favorito": 0.4316,
+            "goles_esperados_total": 2.601
+          },
+          {
+            "fecha": "2025-09-23",
+            "local": "Sevilla",
+            "visitante": "Villarreal",
+            "resultado": "2",
+            "p1": 0.3477,
+            "px": 0.302,
+            "p2": 0.3504,
+            "diferencia_fuerzas": 0.0027,
+            "distancia_x_favorito": 0.0484,
+            "goles_esperados_total": 2.072
+          },
+          {
+            "fecha": "2025-09-23",
+            "local": "Levante",
+            "visitante": "Real Madrid",
+            "resultado": "2",
+            "p1": 0.2902,
+            "px": 0.2238,
+            "p2": 0.486,
+            "diferencia_fuerzas": 0.1958,
+            "distancia_x_favorito": 0.2622,
+            "goles_esperados_total": 3.303
+          },
+          {
+            "fecha": "2025-09-24",
+            "local": "Getafe",
+            "visitante": "Deportivo Alavés",
+            "resultado": "X",
+            "p1": 0.4657,
+            "px": 0.2793,
+            "p2": 0.255,
+            "diferencia_fuerzas": 0.2107,
+            "distancia_x_favorito": 0.1864,
+            "goles_esperados_total": 2.246
+          },
+          {
+            "fecha": "2025-09-24",
+            "local": "Real Sociedad",
+            "visitante": "Mallorca",
+            "resultado": "1",
+            "p1": 0.4126,
+            "px": 0.2312,
+            "p2": 0.3562,
+            "diferencia_fuerzas": 0.0564,
+            "distancia_x_favorito": 0.1814,
+            "goles_esperados_total": 3.263
+          },
+          {
+            "fecha": "2025-09-24",
+            "local": "Atlético Madrid",
+            "visitante": "Rayo Vallecano",
+            "resultado": "1",
+            "p1": 0.3919,
+            "px": 0.2658,
+            "p2": 0.3422,
+            "diferencia_fuerzas": 0.0497,
+            "distancia_x_favorito": 0.1261,
+            "goles_esperados_total": 2.561
+          },
+          {
+            "fecha": "2025-09-25",
+            "local": "Osasuna",
+            "visitante": "Elche",
+            "resultado": "X",
+            "p1": 0.4411,
+            "px": 0.2828,
+            "p2": 0.2761,
+            "diferencia_fuerzas": 0.165,
+            "distancia_x_favorito": 0.1583,
+            "goles_esperados_total": 2.243
+          },
+          {
+            "fecha": "2025-09-25",
+            "local": "Real Oviedo",
+            "visitante": "Barcelona",
+            "resultado": "2",
+            "p1": 0.2602,
+            "px": 0.2375,
+            "p2": 0.5024,
+            "diferencia_fuerzas": 0.2422,
+            "distancia_x_favorito": 0.2649,
+            "goles_esperados_total": 2.902
+          },
+          {
+            "fecha": "2025-09-26",
+            "local": "Girona",
+            "visitante": "Espanyol",
+            "resultado": "X",
+            "p1": 0.263,
+            "px": 0.2322,
+            "p2": 0.5048,
+            "diferencia_fuerzas": 0.2418,
+            "distancia_x_favorito": 0.2726,
+            "goles_esperados_total": 3.018
+          },
+          {
+            "fecha": "2025-09-27",
+            "local": "Getafe",
+            "visitante": "Levante",
+            "resultado": "X",
+            "p1": 0.3379,
+            "px": 0.2989,
+            "p2": 0.3632,
+            "diferencia_fuerzas": 0.0253,
+            "distancia_x_favorito": 0.0643,
+            "goles_esperados_total": 2.106
+          },
+          {
+            "fecha": "2025-09-27",
+            "local": "Atlético Madrid",
+            "visitante": "Real Madrid",
+            "resultado": "1",
+            "p1": 0.3695,
+            "px": 0.222,
+            "p2": 0.4085,
+            "diferencia_fuerzas": 0.039,
+            "distancia_x_favorito": 0.1865,
+            "goles_esperados_total": 3.516
+          },
+          {
+            "fecha": "2025-09-27",
+            "local": "Mallorca",
+            "visitante": "Deportivo Alavés",
+            "resultado": "1",
+            "p1": 0.3156,
+            "px": 0.2958,
+            "p2": 0.3886,
+            "diferencia_fuerzas": 0.073,
+            "distancia_x_favorito": 0.0928,
+            "goles_esperados_total": 2.133
+          },
+          {
+            "fecha": "2025-09-27",
+            "local": "Villarreal",
+            "visitante": "Athletic Club",
+            "resultado": "1",
+            "p1": 0.5484,
+            "px": 0.2353,
+            "p2": 0.2163,
+            "diferencia_fuerzas": 0.3321,
+            "distancia_x_favorito": 0.3131,
+            "goles_esperados_total": 2.758
+          },
+          {
+            "fecha": "2025-09-28",
+            "local": "Rayo Vallecano",
+            "visitante": "Sevilla",
+            "resultado": "2",
+            "p1": 0.4944,
+            "px": 0.2432,
+            "p2": 0.2623,
+            "diferencia_fuerzas": 0.2321,
+            "distancia_x_favorito": 0.2512,
+            "goles_esperados_total": 2.802
+          },
+          {
+            "fecha": "2025-09-28",
+            "local": "Elche",
+            "visitante": "Celta Vigo",
+            "resultado": "1",
+            "p1": 0.3736,
+            "px": 0.2865,
+            "p2": 0.3399,
+            "diferencia_fuerzas": 0.0337,
+            "distancia_x_favorito": 0.0871,
+            "goles_esperados_total": 2.26
+          },
+          {
+            "fecha": "2025-09-28",
+            "local": "Barcelona",
+            "visitante": "Real Sociedad",
+            "resultado": "1",
+            "p1": 0.641,
+            "px": 0.2094,
+            "p2": 0.1496,
+            "diferencia_fuerzas": 0.4914,
+            "distancia_x_favorito": 0.4316,
+            "goles_esperados_total": 2.79
+          },
+          {
+            "fecha": "2025-09-28",
+            "local": "Real Betis",
+            "visitante": "Osasuna",
+            "resultado": "1",
+            "p1": 0.4956,
+            "px": 0.2442,
+            "p2": 0.2602,
+            "diferencia_fuerzas": 0.2354,
+            "distancia_x_favorito": 0.2514,
+            "goles_esperados_total": 2.778
+          },
+          {
+            "fecha": "2025-09-30",
+            "local": "Valencia",
+            "visitante": "Real Oviedo",
+            "resultado": "2",
+            "p1": 0.5466,
+            "px": 0.2508,
+            "p2": 0.2026,
+            "diferencia_fuerzas": 0.344,
+            "distancia_x_favorito": 0.2958,
+            "goles_esperados_total": 2.456
+          },
+          {
+            "fecha": "2025-10-03",
+            "local": "Osasuna",
+            "visitante": "Getafe",
+            "resultado": "1",
+            "p1": 0.4285,
+            "px": 0.2996,
+            "p2": 0.2719,
+            "diferencia_fuerzas": 0.1566,
+            "distancia_x_favorito": 0.1289,
+            "goles_esperados_total": 2.045
+          },
+          {
+            "fecha": "2025-10-04",
+            "local": "Real Oviedo",
+            "visitante": "Levante",
+            "resultado": "2",
+            "p1": 0.2219,
+            "px": 0.248,
+            "p2": 0.5301,
+            "diferencia_fuerzas": 0.3082,
+            "distancia_x_favorito": 0.2821,
+            "goles_esperados_total": 2.576
+          },
+          {
+            "fecha": "2025-10-04",
+            "local": "Girona",
+            "visitante": "Valencia",
+            "resultado": "1",
+            "p1": 0.4616,
+            "px": 0.2438,
+            "p2": 0.2946,
+            "diferencia_fuerzas": 0.167,
+            "distancia_x_favorito": 0.2178,
+            "goles_esperados_total": 2.882
+          },
+          {
+            "fecha": "2025-10-04",
+            "local": "Athletic Club",
+            "visitante": "Mallorca",
+            "resultado": "1",
+            "p1": 0.6136,
+            "px": 0.2159,
+            "p2": 0.1705,
+            "diferencia_fuerzas": 0.4431,
+            "distancia_x_favorito": 0.3977,
+            "goles_esperados_total": 2.833
+          },
+          {
+            "fecha": "2025-10-04",
+            "local": "Real Madrid",
+            "visitante": "Villarreal",
+            "resultado": "1",
+            "p1": 0.4287,
+            "px": 0.2765,
+            "p2": 0.2948,
+            "diferencia_fuerzas": 0.1339,
+            "distancia_x_favorito": 0.1522,
+            "goles_esperados_total": 2.353
+          },
+          {
+            "fecha": "2025-10-05",
+            "local": "Deportivo Alavés",
+            "visitante": "Elche",
+            "resultado": "1",
+            "p1": 0.4189,
+            "px": 0.2987,
+            "p2": 0.2824,
+            "diferencia_fuerzas": 0.1365,
+            "distancia_x_favorito": 0.1202,
+            "goles_esperados_total": 2.069
+          },
+          {
+            "fecha": "2025-10-05",
+            "local": "Sevilla",
+            "visitante": "Barcelona",
+            "resultado": "1",
+            "p1": 0.2665,
+            "px": 0.2511,
+            "p2": 0.4825,
+            "diferencia_fuerzas": 0.216,
+            "distancia_x_favorito": 0.2314,
+            "goles_esperados_total": 2.678
+          },
+          {
+            "fecha": "2025-10-05",
+            "local": "Espanyol",
+            "visitante": "Real Betis",
+            "resultado": "2",
+            "p1": 0.3689,
+            "px": 0.2559,
+            "p2": 0.3752,
+            "diferencia_fuerzas": 0.0063,
+            "distancia_x_favorito": 0.1193,
+            "goles_esperados_total": 2.741
+          },
+          {
+            "fecha": "2025-10-05",
+            "local": "Real Sociedad",
+            "visitante": "Rayo Vallecano",
+            "resultado": "2",
+            "p1": 0.4487,
+            "px": 0.2229,
+            "p2": 0.3285,
+            "diferencia_fuerzas": 0.1202,
+            "distancia_x_favorito": 0.2258,
+            "goles_esperados_total": 3.434
+          },
+          {
+            "fecha": "2025-10-05",
+            "local": "Celta Vigo",
+            "visitante": "Atlético Madrid",
+            "resultado": "X",
+            "p1": 0.3735,
+            "px": 0.2808,
+            "p2": 0.3457,
+            "diferencia_fuerzas": 0.0278,
+            "distancia_x_favorito": 0.0927,
+            "goles_esperados_total": 2.337
+          },
+          {
+            "fecha": "2025-10-17",
+            "local": "Real Oviedo",
+            "visitante": "Espanyol",
+            "resultado": "2",
+            "p1": 0.2644,
+            "px": 0.2504,
+            "p2": 0.4852,
+            "diferencia_fuerzas": 0.2208,
+            "distancia_x_favorito": 0.2348,
+            "goles_esperados_total": 2.684
+          },
+          {
+            "fecha": "2025-10-18",
+            "local": "Sevilla",
+            "visitante": "Mallorca",
+            "resultado": "2",
+            "p1": 0.4692,
+            "px": 0.2425,
+            "p2": 0.2882,
+            "diferencia_fuerzas": 0.181,
+            "distancia_x_favorito": 0.2267,
+            "goles_esperados_total": 2.891
+          },
+          {
+            "fecha": "2025-10-18",
+            "local": "Barcelona",
+            "visitante": "Girona",
+            "resultado": "1",
+            "p1": 0.7256,
+            "px": 0.1721,
+            "p2": 0.1023,
+            "diferencia_fuerzas": 0.6233,
+            "distancia_x_favorito": 0.5535,
+            "goles_esperados_total": 3.005
+          },
+          {
+            "fecha": "2025-10-18",
+            "local": "Villarreal",
+            "visitante": "Real Betis",
+            "resultado": "X",
+            "p1": 0.4547,
+            "px": 0.2461,
+            "p2": 0.2993,
+            "diferencia_fuerzas": 0.1554,
+            "distancia_x_favorito": 0.2086,
+            "goles_esperados_total": 2.85
+          },
+          {
+            "fecha": "2025-10-18",
+            "local": "Atlético Madrid",
+            "visitante": "Osasuna",
+            "resultado": "1",
+            "p1": 0.561,
+            "px": 0.2276,
+            "p2": 0.2114,
+            "diferencia_fuerzas": 0.3496,
+            "distancia_x_favorito": 0.3334,
+            "goles_esperados_total": 2.872
+          },
+          {
+            "fecha": "2025-10-19",
+            "local": "Elche",
+            "visitante": "Athletic Club",
+            "resultado": "X",
+            "p1": 0.4645,
+            "px": 0.2573,
+            "p2": 0.2782,
+            "diferencia_fuerzas": 0.1863,
+            "distancia_x_favorito": 0.2072,
+            "goles_esperados_total": 2.607
+          },
+          {
+            "fecha": "2025-10-19",
+            "local": "Celta Vigo",
+            "visitante": "Real Sociedad",
+            "resultado": "X",
+            "p1": 0.5419,
+            "px": 0.25,
+            "p2": 0.208,
+            "diferencia_fuerzas": 0.3339,
+            "distancia_x_favorito": 0.2919,
+            "goles_esperados_total": 2.489
+          },
+          {
+            "fecha": "2025-10-19",
+            "local": "Levante",
+            "visitante": "Rayo Vallecano",
+            "resultado": "2",
+            "p1": 0.3173,
+            "px": 0.219,
+            "p2": 0.4638,
+            "diferencia_fuerzas": 0.1465,
+            "distancia_x_favorito": 0.2448,
+            "goles_esperados_total": 3.511
+          },
+          {
+            "fecha": "2025-10-19",
+            "local": "Getafe",
+            "visitante": "Real Madrid",
+            "resultado": "2",
+            "p1": 0.3068,
+            "px": 0.2563,
+            "p2": 0.4369,
+            "diferencia_fuerzas": 0.1301,
+            "distancia_x_favorito": 0.1806,
+            "goles_esperados_total": 2.679
+          },
+          {
+            "fecha": "2025-10-20",
+            "local": "Deportivo Alavés",
+            "visitante": "Valencia",
+            "resultado": "X",
+            "p1": 0.6036,
+            "px": 0.232,
+            "p2": 0.1643,
+            "diferencia_fuerzas": 0.4393,
+            "distancia_x_favorito": 0.3716,
+            "goles_esperados_total": 2.53
+          },
+          {
+            "fecha": "2025-10-24",
+            "local": "Real Sociedad",
+            "visitante": "Sevilla",
+            "resultado": "1",
+            "p1": 0.5354,
+            "px": 0.2296,
+            "p2": 0.235,
+            "diferencia_fuerzas": 0.3004,
+            "distancia_x_favorito": 0.3058,
+            "goles_esperados_total": 2.952
+          },
+          {
+            "fecha": "2025-10-25",
+            "local": "Girona",
+            "visitante": "Real Oviedo",
+            "resultado": "X",
+            "p1": 0.3622,
+            "px": 0.2604,
+            "p2": 0.3774,
+            "diferencia_fuerzas": 0.0152,
+            "distancia_x_favorito": 0.117,
+            "goles_esperados_total": 2.66
+          },
+          {
+            "fecha": "2025-10-25",
+            "local": "Espanyol",
+            "visitante": "Elche",
+            "resultado": "1",
+            "p1": 0.5178,
+            "px": 0.2435,
+            "p2": 0.2386,
+            "diferencia_fuerzas": 0.2792,
+            "distancia_x_favorito": 0.2743,
+            "goles_esperados_total": 2.713
+          },
+          {
+            "fecha": "2025-10-25",
+            "local": "Athletic Club",
+            "visitante": "Getafe",
+            "resultado": "2",
+            "p1": 0.5154,
+            "px": 0.284,
+            "p2": 0.2007,
+            "diferencia_fuerzas": 0.3147,
+            "distancia_x_favorito": 0.2314,
+            "goles_esperados_total": 2.054
+          },
+          {
+            "fecha": "2025-10-25",
+            "local": "Valencia",
+            "visitante": "Villarreal",
+            "resultado": "2",
+            "p1": 0.5164,
+            "px": 0.2487,
+            "p2": 0.2349,
+            "diferencia_fuerzas": 0.2815,
+            "distancia_x_favorito": 0.2677,
+            "goles_esperados_total": 2.614
+          },
+          {
+            "fecha": "2025-10-26",
+            "local": "Mallorca",
+            "visitante": "Levante",
+            "resultado": "X",
+            "p1": 0.218,
+            "px": 0.2594,
+            "p2": 0.5226,
+            "diferencia_fuerzas": 0.3046,
+            "distancia_x_favorito": 0.2632,
+            "goles_esperados_total": 2.397
+          },
+          {
+            "fecha": "2025-10-26",
+            "local": "Real Madrid",
+            "visitante": "Barcelona",
+            "resultado": "1",
+            "p1": 0.478,
+            "px": 0.2292,
+            "p2": 0.2927,
+            "diferencia_fuerzas": 0.1853,
+            "distancia_x_favorito": 0.2488,
+            "goles_esperados_total": 3.184
+          },
+          {
+            "fecha": "2025-10-26",
+            "local": "Osasuna",
+            "visitante": "Celta Vigo",
+            "resultado": "2",
+            "p1": 0.4682,
+            "px": 0.2806,
+            "p2": 0.2512,
+            "diferencia_fuerzas": 0.217,
+            "distancia_x_favorito": 0.1876,
+            "goles_esperados_total": 2.222
+          },
+          {
+            "fecha": "2025-10-26",
+            "local": "Rayo Vallecano",
+            "visitante": "Deportivo Alavés",
+            "resultado": "1",
+            "p1": 0.4553,
+            "px": 0.282,
+            "p2": 0.2626,
+            "diferencia_fuerzas": 0.1927,
+            "distancia_x_favorito": 0.1733,
+            "goles_esperados_total": 2.228
+          },
+          {
+            "fecha": "2025-10-27",
+            "local": "Real Betis",
+            "visitante": "Atlético Madrid",
+            "resultado": "2",
+            "p1": 0.4251,
+            "px": 0.271,
+            "p2": 0.3039,
+            "diferencia_fuerzas": 0.1212,
+            "distancia_x_favorito": 0.1541,
+            "goles_esperados_total": 2.444
+          }
+        ]
+      },
       "modelos": {
         "0.0": {
           "n": 60,
@@ -188,183 +950,894 @@
       }
     },
     "SP2": {
-      "consultados": 100,
-      "errores": [],
+      "consultados": 98,
+      "errores": [
+        {
+          "indice": 92,
+          "error": "PitchAPIError"
+        },
+        {
+          "indice": 95,
+          "error": "PitchAPIError"
+        }
+      ],
+      "diagnostico_empates": {
+        "grupos": {
+          "igualados_diferencia_1_2_menor_10pp": {
+            "partidos": 12,
+            "empates": 3,
+            "porcentaje_empates": 25.0,
+            "probabilidad_empate_media": 26.63
+          },
+          "no_igualados_diferencia_1_2_10pp_o_mas": {
+            "partidos": 43,
+            "empates": 12,
+            "porcentaje_empates": 27.91,
+            "probabilidad_empate_media": 25.97
+          },
+          "px_30pct_o_mas": {
+            "partidos": 1,
+            "empates": 0,
+            "porcentaje_empates": 0.0,
+            "probabilidad_empate_media": 31.11
+          },
+          "px_menor_30pct": {
+            "partidos": 54,
+            "empates": 15,
+            "porcentaje_empates": 27.78,
+            "probabilidad_empate_media": 26.02
+          },
+          "goles_esperados_menor_2_5": {
+            "partidos": 31,
+            "empates": 5,
+            "porcentaje_empates": 16.13,
+            "probabilidad_empate_media": 27.85
+          },
+          "goles_esperados_2_5_o_mas": {
+            "partidos": 24,
+            "empates": 10,
+            "porcentaje_empates": 41.67,
+            "probabilidad_empate_media": 23.88
+          }
+        },
+        "partidos": [
+          {
+            "fecha": "2025-09-08",
+            "local": "Eibar",
+            "visitante": "FC Andorra",
+            "resultado": "1",
+            "p1": 0.472,
+            "px": 0.2815,
+            "p2": 0.2466,
+            "diferencia_fuerzas": 0.2254,
+            "distancia_x_favorito": 0.1905,
+            "goles_esperados_total": 2.201
+          },
+          {
+            "fecha": "2025-09-12",
+            "local": "Las Palmas",
+            "visitante": "Real Sociedad B",
+            "resultado": "1",
+            "p1": 0.4507,
+            "px": 0.2968,
+            "p2": 0.2525,
+            "diferencia_fuerzas": 0.1982,
+            "distancia_x_favorito": 0.1539,
+            "goles_esperados_total": 2.044
+          },
+          {
+            "fecha": "2025-09-13",
+            "local": "Cádiz",
+            "visitante": "Eibar",
+            "resultado": "1",
+            "p1": 0.4495,
+            "px": 0.2946,
+            "p2": 0.2559,
+            "diferencia_fuerzas": 0.1936,
+            "distancia_x_favorito": 0.1549,
+            "goles_esperados_total": 2.073
+          },
+          {
+            "fecha": "2025-09-13",
+            "local": "CD Mirandes",
+            "visitante": "Deportivo A Coruña",
+            "resultado": "2",
+            "p1": 0.3458,
+            "px": 0.2788,
+            "p2": 0.3754,
+            "diferencia_fuerzas": 0.0296,
+            "distancia_x_favorito": 0.0966,
+            "goles_esperados_total": 2.366
+          },
+          {
+            "fecha": "2025-09-13",
+            "local": "SD Huesca",
+            "visitante": "Málaga",
+            "resultado": "1",
+            "p1": 0.4498,
+            "px": 0.2789,
+            "p2": 0.2712,
+            "diferencia_fuerzas": 0.1786,
+            "distancia_x_favorito": 0.1709,
+            "goles_esperados_total": 2.283
+          },
+          {
+            "fecha": "2025-09-13",
+            "local": "Real Valladolid",
+            "visitante": "Almería",
+            "resultado": "1",
+            "p1": 0.5284,
+            "px": 0.2554,
+            "p2": 0.2162,
+            "diferencia_fuerzas": 0.3122,
+            "distancia_x_favorito": 0.273,
+            "goles_esperados_total": 2.446
+          },
+          {
+            "fecha": "2025-09-14",
+            "local": "FC Andorra",
+            "visitante": "Córdoba",
+            "resultado": "1",
+            "p1": 0.4857,
+            "px": 0.271,
+            "p2": 0.2433,
+            "diferencia_fuerzas": 0.2424,
+            "distancia_x_favorito": 0.2147,
+            "goles_esperados_total": 2.323
+          },
+          {
+            "fecha": "2025-09-14",
+            "local": "Racing Santander",
+            "visitante": "Cultural Leonesa",
+            "resultado": "2",
+            "p1": 0.6952,
+            "px": 0.1765,
+            "p2": 0.1283,
+            "diferencia_fuerzas": 0.5669,
+            "distancia_x_favorito": 0.5187,
+            "goles_esperados_total": 3.246
+          },
+          {
+            "fecha": "2025-09-14",
+            "local": "Sporting Gijón",
+            "visitante": "Burgos CF",
+            "resultado": "2",
+            "p1": 0.4773,
+            "px": 0.2789,
+            "p2": 0.2438,
+            "diferencia_fuerzas": 0.2335,
+            "distancia_x_favorito": 0.1984,
+            "goles_esperados_total": 2.225
+          },
+          {
+            "fecha": "2025-09-14",
+            "local": "Castellón",
+            "visitante": "AD Ceuta FC",
+            "resultado": "X",
+            "p1": 0.6039,
+            "px": 0.2086,
+            "p2": 0.1875,
+            "diferencia_fuerzas": 0.4164,
+            "distancia_x_favorito": 0.3953,
+            "goles_esperados_total": 3.102
+          },
+          {
+            "fecha": "2025-09-14",
+            "local": "Granada",
+            "visitante": "Leganés",
+            "resultado": "2",
+            "p1": 0.2861,
+            "px": 0.2694,
+            "p2": 0.4445,
+            "diferencia_fuerzas": 0.1584,
+            "distancia_x_favorito": 0.1751,
+            "goles_esperados_total": 2.439
+          },
+          {
+            "fecha": "2025-09-15",
+            "local": "Real Zaragoza",
+            "visitante": "Albacete",
+            "resultado": "X",
+            "p1": 0.4002,
+            "px": 0.2563,
+            "p2": 0.3435,
+            "diferencia_fuerzas": 0.0567,
+            "distancia_x_favorito": 0.1439,
+            "goles_esperados_total": 2.725
+          },
+          {
+            "fecha": "2025-09-19",
+            "local": "Deportivo A Coruña",
+            "visitante": "SD Huesca",
+            "resultado": "1",
+            "p1": 0.4263,
+            "px": 0.3111,
+            "p2": 0.2626,
+            "diferencia_fuerzas": 0.1637,
+            "distancia_x_favorito": 0.1152,
+            "goles_esperados_total": 1.918
+          },
+          {
+            "fecha": "2025-09-20",
+            "local": "Cultural Leonesa",
+            "visitante": "Castellón",
+            "resultado": "2",
+            "p1": 0.3953,
+            "px": 0.2564,
+            "p2": 0.3483,
+            "diferencia_fuerzas": 0.047,
+            "distancia_x_favorito": 0.1389,
+            "goles_esperados_total": 2.725
+          },
+          {
+            "fecha": "2025-09-20",
+            "local": "FC Andorra",
+            "visitante": "CD Mirandes",
+            "resultado": "X",
+            "p1": 0.4177,
+            "px": 0.2672,
+            "p2": 0.3151,
+            "diferencia_fuerzas": 0.1026,
+            "distancia_x_favorito": 0.1505,
+            "goles_esperados_total": 2.515
+          },
+          {
+            "fecha": "2025-09-20",
+            "local": "Leganés",
+            "visitante": "Las Palmas",
+            "resultado": "2",
+            "p1": 0.3567,
+            "px": 0.2598,
+            "p2": 0.3835,
+            "diferencia_fuerzas": 0.0268,
+            "distancia_x_favorito": 0.1237,
+            "goles_esperados_total": 2.668
+          },
+          {
+            "fecha": "2025-09-20",
+            "local": "Almería",
+            "visitante": "Sporting Gijón",
+            "resultado": "1",
+            "p1": 0.4802,
+            "px": 0.2587,
+            "p2": 0.2612,
+            "diferencia_fuerzas": 0.219,
+            "distancia_x_favorito": 0.2215,
+            "goles_esperados_total": 2.542
+          },
+          {
+            "fecha": "2025-09-21",
+            "local": "AD Ceuta FC",
+            "visitante": "Real Zaragoza",
+            "resultado": "1",
+            "p1": 0.4204,
+            "px": 0.2694,
+            "p2": 0.3102,
+            "diferencia_fuerzas": 0.1102,
+            "distancia_x_favorito": 0.151,
+            "goles_esperados_total": 2.475
+          },
+          {
+            "fecha": "2025-09-21",
+            "local": "Albacete",
+            "visitante": "Real Valladolid",
+            "resultado": "1",
+            "p1": 0.3093,
+            "px": 0.2936,
+            "p2": 0.3971,
+            "diferencia_fuerzas": 0.0878,
+            "distancia_x_favorito": 0.1035,
+            "goles_esperados_total": 2.153
+          },
+          {
+            "fecha": "2025-09-21",
+            "local": "Eibar",
+            "visitante": "Real Sociedad B",
+            "resultado": "1",
+            "p1": 0.5782,
+            "px": 0.245,
+            "p2": 0.1768,
+            "diferencia_fuerzas": 0.4014,
+            "distancia_x_favorito": 0.3332,
+            "goles_esperados_total": 2.416
+          },
+          {
+            "fecha": "2025-09-21",
+            "local": "Málaga",
+            "visitante": "Cádiz",
+            "resultado": "2",
+            "p1": 0.5084,
+            "px": 0.2674,
+            "p2": 0.2242,
+            "diferencia_fuerzas": 0.2842,
+            "distancia_x_favorito": 0.241,
+            "goles_esperados_total": 2.313
+          },
+          {
+            "fecha": "2025-09-21",
+            "local": "Córdoba",
+            "visitante": "Racing Santander",
+            "resultado": "X",
+            "p1": 0.4274,
+            "px": 0.2528,
+            "p2": 0.3198,
+            "diferencia_fuerzas": 0.1076,
+            "distancia_x_favorito": 0.1746,
+            "goles_esperados_total": 2.762
+          },
+          {
+            "fecha": "2025-09-22",
+            "local": "Burgos CF",
+            "visitante": "Granada",
+            "resultado": "X",
+            "p1": 0.5601,
+            "px": 0.2368,
+            "p2": 0.2031,
+            "diferencia_fuerzas": 0.357,
+            "distancia_x_favorito": 0.3233,
+            "goles_esperados_total": 2.669
+          },
+          {
+            "fecha": "2025-09-26",
+            "local": "CD Mirandes",
+            "visitante": "Real Zaragoza",
+            "resultado": "2",
+            "p1": 0.2574,
+            "px": 0.2642,
+            "p2": 0.4785,
+            "diferencia_fuerzas": 0.2211,
+            "distancia_x_favorito": 0.2143,
+            "goles_esperados_total": 2.451
+          },
+          {
+            "fecha": "2025-09-27",
+            "local": "Eibar",
+            "visitante": "Deportivo A Coruña",
+            "resultado": "X",
+            "p1": 0.3474,
+            "px": 0.2512,
+            "p2": 0.4013,
+            "diferencia_fuerzas": 0.0539,
+            "distancia_x_favorito": 0.1501,
+            "goles_esperados_total": 2.821
+          },
+          {
+            "fecha": "2025-09-27",
+            "local": "Racing Santander",
+            "visitante": "FC Andorra",
+            "resultado": "2",
+            "p1": 0.5096,
+            "px": 0.2179,
+            "p2": 0.2725,
+            "diferencia_fuerzas": 0.2371,
+            "distancia_x_favorito": 0.2917,
+            "goles_esperados_total": 3.384
+          },
+          {
+            "fecha": "2025-09-27",
+            "local": "Las Palmas",
+            "visitante": "Almería",
+            "resultado": "2",
+            "p1": 0.4496,
+            "px": 0.2769,
+            "p2": 0.2735,
+            "diferencia_fuerzas": 0.1761,
+            "distancia_x_favorito": 0.1727,
+            "goles_esperados_total": 2.313
+          },
+          {
+            "fecha": "2025-09-28",
+            "local": "Real Sociedad B",
+            "visitante": "Córdoba",
+            "resultado": "X",
+            "p1": 0.4572,
+            "px": 0.2645,
+            "p2": 0.2783,
+            "diferencia_fuerzas": 0.1789,
+            "distancia_x_favorito": 0.1927,
+            "goles_esperados_total": 2.495
+          },
+          {
+            "fecha": "2025-09-28",
+            "local": "Burgos CF",
+            "visitante": "Málaga",
+            "resultado": "1",
+            "p1": 0.4905,
+            "px": 0.2747,
+            "p2": 0.2348,
+            "diferencia_fuerzas": 0.2557,
+            "distancia_x_favorito": 0.2158,
+            "goles_esperados_total": 2.253
+          },
+          {
+            "fecha": "2025-09-28",
+            "local": "Cádiz",
+            "visitante": "AD Ceuta FC",
+            "resultado": "X",
+            "p1": 0.5622,
+            "px": 0.2309,
+            "p2": 0.2069,
+            "diferencia_fuerzas": 0.3553,
+            "distancia_x_favorito": 0.3313,
+            "goles_esperados_total": 2.788
+          },
+          {
+            "fecha": "2025-09-28",
+            "local": "Sporting Gijón",
+            "visitante": "Albacete",
+            "resultado": "2",
+            "p1": 0.5006,
+            "px": 0.2463,
+            "p2": 0.2531,
+            "diferencia_fuerzas": 0.2475,
+            "distancia_x_favorito": 0.2543,
+            "goles_esperados_total": 2.718
+          },
+          {
+            "fecha": "2025-09-28",
+            "local": "Real Valladolid",
+            "visitante": "Cultural Leonesa",
+            "resultado": "2",
+            "p1": 0.6541,
+            "px": 0.1834,
+            "p2": 0.1625,
+            "diferencia_fuerzas": 0.4916,
+            "distancia_x_favorito": 0.4707,
+            "goles_esperados_total": 3.479
+          },
+          {
+            "fecha": "2025-09-28",
+            "local": "SD Huesca",
+            "visitante": "Granada",
+            "resultado": "2",
+            "p1": 0.4918,
+            "px": 0.2842,
+            "p2": 0.224,
+            "diferencia_fuerzas": 0.2678,
+            "distancia_x_favorito": 0.2076,
+            "goles_esperados_total": 2.116
+          },
+          {
+            "fecha": "2025-09-29",
+            "local": "Leganés",
+            "visitante": "Castellón",
+            "resultado": "2",
+            "p1": 0.3638,
+            "px": 0.2418,
+            "p2": 0.3944,
+            "diferencia_fuerzas": 0.0306,
+            "distancia_x_favorito": 0.1526,
+            "goles_esperados_total": 3.023
+          },
+          {
+            "fecha": "2025-10-03",
+            "local": "AD Ceuta FC",
+            "visitante": "Eibar",
+            "resultado": "1",
+            "p1": 0.367,
+            "px": 0.2992,
+            "p2": 0.3338,
+            "diferencia_fuerzas": 0.0332,
+            "distancia_x_favorito": 0.0678,
+            "goles_esperados_total": 2.102
+          },
+          {
+            "fecha": "2025-10-04",
+            "local": "Deportivo A Coruña",
+            "visitante": "Almería",
+            "resultado": "X",
+            "p1": 0.4525,
+            "px": 0.2836,
+            "p2": 0.2638,
+            "diferencia_fuerzas": 0.1887,
+            "distancia_x_favorito": 0.1689,
+            "goles_esperados_total": 2.211
+          },
+          {
+            "fecha": "2025-10-04",
+            "local": "SD Huesca",
+            "visitante": "Burgos CF",
+            "resultado": "1",
+            "p1": 0.5034,
+            "px": 0.2634,
+            "p2": 0.2332,
+            "diferencia_fuerzas": 0.2702,
+            "distancia_x_favorito": 0.24,
+            "goles_esperados_total": 2.394
+          },
+          {
+            "fecha": "2025-10-04",
+            "local": "FC Andorra",
+            "visitante": "Leganés",
+            "resultado": "2",
+            "p1": 0.3631,
+            "px": 0.2762,
+            "p2": 0.3608,
+            "diferencia_fuerzas": 0.0023,
+            "distancia_x_favorito": 0.0869,
+            "goles_esperados_total": 2.407
+          },
+          {
+            "fecha": "2025-10-04",
+            "local": "Granada",
+            "visitante": "Real Sociedad B",
+            "resultado": "1",
+            "p1": 0.4136,
+            "px": 0.2798,
+            "p2": 0.3066,
+            "diferencia_fuerzas": 0.107,
+            "distancia_x_favorito": 0.1338,
+            "goles_esperados_total": 2.324
+          },
+          {
+            "fecha": "2025-10-05",
+            "local": "Real Zaragoza",
+            "visitante": "Córdoba",
+            "resultado": "2",
+            "p1": 0.4024,
+            "px": 0.284,
+            "p2": 0.3136,
+            "diferencia_fuerzas": 0.0888,
+            "distancia_x_favorito": 0.1184,
+            "goles_esperados_total": 2.276
+          },
+          {
+            "fecha": "2025-10-05",
+            "local": "Castellón",
+            "visitante": "Sporting Gijón",
+            "resultado": "1",
+            "p1": 0.458,
+            "px": 0.2769,
+            "p2": 0.2652,
+            "diferencia_fuerzas": 0.1928,
+            "distancia_x_favorito": 0.1811,
+            "goles_esperados_total": 2.297
+          },
+          {
+            "fecha": "2025-10-05",
+            "local": "Racing Santander",
+            "visitante": "Málaga",
+            "resultado": "1",
+            "p1": 0.4702,
+            "px": 0.2445,
+            "p2": 0.2853,
+            "diferencia_fuerzas": 0.1849,
+            "distancia_x_favorito": 0.2257,
+            "goles_esperados_total": 2.845
+          },
+          {
+            "fecha": "2025-10-05",
+            "local": "Real Valladolid",
+            "visitante": "CD Mirandes",
+            "resultado": "X",
+            "p1": 0.4861,
+            "px": 0.2601,
+            "p2": 0.2539,
+            "diferencia_fuerzas": 0.2322,
+            "distancia_x_favorito": 0.226,
+            "goles_esperados_total": 2.501
+          },
+          {
+            "fecha": "2025-10-05",
+            "local": "Las Palmas",
+            "visitante": "Cádiz",
+            "resultado": "1",
+            "p1": 0.512,
+            "px": 0.2821,
+            "p2": 0.2059,
+            "diferencia_fuerzas": 0.3061,
+            "distancia_x_favorito": 0.2299,
+            "goles_esperados_total": 2.089
+          },
+          {
+            "fecha": "2025-10-06",
+            "local": "Cultural Leonesa",
+            "visitante": "Albacete",
+            "resultado": "X",
+            "p1": 0.2637,
+            "px": 0.2433,
+            "p2": 0.493,
+            "diferencia_fuerzas": 0.2293,
+            "distancia_x_favorito": 0.2497,
+            "goles_esperados_total": 2.806
+          },
+          {
+            "fecha": "2025-10-10",
+            "local": "Granada",
+            "visitante": "Las Palmas",
+            "resultado": "X",
+            "p1": 0.2812,
+            "px": 0.2763,
+            "p2": 0.4425,
+            "diferencia_fuerzas": 0.1613,
+            "distancia_x_favorito": 0.1662,
+            "goles_esperados_total": 2.335
+          },
+          {
+            "fecha": "2025-10-11",
+            "local": "CD Mirandes",
+            "visitante": "Leganés",
+            "resultado": "X",
+            "p1": 0.2595,
+            "px": 0.2839,
+            "p2": 0.4566,
+            "diferencia_fuerzas": 0.1971,
+            "distancia_x_favorito": 0.1727,
+            "goles_esperados_total": 2.2
+          },
+          {
+            "fecha": "2025-10-11",
+            "local": "Almería",
+            "visitante": "Real Zaragoza",
+            "resultado": "1",
+            "p1": 0.4025,
+            "px": 0.2548,
+            "p2": 0.3427,
+            "diferencia_fuerzas": 0.0598,
+            "distancia_x_favorito": 0.1477,
+            "goles_esperados_total": 2.75
+          },
+          {
+            "fecha": "2025-10-11",
+            "local": "Real Sociedad B",
+            "visitante": "FC Andorra",
+            "resultado": "1",
+            "p1": 0.4507,
+            "px": 0.2525,
+            "p2": 0.2969,
+            "diferencia_fuerzas": 0.1538,
+            "distancia_x_favorito": 0.1982,
+            "goles_esperados_total": 2.728
+          },
+          {
+            "fecha": "2025-10-12",
+            "local": "Sporting Gijón",
+            "visitante": "Racing Santander",
+            "resultado": "1",
+            "p1": 0.483,
+            "px": 0.2369,
+            "p2": 0.2801,
+            "diferencia_fuerzas": 0.2029,
+            "distancia_x_favorito": 0.2461,
+            "goles_esperados_total": 2.98
+          },
+          {
+            "fecha": "2025-10-12",
+            "local": "Eibar",
+            "visitante": "Castellón",
+            "resultado": "X",
+            "p1": 0.4212,
+            "px": 0.243,
+            "p2": 0.3358,
+            "diferencia_fuerzas": 0.0854,
+            "distancia_x_favorito": 0.1782,
+            "goles_esperados_total": 2.974
+          },
+          {
+            "fecha": "2025-10-12",
+            "local": "Cádiz",
+            "visitante": "SD Huesca",
+            "resultado": "1",
+            "p1": 0.4701,
+            "px": 0.2933,
+            "p2": 0.2366,
+            "diferencia_fuerzas": 0.2335,
+            "distancia_x_favorito": 0.1768,
+            "goles_esperados_total": 2.05
+          },
+          {
+            "fecha": "2025-10-12",
+            "local": "Málaga",
+            "visitante": "Deportivo A Coruña",
+            "resultado": "1",
+            "p1": 0.2822,
+            "px": 0.2551,
+            "p2": 0.4627,
+            "diferencia_fuerzas": 0.1805,
+            "distancia_x_favorito": 0.2076,
+            "goles_esperados_total": 2.651
+          },
+          {
+            "fecha": "2025-10-13",
+            "local": "Córdoba",
+            "visitante": "Cultural Leonesa",
+            "resultado": "1",
+            "p1": 0.603,
+            "px": 0.196,
+            "p2": 0.201,
+            "diferencia_fuerzas": 0.402,
+            "distancia_x_favorito": 0.407,
+            "goles_esperados_total": 3.512
+          },
+          {
+            "fecha": "2025-10-17",
+            "local": "FC Andorra",
+            "visitante": "Granada",
+            "resultado": "X",
+            "p1": 0.473,
+            "px": 0.2771,
+            "p2": 0.2499,
+            "diferencia_fuerzas": 0.2231,
+            "distancia_x_favorito": 0.1959,
+            "goles_esperados_total": 2.261
+          }
+        ]
+      },
       "modelos": {
         "0.0": {
-          "n": 57,
+          "n": 55,
           "aciertos": 22,
-          "precision": 38.6,
-          "brier": 0.709,
-          "logloss": 1.156,
+          "precision": 40.0,
+          "brier": 0.6999,
+          "logloss": 1.1416,
           "empates_elegidos": 0,
-          "empates_reales": 16,
-          "probabilidad_empate_media": 0.2502,
+          "empates_reales": 15,
+          "probabilidad_empate_media": 0.2507,
           "politicas": {
             "1.0": {
               "aciertos": 22,
               "x_elegidas": 0,
               "x_acertadas": 0,
-              "precision": 38.6
+              "precision": 40.0
             },
             "0.9": {
               "aciertos": 22,
               "x_elegidas": 0,
               "x_acertadas": 0,
-              "precision": 38.6
+              "precision": 40.0
             },
             "0.8": {
               "aciertos": 22,
               "x_elegidas": 0,
               "x_acertadas": 0,
-              "precision": 38.6
+              "precision": 40.0
             }
           },
           "dixon_coles": {
             "0.0": {
               "aciertos": 22,
-              "precision": 38.6,
+              "precision": 40.0,
               "x_elegidas": 0,
               "x_acertadas": 0,
-              "prob_x_media": 0.2502,
-              "brier": 0.709,
-              "logloss": 1.156
+              "prob_x_media": 0.2507,
+              "brier": 0.6999,
+              "logloss": 1.1416
             },
             "-0.1": {
               "aciertos": 22,
-              "precision": 38.6,
+              "precision": 40.0,
               "x_elegidas": 0,
               "x_acertadas": 0,
-              "prob_x_media": 0.2731,
-              "brier": 0.7094,
-              "logloss": 1.1567
+              "prob_x_media": 0.2736,
+              "brier": 0.7006,
+              "logloss": 1.1427
             },
             "-0.2": {
               "aciertos": 22,
-              "precision": 38.6,
+              "precision": 40.0,
               "x_elegidas": 0,
               "x_acertadas": 0,
-              "prob_x_media": 0.296,
-              "brier": 0.7114,
-              "logloss": 1.1604
+              "prob_x_media": 0.2966,
+              "brier": 0.703,
+              "logloss": 1.1467
             }
           }
         },
         "0.5": {
-          "n": 57,
+          "n": 55,
           "aciertos": 27,
-          "precision": 47.37,
-          "brier": 0.6828,
-          "logloss": 1.1215,
+          "precision": 49.09,
+          "brier": 0.6747,
+          "logloss": 1.1093,
           "empates_elegidos": 0,
-          "empates_reales": 16,
-          "probabilidad_empate_media": 0.2559,
+          "empates_reales": 15,
+          "probabilidad_empate_media": 0.2561,
           "politicas": {
             "1.0": {
               "aciertos": 27,
               "x_elegidas": 0,
               "x_acertadas": 0,
-              "precision": 47.37
+              "precision": 49.09
             },
             "0.9": {
               "aciertos": 27,
               "x_elegidas": 0,
               "x_acertadas": 0,
-              "precision": 47.37
+              "precision": 49.09
             },
             "0.8": {
               "aciertos": 27,
               "x_elegidas": 0,
               "x_acertadas": 0,
-              "precision": 47.37
+              "precision": 49.09
             }
           },
           "dixon_coles": {
             "0.0": {
               "aciertos": 27,
-              "precision": 47.37,
+              "precision": 49.09,
               "x_elegidas": 0,
               "x_acertadas": 0,
-              "prob_x_media": 0.2559,
-              "brier": 0.6828,
-              "logloss": 1.1215
+              "prob_x_media": 0.2561,
+              "brier": 0.6747,
+              "logloss": 1.1093
             },
             "-0.1": {
               "aciertos": 27,
-              "precision": 47.37,
+              "precision": 49.09,
               "x_elegidas": 0,
               "x_acertadas": 0,
-              "prob_x_media": 0.2796,
-              "brier": 0.6829,
-              "logloss": 1.1215
+              "prob_x_media": 0.2798,
+              "brier": 0.6753,
+              "logloss": 1.1098
             },
             "-0.2": {
               "aciertos": 27,
-              "precision": 47.37,
+              "precision": 49.09,
               "x_elegidas": 0,
               "x_acertadas": 0,
-              "prob_x_media": 0.3033,
-              "brier": 0.6847,
-              "logloss": 1.1245
+              "prob_x_media": 0.3035,
+              "brier": 0.6776,
+              "logloss": 1.1134
             }
           }
         },
         "1.0": {
-          "n": 57,
+          "n": 55,
           "aciertos": 27,
-          "precision": 47.37,
-          "brier": 0.6606,
-          "logloss": 1.0922,
+          "precision": 49.09,
+          "brier": 0.6538,
+          "logloss": 1.0823,
           "empates_elegidos": 0,
-          "empates_reales": 16,
-          "probabilidad_empate_media": 0.2613,
+          "empates_reales": 15,
+          "probabilidad_empate_media": 0.2611,
           "politicas": {
             "1.0": {
               "aciertos": 27,
               "x_elegidas": 0,
               "x_acertadas": 0,
-              "precision": 47.37
+              "precision": 49.09
             },
             "0.9": {
               "aciertos": 27,
               "x_elegidas": 0,
               "x_acertadas": 0,
-              "precision": 47.37
+              "precision": 49.09
             },
             "0.8": {
               "aciertos": 26,
               "x_elegidas": 1,
               "x_acertadas": 0,
-              "precision": 45.61
+              "precision": 47.27
             }
           },
           "dixon_coles": {
             "0.0": {
               "aciertos": 27,
-              "precision": 47.37,
+              "precision": 49.09,
               "x_elegidas": 0,
               "x_acertadas": 0,
-              "prob_x_media": 0.2613,
-              "brier": 0.6606,
-              "logloss": 1.0922
+              "prob_x_media": 0.2611,
+              "brier": 0.6538,
+              "logloss": 1.0824
             },
             "-0.1": {
               "aciertos": 27,
-              "precision": 47.37,
+              "precision": 49.09,
               "x_elegidas": 0,
               "x_acertadas": 0,
-              "prob_x_media": 0.2855,
-              "brier": 0.6604,
-              "logloss": 1.0919
+              "prob_x_media": 0.2853,
+              "brier": 0.6542,
+              "logloss": 1.0828
             },
             "-0.2": {
               "aciertos": 26,
-              "precision": 45.61,
+              "precision": 47.27,
               "x_elegidas": 1,
               "x_acertadas": 0,
-              "prob_x_media": 0.3097,
-              "brier": 0.6621,
-              "logloss": 1.0946
+              "prob_x_media": 0.3095,
+              "brier": 0.6563,
+              "logloss": 1.0861
             }
           }
         }
