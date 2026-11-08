@@ -1,5 +1,5 @@
 {
-  "consultado": "2026-11-08T17:04:04.869014+00:00",
+  "consultado": "2026-11-08T17:04:29.247510+00:00",
   "fuentes": {
     "quinielafutbol": {
       "url": "https://www.quinielafutbol.info/proximas-jornadas-de-la-quiniela.html",
@@ -7,6 +7,10 @@
       "jornadas_completas": [
         21,
         22
+      ],
+      "fechas_siguiente": [
+        "2026-11-17",
+        "2026-11-19"
       ]
     }
   },
