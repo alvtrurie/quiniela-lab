@@ -1,0 +1,21 @@
+name: Diagnosticar datos xG PitchAPI
+on:
+  push:
+    paths:
+      - 'diagnostico_pitchapi.py'
+      - '.github/workflows/diagnostico-xg.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  diagnostico:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Comprobar partidos y tiros en Primera y Segunda
+        env:
+          PITCHAPI_API_KEY: ${{ secrets.PITCHAPI_API_KEY }}
+        run: python diagnostico_pitchapi.py
