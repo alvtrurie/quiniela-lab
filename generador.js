@@ -97,7 +97,8 @@ function qlCoberturaMonteCarlo(filas, presupuesto) {
   }
   return elegidas;
 }
-\nfunction qlExplicacion(f) {
+
+function qlExplicacion(f) {
   if(!f.probs) return "No hay datos de esta competición. Elige manualmente 1, X o 2 para generar columnas.";
   if(!f.estimada) return "Signo decidido manualmente; no se ha calculado su probabilidad.";
   const ord=["1","X","2"].map((s,i)=>({s,p:f.probs[i]})).sort((a,b)=>b.p-a.p);
