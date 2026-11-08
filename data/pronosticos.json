@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-08T17:04:29.092324+00:00",
+  "actualizado": "2026-11-08T17:13:45.628202+00:00",
   "modelo": "Poisson con fuerzas local/visitante y suavizado",
   "fuente": "football-data.co.uk",
   "competiciones": {
@@ -11794,6 +11794,32 @@
           "visitante": 1.55
         }
       }
-    ]
+    ],
+    "LIGAF": [],
+    "UCL": [],
+    "UEL": [],
+    "UECL": []
+  },
+  "cobertura_extra": {
+    "LIGAF": {
+      "ok": false,
+      "partidos": 0,
+      "error": "HTTP Error 400: Bad Request"
+    },
+    "UCL": {
+      "ok": false,
+      "partidos": 0,
+      "error": "HTTP Error 400: Bad Request"
+    },
+    "UEL": {
+      "ok": false,
+      "partidos": 0,
+      "error": "HTTP Error 400: Bad Request"
+    },
+    "UECL": {
+      "ok": false,
+      "partidos": 0,
+      "error": "HTTP Error 400: Bad Request"
+    }
   }
 }
