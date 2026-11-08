@@ -11,6 +11,15 @@ from pronosticos import calcular_liga
 LIGAS={"SP1":"l_0ErfuF","SP2":"l_3kyHLd"}
 TEMPORADA="2025/2026"
 PESOS=(0.0,0.5,1.0)
+UMBRAL_EMPATE=(1.0,0.9,0.8)
+
+def elegir(probs, umbral=1.0):
+    # Un umbral inferior a 1 es una politica de decision, NO recalibra probabilidades.
+    # Selecciona X solo cuando su probabilidad es suficientemente cercana a la del favorito.
+    favorito=max(probs[0],probs[2])
+    if probs[1]>=umbral*favorito:return 1
+    return 0 if probs[0]>=probs[2] else 2
+
 MAX_PARTIDOS=int(os.getenv("MAX_PARTIDOS_XG","100"))
 
 def goles_xg(partido):
@@ -40,7 +49,7 @@ def main():
             continue
         lista=sorted([p for p in lista if p.get("score_home") is not None and p.get("score_away") is not None],
             key=lambda p:(p.get("date",""),p.get("time_utc",""),p["id"]))[:MAX_PARTIDOS]
-        observados=[];errores=[];conteos={w:{"n":0,"aciertos":0,"brier_suma":0.0,"logloss_suma":0.0,"empates_elegidos":0} for w in PESOS}
+        observados=[];errores=[];conteos={w:{"n":0,"aciertos":0,"brier_suma":0.0,"logloss_suma":0.0,"empates_elegidos":0,"empates_reales":0,"p_empate_suma":0.0,"politicas":{str(t):{"aciertos":0,"x_elegidas":0,"x_acertadas":0} for t in UMBRAL_EMPATE}} for w in PESOS}
         for k,p in enumerate(lista):
             try:
                 xg=goles_xg(p)
@@ -66,6 +75,14 @@ def main():
                         probs=result
                         actual=0 if gl>gv else 1 if gl==gv else 2
                         m=conteos[w];m["n"]+=1
+                        m["empates_reales"]+=int(actual==1)
+                        m["p_empate_suma"]+=probs[1]
+                        for umbral in UMBRAL_EMPATE:
+                            elegido=elegir(probs,umbral)
+                            policy=m["politicas"][str(umbral)]
+                            policy["aciertos"]+=int(elegido==actual)
+                            policy["x_elegidas"]+=int(elegido==1)
+                            policy["x_acertadas"]+=int(elegido==1 and actual==1)
                         m["aciertos"]+=int(max(range(3),key=lambda i:probs[i])==actual)
                         m["empates_elegidos"]+=int(max(range(3),key=lambda i:probs[i])==1)
                         m["brier_suma"]+=sum((probs[i]-(i==actual))**2 for i in range(3))
@@ -78,7 +95,7 @@ def main():
                 "precision":round(m["aciertos"]/m["n"]*100,2) if m["n"] else None,
                 "brier":round(m["brier_suma"]/m["n"],4) if m["n"] else None,
                 "logloss":round(m["logloss_suma"]/m["n"],4) if m["n"] else None,
-                "empates_elegidos":m["empates_elegidos"]} for w,m in conteos.items()}}
+                "empates_elegidos":m["empates_elegidos"],"empates_reales":m["empates_reales"],"probabilidad_empate_media":round(m["p_empate_suma"]/m["n"],4) if m["n"] else None,"politicas":{t:dict(v,precision=round(100*v["aciertos"]/m["n"],2) if m["n"] else None) for t,v in m["politicas"].items()}} for w,m in conteos.items()}}
         print(liga,json.dumps(output["resultados"][liga]),flush=True)
     Path("data").mkdir(exist_ok=True)
     Path("data/backtest_xg_pitchapi.json").write_text(json.dumps(output,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
