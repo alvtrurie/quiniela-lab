@@ -27,6 +27,6 @@ class TestExtra(unittest.TestCase):
             rows,url=ex.obtener_liga("esp.w.1",date(2026,11,8))
         self.assertEqual(len(rows),1)
         self.assertIn("esp.w.1",url)
-        self.assertIn("20260801-20261108",url)
+        self.assertIn("dates=2026",url)
 if __name__=="__main__":
     unittest.main()
