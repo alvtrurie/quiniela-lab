@@ -24,7 +24,7 @@ def probabilidades(goles_local, goles_visitante):
     total = p1 + px + p2
     return [round(100 * x / total, 2) for x in (p1, px, p2)]
 
-def calcular_liga(partidos):
+def calcular_liga(partidos, min_partidos_equipo=0):
     jugados = [p for p in partidos if p.get("resultado") in ("H", "D", "A")]
     if not jugados:
         return []
@@ -74,6 +74,9 @@ def calcular_liga(partidos):
 
             a = stats[local]
             b = stats[visitante]
+            if (a["pj_casa"] + a["pj_fuera"] < min_partidos_equipo or
+                b["pj_casa"] + b["pj_fuera"] < min_partidos_equipo):
+                continue
 
             ataque_local = ratio(a["gf_casa"], a["pj_casa"], media_casa)
             defensa_visitante = ratio(b["gc_fuera"], b["pj_fuera"], media_casa)
@@ -126,7 +129,7 @@ def main():
         if liga in ("LIGAF", "UCL", "UEL", "UECL") and len(partidos) < 12:
             salida["competiciones"][liga] = []
             continue
-        salida["competiciones"][liga] = calcular_liga(partidos)
+        salida["competiciones"][liga] = calcular_liga(partidos, min_partidos_equipo=3 if liga in ("UCL", "UEL", "UECL", "LIGAF") else 0)
         print(f"{liga}: {len(salida['competiciones'][liga])} enfrentamientos calculados")
 
     SALIDA.parent.mkdir(parents=True, exist_ok=True)
