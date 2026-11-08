@@ -33,7 +33,7 @@ def parse_events(payload, hoy):
             try:
                 h, a = int(home["score"]), int(away["score"])
                 fecha = (comp.get("date") or ev.get("date") or "")[:10]
-                if date.fromisoformat(fecha) > hoy:
+                if not date(hoy.year if hoy.month >= 7 else hoy.year-1, 8, 1) <= date.fromisoformat(fecha) <= hoy:
                     continue
                 n1 = home["team"]["displayName"].strip()
                 n2 = away["team"]["displayName"].strip()
@@ -55,9 +55,6 @@ def request_json(url):
         return json.load(response)
 
 def obtener_liga(slug, hoy):
-    # ESPN acepta un intervalo de fechas; un solo intervalo cubre la temporada hasta hoy.
-    inicio = f"{hoy.year if hoy.month >= 7 else hoy.year - 1}0801"
-    fin = hoy.strftime("%Y%m%d")
     url = f"https://site.api.espn.com/apis/site/v2/sports/soccer/{slug}/scoreboard?dates={hoy.year}&limit=500"
     payload = request_json(url)
     games = parse_events(payload, hoy)
@@ -80,7 +77,7 @@ def main():
                  "competiciones": {}, "estado": {}}
     for liga, slug in LEAGUES.items():
         try:
-            partidos, url = obtener_liga(slug, hoy) if liga == "LIGAF" else obtener_uefa(liga, hoy)
+            partidos, url = obtener_liga(slug, hoy)
             # Si falla el proveedor o no hay partidos, conservar histórico anterior,
             # pero dejarlo marcado y no presentar datos como actualizados.
             if len(partidos) < 6:
