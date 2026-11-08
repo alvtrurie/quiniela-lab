@@ -52,7 +52,7 @@ def cobertura_probabilistica(probs,limite,semilla=42):
     # Muestras Monte Carlo de resultados completos, sin conocer resultados reales.
     rng=random.Random(semilla)
     escenarios=[]
-    for _ in range(350):
+    for _ in range(90):
         s=""
         for fila in probs:
             u=rng.random()
@@ -60,7 +60,7 @@ def cobertura_probabilistica(probs,limite,semilla=42):
         escenarios.append(s)
     candidatos=set()
     candidatos.add("".join("1X2"[max(range(3),key=lambda i:p[i])] for p in probs))
-    for _ in range(900):
+    for _ in range(140):
         s=""
         for fila in probs:
             u=rng.random()
@@ -68,18 +68,17 @@ def cobertura_probabilistica(probs,limite,semilla=42):
         candidatos.add(s)
     # Maximiza aciertos esperados de la mejor columna, aproximados por escenarios.
     # Se evalúa el beneficio marginal de cada columna frente a las ya seleccionadas.
+    puntuaciones={c:[sum(a==b for a,b in zip(c,e)) for e in escenarios] for c in candidatos}
     elegidas=[];mejor_actual=[0]*len(escenarios)
     for _ in range(limite):
         ganador=None;ganancia=-1
         for candidato in candidatos:
-            ganancia_c=sum(max(0,sum(a==b for a,b in zip(candidato,e))-actual)
-                          for e,actual in zip(escenarios,mejor_actual))
+            ganancia_c=sum(max(0,p-actual) for p,actual in zip(puntuaciones[candidato],mejor_actual))
             if ganancia_c>ganancia:
                 ganador=candidato;ganancia=ganancia_c
         if ganador is None:break
         elegidas.append(ganador);candidatos.remove(ganador)
-        mejor_actual=[max(actual,sum(a==b for a,b in zip(ganador,e)))
-                      for e,actual in zip(escenarios,mejor_actual)]
+        mejor_actual=[max(actual,p) for actual,p in zip(mejor_actual,puntuaciones[ganador])]
     return elegidas
 
 def evaluar(liga,temporada):
