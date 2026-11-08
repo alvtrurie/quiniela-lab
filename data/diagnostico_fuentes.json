@@ -1,5 +1,5 @@
 {
-  "consultado": "2026-11-08T17:01:36.763985+00:00",
+  "consultado": "2026-11-08T17:04:04.869014+00:00",
   "fuentes": {
     "quinielafutbol": {
       "url": "https://www.quinielafutbol.info/proximas-jornadas-de-la-quiniela.html",
@@ -8,26 +8,11 @@
         21,
         22
       ]
-    },
-    "quiniprats": {
-      "url": "https://quiniprats.com/es/quiniela/2026-27/jornada/22",
-      "accesible": true,
-      "jornadas_completas": [
-        22
-      ]
     }
   },
   "publicacion_automatica": false,
-  "motivo": "No se han confirmado 15 partidos idénticos entre ambas fuentes para la siguiente jornada.",
-  "comparacion": {
-    "22": {
-      "coinciden": true,
-      "discrepancias": []
-    }
-  },
-  "jornadas_coincidentes": [
-    22
-  ],
-  "fuente_independiente_actualizada": true,
-  "nota": "Sin coincidencia de dos fuentes no se publican jornadas nuevas. QuiniPrats se consulta para la siguiente jornada."
+  "fuente_utilizada": "quinielafutbol",
+  "respaldo_activado": false,
+  "motivo": "Jornada 21 todavía en curso o pendiente; no se sustituye.",
+  "jornadas_coincidentes": []
 }

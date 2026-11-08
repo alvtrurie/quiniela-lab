@@ -1,7 +1,7 @@
 {
-  "comprobado": "2026-11-08T17:01:38.647788+00:00",
+  "comprobado": "2026-11-08T17:04:06.016858+00:00",
   "numero": 21,
   "publicable": true,
   "motivos": [],
-  "nota": "Verificación estructural. La coincidencia de los partidos con fuentes oficiales requiere comprobación independiente."
+  "nota": "Verificación estructural. QuinielaFutbol es la fuente principal; QuiniPrats solo actúa como respaldo ante errores de acceso."
 }
