@@ -1,5 +1,5 @@
 {
-  "consultado": "2026-11-08T16:59:54.815947+00:00",
+  "consultado": "2026-11-08T17:01:36.763985+00:00",
   "fuentes": {
     "quinielafutbol": {
       "url": "https://www.quinielafutbol.info/proximas-jornadas-de-la-quiniela.html",
@@ -18,7 +18,13 @@
     }
   },
   "publicacion_automatica": false,
-  "motivo": "Sin coincidencia completa de 15 partidos para la jornada actual.",
+  "motivo": "No se han confirmado 15 partidos idénticos entre ambas fuentes para la siguiente jornada.",
+  "comparacion": {
+    "22": {
+      "coinciden": true,
+      "discrepancias": []
+    }
+  },
   "jornadas_coincidentes": [
     22
   ],
