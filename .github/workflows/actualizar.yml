@@ -20,6 +20,9 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Instalar analizador HTML
+        run: python -m pip install beautifulsoup4==4.12.3
+
       - name: Descargar estadísticas
         run: |
           mkdir -p data
@@ -66,14 +69,14 @@ jobs:
       # - name: Consultar jornadas oficiales
       #   run: python jornadas.py
       - name: Comprobar fuentes alternativas de jornadas
-        run: python monitor_fuentes.py
+        run: python actualizar_jornada.py
       - name: Validar jornada sin publicar datos dudosos
         run: python validar_jornada.py
       - name: Guardar datos actualizados
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/estadisticas.json data/pronosticos.json data/estado_jornada.json data/diagnostico_fuentes.json
+          git add data/estadisticas.json data/pronosticos.json data/estado_jornada.json data/diagnostico_fuentes.json data/jornada_actual.json
           if ! git diff --cached --quiet; then
             git commit -m "Actualizar estadísticas de fútbol"
             git push
