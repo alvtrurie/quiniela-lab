@@ -32,7 +32,7 @@ function pronosticoPartido(p){
     'athletic club':'athletic club','valencia cf':'valencia',
     'vcf femenino':'valencia','real madrid cf':'real madrid'
   };
-  const norm=s=>{const v=claveEquipo(s).replace(/\\s*\\(f\\)$/,'').replace(/\\s+femenino$/,'');return alias[v]||v};
+  const norm=s=>{const v=claveEquipo(s).replace(/\\s+f$/,'').replace(/\\s+femenino$/,'');return alias[v]||v};
   let opciones=[];
   for(const [comp,filas] of Object.entries(data.competiciones||{})){
     if(femenino && comp!=='LIGAF')continue;
