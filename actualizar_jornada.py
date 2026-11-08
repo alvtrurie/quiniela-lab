@@ -138,7 +138,7 @@ def main():
     if siguiente in validos and date.fromisoformat(actual["fecha_fin"]) < date.today():
         candidato = candidatos["quinielafutbol"][siguiente]
         fechas = candidato["fechas"]
-        if fechas and fechas[0] >= date.today() and (fechas[1] - fechas[0]).days <= 5:
+        if fechas and fechas[1] >= date.today() and (fechas[1] - fechas[0]).days <= 5:
             partidos = [
                 {"posicion": n, "local": candidato["partidos"][n][0],
                  "visitante": candidato["partidos"][n][1], "liga": None}
@@ -163,6 +163,8 @@ def main():
     else:
         diagnostico["motivo"] = "Sin coincidencia completa de 15 partidos para la jornada actual."
     diagnostico["jornadas_coincidentes"] = validos
+    diagnostico["fuente_independiente_actualizada"] = siguiente in candidatos["eduardolosilla"]
+    diagnostico["nota"] = "Sin coincidencia de dos fuentes no se publican jornadas nuevas. La página de horarios de Eduardo Losilla puede ofrecer una jornada antigua."
     # No elevar un estado 'publicable' basándose solo en nombres y enlaces.
     ROOT.mkdir(exist_ok=True)
     (ROOT / "diagnostico_fuentes.json").write_text(json.dumps(diagnostico, ensure_ascii=False, indent=2)+"\n", encoding="utf-8")
