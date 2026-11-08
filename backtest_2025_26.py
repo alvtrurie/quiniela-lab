@@ -65,7 +65,7 @@ def evaluar(partidos, min_train=MIN_TRAIN, min_team=3):
             skipped["sin_historico_suficiente"]+=len(group)
         else:
             # Entrenar una sola vez por fecha: ni siquiera usamos otros resultados del mismo día.
-            pred=calcular_liga(train,min_partidos_equipo=min_team)
+            pred=calcular_liga(train,min_partidos_equipo=min_team,objetivos={(p["local"],p["visitante"]) for p in group})
             lookup={(p["local"],p["visitante"]):p for p in pred}
             for p in group:
                 item=lookup.get((p["local"],p["visitante"]))
