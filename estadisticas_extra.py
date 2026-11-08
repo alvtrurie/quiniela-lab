@@ -106,7 +106,7 @@ def main():
         except (OSError, ValueError):
             pass
     resultado = {"actualizado": datetime.now(timezone.utc).isoformat(),
-                 "fuente": "Liga F: ESPN; UEFA: open-matchday (agregadores no oficiales)",
+                 "fuente": "ESPN scoreboard, resultados públicos no oficiales",
                  "competiciones": {}, "estado": {}}
     for liga, slug in LEAGUES.items():
         try:
