@@ -189,7 +189,7 @@ def main():
     siguiente = actual_numero + 1
     if siguiente in validos and date.fromisoformat(actual["fecha_fin"]) < date.today():
         candidato = candidatos["quinielafutbol"][siguiente]
-        fechas = candidato["fechas"]
+        fechas = candidato["fechas"] or candidatos["quiniprats"][siguiente]["fechas"]
         if fechas and fechas[1] >= date.today() and (fechas[1] - fechas[0]).days <= 5:
             partidos = [
                 {"posicion": n, "local": candidato["partidos"][n][0],
