@@ -6,7 +6,7 @@ for nombre, lid in (("SP1","l_0ErfuF"),("SP2","l_3kyHLd")):
         matches=partidos_liga(lid,"2025/2026")
         print(json.dumps({"liga":nombre,"partidos_recibidos":len(matches),
                           "campos_partido":list(matches[0]) if matches else [],
-                          "ejemplo_id":matches[0].get("id") if matches else None},ensure_ascii=False))
+                          "ejemplo_id":matches[0].get("id") if matches else None, "ejemplo_equipos": {"home":matches[0].get("home_team"),"away":matches[0].get("away_team") } if matches else None},ensure_ascii=False))
         if matches and matches[0].get("id"):
             try:
                 shots=tiros_partido(str(matches[0]["id"]))
