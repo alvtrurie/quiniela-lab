@@ -181,7 +181,8 @@ def main():
         jornadas = fuente_quinielafutbol(descargar(SOURCE_A))
         diagnostico["fuentes"]["quinielafutbol"] = {
             "url": SOURCE_A, "accesible": True,
-            "jornadas_completas": sorted(jornadas)
+            "jornadas_completas": sorted(jornadas),
+            "fechas_siguiente": [x.isoformat() for x in jornadas[siguiente]["fechas"]] if siguiente in jornadas and jornadas[siguiente].get("fechas") else None
         }
         # La fuente principal es autoritativa. NO consultar respaldo si es accesible,
         # aunque la jornada siguiente aún no esté publicada o no tenga fechas.
