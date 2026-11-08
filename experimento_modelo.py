@@ -1,4 +1,4 @@
-"""Experimento sin fuga de datos: comparar ajustes frente al Poisson original."""
+"""Experimento sin fuga de datos: comparar ajustes frente al Poisson original.\nReejecutar tras corrección de contador de partidos.\n"""
 import json, math
 from collections import defaultdict
 from datetime import date
