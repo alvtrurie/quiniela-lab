@@ -1045,6 +1045,33 @@
         "goles_visitante": 0,
         "xg_local": 1.42,
         "xg_visitante": 1.34
+      },
+      "m_4ChvE9": {
+        "fecha": "2026-11-08",
+        "local": "Villarreal",
+        "visitante": "Getafe",
+        "goles_local": 2,
+        "goles_visitante": 0,
+        "xg_local": 2.3,
+        "xg_visitante": 0.63
+      },
+      "m_1wSi73": {
+        "fecha": "2026-11-08",
+        "local": "Celta Vigo",
+        "visitante": "Levante",
+        "goles_local": 0,
+        "goles_visitante": 0,
+        "xg_local": 3.07,
+        "xg_visitante": 0.23
+      },
+      "m_1FwCGv": {
+        "fecha": "2026-11-08",
+        "local": "Atlético Madrid",
+        "visitante": "Barcelona",
+        "goles_local": 1,
+        "goles_visitante": 2,
+        "xg_local": 1.52,
+        "xg_visitante": 1.6
       }
     },
     "SP2": {
@@ -2271,6 +2298,15 @@
         "goles_visitante": 1,
         "xg_local": 1.0,
         "xg_visitante": 0.91
+      },
+      "m_09CSQq": {
+        "fecha": "2026-11-08",
+        "local": "Sporting Gijón",
+        "visitante": "Real Valladolid",
+        "goles_local": 1,
+        "goles_visitante": 2,
+        "xg_local": 2.28,
+        "xg_visitante": 1.16
       }
     }
   }
