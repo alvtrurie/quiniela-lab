@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-09T17:28:09.824287+00:00",
+  "actualizado": "2026-11-10T15:35:26.686601+00:00",
   "temporada": "2026-2027",
   "fuente": "football-data.co.uk",
   "competiciones": {
@@ -2061,6 +2061,22 @@
         "goles_local": "1",
         "goles_visitante": "2",
         "resultado": "A"
+      },
+      {
+        "fecha": "09/11/2026",
+        "local": "Las Palmas",
+        "visitante": "Eldense",
+        "goles_local": "2",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "09/11/2026",
+        "local": "Sabadell",
+        "visitante": "Sociedad B",
+        "goles_local": "0",
+        "goles_visitante": "0",
+        "resultado": "D"
       }
     ]
   }

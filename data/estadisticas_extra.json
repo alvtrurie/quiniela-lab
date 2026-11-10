@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-09T17:28:11.719386+00:00",
+  "actualizado": "2026-11-10T15:35:28.631500+00:00",
   "fuente": "ESPN scoreboard, resultados públicos no oficiales",
   "competiciones": {
     "LIGAF": [
@@ -695,6 +695,24 @@
         "goles_visitante": 1,
         "resultado": "H",
         "id": "401882462"
+      },
+      {
+        "fecha": "2026-11-09",
+        "local": "Atlético Madrid",
+        "visitante": "FC Badalona",
+        "goles_local": 3,
+        "goles_visitante": 0,
+        "resultado": "H",
+        "id": "401882467"
+      },
+      {
+        "fecha": "2026-11-09",
+        "local": "Deportivo",
+        "visitante": "Valencia",
+        "goles_local": 0,
+        "goles_visitante": 2,
+        "resultado": "A",
+        "id": "401882465"
       }
     ],
     "UCL": [
@@ -2489,7 +2507,7 @@
   "estado": {
     "LIGAF": {
       "ok": true,
-      "partidos": 77,
+      "partidos": 79,
       "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.w.1/scoreboard?dates=2026&limit=500"
     },
     "UCL": {

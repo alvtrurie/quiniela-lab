@@ -2307,6 +2307,24 @@
         "goles_visitante": 2,
         "xg_local": 2.28,
         "xg_visitante": 1.16
+      },
+      "m_1tvJBs": {
+        "fecha": "2026-11-09",
+        "local": "Sabadell",
+        "visitante": "Real Sociedad B",
+        "goles_local": 0,
+        "goles_visitante": 0,
+        "xg_local": 0.75,
+        "xg_visitante": 1.21
+      },
+      "m_2jyYwm": {
+        "fecha": "2026-11-09",
+        "local": "Las Palmas",
+        "visitante": "Eldense",
+        "goles_local": 2,
+        "goles_visitante": 0,
+        "xg_local": 1.12,
+        "xg_visitante": 0.33
       }
     }
   }
