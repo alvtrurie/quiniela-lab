@@ -2325,6 +2325,15 @@
         "goles_visitante": 0,
         "xg_local": 1.12,
         "xg_visitante": 0.33
+      },
+      "m_1hp7Eb": {
+        "fecha": "2026-11-13",
+        "local": "Leganés",
+        "visitante": "Burgos CF",
+        "goles_local": 3,
+        "goles_visitante": 1,
+        "xg_local": 1.44,
+        "xg_visitante": 1.34
       }
     }
   }

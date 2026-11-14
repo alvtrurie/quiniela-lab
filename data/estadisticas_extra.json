@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-13T15:23:13.349167+00:00",
+  "actualizado": "2026-11-14T14:08:18.187879+00:00",
   "fuente": "ESPN scoreboard, resultados públicos no oficiales",
   "competiciones": {
     "LIGAF": [
@@ -713,6 +713,15 @@
         "goles_visitante": 2,
         "resultado": "A",
         "id": "401882465"
+      },
+      {
+        "fecha": "2026-11-14",
+        "local": "Espanyol",
+        "visitante": "Tenerife",
+        "goles_local": 1,
+        "goles_visitante": 3,
+        "resultado": "A",
+        "id": "401882458"
       }
     ],
     "UCL": [
@@ -2507,7 +2516,7 @@
   "estado": {
     "LIGAF": {
       "ok": true,
-      "partidos": 79,
+      "partidos": 80,
       "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.w.1/scoreboard?dates=2026&limit=500"
     },
     "UCL": {
