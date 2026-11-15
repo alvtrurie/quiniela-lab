@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-14T14:08:26.115796+00:00",
+  "actualizado": "2026-11-15T14:45:18.783498+00:00",
   "modelo": "Poisson con xG PitchAPI cuando disponible y fallback de goles reales",
   "fuente": "football-data.co.uk",
   "competiciones": {
@@ -11800,233 +11800,233 @@
         "local": "Alavés",
         "visitante": "Athletic Club",
         "probabilidades": {
-          "1": 35.53,
-          "X": 27.98,
-          "2": 36.49
+          "1": 31.03,
+          "X": 25.87,
+          "2": 43.1
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 1.17,
-          "visitante": 1.19
+          "local": 1.19,
+          "visitante": 1.45
         }
       },
       {
         "local": "Alavés",
         "visitante": "Atlético Madrid",
         "probabilidades": {
-          "1": 36.64,
-          "X": 22.84,
-          "2": 40.52
+          "1": 39.64,
+          "X": 22.78,
+          "2": 37.59
         },
-        "recomendado": "2",
+        "recomendado": "1",
         "goles_esperados": {
-          "local": 1.62,
-          "visitante": 1.72
+          "local": 1.71,
+          "visitante": 1.66
         }
       },
       {
         "local": "Alavés",
         "visitante": "Barcelona",
         "probabilidades": {
-          "1": 9.38,
-          "X": 15.01,
-          "2": 75.61
+          "1": 10.85,
+          "X": 16.21,
+          "2": 72.95
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 0.8,
-          "visitante": 2.58
+          "local": 0.85,
+          "visitante": 2.47
         }
       },
       {
         "local": "Alavés",
         "visitante": "Deportivo",
         "probabilidades": {
-          "1": 24.5,
-          "X": 24.31,
-          "2": 51.19
+          "1": 26.77,
+          "X": 24.72,
+          "2": 48.5
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 1.08,
-          "visitante": 1.67
+          "local": 1.13,
+          "visitante": 1.61
         }
       },
       {
         "local": "Alavés",
         "visitante": "Dux Logroño",
         "probabilidades": {
-          "1": 33.11,
-          "X": 27.09,
-          "2": 39.8
+          "1": 33.23,
+          "X": 25.54,
+          "2": 41.23
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 1.17,
-          "visitante": 1.31
+          "local": 1.28,
+          "visitante": 1.45
         }
       },
       {
         "local": "Alavés",
         "visitante": "Eibar",
         "probabilidades": {
-          "1": 29.92,
-          "X": 31.06,
-          "2": 39.03
+          "1": 34.28,
+          "X": 30.27,
+          "2": 35.45
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 0.89,
-          "visitante": 1.07
+          "local": 1.02,
+          "visitante": 1.04
         }
       },
       {
         "local": "Alavés",
         "visitante": "Espanyol",
         "probabilidades": {
-          "1": 34.23,
-          "X": 27.33,
-          "2": 38.44
+          "1": 36.68,
+          "X": 27.22,
+          "2": 36.1
         },
-        "recomendado": "2",
+        "recomendado": "1",
         "goles_esperados": {
-          "local": 1.18,
-          "visitante": 1.27
+          "local": 1.24,
+          "visitante": 1.23
         }
       },
       {
         "local": "Alavés",
         "visitante": "FC Badalona",
         "probabilidades": {
-          "1": 34.3,
-          "X": 24.39,
-          "2": 41.32
+          "1": 36.76,
+          "X": 23.41,
+          "2": 39.83
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 1.4,
-          "visitante": 1.56
+          "local": 1.56,
+          "visitante": 1.64
         }
       },
       {
         "local": "Alavés",
         "visitante": "Granada",
         "probabilidades": {
-          "1": 39.18,
-          "X": 25.99,
-          "2": 34.83
+          "1": 41.79,
+          "X": 25.69,
+          "2": 32.53
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 1.38,
-          "visitante": 1.28
+          "local": 1.45,
+          "visitante": 1.25
         }
       },
       {
         "local": "Alavés",
         "visitante": "Madrid CFF",
         "probabilidades": {
-          "1": 50.08,
-          "X": 21.41,
-          "2": 28.51
+          "1": 53.21,
+          "X": 20.8,
+          "2": 25.99
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 2.03,
-          "visitante": 1.5
+          "local": 2.13,
+          "visitante": 1.45
         }
       },
       {
         "local": "Alavés",
         "visitante": "Real Madrid",
         "probabilidades": {
-          "1": 32.81,
-          "X": 21.83,
-          "2": 45.36
+          "1": 35.85,
+          "X": 21.98,
+          "2": 42.17
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 1.62,
-          "visitante": 1.93
+          "local": 1.71,
+          "visitante": 1.86
         }
       },
       {
         "local": "Alavés",
         "visitante": "Real Sociedad",
         "probabilidades": {
-          "1": 28.37,
-          "X": 26.88,
-          "2": 44.76
+          "1": 30.64,
+          "X": 27.04,
+          "2": 42.32
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 1.05,
-          "visitante": 1.39
+          "local": 1.11,
+          "visitante": 1.35
         }
       },
       {
         "local": "Alavés",
         "visitante": "Sevilla",
         "probabilidades": {
-          "1": 26.26,
-          "X": 27.47,
-          "2": 46.26
+          "1": 28.43,
+          "X": 27.74,
+          "2": 43.83
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 0.96,
-          "visitante": 1.36
+          "local": 1.01,
+          "visitante": 1.32
         }
       },
       {
         "local": "Alavés",
         "visitante": "Tenerife",
         "probabilidades": {
-          "1": 29.16,
-          "X": 22.59,
-          "2": 48.25
+          "1": 31.96,
+          "X": 22.91,
+          "2": 45.14
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 1.4,
-          "visitante": 1.86
+          "local": 1.47,
+          "visitante": 1.79
         }
       },
       {
         "local": "Alavés",
         "visitante": "Valencia",
         "probabilidades": {
-          "1": 46.54,
-          "X": 26.05,
-          "2": 27.41
+          "1": 49.1,
+          "X": 25.43,
+          "2": 25.47
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 1.48,
-          "visitante": 1.07
+          "local": 1.55,
+          "visitante": 1.04
         }
       },
       {
         "local": "Athletic Club",
         "visitante": "Alavés",
         "probabilidades": {
-          "1": 54.62,
-          "X": 26.5,
-          "2": 18.88
+          "1": 54.26,
+          "X": 26.49,
+          "2": 19.25
         },
         "recomendado": "1",
         "goles_esperados": {
           "local": 1.48,
-          "visitante": 0.74
+          "visitante": 0.76
         }
       },
       {
         "local": "Athletic Club",
         "visitante": "Atlético Madrid",
         "probabilidades": {
-          "1": 53.68,
-          "X": 21.29,
-          "2": 25.03
+          "1": 53.62,
+          "X": 21.32,
+          "2": 25.07
         },
         "recomendado": "1",
         "goles_esperados": {
@@ -12038,23 +12038,23 @@
         "local": "Athletic Club",
         "visitante": "Barcelona",
         "probabilidades": {
-          "1": 18.23,
-          "X": 20.92,
-          "2": 60.85
+          "1": 18.49,
+          "X": 21.07,
+          "2": 60.44
         },
         "recomendado": "2",
         "goles_esperados": {
           "local": 1.02,
-          "visitante": 2.03
+          "visitante": 2.02
         }
       },
       {
         "local": "Athletic Club",
         "visitante": "Deportivo",
         "probabilidades": {
-          "1": 38.13,
-          "X": 25.96,
-          "2": 35.91
+          "1": 38.12,
+          "X": 25.94,
+          "2": 35.94
         },
         "recomendado": "1",
         "goles_esperados": {
@@ -12066,37 +12066,37 @@
         "local": "Athletic Club",
         "visitante": "Dux Logroño",
         "probabilidades": {
-          "1": 47.47,
-          "X": 26.16,
-          "2": 26.37
+          "1": 45.4,
+          "X": 25.26,
+          "2": 29.34
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 1.48,
-          "visitante": 1.03
+          "local": 1.53,
+          "visitante": 1.18
         }
       },
       {
         "local": "Athletic Club",
         "visitante": "Eibar",
         "probabilidades": {
-          "1": 42.28,
-          "X": 30.68,
-          "2": 27.04
+          "1": 44.9,
+          "X": 29.44,
+          "2": 25.65
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 1.13,
-          "visitante": 0.84
+          "local": 1.23,
+          "visitante": 0.85
         }
       },
       {
         "local": "Athletic Club",
         "visitante": "Espanyol",
         "probabilidades": {
-          "1": 48.62,
-          "X": 26.09,
-          "2": 25.29
+          "1": 48.49,
+          "X": 26.1,
+          "2": 25.41
         },
         "recomendado": "1",
         "goles_esperados": {
@@ -12108,41 +12108,41 @@
         "local": "Athletic Club",
         "visitante": "FC Badalona",
         "probabilidades": {
-          "1": 50.15,
-          "X": 23.34,
-          "2": 26.51
+          "1": 50.26,
+          "X": 22.5,
+          "2": 27.25
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 1.77,
-          "visitante": 1.23
+          "local": 1.88,
+          "visitante": 1.33
         }
       },
       {
         "local": "Athletic Club",
         "visitante": "Granada",
         "probabilidades": {
-          "1": 54.54,
-          "X": 23.62,
-          "2": 21.84
+          "1": 54.35,
+          "X": 23.64,
+          "2": 22.01
         },
         "recomendado": "1",
         "goles_esperados": {
           "local": 1.74,
-          "visitante": 1.01
+          "visitante": 1.02
         }
       },
       {
         "local": "Athletic Club",
         "visitante": "Madrid CFF",
         "probabilidades": {
-          "1": 67.36,
-          "X": 17.1,
-          "2": 15.54
+          "1": 67.17,
+          "X": 17.17,
+          "2": 15.66
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 2.57,
+          "local": 2.56,
           "visitante": 1.18
         }
       },
@@ -12150,9 +12150,9 @@
         "local": "Athletic Club",
         "visitante": "Real Madrid",
         "probabilidades": {
-          "1": 50.05,
-          "X": 21.29,
-          "2": 28.66
+          "1": 50.06,
+          "X": 21.32,
+          "2": 28.62
         },
         "recomendado": "1",
         "goles_esperados": {
@@ -12164,9 +12164,9 @@
         "local": "Athletic Club",
         "visitante": "Real Sociedad",
         "probabilidades": {
-          "1": 41.95,
-          "X": 27.27,
-          "2": 30.78
+          "1": 41.88,
+          "X": 27.24,
+          "2": 30.87
         },
         "recomendado": "1",
         "goles_esperados": {
@@ -12178,429 +12178,429 @@
         "local": "Athletic Club",
         "visitante": "Sevilla",
         "probabilidades": {
-          "1": 39.09,
-          "X": 28.43,
-          "2": 32.48
+          "1": 39.07,
+          "X": 28.41,
+          "2": 32.52
         },
         "recomendado": "1",
         "goles_esperados": {
           "local": 1.21,
-          "visitante": 1.07
+          "visitante": 1.08
         }
       },
       {
         "local": "Athletic Club",
         "visitante": "Tenerife",
         "probabilidades": {
-          "1": 45.1,
-          "X": 23.0,
-          "2": 31.89
+          "1": 45.15,
+          "X": 23.04,
+          "2": 31.81
         },
         "recomendado": "1",
         "goles_esperados": {
           "local": 1.77,
-          "visitante": 1.46
+          "visitante": 1.45
         }
       },
       {
         "local": "Athletic Club",
         "visitante": "Valencia",
         "probabilidades": {
-          "1": 61.57,
-          "X": 22.04,
-          "2": 16.39
+          "1": 61.3,
+          "X": 22.11,
+          "2": 16.59
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 1.87,
-          "visitante": 0.84
+          "local": 1.86,
+          "visitante": 0.85
         }
       },
       {
         "local": "Atlético Madrid",
         "visitante": "Alavés",
         "probabilidades": {
-          "1": 72.78,
-          "X": 19.56,
-          "2": 7.66
+          "1": 72.28,
+          "X": 19.7,
+          "2": 8.02
         },
         "recomendado": "1",
         "goles_esperados": {
           "local": 1.9,
-          "visitante": 0.44
+          "visitante": 0.46
         }
       },
       {
         "local": "Atlético Madrid",
         "visitante": "Athletic Club",
         "probabilidades": {
-          "1": 69.79,
-          "X": 20.33,
-          "2": 9.88
+          "1": 64.31,
+          "X": 21.88,
+          "2": 13.8
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 1.9,
-          "visitante": 0.55
+          "local": 1.84,
+          "visitante": 0.71
         }
       },
       {
         "local": "Atlético Madrid",
         "visitante": "Barcelona",
         "probabilidades": {
-          "1": 39.22,
-          "X": 26.95,
-          "2": 33.83
+          "1": 38.95,
+          "X": 26.84,
+          "2": 34.21
         },
         "recomendado": "1",
         "goles_esperados": {
           "local": 1.31,
-          "visitante": 1.19
+          "visitante": 1.21
         }
       },
       {
         "local": "Atlético Madrid",
         "visitante": "Deportivo",
         "probabilidades": {
-          "1": 60.7,
-          "X": 23.16,
-          "2": 16.14
+          "1": 60.25,
+          "X": 23.2,
+          "2": 16.55
         },
         "recomendado": "1",
         "goles_esperados": {
           "local": 1.75,
-          "visitante": 0.77
+          "visitante": 0.79
         }
       },
       {
         "local": "Atlético Madrid",
         "visitante": "Dux Logroño",
         "probabilidades": {
-          "1": 68.32,
-          "X": 20.67,
-          "2": 11.01
+          "1": 67.1,
+          "X": 20.36,
+          "2": 12.53
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 1.9,
-          "visitante": 0.6
+          "local": 1.97,
+          "visitante": 0.71
         }
       },
       {
         "local": "Atlético Madrid",
         "visitante": "Eibar",
         "probabilidades": {
-          "1": 61.02,
-          "X": 26.51,
-          "2": 12.47
+          "1": 63.64,
+          "X": 24.62,
+          "2": 11.74
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 1.45,
-          "visitante": 0.49
+          "local": 1.57,
+          "visitante": 0.51
         }
       },
       {
         "local": "Atlético Madrid",
         "visitante": "Espanyol",
         "probabilidades": {
-          "1": 69.2,
-          "X": 20.33,
-          "2": 10.47
+          "1": 68.74,
+          "X": 20.46,
+          "2": 10.8
         },
         "recomendado": "1",
         "goles_esperados": {
           "local": 1.91,
-          "visitante": 0.59
+          "visitante": 0.6
         }
       },
       {
         "local": "Atlético Madrid",
         "visitante": "FC Badalona",
         "probabilidades": {
-          "1": 72.58,
-          "X": 17.21,
-          "2": 10.2
+          "1": 73.04,
+          "X": 16.45,
+          "2": 10.51
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 2.28,
-          "visitante": 0.72
+          "local": 2.41,
+          "visitante": 0.8
         }
       },
       {
         "local": "Atlético Madrid",
         "visitante": "Granada",
         "probabilidades": {
-          "1": 74.98,
-          "X": 16.72,
-          "2": 8.3
+          "1": 74.51,
+          "X": 16.89,
+          "2": 8.6
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 2.24,
-          "visitante": 0.59
+          "local": 2.23,
+          "visitante": 0.61
         }
       },
       {
         "local": "Atlético Madrid",
         "visitante": "Madrid CFF",
         "probabilidades": {
-          "1": 86.33,
-          "X": 9.17,
-          "2": 4.51
+          "1": 85.93,
+          "X": 9.36,
+          "2": 4.71
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 3.31,
-          "visitante": 0.69
+          "local": 3.29,
+          "visitante": 0.71
         }
       },
       {
         "local": "Atlético Madrid",
         "visitante": "Real Madrid",
         "probabilidades": {
-          "1": 74.55,
-          "X": 15.12,
-          "2": 10.33
+          "1": 74.08,
+          "X": 15.28,
+          "2": 10.64
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 2.64,
-          "visitante": 0.89
+          "local": 2.63,
+          "visitante": 0.91
         }
       },
       {
         "local": "Atlético Madrid",
         "visitante": "Real Sociedad",
         "probabilidades": {
-          "1": 63.1,
-          "X": 23.26,
-          "2": 13.64
+          "1": 62.65,
+          "X": 23.32,
+          "2": 14.03
         },
         "recomendado": "1",
         "goles_esperados": {
           "local": 1.71,
-          "visitante": 0.64
+          "visitante": 0.66
         }
       },
       {
         "local": "Atlético Madrid",
         "visitante": "Sevilla",
         "probabilidades": {
-          "1": 59.69,
-          "X": 25.33,
-          "2": 14.98
+          "1": 59.27,
+          "X": 25.36,
+          "2": 15.36
         },
         "recomendado": "1",
         "goles_esperados": {
           "local": 1.55,
-          "visitante": 0.63
+          "visitante": 0.65
         }
       },
       {
         "local": "Atlético Madrid",
         "visitante": "Tenerife",
         "probabilidades": {
-          "1": 69.39,
-          "X": 18.01,
-          "2": 12.6
+          "1": 68.93,
+          "X": 18.14,
+          "2": 12.93
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 2.28,
-          "visitante": 0.86
+          "local": 2.27,
+          "visitante": 0.87
         }
       },
       {
         "local": "Atlético Madrid",
         "visitante": "Valencia",
         "probabilidades": {
-          "1": 79.8,
-          "X": 14.33,
-          "2": 5.87
+          "1": 79.35,
+          "X": 14.53,
+          "2": 6.12
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 2.4,
-          "visitante": 0.49
+          "local": 2.39,
+          "visitante": 0.51
         }
       },
       {
         "local": "Barcelona",
         "visitante": "Alavés",
         "probabilidades": {
-          "1": 83.34,
-          "X": 11.29,
-          "2": 5.37
+          "1": 82.95,
+          "X": 11.46,
+          "2": 5.59
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 2.9,
-          "visitante": 0.63
+          "local": 2.89,
+          "visitante": 0.65
         }
       },
       {
         "local": "Barcelona",
         "visitante": "Athletic Club",
         "probabilidades": {
-          "1": 80.27,
-          "X": 12.46,
-          "2": 7.27
+          "1": 74.69,
+          "X": 14.51,
+          "2": 10.79
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 2.9,
-          "visitante": 0.79
+          "local": 2.81,
+          "visitante": 1.01
         }
       },
       {
         "local": "Barcelona",
         "visitante": "Atlético Madrid",
         "probabilidades": {
-          "1": 86.02,
-          "X": 8.25,
-          "2": 5.73
+          "1": 85.76,
+          "X": 8.37,
+          "2": 5.87
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 4.03,
-          "visitante": 1.14
+          "local": 4.01,
+          "visitante": 1.15
         }
       },
       {
         "local": "Barcelona",
         "visitante": "Deportivo",
         "probabilidades": {
-          "1": 70.58,
-          "X": 16.02,
-          "2": 13.39
+          "1": 70.31,
+          "X": 16.1,
+          "2": 13.59
         },
         "recomendado": "1",
         "goles_esperados": {
           "local": 2.67,
-          "visitante": 1.11
+          "visitante": 1.12
         }
       },
       {
         "local": "Barcelona",
         "visitante": "Dux Logroño",
         "probabilidades": {
-          "1": 78.72,
-          "X": 13.0,
-          "2": 8.28
+          "1": 77.47,
+          "X": 13.1,
+          "2": 9.42
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 2.9,
-          "visitante": 0.87
+          "local": 3.01,
+          "visitante": 1.01
         }
       },
       {
         "local": "Barcelona",
         "visitante": "Eibar",
         "probabilidades": {
-          "1": 71.89,
-          "X": 17.71,
-          "2": 10.41
+          "1": 74.62,
+          "X": 16.05,
+          "2": 9.33
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 2.22,
-          "visitante": 0.71
+          "local": 2.4,
+          "visitante": 0.72
         }
       },
       {
         "local": "Barcelona",
         "visitante": "Espanyol",
         "probabilidades": {
-          "1": 79.61,
-          "X": 12.62,
-          "2": 7.77
+          "1": 79.3,
+          "X": 12.75,
+          "2": 7.95
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 2.93,
-          "visitante": 0.84
+          "local": 2.92,
+          "visitante": 0.85
         }
       },
       {
         "local": "Barcelona",
         "visitante": "FC Badalona",
         "probabilidades": {
-          "1": 82.48,
-          "X": 10.38,
-          "2": 7.14
+          "1": 82.95,
+          "X": 9.88,
+          "2": 7.17
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 3.48,
-          "visitante": 1.04
+          "local": 3.68,
+          "visitante": 1.13
         }
       },
       {
         "local": "Barcelona",
         "visitante": "Granada",
         "probabilidades": {
-          "1": 84.86,
-          "X": 9.58,
-          "2": 5.56
+          "1": 84.55,
+          "X": 9.72,
+          "2": 5.73
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 3.42,
-          "visitante": 0.85
+          "local": 3.41,
+          "visitante": 0.86
         }
       },
       {
         "local": "Barcelona",
         "visitante": "Madrid CFF",
         "probabilidades": {
-          "1": 93.38,
-          "X": 4.27,
-          "2": 2.35
+          "1": 93.3,
+          "X": 4.31,
+          "2": 2.39
         },
         "recomendado": "1",
         "goles_esperados": {
           "local": 5,
-          "visitante": 1.0
+          "visitante": 1.01
         }
       },
       {
         "local": "Barcelona",
         "visitante": "Real Madrid",
         "probabilidades": {
-          "1": 84.03,
-          "X": 9.0,
-          "2": 6.97
+          "1": 83.79,
+          "X": 9.11,
+          "2": 7.1
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 4.03,
-          "visitante": 1.28
+          "local": 4.01,
+          "visitante": 1.29
         }
       },
       {
         "local": "Barcelona",
         "visitante": "Real Sociedad",
         "probabilidades": {
-          "1": 73.43,
-          "X": 15.54,
-          "2": 11.03
+          "1": 73.13,
+          "X": 15.64,
+          "2": 11.23
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 2.61,
-          "visitante": 0.92
+          "local": 2.6,
+          "visitante": 0.94
         }
       },
       {
         "local": "Barcelona",
         "visitante": "Sevilla",
         "probabilidades": {
-          "1": 69.94,
-          "X": 17.42,
-          "2": 12.64
+          "1": 69.67,
+          "X": 17.51,
+          "2": 12.83
         },
         "recomendado": "1",
         "goles_esperados": {
@@ -12612,111 +12612,111 @@
         "local": "Barcelona",
         "visitante": "Tenerife",
         "probabilidades": {
-          "1": 79.24,
-          "X": 11.48,
-          "2": 9.28
+          "1": 78.99,
+          "X": 11.59,
+          "2": 9.42
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 3.48,
-          "visitante": 1.23
+          "local": 3.47,
+          "visitante": 1.24
         }
       },
       {
         "local": "Barcelona",
         "visitante": "Valencia",
         "probabilidades": {
-          "1": 89.06,
-          "X": 7.39,
-          "2": 3.55
+          "1": 88.77,
+          "X": 7.55,
+          "2": 3.68
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 3.67,
-          "visitante": 0.71
+          "local": 3.65,
+          "visitante": 0.72
         }
       },
       {
         "local": "Deportivo",
         "visitante": "Alavés",
         "probabilidades": {
-          "1": 35.69,
-          "X": 31.84,
-          "2": 32.48
+          "1": 35.5,
+          "X": 31.67,
+          "2": 32.83
         },
         "recomendado": "1",
         "goles_esperados": {
           "local": 0.98,
-          "visitante": 0.92
+          "visitante": 0.93
         }
       },
       {
         "local": "Deportivo",
         "visitante": "Athletic Club",
         "probabilidades": {
-          "1": 30.81,
-          "X": 29.55,
-          "2": 39.64
+          "1": 24.73,
+          "X": 26.56,
+          "2": 48.7
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 0.98,
-          "visitante": 1.15
+          "local": 0.95,
+          "visitante": 1.45
         }
       },
       {
         "local": "Deportivo",
         "visitante": "Atlético Madrid",
         "probabilidades": {
-          "1": 31.42,
-          "X": 23.87,
-          "2": 44.71
+          "1": 31.61,
+          "X": 23.93,
+          "2": 44.46
         },
         "recomendado": "2",
         "goles_esperados": {
           "local": 1.36,
-          "visitante": 1.67
+          "visitante": 1.66
         }
       },
       {
         "local": "Deportivo",
         "visitante": "Barcelona",
         "probabilidades": {
-          "1": 7.92,
-          "X": 14.77,
-          "2": 77.3
+          "1": 8.17,
+          "X": 15.08,
+          "2": 76.75
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 0.67,
-          "visitante": 2.51
+          "local": 0.68,
+          "visitante": 2.47
         }
       },
       {
         "local": "Deportivo",
         "visitante": "Dux Logroño",
         "probabilidades": {
-          "1": 28.61,
-          "X": 28.38,
-          "2": 43.02
+          "1": 26.55,
+          "X": 26.41,
+          "2": 47.05
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 0.98,
-          "visitante": 1.27
+          "local": 1.02,
+          "visitante": 1.45
         }
       },
       {
         "local": "Deportivo",
         "visitante": "Eibar",
         "probabilidades": {
-          "1": 25.91,
-          "X": 32.57,
-          "2": 41.52
+          "1": 27.89,
+          "X": 31.95,
+          "2": 40.16
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 0.75,
+          "local": 0.82,
           "visitante": 1.04
         }
       },
@@ -12724,9 +12724,9 @@
         "local": "Deportivo",
         "visitante": "Espanyol",
         "probabilidades": {
-          "1": 29.62,
+          "1": 29.7,
           "X": 28.73,
-          "2": 41.66
+          "2": 41.57
         },
         "recomendado": "2",
         "goles_esperados": {
@@ -12738,23 +12738,23 @@
         "local": "Deportivo",
         "visitante": "FC Badalona",
         "probabilidades": {
-          "1": 29.48,
-          "X": 25.44,
-          "2": 45.07
+          "1": 29.23,
+          "X": 24.33,
+          "2": 46.43
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 1.18,
-          "visitante": 1.51
+          "local": 1.25,
+          "visitante": 1.64
         }
       },
       {
         "local": "Deportivo",
         "visitante": "Granada",
         "probabilidades": {
-          "1": 33.99,
-          "X": 27.61,
-          "2": 38.4
+          "1": 34.02,
+          "X": 27.59,
+          "2": 38.39
         },
         "recomendado": "2",
         "goles_esperados": {
@@ -12766,37 +12766,37 @@
         "local": "Deportivo",
         "visitante": "Madrid CFF",
         "probabilidades": {
-          "1": 43.64,
-          "X": 23.4,
-          "2": 32.97
+          "1": 43.71,
+          "X": 23.41,
+          "2": 32.88
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 1.71,
-          "visitante": 1.46
+          "local": 1.7,
+          "visitante": 1.45
         }
       },
       {
         "local": "Deportivo",
         "visitante": "Real Madrid",
         "probabilidades": {
-          "1": 27.93,
-          "X": 22.5,
-          "2": 49.58
+          "1": 28.19,
+          "X": 22.59,
+          "2": 49.22
         },
         "recomendado": "2",
         "goles_esperados": {
           "local": 1.36,
-          "visitante": 1.88
+          "visitante": 1.86
         }
       },
       {
         "local": "Deportivo",
         "visitante": "Real Sociedad",
         "probabilidades": {
-          "1": 24.42,
-          "X": 27.84,
-          "2": 47.74
+          "1": 24.53,
+          "X": 27.85,
+          "2": 47.62
         },
         "recomendado": "2",
         "goles_esperados": {
@@ -12808,9 +12808,9 @@
         "local": "Deportivo",
         "visitante": "Sevilla",
         "probabilidades": {
-          "1": 22.61,
-          "X": 28.39,
-          "2": 49.0
+          "1": 22.75,
+          "X": 28.43,
+          "2": 48.82
         },
         "recomendado": "2",
         "goles_esperados": {
@@ -12822,23 +12822,23 @@
         "local": "Deportivo",
         "visitante": "Tenerife",
         "probabilidades": {
-          "1": 24.83,
-          "X": 23.14,
-          "2": 52.03
+          "1": 25.1,
+          "X": 23.27,
+          "2": 51.63
         },
         "recomendado": "2",
         "goles_esperados": {
           "local": 1.18,
-          "visitante": 1.8
+          "visitante": 1.79
         }
       },
       {
         "local": "Deportivo",
         "visitante": "Valencia",
         "probabilidades": {
-          "1": 40.78,
-          "X": 28.37,
-          "2": 30.86
+          "1": 40.72,
+          "X": 28.34,
+          "2": 30.94
         },
         "recomendado": "1",
         "goles_esperados": {
@@ -12850,83 +12850,83 @@
         "local": "Dux Logroño",
         "visitante": "Alavés",
         "probabilidades": {
-          "1": 43.26,
-          "X": 29.1,
-          "2": 27.64
+          "1": 43.0,
+          "X": 29.01,
+          "2": 27.99
         },
         "recomendado": "1",
         "goles_esperados": {
           "local": 1.23,
-          "visitante": 0.92
+          "visitante": 0.93
         }
       },
       {
         "local": "Dux Logroño",
         "visitante": "Athletic Club",
         "probabilidades": {
-          "1": 37.94,
-          "X": 27.78,
-          "2": 34.28
+          "1": 31.03,
+          "X": 25.87,
+          "2": 43.1
         },
-        "recomendado": "1",
+        "recomendado": "2",
         "goles_esperados": {
-          "local": 1.23,
-          "visitante": 1.15
+          "local": 1.19,
+          "visitante": 1.45
         }
       },
       {
         "local": "Dux Logroño",
         "visitante": "Atlético Madrid",
         "probabilidades": {
-          "1": 39.49,
-          "X": 22.74,
-          "2": 37.77
+          "1": 39.64,
+          "X": 22.78,
+          "2": 37.59
         },
         "recomendado": "1",
         "goles_esperados": {
           "local": 1.71,
-          "visitante": 1.67
+          "visitante": 1.66
         }
       },
       {
         "local": "Dux Logroño",
         "visitante": "Barcelona",
         "probabilidades": {
-          "1": 10.55,
-          "X": 15.92,
-          "2": 73.53
+          "1": 10.85,
+          "X": 16.21,
+          "2": 72.95
         },
         "recomendado": "2",
         "goles_esperados": {
           "local": 0.85,
-          "visitante": 2.51
+          "visitante": 2.47
         }
       },
       {
         "local": "Dux Logroño",
         "visitante": "Deportivo",
         "probabilidades": {
-          "1": 26.63,
-          "X": 24.69,
-          "2": 48.68
+          "1": 26.77,
+          "X": 24.72,
+          "2": 48.5
         },
         "recomendado": "2",
         "goles_esperados": {
           "local": 1.13,
-          "visitante": 1.62
+          "visitante": 1.61
         }
       },
       {
         "local": "Dux Logroño",
         "visitante": "Eibar",
         "probabilidades": {
-          "1": 31.97,
-          "X": 31.04,
-          "2": 36.99
+          "1": 34.28,
+          "X": 30.27,
+          "2": 35.45
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 0.94,
+          "local": 1.02,
           "visitante": 1.04
         }
       },
@@ -12934,9 +12934,9 @@
         "local": "Dux Logroño",
         "visitante": "Espanyol",
         "probabilidades": {
-          "1": 36.64,
-          "X": 27.21,
-          "2": 36.14
+          "1": 36.68,
+          "X": 27.22,
+          "2": 36.1
         },
         "recomendado": "1",
         "goles_esperados": {
@@ -12948,23 +12948,23 @@
         "local": "Dux Logroño",
         "visitante": "FC Badalona",
         "probabilidades": {
-          "1": 36.93,
-          "X": 24.35,
-          "2": 38.73
+          "1": 36.76,
+          "X": 23.41,
+          "2": 39.83
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 1.47,
-          "visitante": 1.51
+          "local": 1.56,
+          "visitante": 1.64
         }
       },
       {
         "local": "Dux Logroño",
         "visitante": "Granada",
         "probabilidades": {
-          "1": 41.82,
+          "1": 41.79,
           "X": 25.69,
-          "2": 32.49
+          "2": 32.53
         },
         "recomendado": "1",
         "goles_esperados": {
@@ -12977,40 +12977,40 @@
         "visitante": "Madrid CFF",
         "probabilidades": {
           "1": 53.21,
-          "X": 20.78,
-          "2": 26.01
+          "X": 20.8,
+          "2": 25.99
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 2.14,
-          "visitante": 1.46
+          "local": 2.13,
+          "visitante": 1.45
         }
       },
       {
         "local": "Dux Logroño",
         "visitante": "Real Madrid",
         "probabilidades": {
-          "1": 35.62,
-          "X": 21.92,
-          "2": 42.46
+          "1": 35.85,
+          "X": 21.98,
+          "2": 42.17
         },
         "recomendado": "2",
         "goles_esperados": {
           "local": 1.71,
-          "visitante": 1.88
+          "visitante": 1.86
         }
       },
       {
         "local": "Dux Logroño",
         "visitante": "Real Sociedad",
         "probabilidades": {
-          "1": 30.56,
-          "X": 27.03,
-          "2": 42.4
+          "1": 30.64,
+          "X": 27.04,
+          "2": 42.32
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 1.1,
+          "local": 1.11,
           "visitante": 1.35
         }
       },
@@ -13018,13 +13018,13 @@
         "local": "Dux Logroño",
         "visitante": "Sevilla",
         "probabilidades": {
-          "1": 28.32,
-          "X": 27.71,
-          "2": 43.98
+          "1": 28.43,
+          "X": 27.74,
+          "2": 43.83
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 1.0,
+          "local": 1.01,
           "visitante": 1.32
         }
       },
@@ -13032,23 +13032,23 @@
         "local": "Dux Logroño",
         "visitante": "Tenerife",
         "probabilidades": {
-          "1": 31.71,
-          "X": 22.81,
-          "2": 45.48
+          "1": 31.96,
+          "X": 22.91,
+          "2": 45.14
         },
         "recomendado": "2",
         "goles_esperados": {
           "local": 1.47,
-          "visitante": 1.8
+          "visitante": 1.79
         }
       },
       {
         "local": "Dux Logroño",
         "visitante": "Valencia",
         "probabilidades": {
-          "1": 49.23,
-          "X": 25.42,
-          "2": 25.35
+          "1": 49.1,
+          "X": 25.43,
+          "2": 25.47
         },
         "recomendado": "1",
         "goles_esperados": {
@@ -13060,93 +13060,93 @@
         "local": "Eibar",
         "visitante": "Alavés",
         "probabilidades": {
-          "1": 42.87,
-          "X": 27.71,
-          "2": 29.41
+          "1": 42.63,
+          "X": 27.64,
+          "2": 29.73
         },
         "recomendado": "1",
         "goles_esperados": {
           "local": 1.31,
-          "visitante": 1.03
+          "visitante": 1.05
         }
       },
       {
         "local": "Eibar",
         "visitante": "Athletic Club",
         "probabilidades": {
-          "1": 37.13,
-          "X": 26.35,
-          "2": 36.52
+          "1": 29.85,
+          "X": 24.32,
+          "2": 45.83
         },
-        "recomendado": "1",
+        "recomendado": "2",
         "goles_esperados": {
-          "local": 1.31,
-          "visitante": 1.3
+          "local": 1.27,
+          "visitante": 1.63
         }
       },
       {
         "local": "Eibar",
         "visitante": "Atlético Madrid",
         "probabilidades": {
-          "1": 38.13,
-          "X": 21.6,
-          "2": 40.27
+          "1": 38.35,
+          "X": 21.66,
+          "2": 39.99
         },
         "recomendado": "2",
         "goles_esperados": {
           "local": 1.82,
-          "visitante": 1.88
+          "visitante": 1.86
         }
       },
       {
         "local": "Eibar",
         "visitante": "Barcelona",
         "probabilidades": {
-          "1": 9.22,
-          "X": 13.78,
-          "2": 77.0
+          "1": 9.54,
+          "X": 14.11,
+          "2": 76.35
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 0.9,
-          "visitante": 2.82
+          "local": 0.91,
+          "visitante": 2.78
         }
       },
       {
         "local": "Eibar",
         "visitante": "Deportivo",
         "probabilidades": {
-          "1": 25.26,
-          "X": 22.96,
-          "2": 51.78
+          "1": 25.46,
+          "X": 23.04,
+          "2": 51.51
         },
         "recomendado": "2",
         "goles_esperados": {
           "local": 1.21,
-          "visitante": 1.82
+          "visitante": 1.81
         }
       },
       {
         "local": "Eibar",
         "visitante": "Dux Logroño",
         "probabilidades": {
-          "1": 34.51,
-          "X": 25.56,
-          "2": 39.93
+          "1": 32.07,
+          "X": 24.09,
+          "2": 43.84
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 1.31,
-          "visitante": 1.43
+          "local": 1.36,
+          "visitante": 1.63
         }
       },
       {
         "local": "Eibar",
         "visitante": "Espanyol",
         "probabilidades": {
-          "1": 35.72,
-          "X": 25.77,
-          "2": 38.51
+          "1": 35.8,
+          "X": 25.8,
+          "2": 38.4
         },
         "recomendado": "2",
         "goles_esperados": {
@@ -13158,23 +13158,23 @@
         "local": "Eibar",
         "visitante": "FC Badalona",
         "probabilidades": {
-          "1": 35.68,
-          "X": 23.06,
-          "2": 41.26
+          "1": 35.45,
+          "X": 22.18,
+          "2": 42.37
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 1.57,
-          "visitante": 1.71
+          "local": 1.67,
+          "visitante": 1.84
         }
       },
       {
         "local": "Eibar",
         "visitante": "Granada",
         "probabilidades": {
-          "1": 40.94,
-          "X": 24.46,
-          "2": 34.59
+          "1": 40.96,
+          "X": 24.48,
+          "2": 34.57
         },
         "recomendado": "1",
         "goles_esperados": {
@@ -13186,37 +13186,37 @@
         "local": "Eibar",
         "visitante": "Madrid CFF",
         "probabilidades": {
-          "1": 52.35,
-          "X": 19.99,
-          "2": 27.66
+          "1": 52.41,
+          "X": 20.02,
+          "2": 27.57
         },
         "recomendado": "1",
         "goles_esperados": {
           "local": 2.28,
-          "visitante": 1.64
+          "visitante": 1.63
         }
       },
       {
         "local": "Eibar",
         "visitante": "Real Madrid",
         "probabilidades": {
-          "1": 34.04,
-          "X": 20.69,
-          "2": 45.27
+          "1": 34.34,
+          "X": 20.79,
+          "2": 44.87
         },
         "recomendado": "2",
         "goles_esperados": {
           "local": 1.82,
-          "visitante": 2.11
+          "visitante": 2.09
         }
       },
       {
         "local": "Eibar",
         "visitante": "Real Sociedad",
         "probabilidades": {
-          "1": 29.45,
-          "X": 25.38,
-          "2": 45.17
+          "1": 29.58,
+          "X": 25.41,
+          "2": 45.01
         },
         "recomendado": "2",
         "goles_esperados": {
@@ -13228,41 +13228,41 @@
         "local": "Eibar",
         "visitante": "Sevilla",
         "probabilidades": {
-          "1": 27.23,
-          "X": 25.92,
-          "2": 46.85
+          "1": 27.4,
+          "X": 25.98,
+          "2": 46.62
         },
         "recomendado": "2",
         "goles_esperados": {
           "local": 1.07,
-          "visitante": 1.49
+          "visitante": 1.48
         }
       },
       {
         "local": "Eibar",
         "visitante": "Tenerife",
         "probabilidades": {
-          "1": 30.16,
-          "X": 21.4,
-          "2": 48.43
+          "1": 30.49,
+          "X": 21.53,
+          "2": 47.99
         },
         "recomendado": "2",
         "goles_esperados": {
           "local": 1.57,
-          "visitante": 2.03
+          "visitante": 2.01
         }
       },
       {
         "local": "Eibar",
         "visitante": "Valencia",
         "probabilidades": {
-          "1": 48.77,
-          "X": 24.31,
-          "2": 26.91
+          "1": 48.68,
+          "X": 24.33,
+          "2": 26.99
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 1.66,
+          "local": 1.65,
           "visitante": 1.17
         }
       },
@@ -13270,139 +13270,139 @@
         "local": "Espanyol",
         "visitante": "Alavés",
         "probabilidades": {
-          "1": 54.14,
-          "X": 25.8,
-          "2": 20.06
+          "1": 53.77,
+          "X": 25.78,
+          "2": 20.45
         },
         "recomendado": "1",
         "goles_esperados": {
           "local": 1.53,
-          "visitante": 0.82
+          "visitante": 0.84
         }
       },
       {
         "local": "Espanyol",
         "visitante": "Athletic Club",
         "probabilidades": {
-          "1": 48.96,
-          "X": 25.63,
-          "2": 25.42
+          "1": 41.59,
+          "X": 25.22,
+          "2": 33.19
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 1.53,
-          "visitante": 1.03
+          "local": 1.49,
+          "visitante": 1.3
         }
       },
       {
         "local": "Espanyol",
         "visitante": "Atlético Madrid",
         "probabilidades": {
-          "1": 52.44,
-          "X": 20.83,
-          "2": 26.74
+          "1": 52.39,
+          "X": 20.85,
+          "2": 26.76
         },
         "recomendado": "1",
         "goles_esperados": {
           "local": 2.13,
-          "visitante": 1.49
+          "visitante": 1.48
         }
       },
       {
         "local": "Espanyol",
         "visitante": "Barcelona",
         "probabilidades": {
-          "1": 16.71,
-          "X": 19.26,
-          "2": 64.02
+          "1": 16.97,
+          "X": 19.42,
+          "2": 63.6
         },
         "recomendado": "2",
         "goles_esperados": {
           "local": 1.06,
-          "visitante": 2.24
+          "visitante": 2.22
         }
       },
       {
         "local": "Espanyol",
         "visitante": "Deportivo",
         "probabilidades": {
-          "1": 36.8,
-          "X": 24.99,
-          "2": 38.21
+          "1": 36.81,
+          "X": 24.97,
+          "2": 38.23
         },
         "recomendado": "2",
         "goles_esperados": {
           "local": 1.41,
-          "visitante": 1.44
+          "visitante": 1.45
         }
       },
       {
         "local": "Espanyol",
         "visitante": "Dux Logroño",
         "probabilidades": {
-          "1": 46.51,
-          "X": 25.42,
-          "2": 28.07
+          "1": 44.25,
+          "X": 24.51,
+          "2": 31.24
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 1.53,
-          "visitante": 1.13
+          "local": 1.59,
+          "visitante": 1.3
         }
       },
       {
         "local": "Espanyol",
         "visitante": "Eibar",
         "probabilidades": {
-          "1": 41.56,
-          "X": 29.67,
-          "2": 28.77
+          "1": 44.19,
+          "X": 28.52,
+          "2": 27.29
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 1.17,
-          "visitante": 0.92
+          "local": 1.27,
+          "visitante": 0.94
         }
       },
       {
         "local": "Espanyol",
         "visitante": "FC Badalona",
         "probabilidades": {
-          "1": 48.99,
-          "X": 22.75,
-          "2": 28.26
+          "1": 49.0,
+          "X": 21.93,
+          "2": 29.07
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 1.84,
-          "visitante": 1.35
+          "local": 1.95,
+          "visitante": 1.47
         }
       },
       {
         "local": "Espanyol",
         "visitante": "Granada",
         "probabilidades": {
-          "1": 53.69,
-          "X": 23.06,
-          "2": 23.25
+          "1": 53.5,
+          "X": 23.08,
+          "2": 23.42
         },
         "recomendado": "1",
         "goles_esperados": {
           "local": 1.81,
-          "visitante": 1.11
+          "visitante": 1.12
         }
       },
       {
         "local": "Espanyol",
         "visitante": "Madrid CFF",
         "probabilidades": {
-          "1": 66.56,
-          "X": 16.86,
-          "2": 16.58
+          "1": 66.38,
+          "X": 16.93,
+          "2": 16.7
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 2.67,
+          "local": 2.66,
           "visitante": 1.3
         }
       },
@@ -13410,9 +13410,9 @@
         "local": "Espanyol",
         "visitante": "Real Madrid",
         "probabilidades": {
-          "1": 48.59,
-          "X": 20.78,
-          "2": 30.63
+          "1": 48.62,
+          "X": 20.8,
+          "2": 30.58
         },
         "recomendado": "1",
         "goles_esperados": {
@@ -13424,9 +13424,9 @@
         "local": "Espanyol",
         "visitante": "Real Sociedad",
         "probabilidades": {
-          "1": 40.88,
-          "X": 26.37,
-          "2": 32.76
+          "1": 40.82,
+          "X": 26.34,
+          "2": 32.85
         },
         "recomendado": "1",
         "goles_esperados": {
@@ -13438,9 +13438,9 @@
         "local": "Espanyol",
         "visitante": "Sevilla",
         "probabilidades": {
-          "1": 38.04,
-          "X": 27.41,
-          "2": 34.56
+          "1": 38.02,
+          "X": 27.39,
+          "2": 34.59
         },
         "recomendado": "1",
         "goles_esperados": {
@@ -13452,27 +13452,27 @@
         "local": "Espanyol",
         "visitante": "Tenerife",
         "probabilidades": {
-          "1": 43.65,
-          "X": 22.32,
-          "2": 34.03
+          "1": 43.72,
+          "X": 22.35,
+          "2": 33.92
         },
         "recomendado": "1",
         "goles_esperados": {
           "local": 1.84,
-          "visitante": 1.61
+          "visitante": 1.6
         }
       },
       {
         "local": "Espanyol",
         "visitante": "Valencia",
         "probabilidades": {
-          "1": 61.04,
-          "X": 21.56,
-          "2": 17.4
+          "1": 60.78,
+          "X": 21.61,
+          "2": 17.61
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 1.94,
+          "local": 1.93,
           "visitante": 0.93
         }
       },
@@ -13480,107 +13480,107 @@
         "local": "FC Badalona",
         "visitante": "Alavés",
         "probabilidades": {
-          "1": 25.67,
-          "X": 31.07,
-          "2": 43.26
+          "1": 25.58,
+          "X": 30.81,
+          "2": 43.61
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 0.79,
-          "visitante": 1.12
+          "local": 0.8,
+          "visitante": 1.14
         }
       },
       {
         "local": "FC Badalona",
         "visitante": "Athletic Club",
         "probabilidades": {
-          "1": 21.07,
-          "X": 27.35,
-          "2": 51.58
+          "1": 15.89,
+          "X": 22.85,
+          "2": 61.26
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 0.79,
-          "visitante": 1.41
+          "local": 0.77,
+          "visitante": 1.77
         }
       },
       {
         "local": "FC Badalona",
         "visitante": "Atlético Madrid",
         "probabilidades": {
-          "1": 19.94,
-          "X": 21.09,
-          "2": 58.97
+          "1": 20.21,
+          "X": 21.2,
+          "2": 58.59
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 1.1,
-          "visitante": 2.04
+          "local": 1.11,
+          "visitante": 2.02
         }
       },
       {
         "local": "FC Badalona",
         "visitante": "Barcelona",
         "probabilidades": {
-          "1": 3.91,
-          "X": 9.52,
-          "2": 86.57
+          "1": 4.09,
+          "X": 9.81,
+          "2": 86.1
         },
         "recomendado": "2",
         "goles_esperados": {
           "local": 0.55,
-          "visitante": 3.06
+          "visitante": 3.02
         }
       },
       {
         "local": "FC Badalona",
         "visitante": "Deportivo",
         "probabilidades": {
-          "1": 12.86,
-          "X": 20.38,
-          "2": 66.76
+          "1": 13.04,
+          "X": 20.47,
+          "2": 66.49
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 0.73,
-          "visitante": 1.98
+          "local": 0.74,
+          "visitante": 1.97
         }
       },
       {
         "local": "FC Badalona",
         "visitante": "Dux Logroño",
         "probabilidades": {
-          "1": 19.08,
-          "X": 25.57,
-          "2": 55.35
+          "1": 17.16,
+          "X": 23.01,
+          "2": 59.83
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 0.79,
-          "visitante": 1.55
+          "local": 0.83,
+          "visitante": 1.77
         }
       },
       {
         "local": "FC Badalona",
         "visitante": "Eibar",
         "probabilidades": {
-          "1": 17.81,
-          "X": 29.66,
-          "2": 52.52
+          "1": 19.34,
+          "X": 29.4,
+          "2": 51.26
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 0.61,
-          "visitante": 1.27
+          "local": 0.66,
+          "visitante": 1.28
         }
       },
       {
         "local": "FC Badalona",
         "visitante": "Espanyol",
         "probabilidades": {
-          "1": 19.94,
-          "X": 26.17,
-          "2": 53.89
+          "1": 20.1,
+          "X": 26.18,
+          "2": 53.72
         },
         "recomendado": "2",
         "goles_esperados": {
@@ -13592,55 +13592,55 @@
         "local": "FC Badalona",
         "visitante": "Granada",
         "probabilidades": {
-          "1": 23.14,
-          "X": 25.84,
-          "2": 51.02
+          "1": 23.27,
+          "X": 25.82,
+          "2": 50.92
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 0.93,
-          "visitante": 1.52
+          "local": 0.94,
+          "visitante": 1.53
         }
       },
       {
         "local": "FC Badalona",
         "visitante": "Madrid CFF",
         "probabilidades": {
-          "1": 29.87,
-          "X": 23.11,
-          "2": 47.02
+          "1": 30.09,
+          "X": 23.13,
+          "2": 46.78
         },
         "recomendado": "2",
         "goles_esperados": {
           "local": 1.38,
-          "visitante": 1.78
+          "visitante": 1.77
         }
       },
       {
         "local": "FC Badalona",
         "visitante": "Real Madrid",
         "probabilidades": {
-          "1": 16.95,
-          "X": 18.95,
-          "2": 64.1
+          "1": 17.26,
+          "X": 19.11,
+          "2": 63.63
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 1.1,
-          "visitante": 2.29
+          "local": 1.11,
+          "visitante": 2.27
         }
       },
       {
         "local": "FC Badalona",
         "visitante": "Real Sociedad",
         "probabilidades": {
-          "1": 15.85,
-          "X": 24.18,
-          "2": 59.97
+          "1": 16.01,
+          "X": 24.22,
+          "2": 59.77
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 0.71,
+          "local": 0.72,
           "visitante": 1.65
         }
       },
@@ -13648,41 +13648,41 @@
         "local": "FC Badalona",
         "visitante": "Sevilla",
         "probabilidades": {
-          "1": 14.65,
-          "X": 24.45,
-          "2": 60.9
+          "1": 14.83,
+          "X": 24.52,
+          "2": 60.64
         },
         "recomendado": "2",
         "goles_esperados": {
           "local": 0.65,
-          "visitante": 1.62
+          "visitante": 1.61
         }
       },
       {
         "local": "FC Badalona",
         "visitante": "Tenerife",
         "probabilidades": {
-          "1": 15.04,
-          "X": 19.15,
-          "2": 65.81
+          "1": 15.34,
+          "X": 19.35,
+          "2": 65.31
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 0.95,
-          "visitante": 2.2
+          "local": 0.96,
+          "visitante": 2.18
         }
       },
       {
         "local": "FC Badalona",
         "visitante": "Valencia",
         "probabilidades": {
-          "1": 29.24,
-          "X": 28.27,
-          "2": 42.49
+          "1": 29.3,
+          "X": 28.2,
+          "2": 42.5
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 1.0,
+          "local": 1.01,
           "visitante": 1.27
         }
       },
@@ -13690,37 +13690,37 @@
         "local": "Granada",
         "visitante": "Alavés",
         "probabilidades": {
-          "1": 39.58,
-          "X": 31.03,
-          "2": 29.39
+          "1": 39.33,
+          "X": 30.87,
+          "2": 29.8
         },
         "recomendado": "1",
         "goles_esperados": {
           "local": 1.08,
-          "visitante": 0.88
+          "visitante": 0.9
         }
       },
       {
         "local": "Granada",
         "visitante": "Athletic Club",
         "probabilidades": {
-          "1": 34.59,
-          "X": 29.26,
-          "2": 36.15
+          "1": 28.15,
+          "X": 26.82,
+          "2": 45.03
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 1.08,
-          "visitante": 1.11
+          "local": 1.05,
+          "visitante": 1.4
         }
       },
       {
         "local": "Granada",
         "visitante": "Atlético Madrid",
         "probabilidades": {
-          "1": 35.84,
-          "X": 23.82,
-          "2": 40.35
+          "1": 35.95,
+          "X": 23.84,
+          "2": 40.22
         },
         "recomendado": "2",
         "goles_esperados": {
@@ -13732,27 +13732,27 @@
         "local": "Granada",
         "visitante": "Barcelona",
         "probabilidades": {
-          "1": 9.59,
-          "X": 16.11,
-          "2": 74.3
+          "1": 9.83,
+          "X": 16.35,
+          "2": 73.82
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 0.74,
-          "visitante": 2.41
+          "local": 0.75,
+          "visitante": 2.39
         }
       },
       {
         "local": "Granada",
         "visitante": "Deportivo",
         "probabilidades": {
-          "1": 24.14,
+          "1": 24.25,
           "X": 25.44,
-          "2": 50.41
+          "2": 50.31
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 0.99,
+          "local": 1.0,
           "visitante": 1.56
         }
       },
@@ -13760,37 +13760,37 @@
         "local": "Granada",
         "visitante": "Dux Logroño",
         "probabilidades": {
-          "1": 32.31,
-          "X": 28.31,
-          "2": 39.38
+          "1": 30.16,
+          "X": 26.55,
+          "2": 43.29
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 1.08,
-          "visitante": 1.22
+          "local": 1.12,
+          "visitante": 1.4
         }
       },
       {
         "local": "Granada",
         "visitante": "Eibar",
         "probabilidades": {
-          "1": 29.11,
-          "X": 32.5,
-          "2": 38.39
+          "1": 31.22,
+          "X": 31.73,
+          "2": 37.05
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 0.82,
-          "visitante": 1.0
+          "local": 0.9,
+          "visitante": 1.01
         }
       },
       {
         "local": "Granada",
         "visitante": "Espanyol",
         "probabilidades": {
-          "1": 33.37,
-          "X": 28.57,
-          "2": 38.06
+          "1": 33.39,
+          "X": 28.53,
+          "2": 38.07
         },
         "recomendado": "2",
         "goles_esperados": {
@@ -13802,23 +13802,23 @@
         "local": "Granada",
         "visitante": "FC Badalona",
         "probabilidades": {
-          "1": 33.54,
-          "X": 25.45,
-          "2": 41.01
+          "1": 33.32,
+          "X": 24.39,
+          "2": 42.3
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 1.29,
-          "visitante": 1.46
+          "local": 1.37,
+          "visitante": 1.58
         }
       },
       {
         "local": "Granada",
         "visitante": "Madrid CFF",
         "probabilidades": {
-          "1": 48.74,
-          "X": 22.46,
-          "2": 28.8
+          "1": 48.72,
+          "X": 22.47,
+          "2": 28.81
         },
         "recomendado": "1",
         "goles_esperados": {
@@ -13830,23 +13830,23 @@
         "local": "Granada",
         "visitante": "Real Madrid",
         "probabilidades": {
-          "1": 32.2,
-          "X": 22.75,
-          "2": 45.05
+          "1": 32.39,
+          "X": 22.8,
+          "2": 44.82
         },
         "recomendado": "2",
         "goles_esperados": {
           "local": 1.5,
-          "visitante": 1.8
+          "visitante": 1.79
         }
       },
       {
         "local": "Granada",
         "visitante": "Real Sociedad",
         "probabilidades": {
-          "1": 27.78,
-          "X": 28.1,
-          "2": 44.12
+          "1": 27.83,
+          "X": 28.06,
+          "2": 44.11
         },
         "recomendado": "2",
         "goles_esperados": {
@@ -13858,9 +13858,9 @@
         "local": "Granada",
         "visitante": "Sevilla",
         "probabilidades": {
-          "1": 25.73,
-          "X": 28.75,
-          "2": 45.51
+          "1": 25.82,
+          "X": 28.74,
+          "2": 45.44
         },
         "recomendado": "2",
         "goles_esperados": {
@@ -13872,23 +13872,23 @@
         "local": "Granada",
         "visitante": "Tenerife",
         "probabilidades": {
-          "1": 28.68,
-          "X": 23.57,
-          "2": 47.75
+          "1": 28.88,
+          "X": 23.64,
+          "2": 47.48
         },
         "recomendado": "2",
         "goles_esperados": {
           "local": 1.29,
-          "visitante": 1.73
+          "visitante": 1.72
         }
       },
       {
         "local": "Granada",
         "visitante": "Valencia",
         "probabilidades": {
-          "1": 45.16,
-          "X": 27.36,
-          "2": 27.48
+          "1": 45.04,
+          "X": 27.33,
+          "2": 27.64
         },
         "recomendado": "1",
         "goles_esperados": {
@@ -13900,737 +13900,737 @@
         "local": "Madrid CFF",
         "visitante": "Alavés",
         "probabilidades": {
-          "1": 57.51,
-          "X": 25.71,
-          "2": 16.78
+          "1": 54.9,
+          "X": 25.48,
+          "2": 19.63
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 1.53,
-          "visitante": 0.69
+          "local": 1.56,
+          "visitante": 0.82
         }
       },
       {
         "local": "Madrid CFF",
         "visitante": "Athletic Club",
         "probabilidades": {
-          "1": 52.9,
-          "X": 25.79,
-          "2": 21.31
+          "1": 42.83,
+          "X": 25.16,
+          "2": 32.01
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 1.53,
-          "visitante": 0.87
+          "local": 1.51,
+          "visitante": 1.27
         }
       },
       {
         "local": "Madrid CFF",
         "visitante": "Atlético Madrid",
         "probabilidades": {
-          "1": 57.44,
+          "1": 53.81,
           "X": 20.62,
-          "2": 21.95
+          "2": 25.57
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 2.13,
-          "visitante": 1.26
+          "local": 2.16,
+          "visitante": 1.45
         }
       },
       {
         "local": "Madrid CFF",
         "visitante": "Barcelona",
         "probabilidades": {
-          "1": 20.88,
-          "X": 22.31,
-          "2": 56.81
+          "1": 17.87,
+          "X": 19.9,
+          "2": 62.24
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 1.06,
-          "visitante": 1.89
+          "local": 1.08,
+          "visitante": 2.17
         }
       },
       {
         "local": "Madrid CFF",
         "visitante": "Deportivo",
         "probabilidades": {
-          "1": 41.46,
-          "X": 26.06,
-          "2": 32.48
+          "1": 38.03,
+          "X": 25.01,
+          "2": 36.96
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 1.41,
-          "visitante": 1.22
-        }
-      },
-      {
-        "local": "Madrid CFF",
-        "visitante": "Dux Logroño",
-        "probabilidades": {
-          "1": 50.7,
-          "X": 25.73,
-          "2": 23.57
-        },
-        "recomendado": "1",
-        "goles_esperados": {
-          "local": 1.53,
-          "visitante": 0.96
-        }
-      },
-      {
-        "local": "Madrid CFF",
-        "visitante": "Eibar",
-        "probabilidades": {
-          "1": 45.09,
-          "X": 30.45,
-          "2": 24.46
-        },
-        "recomendado": "1",
-        "goles_esperados": {
-          "local": 1.17,
-          "visitante": 0.78
-        }
-      },
-      {
-        "local": "Madrid CFF",
-        "visitante": "Espanyol",
-        "probabilidades": {
-          "1": 51.82,
-          "X": 25.6,
-          "2": 22.58
-        },
-        "recomendado": "1",
-        "goles_esperados": {
-          "local": 1.55,
-          "visitante": 0.93
-        }
-      },
-      {
-        "local": "Madrid CFF",
-        "visitante": "FC Badalona",
-        "probabilidades": {
-          "1": 53.71,
-          "X": 22.81,
-          "2": 23.48
-        },
-        "recomendado": "1",
-        "goles_esperados": {
-          "local": 1.84,
-          "visitante": 1.14
-        }
-      },
-      {
-        "local": "Madrid CFF",
-        "visitante": "Granada",
-        "probabilidades": {
-          "1": 57.84,
-          "X": 22.88,
-          "2": 19.28
-        },
-        "recomendado": "1",
-        "goles_esperados": {
-          "local": 1.81,
-          "visitante": 0.94
-        }
-      },
-      {
-        "local": "Madrid CFF",
-        "visitante": "Real Madrid",
-        "probabilidades": {
-          "1": 53.98,
-          "X": 20.79,
-          "2": 25.22
-        },
-        "recomendado": "1",
-        "goles_esperados": {
-          "local": 2.13,
+          "local": 1.44,
           "visitante": 1.41
         }
       },
       {
         "local": "Madrid CFF",
-        "visitante": "Real Sociedad",
+        "visitante": "Dux Logroño",
         "probabilidades": {
-          "1": 45.13,
-          "X": 27.12,
-          "2": 27.74
+          "1": 45.52,
+          "X": 24.4,
+          "2": 30.08
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 1.38,
-          "visitante": 1.02
+          "local": 1.62,
+          "visitante": 1.27
+        }
+      },
+      {
+        "local": "Madrid CFF",
+        "visitante": "Eibar",
+        "probabilidades": {
+          "1": 45.29,
+          "X": 28.38,
+          "2": 26.33
+        },
+        "recomendado": "1",
+        "goles_esperados": {
+          "local": 1.29,
+          "visitante": 0.91
+        }
+      },
+      {
+        "local": "Madrid CFF",
+        "visitante": "Espanyol",
+        "probabilidades": {
+          "1": 48.82,
+          "X": 25.18,
+          "2": 26.0
+        },
+        "recomendado": "1",
+        "goles_esperados": {
+          "local": 1.57,
+          "visitante": 1.08
+        }
+      },
+      {
+        "local": "Madrid CFF",
+        "visitante": "FC Badalona",
+        "probabilidades": {
+          "1": 50.39,
+          "X": 21.75,
+          "2": 27.85
+        },
+        "recomendado": "1",
+        "goles_esperados": {
+          "local": 1.98,
+          "visitante": 1.43
+        }
+      },
+      {
+        "local": "Madrid CFF",
+        "visitante": "Granada",
+        "probabilidades": {
+          "1": 54.77,
+          "X": 22.8,
+          "2": 22.43
+        },
+        "recomendado": "1",
+        "goles_esperados": {
+          "local": 1.84,
+          "visitante": 1.09
+        }
+      },
+      {
+        "local": "Madrid CFF",
+        "visitante": "Real Madrid",
+        "probabilidades": {
+          "1": 50.09,
+          "X": 20.64,
+          "2": 29.27
+        },
+        "recomendado": "1",
+        "goles_esperados": {
+          "local": 2.16,
+          "visitante": 1.63
+        }
+      },
+      {
+        "local": "Madrid CFF",
+        "visitante": "Real Sociedad",
+        "probabilidades": {
+          "1": 42.0,
+          "X": 26.28,
+          "2": 31.71
+        },
+        "recomendado": "1",
+        "goles_esperados": {
+          "local": 1.4,
+          "visitante": 1.18
         }
       },
       {
         "local": "Madrid CFF",
         "visitante": "Sevilla",
         "probabilidades": {
-          "1": 42.14,
-          "X": 28.43,
-          "2": 29.43
+          "1": 39.16,
+          "X": 27.38,
+          "2": 33.46
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 1.25,
-          "visitante": 1.0
+          "local": 1.28,
+          "visitante": 1.16
         }
       },
       {
         "local": "Madrid CFF",
         "visitante": "Tenerife",
         "probabilidades": {
-          "1": 48.86,
-          "X": 22.74,
-          "2": 28.4
+          "1": 45.12,
+          "X": 22.27,
+          "2": 32.61
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 1.84,
-          "visitante": 1.36
+          "local": 1.87,
+          "visitante": 1.56
         }
       },
       {
         "local": "Madrid CFF",
         "visitante": "Valencia",
         "probabilidades": {
-          "1": 64.61,
-          "X": 21.05,
-          "2": 14.34
+          "1": 61.96,
+          "X": 21.24,
+          "2": 16.8
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 1.94,
-          "visitante": 0.78
+          "local": 1.97,
+          "visitante": 0.91
         }
       },
       {
         "local": "Real Madrid",
         "visitante": "Alavés",
         "probabilidades": {
-          "1": 60.76,
-          "X": 22.65,
-          "2": 16.6
+          "1": 59.8,
+          "X": 22.07,
+          "2": 18.13
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 1.81,
-          "visitante": 0.82
+          "local": 1.89,
+          "visitante": 0.93
         }
       },
       {
         "local": "Real Madrid",
         "visitante": "Athletic Club",
         "probabilidades": {
-          "1": 55.61,
-          "X": 23.04,
-          "2": 21.36
+          "1": 46.62,
+          "X": 22.67,
+          "2": 30.7
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 1.81,
-          "visitante": 1.03
+          "local": 1.83,
+          "visitante": 1.45
         }
       },
       {
         "local": "Real Madrid",
         "visitante": "Atlético Madrid",
         "probabilidades": {
-          "1": 59.91,
-          "X": 18.45,
-          "2": 21.64
+          "1": 58.45,
+          "X": 18.14,
+          "2": 23.41
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 2.51,
-          "visitante": 1.49
+          "local": 2.62,
+          "visitante": 1.66
         }
       },
       {
         "local": "Real Madrid",
         "visitante": "Barcelona",
         "probabilidades": {
-          "1": 20.4,
-          "X": 19.81,
-          "2": 59.79
+          "1": 18.74,
+          "X": 18.24,
+          "2": 63.02
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 1.24,
-          "visitante": 2.24
+          "local": 1.3,
+          "visitante": 2.47
         }
       },
       {
         "local": "Real Madrid",
         "visitante": "Deportivo",
         "probabilidades": {
-          "1": 42.94,
-          "X": 23.67,
-          "2": 33.4
+          "1": 41.31,
+          "X": 22.76,
+          "2": 35.93
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 1.66,
-          "visitante": 1.44
-        }
-      },
-      {
-        "local": "Real Madrid",
-        "visitante": "Dux Logroño",
-        "probabilidades": {
-          "1": 53.14,
-          "X": 23.1,
-          "2": 23.76
-        },
-        "recomendado": "1",
-        "goles_esperados": {
-          "local": 1.81,
-          "visitante": 1.13
-        }
-      },
-      {
-        "local": "Real Madrid",
-        "visitante": "Eibar",
-        "probabilidades": {
-          "1": 47.53,
-          "X": 27.38,
-          "2": 25.09
-        },
-        "recomendado": "1",
-        "goles_esperados": {
-          "local": 1.38,
-          "visitante": 0.92
-        }
-      },
-      {
-        "local": "Real Madrid",
-        "visitante": "Espanyol",
-        "probabilidades": {
-          "1": 54.38,
-          "X": 22.93,
-          "2": 22.69
-        },
-        "recomendado": "1",
-        "goles_esperados": {
-          "local": 1.82,
-          "visitante": 1.1
-        }
-      },
-      {
-        "local": "Real Madrid",
-        "visitante": "FC Badalona",
-        "probabilidades": {
-          "1": 56.09,
-          "X": 20.49,
-          "2": 23.42
-        },
-        "recomendado": "1",
-        "goles_esperados": {
-          "local": 2.17,
-          "visitante": 1.35
-        }
-      },
-      {
-        "local": "Real Madrid",
-        "visitante": "Granada",
-        "probabilidades": {
-          "1": 60.69,
-          "X": 20.31,
-          "2": 19.0
-        },
-        "recomendado": "1",
-        "goles_esperados": {
-          "local": 2.13,
-          "visitante": 1.11
-        }
-      },
-      {
-        "local": "Real Madrid",
-        "visitante": "Madrid CFF",
-        "probabilidades": {
-          "1": 73.83,
-          "X": 13.77,
-          "2": 12.39
-        },
-        "recomendado": "1",
-        "goles_esperados": {
-          "local": 3.15,
-          "visitante": 1.3
-        }
-      },
-      {
-        "local": "Real Madrid",
-        "visitante": "Real Sociedad",
-        "probabilidades": {
-          "1": 47.14,
-          "X": 24.51,
-          "2": 28.35
-        },
-        "recomendado": "1",
-        "goles_esperados": {
-          "local": 1.62,
-          "visitante": 1.21
-        }
-      },
-      {
-        "local": "Real Madrid",
-        "visitante": "Sevilla",
-        "probabilidades": {
-          "1": 43.98,
-          "X": 25.72,
-          "2": 30.3
-        },
-        "recomendado": "1",
-        "goles_esperados": {
-          "local": 1.48,
-          "visitante": 1.18
-        }
-      },
-      {
-        "local": "Real Madrid",
-        "visitante": "Tenerife",
-        "probabilidades": {
-          "1": 50.71,
-          "X": 20.61,
-          "2": 28.68
-        },
-        "recomendado": "1",
-        "goles_esperados": {
-          "local": 2.17,
+          "local": 1.74,
           "visitante": 1.61
         }
       },
       {
         "local": "Real Madrid",
-        "visitante": "Valencia",
+        "visitante": "Dux Logroño",
         "probabilidades": {
-          "1": 67.92,
-          "X": 18.3,
-          "2": 13.78
+          "1": 49.55,
+          "X": 21.88,
+          "2": 28.57
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 2.28,
-          "visitante": 0.93
+          "local": 1.96,
+          "visitante": 1.45
+        }
+      },
+      {
+        "local": "Real Madrid",
+        "visitante": "Eibar",
+        "probabilidades": {
+          "1": 49.5,
+          "X": 25.26,
+          "2": 25.24
+        },
+        "recomendado": "1",
+        "goles_esperados": {
+          "local": 1.57,
+          "visitante": 1.04
+        }
+      },
+      {
+        "local": "Real Madrid",
+        "visitante": "Espanyol",
+        "probabilidades": {
+          "1": 53.18,
+          "X": 22.33,
+          "2": 24.49
+        },
+        "recomendado": "1",
+        "goles_esperados": {
+          "local": 1.9,
+          "visitante": 1.23
+        }
+      },
+      {
+        "local": "Real Madrid",
+        "visitante": "FC Badalona",
+        "probabilidades": {
+          "1": 54.79,
+          "X": 19.32,
+          "2": 25.89
+        },
+        "recomendado": "1",
+        "goles_esperados": {
+          "local": 2.4,
+          "visitante": 1.64
+        }
+      },
+      {
+        "local": "Real Madrid",
+        "visitante": "Granada",
+        "probabilidades": {
+          "1": 59.52,
+          "X": 19.89,
+          "2": 20.59
+        },
+        "recomendado": "1",
+        "goles_esperados": {
+          "local": 2.23,
+          "visitante": 1.25
+        }
+      },
+      {
+        "local": "Real Madrid",
+        "visitante": "Madrid CFF",
+        "probabilidades": {
+          "1": 72.85,
+          "X": 13.69,
+          "2": 13.46
+        },
+        "recomendado": "1",
+        "goles_esperados": {
+          "local": 3.28,
+          "visitante": 1.45
+        }
+      },
+      {
+        "local": "Real Madrid",
+        "visitante": "Real Sociedad",
+        "probabilidades": {
+          "1": 45.75,
+          "X": 23.68,
+          "2": 30.56
+        },
+        "recomendado": "1",
+        "goles_esperados": {
+          "local": 1.7,
+          "visitante": 1.35
+        }
+      },
+      {
+        "local": "Real Madrid",
+        "visitante": "Sevilla",
+        "probabilidades": {
+          "1": 42.65,
+          "X": 24.77,
+          "2": 32.58
+        },
+        "recomendado": "1",
+        "goles_esperados": {
+          "local": 1.55,
+          "visitante": 1.32
+        }
+      },
+      {
+        "local": "Real Madrid",
+        "visitante": "Tenerife",
+        "probabilidades": {
+          "1": 49.06,
+          "X": 20.07,
+          "2": 30.87
+        },
+        "recomendado": "1",
+        "goles_esperados": {
+          "local": 2.26,
+          "visitante": 1.79
+        }
+      },
+      {
+        "local": "Real Madrid",
+        "visitante": "Valencia",
+        "probabilidades": {
+          "1": 67.08,
+          "X": 17.98,
+          "2": 14.94
+        },
+        "recomendado": "1",
+        "goles_esperados": {
+          "local": 2.38,
+          "visitante": 1.04
         }
       },
       {
         "local": "Real Sociedad",
         "visitante": "Alavés",
         "probabilidades": {
-          "1": 43.05,
-          "X": 27.18,
-          "2": 29.77
+          "1": 38.79,
+          "X": 26.78,
+          "2": 34.43
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 1.35,
-          "visitante": 1.07
+          "local": 1.31,
+          "visitante": 1.22
         }
       },
       {
         "local": "Real Sociedad",
         "visitante": "Athletic Club",
         "probabilidades": {
-          "1": 37.15,
-          "X": 25.84,
-          "2": 37.01
+          "1": 25.54,
+          "X": 22.36,
+          "2": 52.1
         },
-        "recomendado": "1",
+        "recomendado": "2",
         "goles_esperados": {
-          "local": 1.35,
-          "visitante": 1.35
+          "local": 1.27,
+          "visitante": 1.9
         }
       },
       {
         "local": "Real Sociedad",
         "visitante": "Atlético Madrid",
         "probabilidades": {
-          "1": 38.02,
-          "X": 21.2,
-          "2": 40.78
+          "1": 33.08,
+          "X": 20.46,
+          "2": 46.46
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 1.88,
-          "visitante": 1.95
+          "local": 1.82,
+          "visitante": 2.17
         }
       },
       {
         "local": "Real Sociedad",
         "visitante": "Barcelona",
         "probabilidades": {
-          "1": 8.91,
-          "X": 13.17,
-          "2": 77.92
+          "1": 6.93,
+          "X": 11.0,
+          "2": 82.07
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 0.93,
-          "visitante": 2.93
+          "local": 0.91,
+          "visitante": 3.24
         }
       },
       {
         "local": "Real Sociedad",
         "visitante": "Deportivo",
         "probabilidades": {
-          "1": 25.04,
-          "X": 22.42,
-          "2": 52.53
+          "1": 21.27,
+          "X": 20.69,
+          "2": 58.04
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 1.24,
-          "visitante": 1.89
+          "local": 1.21,
+          "visitante": 2.11
         }
       },
       {
         "local": "Real Sociedad",
         "visitante": "Dux Logroño",
         "probabilidades": {
-          "1": 34.47,
-          "X": 25.05,
-          "2": 40.48
+          "1": 27.58,
+          "X": 22.33,
+          "2": 50.09
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 1.35,
-          "visitante": 1.48
+          "local": 1.36,
+          "visitante": 1.9
         }
       },
       {
         "local": "Real Sociedad",
         "visitante": "Eibar",
         "probabilidades": {
-          "1": 31.28,
-          "X": 28.64,
-          "2": 40.08
+          "1": 29.9,
+          "X": 26.98,
+          "2": 43.12
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 1.03,
-          "visitante": 1.21
+          "local": 1.09,
+          "visitante": 1.37
         }
       },
       {
         "local": "Real Sociedad",
         "visitante": "Espanyol",
         "probabilidades": {
-          "1": 35.7,
-          "X": 25.27,
-          "2": 39.04
+          "1": 31.53,
+          "X": 24.37,
+          "2": 44.1
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 1.36,
-          "visitante": 1.44
+          "local": 1.32,
+          "visitante": 1.61
         }
       },
       {
         "local": "Real Sociedad",
         "visitante": "FC Badalona",
         "probabilidades": {
-          "1": 35.58,
-          "X": 22.61,
-          "2": 41.81
+          "1": 30.39,
+          "X": 20.73,
+          "2": 48.88
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 1.62,
-          "visitante": 1.77
+          "local": 1.67,
+          "visitante": 2.14
         }
       },
       {
         "local": "Real Sociedad",
         "visitante": "Granada",
         "probabilidades": {
-          "1": 40.97,
-          "X": 24.01,
-          "2": 35.02
+          "1": 36.39,
+          "X": 23.49,
+          "2": 40.11
         },
-        "recomendado": "1",
+        "recomendado": "2",
         "goles_esperados": {
-          "local": 1.59,
-          "visitante": 1.46
+          "local": 1.55,
+          "visitante": 1.63
         }
       },
       {
         "local": "Real Sociedad",
         "visitante": "Madrid CFF",
         "probabilidades": {
-          "1": 52.46,
-          "X": 19.64,
-          "2": 27.9
+          "1": 47.13,
+          "X": 19.92,
+          "2": 32.95
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 2.35,
-          "visitante": 1.7
+          "local": 2.28,
+          "visitante": 1.9
         }
       },
       {
         "local": "Real Sociedad",
         "visitante": "Real Madrid",
         "probabilidades": {
-          "1": 33.84,
-          "X": 20.28,
-          "2": 45.87
+          "1": 28.97,
+          "X": 19.25,
+          "2": 51.78
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 1.88,
-          "visitante": 2.19
+          "local": 1.82,
+          "visitante": 2.44
         }
       },
       {
         "local": "Real Sociedad",
         "visitante": "Sevilla",
         "probabilidades": {
-          "1": 27.11,
-          "X": 25.34,
-          "2": 47.55
+          "1": 23.53,
+          "X": 23.77,
+          "2": 52.7
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 1.1,
-          "visitante": 1.55
+          "local": 1.07,
+          "visitante": 1.73
         }
       },
       {
         "local": "Real Sociedad",
         "visitante": "Tenerife",
         "probabilidades": {
-          "1": 29.95,
-          "X": 20.95,
-          "2": 49.11
+          "1": 25.55,
+          "X": 19.65,
+          "2": 54.79
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 1.62,
-          "visitante": 2.11
+          "local": 1.57,
+          "visitante": 2.34
         }
       },
       {
         "local": "Real Sociedad",
         "visitante": "Valencia",
         "probabilidades": {
-          "1": 48.96,
-          "X": 23.85,
-          "2": 27.18
+          "1": 44.41,
+          "X": 23.94,
+          "2": 31.65
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 1.71,
-          "visitante": 1.21
+          "local": 1.65,
+          "visitante": 1.36
         }
       },
       {
         "local": "Sevilla",
         "visitante": "Alavés",
         "probabilidades": {
-          "1": 34.74,
-          "X": 27.24,
-          "2": 38.01
+          "1": 34.55,
+          "X": 27.11,
+          "2": 38.35
         },
         "recomendado": "2",
         "goles_esperados": {
           "local": 1.2,
-          "visitante": 1.26
+          "visitante": 1.28
         }
       },
       {
         "local": "Sevilla",
         "visitante": "Athletic Club",
         "probabilidades": {
-          "1": 28.79,
-          "X": 24.84,
-          "2": 46.38
+          "1": 21.84,
+          "X": 21.55,
+          "2": 56.61
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 1.2,
-          "visitante": 1.58
+          "local": 1.16,
+          "visitante": 1.99
         }
       },
       {
         "local": "Sevilla",
         "visitante": "Atlético Madrid",
         "probabilidades": {
-          "1": 28.0,
-          "X": 19.94,
-          "2": 52.06
+          "1": 28.29,
+          "X": 20.04,
+          "2": 51.67
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 1.66,
-          "visitante": 2.29
+          "local": 1.67,
+          "visitante": 2.27
         }
       },
       {
         "local": "Sevilla",
         "visitante": "Barcelona",
         "probabilidades": {
-          "1": 5.2,
-          "X": 9.25,
-          "2": 85.55
+          "1": 5.44,
+          "X": 9.56,
+          "2": 85.0
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 0.82,
-          "visitante": 3.45
+          "local": 0.83,
+          "visitante": 3.4
         }
       },
       {
         "local": "Sevilla",
         "visitante": "Deportivo",
         "probabilidades": {
-          "1": 17.71,
-          "X": 19.49,
-          "2": 62.79
+          "1": 17.93,
+          "X": 19.6,
+          "2": 62.46
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 1.1,
-          "visitante": 2.23
+          "local": 1.11,
+          "visitante": 2.22
         }
       },
       {
         "local": "Sevilla",
         "visitante": "Dux Logroño",
         "probabilidades": {
-          "1": 26.16,
-          "X": 23.57,
-          "2": 50.26
+          "1": 23.64,
+          "X": 21.65,
+          "2": 54.71
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 1.2,
-          "visitante": 1.75
+          "local": 1.25,
+          "visitante": 1.99
         }
       },
       {
         "local": "Sevilla",
         "visitante": "Eibar",
         "probabilidades": {
-          "1": 24.21,
-          "X": 26.94,
-          "2": 48.86
+          "1": 26.24,
+          "X": 26.66,
+          "2": 47.1
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 0.92,
-          "visitante": 1.42
+          "local": 1.0,
+          "visitante": 1.43
         }
       },
       {
         "local": "Sevilla",
         "visitante": "Espanyol",
         "probabilidades": {
-          "1": 27.31,
-          "X": 23.99,
-          "2": 48.69
+          "1": 27.46,
+          "X": 24.03,
+          "2": 48.5
         },
         "recomendado": "2",
         "goles_esperados": {
@@ -14642,93 +14642,93 @@
         "local": "Sevilla",
         "visitante": "FC Badalona",
         "probabilidades": {
-          "1": 26.38,
-          "X": 21.11,
-          "2": 52.5
+          "1": 25.92,
+          "X": 20.15,
+          "2": 53.94
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 1.44,
-          "visitante": 2.08
+          "local": 1.53,
+          "visitante": 2.25
         }
       },
       {
         "local": "Sevilla",
         "visitante": "Granada",
         "probabilidades": {
-          "1": 31.76,
+          "1": 31.85,
           "X": 23.45,
-          "2": 44.79
+          "2": 44.7
         },
         "recomendado": "2",
         "goles_esperados": {
           "local": 1.41,
-          "visitante": 1.72
+          "visitante": 1.71
         }
       },
       {
         "local": "Sevilla",
         "visitante": "Madrid CFF",
         "probabilidades": {
-          "1": 41.31,
-          "X": 20.44,
-          "2": 38.25
+          "1": 41.48,
+          "X": 20.47,
+          "2": 38.05
         },
         "recomendado": "1",
         "goles_esperados": {
           "local": 2.08,
-          "visitante": 2.0
+          "visitante": 1.99
         }
       },
       {
         "local": "Sevilla",
         "visitante": "Real Madrid",
         "probabilidades": {
-          "1": 24.04,
-          "X": 18.36,
-          "2": 57.6
+          "1": 24.4,
+          "X": 18.51,
+          "2": 57.09
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 1.66,
-          "visitante": 2.58
+          "local": 1.67,
+          "visitante": 2.56
         }
       },
       {
         "local": "Sevilla",
         "visitante": "Real Sociedad",
         "probabilidades": {
-          "1": 21.72,
-          "X": 22.59,
-          "2": 55.69
+          "1": 21.9,
+          "X": 22.65,
+          "2": 55.46
         },
         "recomendado": "2",
         "goles_esperados": {
           "local": 1.08,
-          "visitante": 1.86
+          "visitante": 1.85
         }
       },
       {
         "local": "Sevilla",
         "visitante": "Tenerife",
         "probabilidades": {
-          "1": 21.12,
-          "X": 18.56,
-          "2": 60.32
+          "1": 21.49,
+          "X": 18.74,
+          "2": 59.77
         },
         "recomendado": "2",
         "goles_esperados": {
           "local": 1.44,
-          "visitante": 2.48
+          "visitante": 2.45
         }
       },
       {
         "local": "Sevilla",
         "visitante": "Valencia",
         "probabilidades": {
-          "1": 39.61,
-          "X": 24.55,
-          "2": 35.84
+          "1": 39.6,
+          "X": 24.54,
+          "2": 35.86
         },
         "recomendado": "1",
         "goles_esperados": {
@@ -14740,37 +14740,37 @@
         "local": "Tenerife",
         "visitante": "Alavés",
         "probabilidades": {
-          "1": 49.05,
-          "X": 28.83,
-          "2": 22.12
+          "1": 48.68,
+          "X": 28.73,
+          "2": 22.6
         },
         "recomendado": "1",
         "goles_esperados": {
           "local": 1.3,
-          "visitante": 0.77
+          "visitante": 0.79
         }
       },
       {
         "local": "Tenerife",
         "visitante": "Athletic Club",
         "probabilidades": {
-          "1": 44.17,
-          "X": 28.14,
-          "2": 27.69
+          "1": 37.28,
+          "X": 27.07,
+          "2": 35.65
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 1.3,
-          "visitante": 0.96
+          "local": 1.26,
+          "visitante": 1.23
         }
       },
       {
         "local": "Tenerife",
         "visitante": "Atlético Madrid",
         "probabilidades": {
-          "1": 47.24,
-          "X": 22.92,
-          "2": 29.83
+          "1": 47.14,
+          "X": 22.91,
+          "2": 29.94
         },
         "recomendado": "1",
         "goles_esperados": {
@@ -14782,121 +14782,121 @@
         "local": "Tenerife",
         "visitante": "Barcelona",
         "probabilidades": {
-          "1": 14.99,
-          "X": 19.88,
-          "2": 65.12
+          "1": 15.16,
+          "X": 19.97,
+          "2": 64.87
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 0.89,
-          "visitante": 2.1
+          "local": 0.9,
+          "visitante": 2.09
         }
       },
       {
         "local": "Tenerife",
         "visitante": "Deportivo",
         "probabilidades": {
-          "1": 32.95,
-          "X": 26.59,
-          "2": 40.46
+          "1": 32.9,
+          "X": 26.5,
+          "2": 40.6
         },
         "recomendado": "2",
         "goles_esperados": {
           "local": 1.2,
-          "visitante": 1.35
+          "visitante": 1.36
         }
       },
       {
         "local": "Tenerife",
         "visitante": "Dux Logroño",
         "probabilidades": {
-          "1": 41.88,
-          "X": 27.7,
-          "2": 30.42
+          "1": 39.71,
+          "X": 26.45,
+          "2": 33.84
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 1.3,
-          "visitante": 1.06
+          "local": 1.35,
+          "visitante": 1.23
         }
       },
       {
         "local": "Tenerife",
         "visitante": "Eibar",
         "probabilidades": {
-          "1": 37.34,
-          "X": 32.14,
-          "2": 30.51
+          "1": 39.73,
+          "X": 31.0,
+          "2": 29.27
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 0.99,
-          "visitante": 0.87
+          "local": 1.08,
+          "visitante": 0.88
         }
       },
       {
         "local": "Tenerife",
         "visitante": "Espanyol",
         "probabilidades": {
-          "1": 43.0,
-          "X": 27.74,
-          "2": 29.26
+          "1": 42.85,
+          "X": 27.68,
+          "2": 29.46
         },
         "recomendado": "1",
         "goles_esperados": {
           "local": 1.31,
-          "visitante": 1.03
+          "visitante": 1.04
         }
       },
       {
         "local": "Tenerife",
         "visitante": "FC Badalona",
         "probabilidades": {
-          "1": 44.1,
-          "X": 24.85,
-          "2": 31.05
+          "1": 44.0,
+          "X": 23.89,
+          "2": 32.11
         },
         "recomendado": "1",
         "goles_esperados": {
-          "local": 1.56,
-          "visitante": 1.27
+          "local": 1.66,
+          "visitante": 1.38
         }
       },
       {
         "local": "Tenerife",
         "visitante": "Granada",
         "probabilidades": {
-          "1": 48.57,
-          "X": 25.6,
-          "2": 25.83
+          "1": 48.35,
+          "X": 25.57,
+          "2": 26.08
         },
         "recomendado": "1",
         "goles_esperados": {
           "local": 1.53,
-          "visitante": 1.04
+          "visitante": 1.05
         }
       },
       {
         "local": "Tenerife",
         "visitante": "Madrid CFF",
         "probabilidades": {
-          "1": 60.83,
-          "X": 19.56,
-          "2": 19.6
+          "1": 60.62,
+          "X": 19.6,
+          "2": 19.78
         },
         "recomendado": "1",
         "goles_esperados": {
           "local": 2.26,
-          "visitante": 1.22
+          "visitante": 1.23
         }
       },
       {
         "local": "Tenerife",
         "visitante": "Real Madrid",
         "probabilidades": {
-          "1": 43.59,
-          "X": 22.58,
-          "2": 33.83
+          "1": 43.55,
+          "X": 22.57,
+          "2": 33.88
         },
         "recomendado": "1",
         "goles_esperados": {
@@ -14908,111 +14908,111 @@
         "local": "Tenerife",
         "visitante": "Real Sociedad",
         "probabilidades": {
-          "1": 36.7,
-          "X": 28.37,
-          "2": 34.93
+          "1": 36.6,
+          "X": 28.28,
+          "2": 35.12
         },
         "recomendado": "1",
         "goles_esperados": {
           "local": 1.17,
-          "visitante": 1.13
+          "visitante": 1.14
         }
       },
       {
         "local": "Tenerife",
         "visitante": "Sevilla",
         "probabilidades": {
-          "1": 34.12,
-          "X": 29.36,
-          "2": 36.51
+          "1": 34.07,
+          "X": 29.28,
+          "2": 36.66
         },
         "recomendado": "2",
         "goles_esperados": {
           "local": 1.06,
-          "visitante": 1.11
+          "visitante": 1.12
         }
       },
       {
         "local": "Tenerife",
         "visitante": "Valencia",
         "probabilidades": {
-          "1": 55.62,
-          "X": 24.56,
-          "2": 19.81
+          "1": 55.34,
+          "X": 24.57,
+          "2": 20.09
         },
         "recomendado": "1",
         "goles_esperados": {
           "local": 1.64,
-          "visitante": 0.87
+          "visitante": 0.88
         }
       },
       {
         "local": "Valencia",
         "visitante": "Alavés",
         "probabilidades": {
-          "1": 40.87,
-          "X": 29.09,
-          "2": 30.04
+          "1": 40.6,
+          "X": 28.95,
+          "2": 30.46
         },
         "recomendado": "1",
         "goles_esperados": {
           "local": 1.2,
-          "visitante": 0.98
+          "visitante": 1.0
         }
       },
       {
         "local": "Valencia",
         "visitante": "Athletic Club",
         "probabilidades": {
-          "1": 35.43,
-          "X": 27.48,
-          "2": 37.09
+          "1": 28.48,
+          "X": 25.14,
+          "2": 46.38
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 1.2,
-          "visitante": 1.23
+          "local": 1.16,
+          "visitante": 1.56
         }
       },
       {
         "local": "Valencia",
         "visitante": "Atlético Madrid",
         "probabilidades": {
-          "1": 36.39,
-          "X": 22.44,
-          "2": 41.17
+          "1": 36.51,
+          "X": 22.46,
+          "2": 41.03
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 1.66,
-          "visitante": 1.78
+          "local": 1.67,
+          "visitante": 1.77
         }
       },
       {
         "local": "Valencia",
         "visitante": "Barcelona",
         "probabilidades": {
-          "1": 9.05,
-          "X": 14.38,
-          "2": 76.57
+          "1": 9.29,
+          "X": 14.62,
+          "2": 76.1
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 0.82,
-          "visitante": 2.68
+          "local": 0.83,
+          "visitante": 2.65
         }
       },
       {
         "local": "Valencia",
         "visitante": "Deportivo",
         "probabilidades": {
-          "1": 24.21,
+          "1": 24.32,
           "X": 23.76,
-          "2": 52.03
+          "2": 51.92
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 1.1,
+          "local": 1.11,
           "visitante": 1.73
         }
       },
@@ -15020,37 +15020,37 @@
         "local": "Valencia",
         "visitante": "Dux Logroño",
         "probabilidades": {
-          "1": 32.95,
-          "X": 26.59,
-          "2": 40.46
+          "1": 30.57,
+          "X": 24.92,
+          "2": 44.5
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 1.2,
-          "visitante": 1.35
+          "local": 1.25,
+          "visitante": 1.56
         }
       },
       {
         "local": "Valencia",
         "visitante": "Eibar",
         "probabilidades": {
-          "1": 29.83,
-          "X": 30.46,
-          "2": 39.71
+          "1": 32.02,
+          "X": 29.76,
+          "2": 38.22
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 0.92,
-          "visitante": 1.11
+          "local": 1.0,
+          "visitante": 1.12
         }
       },
       {
         "local": "Valencia",
         "visitante": "Espanyol",
         "probabilidades": {
-          "1": 34.09,
-          "X": 26.83,
-          "2": 39.07
+          "1": 34.11,
+          "X": 26.8,
+          "2": 39.08
         },
         "recomendado": "2",
         "goles_esperados": {
@@ -15062,37 +15062,37 @@
         "local": "Valencia",
         "visitante": "FC Badalona",
         "probabilidades": {
-          "1": 34.07,
-          "X": 23.95,
-          "2": 41.98
+          "1": 33.76,
+          "X": 22.95,
+          "2": 43.28
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 1.44,
-          "visitante": 1.62
+          "local": 1.53,
+          "visitante": 1.75
         }
       },
       {
         "local": "Valencia",
         "visitante": "Granada",
         "probabilidades": {
-          "1": 39.07,
-          "X": 25.55,
-          "2": 35.37
+          "1": 39.02,
+          "X": 25.52,
+          "2": 35.46
         },
         "recomendado": "1",
         "goles_esperados": {
           "local": 1.41,
-          "visitante": 1.33
+          "visitante": 1.34
         }
       },
       {
         "local": "Valencia",
         "visitante": "Madrid CFF",
         "probabilidades": {
-          "1": 50.0,
+          "1": 49.98,
           "X": 21.1,
-          "2": 28.9
+          "2": 28.92
         },
         "recomendado": "1",
         "goles_esperados": {
@@ -15104,37 +15104,37 @@
         "local": "Valencia",
         "visitante": "Real Madrid",
         "probabilidades": {
-          "1": 32.49,
-          "X": 21.42,
-          "2": 46.09
+          "1": 32.69,
+          "X": 21.47,
+          "2": 45.84
         },
         "recomendado": "2",
         "goles_esperados": {
-          "local": 1.66,
-          "visitante": 2.0
+          "local": 1.67,
+          "visitante": 1.99
         }
       },
       {
         "local": "Valencia",
         "visitante": "Real Sociedad",
         "probabilidades": {
-          "1": 28.16,
-          "X": 26.33,
-          "2": 45.51
+          "1": 28.22,
+          "X": 26.3,
+          "2": 45.49
         },
         "recomendado": "2",
         "goles_esperados": {
           "local": 1.08,
-          "visitante": 1.44
+          "visitante": 1.45
         }
       },
       {
         "local": "Valencia",
         "visitante": "Sevilla",
         "probabilidades": {
-          "1": 26.06,
-          "X": 26.89,
-          "2": 47.05
+          "1": 26.15,
+          "X": 26.88,
+          "2": 46.97
         },
         "recomendado": "2",
         "goles_esperados": {
@@ -15146,14 +15146,14 @@
         "local": "Valencia",
         "visitante": "Tenerife",
         "probabilidades": {
-          "1": 28.84,
-          "X": 22.13,
-          "2": 49.03
+          "1": 29.06,
+          "X": 22.2,
+          "2": 48.74
         },
         "recomendado": "2",
         "goles_esperados": {
           "local": 1.44,
-          "visitante": 1.92
+          "visitante": 1.91
         }
       }
     ],
@@ -68087,7 +68087,7 @@
   "cobertura_extra": {
     "LIGAF": {
       "ok": true,
-      "partidos": 80,
+      "partidos": 84,
       "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.w.1/scoreboard?dates=2026&limit=500"
     },
     "UCL": {
