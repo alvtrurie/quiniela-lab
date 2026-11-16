@@ -1,103 +1,101 @@
 {
-  "numero": 21,
+  "numero": 22,
   "temporada": "2026-2027",
-  "fecha_inicio": "2026-11-14",
-  "fecha_fin": "2026-11-15",
-  "verificacion": "Composición contrastada manualmente el 2026-11-08 en tres fuentes públicas independientes; no actualización automática",
+  "fecha_inicio": "2026-11-17",
+  "fecha_fin": "2026-11-19",
+  "estado": "verificada",
+  "verificacion": "Composición y fechas extraídas de quinielafutbol",
   "fuentes": [
-    "https://www.quinielafutbol.info/proximas-jornadas-de-la-quiniela.html",
-    "https://quiniprats.com/es/quiniela/2026-27/jornada/21",
-    "https://www.lotocanarias.com/m/la-quiniela-directo"
+    "https://www.quinielafutbol.info/proximas-jornadas-de-la-quiniela.html"
   ],
   "partidos": [
     {
       "posicion": 1,
-      "local": "Valladolid",
-      "visitante": "Castellon",
-      "liga": "SP2"
+      "local": "Bosnia Herzegovina",
+      "visitante": "Rumanía",
+      "liga": null
     },
     {
       "posicion": 2,
-      "local": "Sociedad B",
-      "visitante": "Sp Gijon",
-      "liga": "SP2"
+      "local": "Ucrania",
+      "visitante": "Georgia",
+      "liga": null
     },
     {
       "posicion": 3,
-      "local": "Almeria",
-      "visitante": "Andorra",
-      "liga": "SP2"
+      "local": "Gales",
+      "visitante": "Portugal",
+      "liga": null
     },
     {
       "posicion": 4,
-      "local": "Mallorca",
-      "visitante": "Cordoba",
-      "liga": "SP2"
+      "local": "Hungría",
+      "visitante": "Irlanda Del Norte",
+      "liga": null
     },
     {
       "posicion": 5,
-      "local": "Oviedo",
-      "visitante": "Girona",
-      "liga": "SP2"
+      "local": "Polonia",
+      "visitante": "Suecia",
+      "liga": null
     },
     {
       "posicion": 6,
-      "local": "Tenerife",
-      "visitante": "Ceuta",
-      "liga": "SP2"
+      "local": "República De Irlanda",
+      "visitante": "Kosovo",
+      "liga": null
     },
     {
       "posicion": 7,
-      "local": "Granada",
-      "visitante": "Las Palmas",
-      "liga": "SP2"
+      "local": "Real Madrid (F)",
+      "visitante": "Inter de Milán (F)",
+      "liga": null
     },
     {
       "posicion": 8,
-      "local": "Eibar",
-      "visitante": "Cadiz",
-      "liga": "SP2"
+      "local": "Hacken (F)",
+      "visitante": "Manchester City (F)",
+      "liga": null
     },
     {
       "posicion": 9,
-      "local": "Eldense",
-      "visitante": "Sabadell",
-      "liga": "SP2"
+      "local": "Chelsea (F)",
+      "visitante": "PSG (F)",
+      "liga": null
     },
     {
       "posicion": 10,
-      "local": "Bélgica",
-      "visitante": "Italia",
+      "local": "Juventus (F)",
+      "visitante": "Leuven (F)",
       "liga": null
     },
     {
       "posicion": 11,
-      "local": "Alavés (F)",
-      "visitante": "Eibar (F)",
+      "local": "Austria De Viena (F)",
+      "visitante": "Bayern De Múnich (F)",
       "liga": null
     },
     {
       "posicion": 12,
-      "local": "Real Sociedad (F)",
-      "visitante": "Athletic Club (F)",
+      "local": "Arsenal (F)",
+      "visitante": "Ol Lyonnes (F)",
       "liga": null
     },
     {
       "posicion": 13,
-      "local": "Sevilla (F)",
-      "visitante": "Atlético de Madrid (F)",
+      "local": "Barcelona (F)",
+      "visitante": "Servette (F)",
       "liga": null
     },
     {
       "posicion": 14,
-      "local": "Valencia (F)",
-      "visitante": "Granada (F)",
+      "local": "Benfica (F)",
+      "visitante": "Roma (F)",
       "liga": null
     }
   ],
   "pleno": {
-    "local": "España",
-    "visitante": "Inglaterra"
-  },
-  "estado": "verificada"
+    "local": "Dinamarca",
+    "visitante": "Noruega"
+  }
 }

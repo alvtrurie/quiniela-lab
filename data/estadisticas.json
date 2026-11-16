@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-15T14:44:55.388045+00:00",
+  "actualizado": "2026-11-16T16:59:06.228683+00:00",
   "temporada": "2026-2027",
   "fuente": "football-data.co.uk",
   "competiciones": {
@@ -2077,6 +2077,86 @@
         "goles_local": "0",
         "goles_visitante": "0",
         "resultado": "D"
+      },
+      {
+        "fecha": "13/11/2026",
+        "local": "Leganes",
+        "visitante": "Burgos",
+        "goles_local": "3",
+        "goles_visitante": "1",
+        "resultado": "H"
+      },
+      {
+        "fecha": "14/11/2026",
+        "local": "Valladolid",
+        "visitante": "Castellon",
+        "goles_local": "0",
+        "goles_visitante": "1",
+        "resultado": "A"
+      },
+      {
+        "fecha": "14/11/2026",
+        "local": "Sociedad B",
+        "visitante": "Sp Gijon",
+        "goles_local": "2",
+        "goles_visitante": "2",
+        "resultado": "D"
+      },
+      {
+        "fecha": "14/11/2026",
+        "local": "Almeria",
+        "visitante": "Andorra",
+        "goles_local": "2",
+        "goles_visitante": "1",
+        "resultado": "H"
+      },
+      {
+        "fecha": "14/11/2026",
+        "local": "Mallorca",
+        "visitante": "Cordoba",
+        "goles_local": "3",
+        "goles_visitante": "3",
+        "resultado": "D"
+      },
+      {
+        "fecha": "14/11/2026",
+        "local": "Oviedo",
+        "visitante": "Girona",
+        "goles_local": "1",
+        "goles_visitante": "2",
+        "resultado": "A"
+      },
+      {
+        "fecha": "15/11/2026",
+        "local": "Tenerife",
+        "visitante": "Ceuta",
+        "goles_local": "2",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "15/11/2026",
+        "local": "Granada",
+        "visitante": "Las Palmas",
+        "goles_local": "1",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "15/11/2026",
+        "local": "Eibar",
+        "visitante": "Cadiz",
+        "goles_local": "1",
+        "goles_visitante": "1",
+        "resultado": "D"
+      },
+      {
+        "fecha": "15/11/2026",
+        "local": "Eldense",
+        "visitante": "Sabadell",
+        "goles_local": "2",
+        "goles_visitante": "0",
+        "resultado": "H"
       }
     ]
   }

@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-15T14:44:58.435754+00:00",
+  "actualizado": "2026-11-16T16:59:08.998488+00:00",
   "fuente": "ESPN scoreboard, resultados públicos no oficiales",
   "competiciones": {
     "LIGAF": [
@@ -758,6 +758,33 @@
         "goles_visitante": 4,
         "resultado": "A",
         "id": "401882455"
+      },
+      {
+        "fecha": "2026-11-15",
+        "local": "Sevilla",
+        "visitante": "Atlético Madrid",
+        "goles_local": 1,
+        "goles_visitante": 2,
+        "resultado": "A",
+        "id": "401882454"
+      },
+      {
+        "fecha": "2026-11-15",
+        "local": "Deportivo",
+        "visitante": "Barcelona",
+        "goles_local": 1,
+        "goles_visitante": 1,
+        "resultado": "D",
+        "id": "401882459"
+      },
+      {
+        "fecha": "2026-11-15",
+        "local": "Valencia",
+        "visitante": "Granada",
+        "goles_local": 0,
+        "goles_visitante": 0,
+        "resultado": "D",
+        "id": "401882453"
       }
     ],
     "UCL": [
@@ -2552,7 +2579,7 @@
   "estado": {
     "LIGAF": {
       "ok": true,
-      "partidos": 84,
+      "partidos": 87,
       "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.w.1/scoreboard?dates=2026&limit=500"
     },
     "UCL": {

@@ -2379,6 +2379,42 @@
         "goles_visitante": 2,
         "xg_local": 0.87,
         "xg_visitante": 2.09
+      },
+      "m_1ejz9A": {
+        "fecha": "2026-11-15",
+        "local": "Tenerife",
+        "visitante": "AD Ceuta FC",
+        "goles_local": 2,
+        "goles_visitante": 0,
+        "xg_local": 1.73,
+        "xg_visitante": 0.72
+      },
+      "m_1S4SNM": {
+        "fecha": "2026-11-15",
+        "local": "Granada",
+        "visitante": "Las Palmas",
+        "goles_local": 1,
+        "goles_visitante": 0,
+        "xg_local": 1.28,
+        "xg_visitante": 0.76
+      },
+      "m_4PAjc4": {
+        "fecha": "2026-11-15",
+        "local": "Eldense",
+        "visitante": "Sabadell",
+        "goles_local": 2,
+        "goles_visitante": 0,
+        "xg_local": 1.46,
+        "xg_visitante": 0.42
+      },
+      "m_0LGexK": {
+        "fecha": "2026-11-15",
+        "local": "Eibar",
+        "visitante": "Cádiz",
+        "goles_local": 1,
+        "goles_visitante": 1,
+        "xg_local": 1.11,
+        "xg_visitante": 0.53
       }
     }
   }
