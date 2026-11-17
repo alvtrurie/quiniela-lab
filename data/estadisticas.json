@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-16T16:59:06.228683+00:00",
+  "actualizado": "2026-11-17T16:52:23.678935+00:00",
   "temporada": "2026-2027",
   "fuente": "football-data.co.uk",
   "competiciones": {
@@ -2155,6 +2155,14 @@
         "local": "Eldense",
         "visitante": "Sabadell",
         "goles_local": "2",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "16/11/2026",
+        "local": "Albacete",
+        "visitante": "Celta B",
+        "goles_local": "1",
         "goles_visitante": "0",
         "resultado": "H"
       }

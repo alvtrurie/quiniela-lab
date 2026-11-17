@@ -2415,6 +2415,15 @@
         "goles_visitante": 1,
         "xg_local": 1.11,
         "xg_visitante": 0.53
+      },
+      "m_3NvoM5": {
+        "fecha": "2026-11-16",
+        "local": "Albacete",
+        "visitante": "Celta Fortuna",
+        "goles_local": 1,
+        "goles_visitante": 0,
+        "xg_local": 2.04,
+        "xg_visitante": 1.32
       }
     }
   }
