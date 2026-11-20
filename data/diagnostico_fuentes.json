@@ -1,5 +1,5 @@
 {
-  "consultado": "2026-11-19T16:33:33.808733+00:00",
+  "consultado": "2026-11-20T16:08:32.168475+00:00",
   "fuentes": {
     "quinielafutbol": {
       "url": "https://www.quinielafutbol.info/proximas-jornadas-de-la-quiniela.html",
@@ -15,9 +15,9 @@
       ]
     }
   },
-  "publicacion_automatica": false,
+  "publicacion_automatica": true,
   "fuente_utilizada": "quinielafutbol",
   "respaldo_activado": false,
-  "motivo": "Jornada 22 todavía en curso o pendiente; no se sustituye.",
+  "motivo": "Jornada 23 publicada desde quinielafutbol.",
   "jornadas_coincidentes": []
 }

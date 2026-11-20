@@ -1,8 +1,8 @@
 {
-  "numero": 22,
+  "numero": 23,
   "temporada": "2026-2027",
-  "fecha_inicio": "2026-11-17",
-  "fecha_fin": "2026-11-19",
+  "fecha_inicio": "2026-11-21",
+  "fecha_fin": "2026-11-22",
   "estado": "verificada",
   "verificacion": "Composición y fechas extraídas de quinielafutbol",
   "fuentes": [
@@ -11,91 +11,91 @@
   "partidos": [
     {
       "posicion": 1,
-      "local": "Bosnia Herzegovina",
-      "visitante": "Rumanía",
+      "local": "Alavés",
+      "visitante": "Deportivo",
       "liga": null
     },
     {
       "posicion": 2,
-      "local": "Ucrania",
-      "visitante": "Georgia",
+      "local": "Rayo Vallecano",
+      "visitante": "Valencia",
       "liga": null
     },
     {
       "posicion": 3,
-      "local": "Gales",
-      "visitante": "Portugal",
+      "local": "Real Madrid",
+      "visitante": "Celta",
       "liga": null
     },
     {
       "posicion": 4,
-      "local": "Hungría",
-      "visitante": "Irlanda Del Norte",
+      "local": "Barcelona",
+      "visitante": "Villarreal",
       "liga": null
     },
     {
       "posicion": 5,
-      "local": "Polonia",
-      "visitante": "Suecia",
+      "local": "Racing Santander",
+      "visitante": "Real Sociedad",
       "liga": null
     },
     {
       "posicion": 6,
-      "local": "República De Irlanda",
-      "visitante": "Kosovo",
+      "local": "Osasuna",
+      "visitante": "Málaga",
       "liga": null
     },
     {
       "posicion": 7,
-      "local": "Real Madrid (F)",
-      "visitante": "Inter de Milán (F)",
+      "local": "Getafe",
+      "visitante": "At. Madrid",
       "liga": null
     },
     {
       "posicion": 8,
-      "local": "Hacken (F)",
-      "visitante": "Manchester City (F)",
+      "local": "Tenerife",
+      "visitante": "Mallorca",
       "liga": null
     },
     {
       "posicion": 9,
-      "local": "Chelsea (F)",
-      "visitante": "PSG (F)",
+      "local": "Sporting",
+      "visitante": "Las Palmas",
       "liga": null
     },
     {
       "posicion": 10,
-      "local": "Juventus (F)",
-      "visitante": "Leuven (F)",
+      "local": "Girona",
+      "visitante": "Eibar",
       "liga": null
     },
     {
       "posicion": 11,
-      "local": "Austria De Viena (F)",
-      "visitante": "Bayern De Múnich (F)",
+      "local": "Eibar (F)",
+      "visitante": "At. Madrid (F)",
       "liga": null
     },
     {
       "posicion": 12,
-      "local": "Arsenal (F)",
-      "visitante": "Ol Lyonnes (F)",
+      "local": "Granada (F)",
+      "visitante": "Real Madrid (F)",
       "liga": null
     },
     {
       "posicion": 13,
-      "local": "Barcelona (F)",
-      "visitante": "Servette (F)",
+      "local": "Real Sociedad (F)",
+      "visitante": "Sevilla (F)",
       "liga": null
     },
     {
       "posicion": 14,
-      "local": "Benfica (F)",
-      "visitante": "Roma (F)",
+      "local": "Tenerife (F)",
+      "visitante": "Madrid CFF (F)",
       "liga": null
     }
   ],
   "pleno": {
-    "local": "Dinamarca",
-    "visitante": "Noruega"
+    "local": "Sevilla",
+    "visitante": "Betis"
   }
 }
