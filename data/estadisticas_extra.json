@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-20T16:08:22.014908+00:00",
+  "actualizado": "2026-11-21T15:21:22.084322+00:00",
   "fuente": "ESPN scoreboard, resultados públicos no oficiales",
   "competiciones": {
     "LIGAF": [
@@ -785,6 +785,15 @@
         "goles_visitante": 0,
         "resultado": "D",
         "id": "401882453"
+      },
+      {
+        "fecha": "2026-11-21",
+        "local": "FC Badalona",
+        "visitante": "Deportivo",
+        "goles_local": 2,
+        "goles_visitante": 1,
+        "resultado": "H",
+        "id": "401882446"
       }
     ],
     "UCL": [
@@ -2579,7 +2588,7 @@
   "estado": {
     "LIGAF": {
       "ok": true,
-      "partidos": 87,
+      "partidos": 88,
       "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.w.1/scoreboard?dates=2026&limit=500"
     },
     "UCL": {
