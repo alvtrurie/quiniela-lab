@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-21T15:21:22.084322+00:00",
+  "actualizado": "2026-11-22T15:16:13.900100+00:00",
   "fuente": "ESPN scoreboard, resultados públicos no oficiales",
   "competiciones": {
     "LIGAF": [
@@ -794,6 +794,42 @@
         "goles_visitante": 1,
         "resultado": "H",
         "id": "401882446"
+      },
+      {
+        "fecha": "2026-11-21",
+        "local": "Eibar",
+        "visitante": "Atlético Madrid",
+        "goles_local": 1,
+        "goles_visitante": 3,
+        "resultado": "A",
+        "id": "401882450"
+      },
+      {
+        "fecha": "2026-11-21",
+        "local": "Dux Logroño",
+        "visitante": "Alavés",
+        "goles_local": 3,
+        "goles_visitante": 1,
+        "resultado": "H",
+        "id": "401882451"
+      },
+      {
+        "fecha": "2026-11-22",
+        "local": "Granada",
+        "visitante": "Real Madrid",
+        "goles_local": 1,
+        "goles_visitante": 5,
+        "resultado": "A",
+        "id": "401882447"
+      },
+      {
+        "fecha": "2026-11-22",
+        "local": "Real Sociedad",
+        "visitante": "Sevilla",
+        "goles_local": 1,
+        "goles_visitante": 0,
+        "resultado": "H",
+        "id": "401882445"
       }
     ],
     "UCL": [
@@ -2588,7 +2624,7 @@
   "estado": {
     "LIGAF": {
       "ok": true,
-      "partidos": 88,
+      "partidos": 92,
       "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.w.1/scoreboard?dates=2026&limit=500"
     },
     "UCL": {

@@ -1090,6 +1090,33 @@
         "goles_visitante": 1,
         "xg_local": 3.19,
         "xg_visitante": 0.25
+      },
+      "m_3JKUH6": {
+        "fecha": "2026-11-21",
+        "local": "Rayo Vallecano",
+        "visitante": "Valencia",
+        "goles_local": 0,
+        "goles_visitante": 1,
+        "xg_local": 0.65,
+        "xg_visitante": 0.68
+      },
+      "m_4DeisY": {
+        "fecha": "2026-11-21",
+        "local": "Sevilla",
+        "visitante": "Real Betis",
+        "goles_local": 1,
+        "goles_visitante": 1,
+        "xg_local": 2.21,
+        "xg_visitante": 0.56
+      },
+      "m_101pSt": {
+        "fecha": "2026-11-21",
+        "local": "Real Madrid",
+        "visitante": "Celta Vigo",
+        "goles_local": 2,
+        "goles_visitante": 1,
+        "xg_local": 4.14,
+        "xg_visitante": 1.64
       }
     },
     "SP2": {
@@ -2460,6 +2487,42 @@
         "goles_visitante": 1,
         "xg_local": 1.3,
         "xg_visitante": 1.3
+      },
+      "m_39ZgRK": {
+        "fecha": "2026-11-21",
+        "local": "Real Sociedad B",
+        "visitante": "Cádiz",
+        "goles_local": 0,
+        "goles_visitante": 3,
+        "xg_local": 0.95,
+        "xg_visitante": 0.64
+      },
+      "m_00NK4N": {
+        "fecha": "2026-11-21",
+        "local": "Castellón",
+        "visitante": "Eldense",
+        "goles_local": 2,
+        "goles_visitante": 0,
+        "xg_local": 1.08,
+        "xg_visitante": 0.24
+      },
+      "m_1ORwKF": {
+        "fecha": "2026-11-21",
+        "local": "Tenerife",
+        "visitante": "Mallorca",
+        "goles_local": 0,
+        "goles_visitante": 0,
+        "xg_local": 0.64,
+        "xg_visitante": 0.4
+      },
+      "m_3Yn4FI": {
+        "fecha": "2026-11-22",
+        "local": "Córdoba",
+        "visitante": "Real Oviedo",
+        "goles_local": 3,
+        "goles_visitante": 0,
+        "xg_local": 2.13,
+        "xg_visitante": 0.35
       }
     }
   }
