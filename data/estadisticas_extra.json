@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-22T15:16:13.900100+00:00",
+  "actualizado": "2026-11-23T19:13:56.699331+00:00",
   "fuente": "ESPN scoreboard, resultados públicos no oficiales",
   "competiciones": {
     "LIGAF": [
@@ -830,6 +830,24 @@
         "goles_visitante": 0,
         "resultado": "H",
         "id": "401882445"
+      },
+      {
+        "fecha": "2026-11-22",
+        "local": "Tenerife",
+        "visitante": "Madrid CFF",
+        "goles_local": 0,
+        "goles_visitante": 3,
+        "resultado": "A",
+        "id": "401882452"
+      },
+      {
+        "fecha": "2026-11-22",
+        "local": "Barcelona",
+        "visitante": "Athletic Club",
+        "goles_local": 6,
+        "goles_visitante": 0,
+        "resultado": "H",
+        "id": "401882448"
       }
     ],
     "UCL": [
@@ -2624,7 +2642,7 @@
   "estado": {
     "LIGAF": {
       "ok": true,
-      "partidos": 92,
+      "partidos": 94,
       "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.w.1/scoreboard?dates=2026&limit=500"
     },
     "UCL": {

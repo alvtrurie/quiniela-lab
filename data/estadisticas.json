@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-22T15:16:11.245274+00:00",
+  "actualizado": "2026-11-23T19:13:53.527111+00:00",
   "temporada": "2026-2027",
   "fuente": "football-data.co.uk",
   "competiciones": {
@@ -954,6 +954,78 @@
         "visitante": "Barcelona",
         "goles_local": "1",
         "goles_visitante": "2",
+        "resultado": "A"
+      },
+      {
+        "fecha": "20/11/2026",
+        "local": "Ath Bilbao",
+        "visitante": "Espanol",
+        "goles_local": "0",
+        "goles_visitante": "1",
+        "resultado": "A"
+      },
+      {
+        "fecha": "21/11/2026",
+        "local": "Alaves",
+        "visitante": "La Coruna",
+        "goles_local": "3",
+        "goles_visitante": "1",
+        "resultado": "H"
+      },
+      {
+        "fecha": "21/11/2026",
+        "local": "Vallecano",
+        "visitante": "Valencia",
+        "goles_local": "0",
+        "goles_visitante": "1",
+        "resultado": "A"
+      },
+      {
+        "fecha": "21/11/2026",
+        "local": "Sevilla",
+        "visitante": "Betis",
+        "goles_local": "1",
+        "goles_visitante": "1",
+        "resultado": "D"
+      },
+      {
+        "fecha": "21/11/2026",
+        "local": "Real Madrid",
+        "visitante": "Celta",
+        "goles_local": "2",
+        "goles_visitante": "1",
+        "resultado": "H"
+      },
+      {
+        "fecha": "22/11/2026",
+        "local": "Barcelona",
+        "visitante": "Villarreal",
+        "goles_local": "3",
+        "goles_visitante": "2",
+        "resultado": "H"
+      },
+      {
+        "fecha": "22/11/2026",
+        "local": "Santander",
+        "visitante": "Sociedad",
+        "goles_local": "3",
+        "goles_visitante": "2",
+        "resultado": "H"
+      },
+      {
+        "fecha": "22/11/2026",
+        "local": "Osasuna",
+        "visitante": "Malaga",
+        "goles_local": "1",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "22/11/2026",
+        "local": "Getafe",
+        "visitante": "Ath Madrid",
+        "goles_local": "0",
+        "goles_visitante": "3",
         "resultado": "A"
       }
     ],
@@ -2162,6 +2234,86 @@
         "fecha": "16/11/2026",
         "local": "Albacete",
         "visitante": "Celta B",
+        "goles_local": "1",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "20/11/2026",
+        "local": "Andorra",
+        "visitante": "Leganes",
+        "goles_local": "1",
+        "goles_visitante": "3",
+        "resultado": "A"
+      },
+      {
+        "fecha": "21/11/2026",
+        "local": "Sabadell",
+        "visitante": "Granada",
+        "goles_local": "1",
+        "goles_visitante": "1",
+        "resultado": "D"
+      },
+      {
+        "fecha": "21/11/2026",
+        "local": "Sociedad B",
+        "visitante": "Cadiz",
+        "goles_local": "0",
+        "goles_visitante": "3",
+        "resultado": "A"
+      },
+      {
+        "fecha": "21/11/2026",
+        "local": "Castellon",
+        "visitante": "Eldense",
+        "goles_local": "2",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "21/11/2026",
+        "local": "Tenerife",
+        "visitante": "Mallorca",
+        "goles_local": "0",
+        "goles_visitante": "0",
+        "resultado": "D"
+      },
+      {
+        "fecha": "22/11/2026",
+        "local": "Cordoba",
+        "visitante": "Oviedo",
+        "goles_local": "3",
+        "goles_visitante": "0",
+        "resultado": "H"
+      },
+      {
+        "fecha": "22/11/2026",
+        "local": "Sp Gijon",
+        "visitante": "Las Palmas",
+        "goles_local": "0",
+        "goles_visitante": "2",
+        "resultado": "A"
+      },
+      {
+        "fecha": "22/11/2026",
+        "local": "Celta B",
+        "visitante": "Valladolid",
+        "goles_local": "1",
+        "goles_visitante": "1",
+        "resultado": "D"
+      },
+      {
+        "fecha": "22/11/2026",
+        "local": "Girona",
+        "visitante": "Eibar",
+        "goles_local": "2",
+        "goles_visitante": "1",
+        "resultado": "H"
+      },
+      {
+        "fecha": "22/11/2026",
+        "local": "Burgos",
+        "visitante": "Albacete",
         "goles_local": "1",
         "goles_visitante": "0",
         "resultado": "H"
