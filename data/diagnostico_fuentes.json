@@ -1,5 +1,5 @@
 {
-  "consultado": "2026-11-23T19:14:11.246678+00:00",
+  "consultado": "2026-11-24T18:52:46.389197+00:00",
   "fuentes": {
     "quinielafutbol": {
       "url": "https://www.quinielafutbol.info/proximas-jornadas-de-la-quiniela.html",
@@ -9,14 +9,14 @@
         25
       ],
       "fechas_siguiente": [
-        "2026-11-24",
-        "2026-11-26"
+        "2026-11-28",
+        "2026-11-30"
       ]
     }
   },
-  "publicacion_automatica": true,
+  "publicacion_automatica": false,
   "fuente_utilizada": "quinielafutbol",
   "respaldo_activado": false,
-  "motivo": "Jornada 24 publicada desde quinielafutbol.",
+  "motivo": "Jornada 24 todavía en curso o pendiente; no se sustituye.",
   "jornadas_coincidentes": []
 }

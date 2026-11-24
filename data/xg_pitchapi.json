@@ -1153,6 +1153,15 @@
         "goles_visitante": 3,
         "xg_local": 0.58,
         "xg_visitante": 4.25
+      },
+      "m_3jVoFq": {
+        "fecha": "2026-11-23",
+        "local": "Levante",
+        "visitante": "Elche",
+        "goles_local": 1,
+        "goles_visitante": 1,
+        "xg_local": 0.82,
+        "xg_visitante": 0.34
       }
     },
     "SP2": {
@@ -2595,6 +2604,15 @@
         "goles_visitante": 0,
         "xg_local": 1.13,
         "xg_visitante": 1.44
+      },
+      "m_374Ukx": {
+        "fecha": "2026-11-23",
+        "local": "AD Ceuta FC",
+        "visitante": "Almería",
+        "goles_local": 2,
+        "goles_visitante": 3,
+        "xg_local": 2.69,
+        "xg_visitante": 2.51
       }
     }
   }

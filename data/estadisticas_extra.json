@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-23T19:13:56.699331+00:00",
+  "actualizado": "2026-11-24T18:52:35.541307+00:00",
   "fuente": "ESPN scoreboard, resultados públicos no oficiales",
   "competiciones": {
     "LIGAF": [
@@ -848,6 +848,15 @@
         "goles_visitante": 0,
         "resultado": "H",
         "id": "401882448"
+      },
+      {
+        "fecha": "2026-11-23",
+        "local": "Espanyol",
+        "visitante": "Valencia",
+        "goles_local": 2,
+        "goles_visitante": 0,
+        "resultado": "H",
+        "id": "401882449"
       }
     ],
     "UCL": [
@@ -2642,7 +2651,7 @@
   "estado": {
     "LIGAF": {
       "ok": true,
-      "partidos": 94,
+      "partidos": 95,
       "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.w.1/scoreboard?dates=2026&limit=500"
     },
     "UCL": {

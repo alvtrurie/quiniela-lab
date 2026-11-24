@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-23T19:13:53.527111+00:00",
+  "actualizado": "2026-11-24T18:52:33.239653+00:00",
   "temporada": "2026-2027",
   "fuente": "football-data.co.uk",
   "competiciones": {
@@ -1027,6 +1027,14 @@
         "goles_local": "0",
         "goles_visitante": "3",
         "resultado": "A"
+      },
+      {
+        "fecha": "23/11/2026",
+        "local": "Levante",
+        "visitante": "Elche",
+        "goles_local": "1",
+        "goles_visitante": "1",
+        "resultado": "D"
       }
     ],
     "SP2": [
@@ -2317,6 +2325,14 @@
         "goles_local": "1",
         "goles_visitante": "0",
         "resultado": "H"
+      },
+      {
+        "fecha": "23/11/2026",
+        "local": "Ceuta",
+        "visitante": "Almeria",
+        "goles_local": "2",
+        "goles_visitante": "3",
+        "resultado": "A"
       }
     ]
   }
