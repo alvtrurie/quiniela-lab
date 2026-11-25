@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-24T18:52:35.541307+00:00",
+  "actualizado": "2026-11-25T17:57:21.285248+00:00",
   "fuente": "ESPN scoreboard, resultados públicos no oficiales",
   "competiciones": {
     "LIGAF": [
@@ -1507,6 +1507,87 @@
         "goles_visitante": 1,
         "resultado": "H",
         "id": "401915302"
+      },
+      {
+        "fecha": "2026-11-24",
+        "local": "Bodo/Glimt",
+        "visitante": "LASK Linz",
+        "goles_local": 1,
+        "goles_visitante": 0,
+        "resultado": "H",
+        "id": "401915380"
+      },
+      {
+        "fecha": "2026-11-24",
+        "local": "Galatasaray",
+        "visitante": "Aston Villa",
+        "goles_local": 1,
+        "goles_visitante": 0,
+        "resultado": "H",
+        "id": "401915300"
+      },
+      {
+        "fecha": "2026-11-24",
+        "local": "Arsenal",
+        "visitante": "Borussia Dortmund",
+        "goles_local": 1,
+        "goles_visitante": 1,
+        "resultado": "D",
+        "id": "401915295"
+      },
+      {
+        "fecha": "2026-11-24",
+        "local": "Como",
+        "visitante": "AEK Athens",
+        "goles_local": 1,
+        "goles_visitante": 0,
+        "resultado": "H",
+        "id": "401915296"
+      },
+      {
+        "fecha": "2026-11-24",
+        "local": "Feyenoord Rotterdam",
+        "visitante": "FC Porto",
+        "goles_local": 0,
+        "goles_visitante": 1,
+        "resultado": "A",
+        "id": "401915294"
+      },
+      {
+        "fecha": "2026-11-24",
+        "local": "Manchester City",
+        "visitante": "Napoli",
+        "goles_local": 2,
+        "goles_visitante": 2,
+        "resultado": "D",
+        "id": "401915379"
+      },
+      {
+        "fecha": "2026-11-24",
+        "local": "RB Leipzig",
+        "visitante": "Lens",
+        "goles_local": 3,
+        "goles_visitante": 1,
+        "resultado": "H",
+        "id": "401915299"
+      },
+      {
+        "fecha": "2026-11-24",
+        "local": "Real Madrid",
+        "visitante": "PSV Eindhoven",
+        "goles_local": 5,
+        "goles_visitante": 1,
+        "resultado": "H",
+        "id": "401915298"
+      },
+      {
+        "fecha": "2026-11-24",
+        "local": "Slovan Bratislava",
+        "visitante": "Real Betis",
+        "goles_local": 0,
+        "goles_visitante": 2,
+        "resultado": "A",
+        "id": "401915297"
       }
     ],
     "UEL": [
@@ -2656,7 +2737,7 @@
     },
     "UCL": {
       "ok": true,
-      "partidos": 72,
+      "partidos": 81,
       "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=2026&limit=500"
     },
     "UEL": {
