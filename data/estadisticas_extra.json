@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-25T17:57:21.285248+00:00",
+  "actualizado": "2026-11-26T17:43:15.666085+00:00",
   "fuente": "ESPN scoreboard, resultados públicos no oficiales",
   "competiciones": {
     "LIGAF": [
@@ -1588,6 +1588,87 @@
         "goles_visitante": 2,
         "resultado": "A",
         "id": "401915297"
+      },
+      {
+        "fecha": "2026-11-25",
+        "local": "Sabah FK",
+        "visitante": "Barcelona",
+        "goles_local": 1,
+        "goles_visitante": 4,
+        "resultado": "A",
+        "id": "401915378"
+      },
+      {
+        "fecha": "2026-11-25",
+        "local": "Slavia Prague",
+        "visitante": "Villarreal",
+        "goles_local": 0,
+        "goles_visitante": 1,
+        "resultado": "A",
+        "id": "401915293"
+      },
+      {
+        "fecha": "2026-11-25",
+        "local": "Atlético Madrid",
+        "visitante": "Viking FK",
+        "goles_local": 2,
+        "goles_visitante": 0,
+        "resultado": "H",
+        "id": "401915291"
+      },
+      {
+        "fecha": "2026-11-25",
+        "local": "Club Brugge",
+        "visitante": "Liverpool",
+        "goles_local": 0,
+        "goles_visitante": 3,
+        "resultado": "A",
+        "id": "401915292"
+      },
+      {
+        "fecha": "2026-11-25",
+        "local": "Internazionale",
+        "visitante": "VfB Stuttgart",
+        "goles_local": 2,
+        "goles_visitante": 0,
+        "resultado": "H",
+        "id": "401915376"
+      },
+      {
+        "fecha": "2026-11-25",
+        "local": "Lille",
+        "visitante": "Bayern Munich",
+        "goles_local": 2,
+        "goles_visitante": 1,
+        "resultado": "H",
+        "id": "401915377"
+      },
+      {
+        "fecha": "2026-11-25",
+        "local": "Paris Saint-Germain",
+        "visitante": "AS Roma",
+        "goles_local": 2,
+        "goles_visitante": 2,
+        "resultado": "D",
+        "id": "401915374"
+      },
+      {
+        "fecha": "2026-11-25",
+        "local": "Shakhtar Donetsk",
+        "visitante": "Fenerbahce",
+        "goles_local": 0,
+        "goles_visitante": 1,
+        "resultado": "A",
+        "id": "401915375"
+      },
+      {
+        "fecha": "2026-11-25",
+        "local": "Sporting CP",
+        "visitante": "Manchester United",
+        "goles_local": 2,
+        "goles_visitante": 2,
+        "resultado": "D",
+        "id": "401915373"
       }
     ],
     "UEL": [
@@ -2726,6 +2807,15 @@
         "goles_visitante": 1,
         "resultado": "D",
         "id": "401915820"
+      },
+      {
+        "fecha": "2026-11-26",
+        "local": "Kairat Almaty",
+        "visitante": "Mjällby AIF",
+        "goles_local": 1,
+        "goles_visitante": 0,
+        "resultado": "H",
+        "id": "401915816"
       }
     ]
   },
@@ -2737,7 +2827,7 @@
     },
     "UCL": {
       "ok": true,
-      "partidos": 81,
+      "partidos": 90,
       "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=2026&limit=500"
     },
     "UEL": {
@@ -2747,7 +2837,7 @@
     },
     "UECL": {
       "ok": true,
-      "partidos": 54,
+      "partidos": 55,
       "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard?dates=2026&limit=500"
     }
   }
