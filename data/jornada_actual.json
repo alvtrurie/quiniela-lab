@@ -1,8 +1,8 @@
 {
-  "numero": 24,
+  "numero": 25,
   "temporada": "2026-2027",
-  "fecha_inicio": "2026-11-24",
-  "fecha_fin": "2026-11-26",
+  "fecha_inicio": "2026-11-28",
+  "fecha_fin": "2026-11-30",
   "estado": "verificada",
   "verificacion": "Composición y fechas extraídas de quinielafutbol",
   "fuentes": [
@@ -11,91 +11,91 @@
   "partidos": [
     {
       "posicion": 1,
-      "local": "Arsenal",
-      "visitante": "Borussia Dortmund",
+      "local": "Betis",
+      "visitante": "Rayo Vallecano",
       "liga": null
     },
     {
       "posicion": 2,
-      "local": "Feyenoord",
-      "visitante": "Oporto",
+      "local": "Málaga",
+      "visitante": "Athletic Club",
       "liga": null
     },
     {
       "posicion": 3,
-      "local": "Man. City",
-      "visitante": "Nápoles",
+      "local": "Elche",
+      "visitante": "At. Madrid",
       "liga": null
     },
     {
       "posicion": 4,
       "local": "Real Madrid",
-      "visitante": "Psv",
+      "visitante": "Alavés",
       "liga": null
     },
     {
       "posicion": 5,
-      "local": "Slovan Bratislava",
-      "visitante": "Betis",
+      "local": "Valencia",
+      "visitante": "Osasuna",
       "liga": null
     },
     {
       "posicion": 6,
-      "local": "Sabah",
+      "local": "Deportivo",
       "visitante": "Barcelona",
       "liga": null
     },
     {
       "posicion": 7,
-      "local": "Slavia Praga",
+      "local": "Celta",
       "visitante": "Villarreal",
       "liga": null
     },
     {
       "posicion": 8,
-      "local": "Brujas",
-      "visitante": "Liverpool",
+      "local": "Real Sociedad",
+      "visitante": "Sevilla",
       "liga": null
     },
     {
       "posicion": 9,
-      "local": "Inter de Milán",
-      "visitante": "Stuttgart",
+      "local": "Las Palmas",
+      "visitante": "Andorra",
       "liga": null
     },
     {
       "posicion": 10,
-      "local": "PSG",
-      "visitante": "Roma",
+      "local": "Albacete",
+      "visitante": "Tenerife",
       "liga": null
     },
     {
       "posicion": 11,
-      "local": "Shakhtar D.",
-      "visitante": "Fenerbahçe",
+      "local": "Eibar",
+      "visitante": "Burgos",
       "liga": null
     },
     {
       "posicion": 12,
-      "local": "Sporting De Portugal",
-      "visitante": "Manchester United",
+      "local": "Granada",
+      "visitante": "Ceuta",
       "liga": null
     },
     {
       "posicion": 13,
-      "local": "Celta",
-      "visitante": "Bournemouth",
+      "local": "Mallorca",
+      "visitante": "Castellón",
       "liga": null
     },
     {
       "posicion": 14,
-      "local": "Crystal Palace",
-      "visitante": "Real Sociedad",
+      "local": "Almería",
+      "visitante": "Sporting",
       "liga": null
     }
   ],
   "pleno": {
-    "local": "At. Madrid",
-    "visitante": "Viking Fk"
+    "local": "Espanyol",
+    "visitante": "Getafe"
   }
 }
